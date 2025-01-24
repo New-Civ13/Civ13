@@ -427,6 +427,40 @@
 			return
 		..()
 
+/obj/structure/vending/sales/cia_agent/papersplease
+	name = "Kolechian agent"
+	desc = "Hey friend, want some goodies? I only accept Euros."
+	icon = 'icons/mob/npcs.dmi'
+	icon_state = "afghcia"
+	products = list(
+		/obj/item/weapon/gun/projectile/submachinegun/ak74 = 2,
+		/obj/item/weapon/gun/projectile/boltaction/mosin/m30 = 5,
+		/obj/item/weapon/gun/projectile/shotgun/pump/remington870/brown = 1,
+
+		/obj/item/ammo_magazine/ak74 = 80,
+		/obj/item/ammo_magazine/mosin = 80,
+		/obj/item/ammo_magazine/shellbox = 80,
+	)
+	prices = list(
+		/obj/item/weapon/gun/projectile/submachinegun/ak74 = 100,
+		/obj/item/weapon/gun/projectile/boltaction/mosin/m30 = 75,
+		/obj/item/weapon/gun/projectile/shotgun/pump/remington870/brown = 125,
+
+		/obj/item/ammo_magazine/ak74 = 20,
+		/obj/item/ammo_magazine/mosin = 15,
+		/obj/item/ammo_magazine/shellbox = 30,
+	)
+	attack_hand(mob/living/human/user as mob)
+		if (user.faction_text != "PPTERRORIST")
+			user << "You're not one of ours. Get lost."
+			return
+		..()
+	attackby(obj/item/I, mob/living/human/user)
+		if (user.faction_text != "PPTERRORIST")
+			user << "You're not one of ours. Get lost."
+			return
+		..()
+
 /obj/structure/props/afghan/druglord
 	name = "Tarik the Trafficker"
 	desc = "You've got opium? I've got money."
