@@ -290,6 +290,8 @@ var/global/list/vehicle_walls = list( \
 				w_left = list("c_door",TRUE,TRUE,choice2,choice2,TRUE,TRUE)
 			else
 				w_left = list("c_[choice3]",TRUE,TRUE,choice2,choice2*1.5,FALSE,FALSE)
+				if (choice3 == "armoredfront") //ambrasure
+					w_left[8] = TRUE
 		else if (choice1 == "right")
 			S.amount -= choice2/10
 			if (S.amount <= 0)
@@ -298,6 +300,8 @@ var/global/list/vehicle_walls = list( \
 				w_right = list("c_door",TRUE,TRUE,choice2,choice2,TRUE,TRUE)
 			else
 				w_right = list("c_[choice3]",TRUE,TRUE,choice2,choice2*1.5,FALSE,FALSE)
+				if (choice3 == "armoredfront") //ambrasure
+					w_right[8] = TRUE
 		else if (choice1 == "front")
 			S.amount -= choice2/10
 			if (S.amount <= 0)
@@ -306,6 +310,8 @@ var/global/list/vehicle_walls = list( \
 				w_front = list("c_door",TRUE,TRUE,choice2,choice2,TRUE,TRUE)
 			else
 				w_front = list("c_[choice3]",TRUE,TRUE,choice2,choice2*1.5,FALSE,FALSE)
+				if (choice3 == "armoredfront") //ambrasure
+					w_front[8] = TRUE
 		else if (choice1 == "back")
 			S.amount -= choice2/10
 			if (S.amount <= 0)
@@ -314,6 +320,8 @@ var/global/list/vehicle_walls = list( \
 				w_back = list("c_door",TRUE,TRUE,choice2,choice2,TRUE,TRUE)
 			else
 				w_back = list("c_[choice3]",TRUE,TRUE,choice2,choice2*1.5,FALSE,FALSE)
+				if (choice3 == "armoredfront") //ambrasure
+					w_back[8] = TRUE
 		update_icon()
 	else
 		..()

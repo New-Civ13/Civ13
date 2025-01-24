@@ -510,7 +510,7 @@
 	var/passthrough_message = null
 	var/is_trench = istype(T, /turf/floor/trench)
 
-	if(fired_from_axis) // A bullet fired from a tank has no obstacles inside the vehicle where it was fired
+	if(fired_from_axis && (fired_from_turret || istype(src, /obj/item/cannon_ball/shell/)))
 		for (var/obj/structure/vehicleparts/frame/F in T)
 			if(fired_from_axis && fired_from_axis == F.axis)
 				forceMove(T)
