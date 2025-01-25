@@ -148,7 +148,7 @@
 	good_mags = list(/obj/item/ammo_magazine/glock17)
 	load_method = MAGAZINE
 	handle_casings = EJECT_CASINGS
-	accuracy = 4
+	accuracy = 3
 
 /obj/item/weapon/gun/projectile/pistol/glock17/update_icon()
 	..()
@@ -380,7 +380,7 @@
 	load_method = MAGAZINE
 	handle_casings = EJECT_CASINGS
 	pocket = TRUE
-	accuracy = 4
+	accuracy = 3
 
 /obj/item/weapon/gun/projectile/pistol/colthammerless/update_icon()
 	..()
@@ -417,7 +417,7 @@
 	ammo_type = /obj/item/ammo_casing/c8mmnambu
 	load_method = MAGAZINE
 	handle_casings = EJECT_CASINGS
-	accuracy = 4
+	accuracy = 3
 
 /obj/item/weapon/gun/projectile/pistol/bergmann/update_icon()
 	..()
@@ -495,7 +495,7 @@
 	load_method = MAGAZINE
 	handle_casings = EJECT_CASINGS
 	bad_magazine_types = list(/obj/item/ammo_magazine/c762x25_ppsh, /obj/item/ammo_magazine/c762x25_pps)
-	accuracy = 4
+	accuracy = 3
 	barrel_x_offset = 19
 	barrel_y_offset = 0
 
@@ -563,7 +563,7 @@
 	handle_casings = EJECT_CASINGS
 	bad_magazine_types = list(/obj/item/ammo_magazine/makarov)
 	recoil = 30
-	accuracy = 2
+	accuracy = 1
 
 /obj/item/weapon/gun/projectile/pistol/m9beretta
 	name = "Beretta M9"
@@ -607,7 +607,7 @@
 	ammo_type = /obj/item/ammo_casing/a9x19
 	load_method = MAGAZINE
 	handle_casings = EJECT_CASINGS
-	accuracy = 2
+	accuracy = 1
 
 /obj/item/weapon/gun/projectile/pistol/m9beretta/tan/update_icon()
 	..()
@@ -629,7 +629,7 @@
 	ammo_type = /obj/item/ammo_casing/a9x19
 	load_method = MAGAZINE
 	handle_casings = EJECT_CASINGS
-	accuracy = 2
+	accuracy = 1
 
 /obj/item/weapon/gun/projectile/pistol/jericho941/update_icon()
 	..()
@@ -724,7 +724,7 @@
 	load_method = MAGAZINE
 	handle_casings = EJECT_CASINGS
 	bad_magazine_types = list(/obj/item/ammo_magazine/thompson)
-	accuracy = 2
+	accuracy = 1
 
 /obj/item/weapon/gun/projectile/pistol/sti2011/update_icon()
 	..()

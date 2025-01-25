@@ -64,7 +64,7 @@
 	magazine_type = /obj/item/ammo_magazine/ak101
 	good_mags = list(/obj/item/ammo_magazine/ak101, /obj/item/ammo_magazine/ak101/drum)
 	equiptimer = 12
-	accuracy = 3
+	accuracy = 2
 	recoil = 35
 
 /obj/item/weapon/gun/projectile/submachinegun/ak101/ak103
@@ -89,7 +89,7 @@
 	base_icon = "ak101"
 	weight = 3.2
 	equiptimer = 12
-	accuracy = 3
+	accuracy = 2
 	recoil = 45
 
 /obj/item/weapon/gun/projectile/submachinegun/ak101/ak105
