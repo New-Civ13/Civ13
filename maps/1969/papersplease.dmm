@@ -728,7 +728,7 @@
 /obj/item/weapon/storage/backpack/satchel,
 /obj/item/weapon/storage/fancy/cigarettes/papirosi,
 /obj/item/weapon/flame/lighter/random,
-/obj/item/stack/money/european/euro,
+/obj/item/stack/money/fictional/arstotzkacredit,
 /turf/floor/plating/tiled,
 /area/caribbean/roofed)
 "vl" = (
@@ -1211,7 +1211,7 @@
 	},
 /obj/structure/sign/armory{
 	pixel_x = -32;
-	desc = "Inspector! Confiscate any weapons, drugs, illegal devices or Euro banknotes.";
+	desc = "Inspector! Confiscate any weapons, drugs, illegal devices, Euro banknotes and Zelenyy berries.";
 	name = "READ THIS NOW!!"
 	},
 /turf/floor/plating/tiled,
@@ -1517,6 +1517,7 @@
 	pixel_x = -1
 	},
 /obj/item/weapon/attachment/bayonet,
+/obj/item/stack/money/fictional/arstotzkacredit,
 /turf/floor/plating/tiled/dark,
 /area/caribbean/roofed)
 "Sq" = (
@@ -1609,6 +1610,7 @@
 	pixel_x = -1
 	},
 /obj/item/weapon/attachment/bayonet,
+/obj/item/stack/money/fictional/arstotzkacredit,
 /turf/floor/plating/tiled/dark,
 /area/caribbean/roofed)
 "Uq" = (
