@@ -23,6 +23,7 @@
 /obj/structure/closet/anchored,
 /obj/item/weapon/gun/projectile/shotgun/coachgun,
 /obj/item/ammo_magazine/shellbox,
+/obj/item/clothing/suit/storage/jacket/afghanka,
 /turf/floor/wood/alt,
 /area/caribbean/russian/land)
 "ax" = (
@@ -71,6 +72,9 @@
 /obj/structure/barbwire{
 	dir = 4;
 	icon_state = "barbwire"
+	},
+/obj/structure/window/barrier/sandbag{
+	dir = 4
 	},
 /turf/floor/plating/cobblestone/vertical,
 /area/caribbean/russian/land)
@@ -135,6 +139,9 @@
 	dir = 8;
 	icon_state = "barbwire"
 	},
+/obj/structure/window/barrier/sandbag{
+	dir = 4
+	},
 /turf/floor/plating/cobblestone/vertical,
 /area/caribbean/russian/land)
 "eh" = (
@@ -152,6 +159,10 @@
 	},
 /turf/floor/grass,
 /area/caribbean/roofed)
+"ei" = (
+/obj/structure/camonet,
+/turf/floor/broken_floor,
+/area/caribbean)
 "eA" = (
 /obj/structure/multiz/ladder/ww2/up/manhole,
 /turf/floor/dirt,
@@ -277,6 +288,10 @@
 /obj/covers/stonebrickfloor,
 /turf/floor/wood,
 /area/caribbean/russian/land)
+"jK" = (
+/obj/item/weapon/reagent_containers/glass/barrel/modern/water,
+/turf/floor/plating/tiled/dark,
+/area/caribbean/roofed)
 "ke" = (
 /obj/structure/table/modern/table,
 /turf/floor/plating/tiled,
@@ -381,8 +396,8 @@
 /turf/floor/wood,
 /area/caribbean/roofed)
 "mT" = (
-/obj/structure/oven/woodstove,
 /obj/item/weapon/reagent_containers/glass/small_pot/copper_large,
+/obj/structure/oven/woodstove,
 /turf/floor/plating/tiled/dark,
 /area/caribbean/roofed)
 "nf" = (
@@ -456,6 +471,10 @@
 	pixel_y = -32
 	},
 /turf/floor/plating/tiled,
+/area/caribbean/roofed)
+"oU" = (
+/obj/structure/closet/crate/sandbags,
+/turf/floor/grass,
 /area/caribbean/roofed)
 "oW" = (
 /obj/structure/wild/tallgrass,
@@ -705,14 +724,12 @@
 /area/caribbean/roofed)
 "uw" = (
 /obj/structure/closet/crate/rations/beer,
-/obj/structure/camonet,
 /turf/floor/trench,
 /area/caribbean/russian/land)
 "uB" = (
 /turf/floor/plating/marble/tile,
 /area/caribbean/roofed)
 "uG" = (
-/obj/structure/camonet,
 /turf/floor/trench,
 /area/caribbean/russian/land)
 "uX" = (
@@ -894,7 +911,6 @@
 /area/caribbean/russian/land)
 "zZ" = (
 /obj/structure/closet/crate/rations/biscuits,
-/obj/structure/camonet,
 /turf/floor/trench,
 /area/caribbean/russian/land)
 "Ac" = (
@@ -962,7 +978,6 @@
 /obj/structure/bed/chair/steel/alt{
 	dir = 8
 	},
-/obj/structure/camonet,
 /turf/floor/trench,
 /area/caribbean/russian/land)
 "Bx" = (
@@ -1100,7 +1115,6 @@
 /area/caribbean/roofed)
 "Fw" = (
 /obj/structure/roof_support,
-/obj/structure/camonet,
 /turf/floor/trench,
 /area/caribbean/russian/land)
 "FF" = (
@@ -1109,7 +1123,6 @@
 /area/caribbean/sewers)
 "Ge" = (
 /obj/structure/oven/fireplace/pit,
-/obj/structure/camonet,
 /turf/floor/trench,
 /area/caribbean/russian/land)
 "Gu" = (
@@ -1218,7 +1231,6 @@
 /area/caribbean/roofed)
 "Iq" = (
 /obj/structure/bed/chair/steel/alt,
-/obj/structure/camonet,
 /turf/floor/trench,
 /area/caribbean/russian/land)
 "Iw" = (
@@ -1370,6 +1382,11 @@
 /obj/covers/vault,
 /turf/floor/broken_floor,
 /area/caribbean)
+"NC" = (
+/obj/structure/camonet,
+/obj/structure/roof_support,
+/turf/floor/broken_floor,
+/area/caribbean)
 "NO" = (
 /obj/covers/catwalk,
 /obj/structure/barbwire{
@@ -1459,12 +1476,15 @@
 /obj/structure/table/modern/table,
 /obj/structure/props/computerprops{
 	pixel_y = 3;
-	pixel_x = 1
+	pixel_x = 1;
+	name = "computer terminal"
 	},
 /turf/floor/wood,
 /area/caribbean/roofed)
 "Qd" = (
-/obj/structure/barricade/hescobastion,
+/obj/structure/window/barrier/sandbag{
+	dir = 8
+	},
 /turf/floor/plating/cobblestone/vertical,
 /area/caribbean/roofed)
 "Qe" = (
@@ -1772,7 +1792,6 @@
 /obj/item/clothing/accessory/armband/policebadge,
 /obj/item/clothing/shoes/jackboots/modern,
 /obj/item/weapon/key/soviet/guard,
-/obj/structure/camonet,
 /turf/floor/trench,
 /area/caribbean/russian/land)
 
@@ -5239,9 +5258,9 @@ LS
 YZ
 Hc
 Qd
-Qd
-Qd
-Qd
+ft
+ft
+ft
 Qd
 wT
 "}
@@ -5274,7 +5293,7 @@ YZ
 YZ
 YZ
 YZ
-gO
+oU
 gO
 gO
 ud
@@ -5784,7 +5803,7 @@ aI
 aI
 sF
 di
-Ol
+jK
 Ol
 Ol
 Ol
@@ -10190,11 +10209,11 @@ op
 op
 op
 op
-Tq
-Tq
-Tq
-Tq
-Tq
+ei
+ei
+ei
+ei
+ei
 Tq
 op
 op
@@ -10224,11 +10243,11 @@ op
 op
 op
 op
-Tq
-Tq
-Tq
-Tq
-Tq
+ei
+ei
+ei
+ei
+ei
 Tq
 op
 op
@@ -10258,11 +10277,11 @@ op
 op
 op
 op
-Tq
-Tq
-Tq
-Tq
-Tq
+NC
+ei
+ei
+ei
+NC
 Tq
 Tq
 Tq
@@ -10292,11 +10311,11 @@ Tq
 Tq
 op
 op
-Tq
-Tq
-Tq
-Tq
-Tq
+ei
+ei
+ei
+ei
+ei
 Tq
 Tq
 Tq
