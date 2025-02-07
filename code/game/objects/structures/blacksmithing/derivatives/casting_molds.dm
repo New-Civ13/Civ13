@@ -119,6 +119,9 @@
 			new_item = new /obj/item/stack/arrowhead/copper(get_turf(src))
 		if("/obj/item/heatable/ingot/bronze")
 			new_item = new /obj/item/stack/arrowhead/bronze(get_turf(src))
+	metal_contained = null
+	cool_time = initial(cool_time)
+	update_icon()
 	return new_item
 
 
@@ -132,6 +135,10 @@
 	allowed_metals = list(
 		"/obj/item/heatable/ingot/copper",
 		"/obj/item/heatable/ingot/bronze",
+		"/obj/item/heatable/ingot/tin",
+		"/obj/item/heatable/ingot/lead",
+		"/obj/item/heatable/ingot/silver",
+		"/obj/item/heatable/ingot/gold",
 		)
 
 /obj/item/claymold/sheet/result()
@@ -141,7 +148,17 @@
 			new_item = new /obj/item/stack/material/copper(get_turf(src), INGOT_VALUE)
 		if("/obj/item/heatable/ingot/bronze")
 			new_item = new /obj/item/stack/material/bronze(get_turf(src), INGOT_VALUE)
-	var/obj/item/stack/S = new_item
+		if("/obj/item/heatable/ingot/tin")
+			new_item = new /obj/item/stack/material/tin(get_turf(src), INGOT_VALUE)
+		if("/obj/item/heatable/ingot/lead")
+			new_item = new /obj/item/stack/material/lead(get_turf(src), INGOT_VALUE)
+		if("/obj/item/heatable/ingot/silver")
+			new_item = new /obj/item/stack/material/silver(get_turf(src), INGOT_VALUE)
+		if("/obj/item/heatable/ingot/gold")
+			new_item = new /obj/item/stack/material/gold(get_turf(src), INGOT_VALUE)
+	metal_contained = null
+	cool_time = initial(cool_time)
+	update_icon()
 	return new_item
 
 
@@ -161,6 +178,9 @@
 	switch(metal_contained)
 		if("/obj/item/heatable/ingot/bronze")
 			new_item = new /obj/item/weapon/material/kitchen/utensil/knife/bronze(get_turf(src))
+	metal_contained = null
+	cool_time = initial(cool_time)
+	update_icon()
 	return new_item
 
 
@@ -178,5 +198,7 @@
 		"/obj/item/heatable/ingot/tin",
 		"/obj/item/heatable/ingot/lead",
 		"/obj/item/heatable/ingot/wroughtiron",
-		"/obj/item/heatable/ingot/steel"
+		"/obj/item/heatable/ingot/steel",
+		"/obj/item/heatable/ingot/silver",
+		"/obj/item/heatable/ingot/gold",
 		)

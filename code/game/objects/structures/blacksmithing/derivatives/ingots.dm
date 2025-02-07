@@ -62,6 +62,26 @@
 	namemodifier = "brass"
 
 
+// Silver
+/obj/item/heatable/ingot/silver
+	name = "\improper siver ingot"
+	icon_state = "silveringot"
+	multiplier = 0.2
+	meltingpoint = 962
+	iconmodifier = "silver"
+	namemodifier = "silver"
+
+
+// Gold
+/obj/item/heatable/ingot/gold
+	name = "\improper gold ingot"
+	icon_state = "goldingot"
+	multiplier = 0.1
+	meltingpoint = 1064
+	iconmodifier = "gold"
+	namemodifier = "gold"
+
+
 // Blister Steel
 /obj/item/heatable/ingot/blistersteel
 	name = "\improper blister steel ingot"

@@ -26,7 +26,7 @@
 /datum/crucible_reaction/copperingot
 	reqpaths = list("/obj/item/stack/ore/copper" = INGOT_VALUE, "/obj/item/stack/ore/charcoal" = 1)
 	respaths = list("/obj/item/heatable/ingot/copper" = 1)
-	reactiontemp = 1100
+	reactiontemp = 1000
 
 
 // Zinc Brass
@@ -43,6 +43,20 @@
 	reactiontemp = 1100
 
 
+// Gold Ingot
+/datum/crucible_reaction/goldingot
+	reqpaths = list("/obj/item/stack/ore/gold" = INGOT_VALUE)
+	respaths = list("/obj/item/heatable/ingot/gold" = 1)
+	reactiontemp = 1100
+
+
+// Silver Ingot
+/datum/crucible_reaction/silveringot
+	reqpaths = list("/obj/item/stack/ore/silver" = INGOT_VALUE)
+	respaths = list("/obj/item/heatable/ingot/silver" = 1)
+	reactiontemp = 1000
+
+
 // Blister Steel
 /datum/crucible_reaction/blistersteel
 	reqpaths = list("/obj/item/heatable/ingot/wroughtiron" = 1, "/obj/item/stack/ore/charcoal" = 1)
@@ -51,7 +65,7 @@
 
 
 // Crucible Steel
-///datum/crucible_reaction/blistersteel
-//	reqpaths = list("/obj/item/heatable/ingot/blistersteel" = 1)
-//	respaths = list("/obj/item/heatable/ingot/cruciblesteel" = 1)
-//	reactiontemp = 1300	// Above the melting point of blister steel
+/datum/crucible_reaction/cruciblesteel
+	reqpaths = list("/obj/item/heatable/ingot/blistersteel" = 1)
+	respaths = list("/obj/item/heatable/ingot/steel" = 1)
+	reactiontemp = 1300	// Above the melting point of blister steel
