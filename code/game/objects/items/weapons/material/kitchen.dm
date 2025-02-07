@@ -97,6 +97,8 @@
 	sharp = TRUE
 	var/atk_mode = SLASH
 	var/suicide = FALSE // for the hari kiri action
+	tool_flags = TOOL_KNIFE
+
 /obj/item/weapon/material/kitchen/utensil/knife/primitive_knife_1
 	name = "knife"
 	desc = "A knife for eating with. Can cut through any food."

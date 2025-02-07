@@ -991,8 +991,8 @@
 	else if(prob(20))
 		stage += 1
 
-/obj/structure/farming/plant/attackby(obj/item/weapon/W as obj, mob/user as mob)
-	if (istype(W, /obj/item/weapon/material/hatchet) || istype(W, /obj/item/weapon/attachment/bayonet) || istype(W, /obj/item/weapon/material/kitchen/utensil/knife) || istype(W, /obj/item/weapon/material/scythe))
+/obj/structure/farming/plant/attackby(obj/item/I as obj, mob/user as mob)
+	if ((I.tool_flags & TOOL_AXE) || (I.tool_flags & TOOL_KNIFE))
 		if (stage < readyStageMin) // destroy
 			to_chat(user, SPAN_WARNING("You uproot the [name]."))
 			qdel(src)
