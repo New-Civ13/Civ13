@@ -3,9 +3,9 @@
 ////////////////////////
 
 // Charcoal
-/datum/crucible_reaction/leadingot
+/datum/crucible_reaction/coalpyrolysis
 	reqpaths = list("/obj/item/stack/ore/coal" = 1)
-	respaths = list("/obj/item/stack/ore/coal" = 1)
+	respaths = list("/obj/item/stack/ore/charcoal" = 1)
 	reactiontemp = 600
 
 // Lead Ingot

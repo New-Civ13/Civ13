@@ -104,7 +104,7 @@
 /obj/item/claymold/arrowhead
 	name = "\improper arrowhead mold"
 	icon = 'icons/obj/blacksmithing.dmi'
-	icon_state = "arrowheadmold"
+	icon_state = "arrowmold"
 	mold_result = /obj/item/stack/arrowhead
 	ingot_value = 1
 	allowed_metals = list(
@@ -134,16 +134,14 @@
 		"/obj/item/heatable/ingot/bronze",
 		)
 
-/obj/item/claymold/arrowhead/result()
+/obj/item/claymold/sheet/result()
 	var/new_item
 	switch(metal_contained)
 		if("/obj/item/heatable/ingot/copper")
-			new_item = new /obj/item/stack/material/copper(get_turf(src))
+			new_item = new /obj/item/stack/material/copper(get_turf(src), INGOT_VALUE)
 		if("/obj/item/heatable/ingot/bronze")
-			new_item = new /obj/item/stack/material/bronze(get_turf(src))
+			new_item = new /obj/item/stack/material/bronze(get_turf(src), INGOT_VALUE)
 	var/obj/item/stack/S = new_item
-	S.amount = INGOT_VALUE
-	S.update_icon()
 	return new_item
 
 

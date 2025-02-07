@@ -12,7 +12,7 @@ GLOBAL_LIST_INIT(forged_recipes,\
 					"Hatchet"				= list("type" = /obj/item/heatable/forged/hatchet, "icon" = 'icons/obj/blacksmithing.dmi', "icon_state" = "wiron-hatchet-handled", "cost" = 1, "count" = 1, "first_age" = 0, "final_age" = 99),\
 					"Pickaxe"				= list("type" = /obj/item/heatable/forged/pickaxe, "icon" = 'icons/obj/blacksmithing.dmi', "icon_state" = "wiron-pickaxe-handled", "cost" = 2, "count" = 1, "first_age" = 0, "final_age" = 99),\
 					"Knife"					= list("type" = /obj/item/weapon/material/kitchen/utensil/knife/iron, "icon" = 'icons/obj/kitchen.dmi', "icon_state" = "knife", "cost" = 1, "count" = 1, "first_age" = 0, "final_age" = 99),\
-					"Anvil"					= list("type" = /obj/structure/anvil, "icon" = 'icons/obj/blacksmithing.dmi', "icon_state" = "wiron-anvil", "cost" = 6, "count" = 1, "first_age" = 0, "final_age" = 99),\
+					"Anvil"					= list("type" = /obj/structure/anvil, "icon" = 'icons/obj/blacksmithing.dmi', "icon_state" = "wiron-anvil", "cost" = 4, "count" = 1, "first_age" = 0, "final_age" = 99),\
 					"Shovel"				= list("type" = /obj/item/heatable/forged/shovel, "icon" = 'icons/obj/blacksmithing.dmi', "icon_state" = "wiron-shovel-handled", "cost" = 1, "count" = 1, "first_age" = 0, "final_age" = 99),\
 					"Tongs"					= list("type" = /obj/item/heatable/forged/tongs, "icon" = 'icons/obj/blacksmithing.dmi', "icon_state" = "wiron-tongs", "cost" = 1, "count" = 1, "first_age" = 0, "final_age" = 99),\
 				),\
@@ -158,7 +158,7 @@ GLOBAL_LIST_INIT(forged_recipes,\
 					"Hatchet"				= list("type" = /obj/item/heatable/forged/hatchet, "icon" = 'icons/obj/blacksmithing.dmi', "icon_state" = "steel-hatchet-handled", "cost" = 1, "count" = 1, "first_age" = 0, "final_age" = 99),\
 					"Pickaxe"				= list("type" = /obj/item/heatable/forged/pickaxe, "icon" = 'icons/obj/blacksmithing.dmi', "icon_state" = "steel-pickaxe-handled", "cost" = 2, "count" = 1, "first_age" = 0, "final_age" = 99),\
 					"Knife"					= list("type" = /obj/item/weapon/material/kitchen/utensil/knife/steel, "icon" = 'icons/obj/kitchen.dmi', "icon_state" = "knife", "cost" = 1, "count" = 1, "first_age" = 0, "final_age" = 99),\
-					"Anvil"					= list("type" = /obj/structure/anvil, "icon" = 'icons/obj/blacksmithing.dmi', "icon_state" = "steel-anvil", "cost" = 6, "count" = 1, "first_age" = 0, "final_age" = 99),\
+					"Anvil"					= list("type" = /obj/structure/anvil, "icon" = 'icons/obj/blacksmithing.dmi', "icon_state" = "steel-anvil", "cost" = 4, "count" = 1, "first_age" = 0, "final_age" = 99),\
 					"Shovel"				= list("type" = /obj/item/heatable/forged/shovel, "icon" = 'icons/obj/blacksmithing.dmi', "icon_state" = "steel-shovel-handled", "cost" = 1, "count" = 1, "first_age" = 0, "final_age" = 99),\
 					"Tongs"					= list("type" = /obj/item/heatable/forged/tongs, "icon" = 'icons/obj/blacksmithing.dmi', "icon_state" = "steel-tongs", "cost" = 1, "count" = 1, "first_age" = 0, "final_age" = 99),\
 				),\

@@ -218,7 +218,7 @@ RECIPE: /material/clay/,unfired very small clay pot,/obj/item/weapon/clay/verysm
 RECIPE: /material/clay/,unfired small clay pot,/obj/item/weapon/clay/smallclaypot,5,30,0,1,none,0,0,0,8,null
 RECIPE: /material/clay/,bloomery,/obj/structure/bloomery,35,150,1,1,none,26,0,0,8,null
 
-RECIPE: /material/clay/,sheet mold, /obj/item/claymold/sheet,2,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,sheet mold,/obj/item/claymold/sheet,2,40,0,1,molds,0,0,0,8,null
 RECIPE: /material/clay/,ingot mold,/obj/item/claymold/ingot,2,40,0,1,molds,0,0,0,8,null
 RECIPE: /material/clay/,hammer mold,/obj/item/claymold/hammer,2,40,0,1,molds,0,0,0,8,null
 RECIPE: /material/clay/,pickaxe mold,/obj/item/claymold/pickaxe,3,40,0,1,molds,0,0,0,8,null

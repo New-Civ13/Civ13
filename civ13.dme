@@ -653,6 +653,7 @@
 #include "code\game\objects\structures\animalspawner\wolfcave.dm"
 #include "code\game\objects\structures\blacksmithing\_recipes.dm"
 #include "code\game\objects\structures\blacksmithing\anvil.dm"
+#include "code\game\objects\structures\blacksmithing\autohammer.dm"
 #include "code\game\objects\structures\blacksmithing\bloom.dm"
 #include "code\game\objects\structures\blacksmithing\bloomery.dm"
 #include "code\game\objects\structures\blacksmithing\casting_molds.dm"
