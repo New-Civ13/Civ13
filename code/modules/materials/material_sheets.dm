@@ -114,6 +114,23 @@
 	value = 2
 	flags = CONDUCT
 
+/obj/item/stack/material/barbwire/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/barbwire/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (1 to 19)
+			icon_suffix = ""
+		if (20 to 29)
+			icon_suffix = "_2"
+		if (30 to 40)
+			icon_suffix = "_3"
+		if (50 to INFINITY)
+			icon_suffix = "_4"
+	icon_state = "sheet-barbwire[icon_suffix]"
+
 /obj/item/stack/material/barbwire/ten
 	name = "Barbwire"
 	icon_state = "barbwire_stack"
@@ -274,6 +291,21 @@
 	default_type = "stone"
 	value = 2
 
+/obj/item/stack/material/stone/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/stone/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (1 to 49)
+			icon_suffix = ""
+		if (50 to 99)
+			icon_suffix = "_2"
+		if (100 to INFINITY)
+			icon_suffix = "_3"
+	icon_state = "sheet-stone[icon_suffix]"
+
 /obj/item/stack/material/stonebrick
 	name = "stone brick"
 	icon_state = "sheet-stonebrick"
@@ -323,12 +355,12 @@
 	icon_state = "claylump[icon_suffix]"
 
 /obj/item/stack/material/clay/attackby(obj/item/W as obj, mob/user as mob)
-	//if (map.ID == MAP_GULAG13)
-	//	if (!istype(W)) return//I really don't understand why this check is needed
-	//	if (istype(W, /obj/item/weapon/key/soviet/guard))
-	//		user << "<span class='notice'>You make the clay into a mold of the key.</span>"
-	//		new/obj/item/weapon/clay/mold/key(user.loc)
-	//		qdel(src)
+	if (map.ID == MAP_GULAG13)
+		if (!istype(W)) return//I really don't understand why this check is needed
+		if (istype(W, /obj/item/weapon/key/soviet/guard))
+			user << "<span class='notice'>You make the clay into a mold of the key.</span>"
+			new/obj/item/weapon/clay/mold/key(user.loc)
+			qdel(src)
 	if (istype(W, type))
 		var/obj/item/stack/S = W
 		merge(S)
@@ -346,6 +378,23 @@
 	default_type = "electronic"
 	value = 5
 	flags = CONDUCT
+
+/obj/item/stack/material/electronics/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/electronics/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (1 to 19)
+			icon_suffix = ""
+		if (20 to 29)
+			icon_suffix = "_2"
+		if (30 to 40)
+			icon_suffix = "_3"
+		if (50 to INFINITY)
+			icon_suffix = "_4"
+	icon_state = "sheet-electronics[icon_suffix]"
 
 /obj/item/stack/material/marble
 	name = "marble block"
@@ -375,6 +424,23 @@
 	value = 40
 	w_class = ITEM_SIZE_TINY
 
+/obj/item/stack/material/diamond/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/diamond/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (1 to 19)
+			icon_suffix = ""
+		if (20 to 29)
+			icon_suffix = "_2"
+		if (30 to 49)
+			icon_suffix = "_3"
+		if (50 to INFINITY)
+			icon_suffix = "_4"
+	icon_state = "sheet-diamond[icon_suffix]"
+
 /obj/item/stack/material/obsidian
 	name = "obsidian"
 	icon_state = "sheet-obsidian"
@@ -382,12 +448,44 @@
 	value = 7
 	w_class = ITEM_SIZE_TINY
 
+/obj/item/stack/material/obsidian/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/obsidian/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (1 to 19)
+			icon_suffix = ""
+		if (20 to 29)
+			icon_suffix = "_2"
+		if (40 to INFINITY)
+			icon_suffix = "_3"
+	icon_state = "sheet-obsidian[icon_suffix]"
+
 /obj/item/stack/material/rope
 	name = "Rope"
 	icon_state = "rope"
 	default_type = "rope"
 	value = 2
 	flammable = TRUE
+
+/obj/item/stack/material/rope/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/rope/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (1 to 19)
+			icon_suffix = ""
+		if (20 to 29)
+			icon_suffix = "_2"
+		if (30 to 40)
+			icon_suffix = "_3"
+		if (50 to INFINITY)
+			icon_suffix = "_4"
+	icon_state = "sheet-rope[icon_suffix]"
 
 /obj/item/stack/material/twine
 	icon = 'icons/obj/primitive/tools.dmi'
@@ -404,12 +502,42 @@
 	flammable = TRUE
 	is_contraband = TRUE
 
+/obj/item/stack/material/hemp/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/hemp/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (5 to 19)
+			icon_suffix = ""
+		if (20 to 29)
+			icon_suffix = "_2"
+		if (50 to INFINITY)
+			icon_suffix = "_3"
+	icon_state = "hemp[icon_suffix]"
+
 /obj/item/stack/material/flax
 	name = "Flax"
 	icon_state = "flax"
 	default_type = "flax"
 	value = 2
 	flammable = TRUE
+
+/obj/item/stack/material/flax/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/flax/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (5 to 19)
+			icon_suffix = ""
+		if (20 to 29)
+			icon_suffix = "_2"
+		if (50 to INFINITY)
+			icon_suffix = "_3"
+	icon_state = "flax[icon_suffix]"
 
 /obj/item/stack/material/leaf
 	name = "Leaf"
@@ -532,6 +660,21 @@
 	w_class = ITEM_SIZE_TINY
 	flammable = TRUE
 
+/obj/item/stack/material/coca/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/coca/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (5 to 9)
+			icon_suffix = ""
+		if (10 to 29)
+			icon_suffix = "_2"
+		if (30 to INFINITY)
+			icon_suffix = "_3"
+	icon_state = "coca[icon_suffix]"
+
 /obj/item/stack/material/poppy
 	name = "poppy"
 	desc = "Dried opium poppies. Opium can be extracted."
@@ -541,6 +684,21 @@
 	w_class = ITEM_SIZE_TINY
 	flammable = TRUE
 
+/obj/item/stack/material/poppy/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/poppy/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (5 to 19)
+			icon_suffix = ""
+		if (20 to 29)
+			icon_suffix = "_2"
+		if (30 to INFINITY)
+			icon_suffix = "_3"
+	icon_state = "poppy[icon_suffix]"
+
 /obj/item/stack/material/straw
 	name = "straw"
 	icon_state = "sheet-straw"
@@ -548,6 +706,21 @@
 	value = 3
 	w_class = ITEM_SIZE_SMALL
 	flammable = TRUE
+
+/obj/item/stack/material/straw/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/straw/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (5 to 19)
+			icon_suffix = ""
+		if (20 to 29)
+			icon_suffix = "_2"
+		if (50 to INFINITY)
+			icon_suffix = "_3"
+	icon_state = "sheet-straw[icon_suffix]"
 
 /obj/item/stack/material/rope/attackby(var/obj/item/W, var/mob/M)
 	if (anchored)
@@ -727,6 +900,7 @@
 		dropwood.update_strings()
 		splitting_in_progress = FALSE // Reset the variable to FALSE after the splitting process is complete
 	if (istype(I, /obj/item/weapon/saw))
+	if (istype(T, /obj/item/weapon/saw))
 		// Check if there's enough material
 		if (src.amount < 1)
 			to_chat(user, "You don't have enough planks to saw.")
@@ -739,7 +913,7 @@
 		splitting_in_progress = TRUE
 
 		// Start the splitting process
-		user.visible_message("[user.name] starts sawing \the [src] into planks using \the [I].", "You start sawing \the [src] into planks.")
+		user.visible_message("[user.name] starts sawing \the [src] into planks using \the [T].", "You start sawing \the [src] into planks.")
 		playsound(loc, 'sound/effects/woodfile.ogg', 100, TRUE)
 
 		// Set a delay for the splitting process
@@ -794,16 +968,19 @@
 	return ..()
 
 /obj/item/stack/material/woodplank/update_icon()
-	if (amount >= 50)
-		icon_state = "[base_icon]-50"
-	else if (amount >= 100)
-		icon_state = "[base_icon]-100"
-	else if (amount >= 150)
-		icon_state = "[base_icon]-150"
-	else if (amount >= 200)
-		icon_state = "[base_icon]-200"
-	else
-		icon_state = "[base_icon]"
+	var/icon_suffix = ""
+	switch(amount)
+		if (0 to 49)
+			icon_suffix = ""
+		if (50 to 99)
+			icon_suffix = "_50"
+		if (100 to 149)
+			icon_suffix = "_100"
+		if (150 to 199)
+			icon_suffix = "_150"
+		if (200 to INFINITY)
+			icon_suffix = "_200"
+	icon_state = "sheet-wood[icon_suffix]"
 
 /obj/item/stack/material/woodplank/New()
 	..()
@@ -817,6 +994,21 @@
 	value = 1
 	flammable = TRUE
 	fuel_value = 80
+
+/obj/item/stack/material/bamboo/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/bamboo/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (0 to 16)
+			icon_suffix = ""
+		if (17 to 33)
+			icon_suffix = "_2"
+		if (34 to INFINITY)
+			icon_suffix = "_3"
+	icon_state = "sheet-bamboo[icon_suffix]"
 
 /obj/item/stack/material/cotton
 	name = "cotton pile"
@@ -865,6 +1057,21 @@
 	value = 1
 	w_class = ITEM_SIZE_SMALL
 
+/obj/item/stack/material/rawkevlar/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/rawkevlar/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (0 to 16)
+			icon_suffix = ""
+		if (17 to 33)
+			icon_suffix = "_2"
+		if (34 to INFINITY)
+			icon_suffix = "_3"
+	icon_state = "sheet-rawkevlar[icon_suffix]"
+
 /obj/item/stack/material/preparedkevlar
 	name = "prepared kevlar"
 	icon_state = "sheet-preparedkevlar"
@@ -872,12 +1079,47 @@
 	value = 1
 	w_class = ITEM_SIZE_SMALL
 
+/obj/item/stack/material/preparedkevlar/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/preparedkevlar/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (0 to 16)
+			icon_suffix = ""
+		if (17 to 33)
+			icon_suffix = "_2"
+		if (34 to 50)
+			icon_suffix = "_3"
+		if (51 to INFINITY)
+			icon_suffix = "_4"
+	icon_state = "sheet-preparedkevlar[icon_suffix]"
+
+
 /obj/item/stack/material/kevlar
 	name = "kevlar sheets"
 	icon_state = "sheet-kevlar"
 	default_type = "kevlar"
 	value = 15
 	w_class = ITEM_SIZE_SMALL
+
+/obj/item/stack/material/kevlar/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/kevlar/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (0 to 16)
+			icon_suffix = ""
+		if (17 to 33)
+			icon_suffix = "_2"
+		if (34 to 50)
+			icon_suffix = "_3"
+		if (51 to INFINITY)
+			icon_suffix = "_4"
+	icon_state = "sheet_kevlar[icon_suffix]"
 
 /obj/item/stack/material/rags
 	name = "rags"
@@ -903,6 +1145,21 @@
 	value = 3
 	w_class = ITEM_SIZE_SMALL
 	flammable = TRUE
+
+/obj/item/stack/material/woolcloth/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/woolcloth/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (0 to 16)
+			icon_suffix = ""
+		if (17 to 33)
+			icon_suffix = "_2"
+		if (34 to INFINITY)
+			icon_suffix = "_3"
+	icon_state = "wool_roll[icon_suffix]"
 
 /obj/item/stack/material/leather
 	name = "leather"
@@ -1210,6 +1467,21 @@
 	w_class = ITEM_SIZE_SMALL
 	value = 0
 	singular_name = "bone"
+
+/obj/item/stack/material/bone/New()
+	update_icon()
+	return ..()
+
+/obj/item/stack/material/bone/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (0 to 12)
+			icon_suffix = ""
+		if (13 to 25)
+			icon_suffix = "_2"
+		if (39 to INFINITY)
+			icon_suffix = "_3"
+	icon_state = "sheet-bone[icon_suffix]"
 
 /obj/item/stack/material/bone/New()
 	..()
