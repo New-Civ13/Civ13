@@ -355,12 +355,12 @@
 	icon_state = "claylump[icon_suffix]"
 
 /obj/item/stack/material/clay/attackby(obj/item/W as obj, mob/user as mob)
-	if (map.ID == MAP_GULAG13)
-		if (!istype(W)) return//I really don't understand why this check is needed
-		if (istype(W, /obj/item/weapon/key/soviet/guard))
-			user << "<span class='notice'>You make the clay into a mold of the key.</span>"
-			new/obj/item/weapon/clay/mold/key(user.loc)
-			qdel(src)
+	//if (map.ID == MAP_GULAG13)
+	//	if (!istype(W)) return//I really don't understand why this check is needed
+	//	if (istype(W, /obj/item/weapon/key/soviet/guard))
+	//		user << "<span class='notice'>You make the clay into a mold of the key.</span>"
+	//		new/obj/item/weapon/clay/mold/key(user.loc)
+	//		qdel(src)
 	if (istype(W, type))
 		var/obj/item/stack/S = W
 		merge(S)
@@ -900,7 +900,6 @@
 		dropwood.update_strings()
 		splitting_in_progress = FALSE // Reset the variable to FALSE after the splitting process is complete
 	if (istype(I, /obj/item/weapon/saw))
-	if (istype(T, /obj/item/weapon/saw))
 		// Check if there's enough material
 		if (src.amount < 1)
 			to_chat(user, "You don't have enough planks to saw.")
@@ -913,7 +912,7 @@
 		splitting_in_progress = TRUE
 
 		// Start the splitting process
-		user.visible_message("[user.name] starts sawing \the [src] into planks using \the [T].", "You start sawing \the [src] into planks.")
+		user.visible_message("[user.name] starts sawing \the [src] into planks using \the [I].", "You start sawing \the [src] into planks.")
 		playsound(loc, 'sound/effects/woodfile.ogg', 100, TRUE)
 
 		// Set a delay for the splitting process
@@ -1017,6 +1016,17 @@
 	value = 2
 	flammable = TRUE
 
+/obj/item/stack/material/cotton/update_icon()
+	var/icon_suffix = ""
+	switch(amount)
+		if (0 to 12)
+			icon_suffix = ""
+		if (13 to 25)
+			icon_suffix = "_2"
+		if (26 to INFINITY)
+			icon_suffix = "_3"
+	icon_state = "sheet-cotton[icon_suffix]"
+
 /obj/item/stack/material/cloth
 	name = "cloth"
 	icon_state = "sheet-cloth"
@@ -1119,7 +1129,7 @@
 			icon_suffix = "_3"
 		if (51 to INFINITY)
 			icon_suffix = "_4"
-	icon_state = "sheet_kevlar[icon_suffix]"
+	icon_state = "sheet-kevlar[icon_suffix]"
 
 /obj/item/stack/material/rags
 	name = "rags"
