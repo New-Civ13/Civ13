@@ -11,7 +11,7 @@
 	slowdown = 0.5
 
 	accuracy = 3
-	recoil = 50
+	recoil = 3.5
 
 	accuracy_increase_mod = 1.00
 	accuracy_decrease_mod = 2.00
@@ -94,7 +94,7 @@
 	force = 20
 	throwforce = 30
 	slot_flags = SLOT_SHOULDER
-	recoil = 40
+	recoil = 3.3
 	accuracy = 3
 
 /obj/item/weapon/gun/projectile/automatic/type99
@@ -176,7 +176,7 @@
 	firemodes = list(
 		list(name = "automatic", burst=1, burst_delay=1.3),
 	)
-	recoil = 40
+	recoil = 3.3
 	accuracy = 3
 	var/folded = FALSE
 
@@ -247,7 +247,7 @@
 	force = 20
 	throwforce = 30
 	bad_magazine_types = list(/obj/item/ammo_magazine/browning)
-	recoil = 40
+	recoil = 3.3
 	accuracy = 3
 
 ///////////////////////////M1919A6//////////////////////
@@ -350,7 +350,7 @@
 	load_delay = 12
 	force = 20
 	throwforce = 30
-	recoil = 40
+	recoil = 3.3
 	accuracy = 3
 	mag_x_offset = -5
 	mag_y_offset = -3
@@ -377,7 +377,7 @@
 	equiptimer = 25
 	load_delay = 10
 	slowdown = 1
-	recoil = 30
+	recoil = 3.1
 	accuracy = 1
 	scope_mounts = list ("picatinny")
 	scope_y_offset = -1
@@ -414,7 +414,7 @@
 	good_mags = list(/obj/item/ammo_magazine/mg3belt)
 	attachment_slots = ATTACH_IRONSIGHTS|ATTACH_SCOPE
 	load_delay = 12
-	recoil = 30
+	recoil = 3.1
 	scope_mounts = list ("picatinny")
 	scope_x_offset = 7
 	scope_y_offset = 4
@@ -455,7 +455,7 @@
 	equiptimer = 22
 	load_delay = 40
 	slowdown = 0.6
-	recoil = 30
+	recoil = 3.1
 	accuracy = 2
 	scope_x_offset = -4
 	scope_y_offset = -5
@@ -484,7 +484,7 @@
 	cocked_sound 	= 'sound/weapons/guns/interact/lmg_cock.ogg'
 	fire_sound 		= 'sound/weapons/guns/fire/Type92.ogg'
 	load_delay = 12
-	recoil = 40
+	recoil = 3.3
 	accuracy = 3
 	firemodes = list(
 		list(name = "automatic", burst=1, burst_delay=3.0, move_delay=8, dispersion = list(0.2, 0.3, 0.5, 0.8, 0.6), recoil = 0))
@@ -551,7 +551,7 @@
 	equiptimer = 25
 	load_delay = 50
 	slowdown = 1
-	recoil = 40
+	recoil = 3.3
 	accuracy = 3
 
 /obj/item/weapon/gun/projectile/automatic/pkm
@@ -575,7 +575,7 @@
 	equiptimer = 25
 	load_delay = 50
 	slowdown = 0.8
-	recoil = 40
+	recoil = 3.3
 	accuracy = 3
 	mag_x_offset = -3
 	mag_y_offset = 1
@@ -596,7 +596,7 @@
 	desc = "A modernized soviet PKM machinegun chambered in 7.62x54mmR rounds."
 	icon_state = "pkp"
 	base_icon = "pkp"
-	recoil = 25
+	recoil = 3
 	attachment_slots = ATTACH_IRONSIGHTS|ATTACH_UNDER|ATTACH_SCOPE|ATTACH_BARREL
 	scope_mounts = list ("dovetail", "picatinny")
 	under_mounts = list ("picatinny")
@@ -639,7 +639,7 @@
 	equiptimer = 20
 	load_delay = 8
 	slowdown = 0.5
-	recoil = 25
+	recoil = 3
 	accuracy = 2
 	scope_x_offset = -1
 	scope_y_offset = -1
@@ -651,7 +651,7 @@
 	icon_state = "rpk16"
 	base_icon = "rpk16"
 	attachment_slots = ATTACH_IRONSIGHTS|ATTACH_UNDER|ATTACH_SCOPE|ATTACH_BARREL
-	recoil = 20
+	recoil = 2.9
 	accuracy = 2
 	scope_mounts = list ("dovetail", "picatinny")
 	under_mounts = list ("picatinny")
@@ -699,7 +699,7 @@
 	equiptimer = 21
 	load_delay = 8
 	slowdown = 0.4
-	recoil = 35
+	recoil = 3.2
 	accuracy = 3
 	scope_x_offset = -1
 	scope_y_offset = -1
@@ -712,7 +712,7 @@
 	weight = 4.7
 	name = "RPK-47M machine gun"
 	desc = "A modernized Soviet machinegun chambered in 7.62x39 rounds."
-	recoil = 30
+	recoil = 3.1
 	accuracy = 3
 
 /obj/item/weapon/gun/projectile/automatic/negev
@@ -736,7 +736,7 @@
 	equiptimer = 25
 	load_delay = 50
 	slowdown = 0.9
-	recoil = 40
+	recoil = 3.3
 	accuracy = 3
 	scope_mounts = list ("picatinny")
 
@@ -772,7 +772,7 @@
 	equiptimer = 25
 	load_delay = 55
 	slowdown = 0.8
-	recoil = 60
+	recoil = 3.8
 	accuracy = 1
 	scope_mounts = list ("dovetail")
 	scope_x_offset = -1
@@ -806,7 +806,7 @@
 	equiptimer = 21
 	load_delay = 21
 	slowdown = 0.5
-	recoil = 40
+	recoil = 3.3
 	accuracy = 3
 	mag_x_offset = -5
 	mag_x_offset = -3
@@ -842,7 +842,7 @@
 	fire_sound = 'sound/weapons/guns/fire/M60.ogg'
 	force = 20
 	throwforce = 30
-	recoil = 40
+	recoil = 3.3
 	accuracy = 1
 	scope_mounts = list ("picatinny")
 	mag_x_offset = -4

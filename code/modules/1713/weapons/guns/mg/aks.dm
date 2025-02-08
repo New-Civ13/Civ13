@@ -18,10 +18,11 @@
 		)
 	sel_mode = 1
 	attachment_slots = ATTACH_IRONSIGHTS|ATTACH_SCOPE|ATTACH_UNDER|ATTACH_BARREL
-	accuracy = 2
-	recoil = 30
 	scope_mounts = list ("dovetail", "picatinny")
 	under_mounts = list ("picatinny", "gp25_mount")
+
+	recoil = 3.5
+	accuracy = 2
 
 /obj/item/weapon/gun/projectile/submachinegun/ak101/update_icon()
 	..()
@@ -64,8 +65,10 @@
 	magazine_type = /obj/item/ammo_magazine/ak101
 	good_mags = list(/obj/item/ammo_magazine/ak101, /obj/item/ammo_magazine/ak101/drum)
 	equiptimer = 12
+
+	recoil = 3.7
 	accuracy = 3
-	recoil = 35
+
 
 /obj/item/weapon/gun/projectile/submachinegun/ak101/ak103
 	name = "AK-103"
@@ -78,8 +81,10 @@
 	magazine_type = /obj/item/ammo_magazine/ak47
 	good_mags = list(/obj/item/ammo_magazine/rpk47, /obj/item/ammo_magazine/rpk47/drum, /obj/item/ammo_magazine/ak47, /obj/item/ammo_magazine/ak47/drum,, /obj/item/ammo_magazine/ak47/makeshift)
 	equiptimer = 15
+
+	recoil = 3.9
 	accuracy = 2
-	recoil = 40
+
 
 /obj/item/weapon/gun/projectile/submachinegun/ak101/ak103/ak104
 	name = "AK-104"
@@ -89,8 +94,10 @@
 	base_icon = "ak101"
 	weight = 3.2
 	equiptimer = 12
+
+	recoil = 4.0
 	accuracy = 3
-	recoil = 45
+
 
 /obj/item/weapon/gun/projectile/submachinegun/ak101/ak105
 	name = "AK-105"
@@ -103,5 +110,6 @@
 	equiptimer = 12
 	magazine_type = /obj/item/ammo_magazine/ak74
 	good_mags = list(/obj/item/ammo_magazine/rpk74, /obj/item/ammo_magazine/rpk74/drum, /obj/item/ammo_magazine/ak74, /obj/item/ammo_magazine/ak74/drum, /obj/item/ammo_magazine/ak74/ak74m)
+
+	recoil = 2.5
 	accuracy = 2
-	recoil = 25

@@ -37,7 +37,6 @@ Current Defines (_defines/attachment.dm)
 		G.verbs += verbs
 		G.attachments += src
 		G.update_attachment_actions(user)
-		G.ergonomics *= src.ergonomics
 		user << "<span class = 'notice'>You attach [src] to the [G].</span>"
 	else
 		return
@@ -48,7 +47,6 @@ Current Defines (_defines/attachment.dm)
 		G.actions -= actions
 		G.verbs -= verbs
 		G.attachment_slots += attachment_type
-		G.ergonomics /= src.ergonomics
 		dropped(user)
 		A_attached = FALSE
 		loc = get_turf(src)
@@ -400,7 +398,6 @@ Current Defines (_defines/attachment.dm)
 		G.actions -= actions
 		G.verbs -= verbs
 		G.attachment_slots += attachment_type
-		G.ergonomics /= src.ergonomics
 		dropped(user)
 		A_attached = FALSE
 		loc = get_turf(src)
@@ -425,7 +422,6 @@ Current Defines (_defines/attachment.dm)
 		G.actions += actions
 		G.verbs += verbs
 		G.attachments += src
-		G.ergonomics *= ergonomics
 		if (istype(G, /obj/item/weapon/gun/projectile))
 			var/obj/item/weapon/gun/projectile/W = G
 			W.update_icon()
@@ -440,7 +436,6 @@ Current Defines (_defines/attachment.dm)
 			G.scope = src
 			G.attachments += src
 			G.update_attachment_actions(user)
-			G.ergonomics *= src.ergonomics
 			user << "<span class = 'notice'>You attach [src] to the [G].</span>"
 			if (istype(G, /obj/item/weapon/gun/projectile))
 				var/obj/item/weapon/gun/projectile/W = G
@@ -473,7 +468,6 @@ Current Defines (_defines/attachment.dm)
 		G.verbs += verbs
 		G.attachments += src
 		G.scope = src
-		G.ergonomics *= src.ergonomics
 		G.update_icon()
 	else
 		if (do_after(user, 15, user))
@@ -486,7 +480,6 @@ Current Defines (_defines/attachment.dm)
 			G.attachments += src
 			G.update_attachment_actions(user)
 			user << "<span class = 'notice'>You attach [src] to the [G].</span>"
-			G.ergonomics *= src.ergonomics
 			G.scope = src
 			G.update_icon()
 		else
@@ -502,7 +495,6 @@ Current Defines (_defines/attachment.dm)
 		loc = get_turf(src)
 		user << "You remove [src] from the [G]."
 		G.scope = null
-		G.ergonomics /= src.ergonomics
 		G.update_icon()
 	else
 		return
@@ -550,7 +542,6 @@ Current Defines (_defines/attachment.dm)
 		G.verbs += verbs
 		G.attachments += src
 		G.under = src
-		G.ergonomics *= src.ergonomics
 		G.update_icon()
 	else
 		if (do_after(user, 15, user))
@@ -562,7 +553,6 @@ Current Defines (_defines/attachment.dm)
 			G.verbs += verbs
 			G.attachments += src
 			G.update_attachment_actions(user)
-			G.ergonomics *= src.ergonomics
 			user << "<span class = 'notice'>You attach [src] to the [G].</span>"
 			G.under = src
 			G.update_icon()
@@ -580,7 +570,6 @@ Current Defines (_defines/attachment.dm)
 		loc = get_turf(src)
 		user << "You remove [src] from the [G]."
 		G.under = null
-		G.ergonomics /= src.ergonomics
 		G.update_icon()
 	else
 		return
@@ -672,7 +661,6 @@ Current Defines (_defines/attachment.dm)
 		G.verbs += verbs
 		G.attachments += src
 		G.silencer = src
-		G.ergonomics *= src.ergonomics
 		G.update_icon()
 	else
 		if (do_after(user, 15, user))
@@ -684,7 +672,6 @@ Current Defines (_defines/attachment.dm)
 			G.verbs += verbs
 			G.attachments += src
 			G.update_attachment_actions(user)
-			G.ergonomics *= src.ergonomics
 			to_chat(user, SPAN_NOTICE("You attach \the [src] to the [G]."))
 			G.silencer = src
 			G.update_icon()
@@ -700,7 +687,6 @@ Current Defines (_defines/attachment.dm)
 		dropped(user)
 		A_attached = FALSE
 		loc = get_turf(src)
-		G.ergonomics /= src.ergonomics
 		to_chat(user, SPAN_NOTICE("You remove \the [src] from the [G]."))
 		G.silencer = null
 		G.update_icon()
