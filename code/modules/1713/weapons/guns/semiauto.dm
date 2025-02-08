@@ -9,8 +9,6 @@
 	stat = "rifle"
 	load_delay = 5
 	aim_miss_chance_divider = 2.50
-	recoil = 60
-	accuracy = 2
 
 	headshot_kill_chance = 35
 	KO_chance = 30
@@ -25,6 +23,9 @@
 	gun_safety = TRUE
 	reload_sound = 'sound/weapons/guns/interact/semiauto_magin.ogg'
 	unload_sound = 'sound/weapons/guns/interact/semiauto_magout.ogg'
+
+	recoil = 5
+	accuracy = 2
 
 /obj/item/weapon/gun/projectile/semiautomatic/special_check(mob/user)
 	if (gun_safety && safetyon)
@@ -52,6 +53,7 @@
 
 	last_fire = world.time
 
+
 /obj/item/weapon/gun/projectile/semiautomatic/svt
 	name = "SVT-40"
 	desc = "Soviet semi-automatic rifle chambered in 7.62x54mmR."
@@ -78,7 +80,9 @@
 	throwforce = 20
 	attachment_slots = ATTACH_IRONSIGHTS|ATTACH_SCOPE|ATTACH_BARREL
 	scope_mounts = list("kochetov")
+
 	accuracy = 2
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/svt/update_icon()
 	..()
@@ -90,6 +94,7 @@
 		overlays -= scope_image
 		scope_image = image(icon = 'icons/obj/guns/parts.dmi', loc = src, icon_state = "pu_svt", pixel_x = scope_x_offset, pixel_y = scope_y_offset)
 		overlays += scope_image
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/ptrs
 	name = "PTRS-41"
@@ -116,10 +121,12 @@
 	force = 10
 	throwforce = 20
 	fire_sound = 'sound/weapons/guns/fire/ptrd.ogg'
-	accuracy = 1
-	recoil = 120
 	scope_x_offset = -1
 	scope_mounts = list("kochetov")
+
+	recoil = 7
+	accuracy = 1
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/avtomat
 	name = "Fedorov Avtomat"
@@ -146,7 +153,10 @@
 	force = 10
 	throwforce = 20
 	attachment_slots = ATTACH_IRONSIGHTS|ATTACH_SCOPE|ATTACH_BARREL
+
+	recoil = 5
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/remington11
 	name = "Remington 11"
@@ -167,6 +177,10 @@
 	gun_type = GUN_TYPE_RIFLE
 	force = 10
 	throwforce = 20
+
+	recoil = 7
+	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/sks
 	name = "SKS"
@@ -195,7 +209,10 @@
 	scope_mounts = list("kochetov", "dovetail")
 	barrel_x_offset = 15
 	scope_y_offset = -1
+
+	recoil = 7
 	accuracy = 2
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/sks/update_icon()
 	..()
@@ -204,11 +221,13 @@
 		scope_image = image(icon = 'icons/obj/guns/parts.dmi', loc = src, icon_state = "pu_sks", pixel_x = mag_x_offset, pixel_y = mag_y_offset)
 		overlays += scope_image
 
+
 /obj/item/weapon/gun/projectile/semiautomatic/sks/chinese
 	name = "Type 56 carbine"
 	desc = "A Chinese variant of the Soviet semi-automatic rifle chambered in 7.62x39mm."
 	weight = 3.86
 	barrel_x_offset = 15
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/sks/sksm
 	name = "SKS-M"
@@ -222,6 +241,7 @@
 	good_mags = list(/obj/item/ammo_magazine/sks, /obj/item/ammo_magazine/sksm, /obj/item/ammo_magazine/rpk47, /obj/item/ammo_magazine/rpk47/drum, /obj/item/ammo_magazine/ak47, /obj/item/ammo_magazine/ak47/makeshift)
 	load_method = SINGLE_CASING|SPEEDLOADER|MAGAZINE
 	cliploader = TRUE
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/svd
 	name = "SVD"
@@ -249,14 +269,17 @@
 	force = 10
 	throwforce = 20
 	attachment_slots = ATTACH_IRONSIGHTS|ATTACH_SCOPE|ATTACH_BARREL
-	accuracy = 1
 	scope_mounts = list ("dovetail")
 	scope_y_offset = -3
+
+	recoil = 6
+	accuracy = 1
 
 /obj/item/weapon/gun/projectile/semiautomatic/svd/New()
 	..()
 	var/obj/item/weapon/attachment/scope/adjustable/sniper_scope/pso1/SP = new/obj/item/weapon/attachment/scope/adjustable/sniper_scope/pso1(src)
 	SP.attached(null,src,TRUE)
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/svd/acog/New()
 	..()
@@ -270,6 +293,7 @@
 		qdel(SC)
 	var/obj/item/weapon/attachment/scope/adjustable/sniper_scope/acog/SP = new/obj/item/weapon/attachment/scope/adjustable/sniper_scope/acog(src)
 	SP.attached(null,src,TRUE)
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/g41
 	name = "Gewehr 41"
@@ -295,6 +319,8 @@
 	attachment_slots = ATTACH_SCOPE|ATTACH_IRONSIGHTS|ATTACH_BARREL
 	scope_mounts = list ("swept_back")
 	barrel_x_offset = 15
+
+	recoil = 5
 	accuracy = 2
 
 /obj/item/weapon/gun/projectile/semiautomatic/g41/update_icon()
@@ -303,6 +329,7 @@
 		icon_state = base_icon
 	else
 		icon_state = "[base_icon]_open"
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/g43
 	name = "Gewehr 43"
@@ -330,6 +357,8 @@
 	attachment_slots = ATTACH_IRONSIGHTS|ATTACH_SCOPE|ATTACH_BARREL
 	scope_mounts = list ("swept_back")
 	barrel_x_offset = 15
+
+	recoil = 5
 	accuracy = 2
 
 /obj/item/weapon/gun/projectile/semiautomatic/g43/update_icon()
@@ -338,6 +367,7 @@
 		icon_state = base_icon
 	else
 		icon_state = "[base_icon]_open"
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/vg5
 	name = "Volkssturmkarabiner 98"
@@ -372,7 +402,9 @@
 	scope_x_offset = -1
 	scope_y_offset = -1
 
+	recoil = 5
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/m1garand
 	name = "M1 Garand"
@@ -398,7 +430,10 @@
 	force = 10
 	throwforce = 20
 	attachment_slots = ATTACH_IRONSIGHTS|ATTACH_BARREL
+
+	recoil = 5
 	accuracy = 2
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/m1garand/match //Match grade weapons are built to a higher standard than service grade weapons.
 	name = "M1 Garand Match"
@@ -407,6 +442,7 @@
 	weight = 4.8
 	force = 15
 	throwforce = 25
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/ar15
 	name = "Bushmaster XM-15"
@@ -431,8 +467,10 @@
 	force = 10
 	throwforce = 20
 	attachment_slots = ATTACH_BARREL|ATTACH_SCOPE|ATTACH_UNDER
-	recoil = 30
+
+	recoil = 5
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/m1carbine
 	name = "M1 Carbine"
@@ -456,7 +494,10 @@
 	force = 10
 	throwforce = 20
 	attachment_slots = ATTACH_IRONSIGHTS|ATTACH_BARREL|ATTACH_SCOPE
+
+	recoil = 5
 	accuracy = 2
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/vintorez
 	name = "VSS Vintorez"
@@ -480,17 +521,21 @@
 	gun_type = GUN_TYPE_RIFLE
 	equiptimer = 8
 	attachment_slots = ATTACH_IRONSIGHTS|ATTACH_SCOPE|ATTACH_UNDER
-	accuracy = 2
 	scope_mounts = list ("dovetail")
 	scope_x_offset = 2
 	scope_y_offset = -1
 	under_x_offset = 3
 	under_y_offset = 2
 
+	recoil = 6
+	accuracy = 2
+
+
 /obj/item/weapon/gun/projectile/semiautomatic/vintorez/New()
 	..()
 	var/obj/item/weapon/attachment/scope/adjustable/sniper_scope/pso1/SP = new/obj/item/weapon/attachment/scope/adjustable/sniper_scope/pso1(src)
 	SP.attached(null,src,TRUE)
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/barrett
 	name = "Barrett M82"
@@ -519,14 +564,18 @@
 	equiptimer = 15
 	accuracy_increase_mod = 2.0
 	shake_strength = 2
-	accuracy = 1
 	scope_mounts = list ("picatinny")
+
+	recoil = 8
+	accuracy = 2
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/barrett/sniper/New()
 	..()
 
 	var/obj/item/weapon/attachment/scope/adjustable/sniper_scope/vortex_viper/SP = new/obj/item/weapon/attachment/scope/adjustable/sniper_scope/vortex_viper(src)
 	SP.attached(null,src,TRUE)
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/bamr
 	name = "BAMR"
@@ -558,6 +607,10 @@
 	equiptimer = 12
 	gun_safety = FALSE
 	load_delay = 20
+
+	recoil = 8
+	accuracy = 2
+
 
 /obj/item/weapon/gun/projectile/semiautomatic/bamr/telescope
 	name = "BAMR-T"

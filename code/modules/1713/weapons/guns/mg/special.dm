@@ -38,6 +38,7 @@
 		return FALSE
 	return TRUE
 
+
 /obj/item/weapon/gun/projectile/special/mk18
 	name = "MK-18"
 	desc = "An american automatic rifle."
@@ -56,16 +57,19 @@
 		list(name = "automatic", burst=1, burst_delay=1.3),
 		)
 	sel_mode = 1
-	accuracy = 1
-	recoil = 20
 	scope_mounts = list ("picatinny")
 	under_mounts = list ("picatinny")
 	mag_x_offset = 4
 	mag_y_offset = 2
 
+	recoil = 3.1
+	accuracy = 1
+
+
 /obj/item/weapon/gun/projectile/special/mk18/tan
 	icon_state = "mk18tan"
 	base_icon = "mk18tan"
+
 
 /obj/item/weapon/gun/projectile/special/ak74mtactical
 	name = "Tactical AK-74M"
@@ -86,9 +90,10 @@
 		list(name = "automatic",	burst=1, burst_delay=0.8),
 		)
 	sel_mode = 1
-	accuracy = 1
-	recoil = 20
 	scope_x_offset = -1
 	scope_y_offset = -1
 	scope_mounts = list ("dovetail", "picatinny")
 	under_mounts = list ("picatinny", "gp25_mount")
+
+	recoil = 3.1
+	accuracy = 1
