@@ -5,7 +5,6 @@
 /obj/item/stack/ore
 	name = "ore"
 	icon = 'icons/obj/mining.dmi'
-	icon_state = "ore2"
 	w_class = ITEM_SIZE_SMALL
 	amount = 1
 	max_amount = 50

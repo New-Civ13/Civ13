@@ -25,6 +25,8 @@ var/list/nonbreaking_types = list(
 /obj/structure/simple_door/key_door/faction_door
 	var/faction = null
 	locked = 1
+	health = 1200
+	breachable = FALSE
 
 /obj/structure/simple_door/key_door/faction_door/attack_hand(mob/user as mob)
 	if(istype(user, /mob/living/human))
@@ -70,8 +72,9 @@ var/list/nonbreaking_types = list(
 	else
 		keyslot = new()
 
-	health = 300 //same as iron double doors and vice versa
+	health = 1200 //same as iron double doors and vice versa
 	initial_health = health
+	breachable = FALSE
 
 	if (istype(src, /obj/structure/simple_door/key_door/anyone/shoji))
 		health = 50
@@ -95,7 +98,7 @@ var/list/nonbreaking_types = list(
 			Open()
 
 /obj/structure/simple_door/key_door/custom/New(_loc, _material = null)
-	health = 600
+	health = 1200
 	initial_health = health
 	material = "iron"
 
