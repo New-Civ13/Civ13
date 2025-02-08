@@ -21,6 +21,9 @@
 	barrel_x_offset = 17
 	barrel_y_offset = 0
 
+	recoil = 6
+	accuracy = 2
+
 /obj/item/weapon/gun/projectile/pistol/attackby(obj/W as obj, mob/user as mob)
 	if (istype(W, /obj/item/weapon/attachment/bayonet))
 		user << "<span class = 'danger'>That won't fit on there.</span>"
@@ -562,7 +565,6 @@
 	load_method = MAGAZINE
 	handle_casings = EJECT_CASINGS
 	bad_magazine_types = list(/obj/item/ammo_magazine/makarov)
-	recoil = 30
 	accuracy = 2
 
 /obj/item/weapon/gun/projectile/pistol/m9beretta

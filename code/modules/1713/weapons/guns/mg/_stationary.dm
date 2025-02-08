@@ -27,7 +27,7 @@
 	slot_flags = FALSE
 	full_auto = TRUE
 	fire_delay = 0
-	recoil = 10 // Stationary weapons have virtually no recoil
+	recoil = 2 // Stationary weapons have virtually no recoil
 	accuracy = 3
 
 	var/climbers = list()

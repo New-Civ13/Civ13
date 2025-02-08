@@ -11,8 +11,9 @@
 		list(name = "automatic", burst=1, burst_delay=2, fire_delay=2, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a762x54/weak
-	recoil = 10
+	recoil = 3
 	accuracy = 4
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/maxim/ww2
 	name = "Maxim"
@@ -28,8 +29,9 @@
 		list(name = "automatic", burst=1, burst_delay=2, fire_delay=2, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a762x54/weak
-	recoil = 10
+	recoil = 3
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/mg08
 	name = "Maschinengewehr 08"
@@ -44,8 +46,9 @@
 		list(name = "automatic", burst=1, burst_delay=2, fire_delay=2, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a792x57/weak
-	recoil = 10
+	recoil = 3
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/pkm
 	name = "PKM machine gun"
@@ -59,8 +62,9 @@
 		list(name = "automatic", burst=1, burst_delay=1.3, fire_delay=1.3, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a762x54/weak
-	recoil = 10
+	recoil = 3
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/dshk
 	name = "DShK machine gun"
@@ -74,8 +78,9 @@
 		list(name = "automatic", burst=1, burst_delay=1.2, fire_delay=1.2, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a127
-	recoil = 25
+	recoil = 4
 	accuracy = 1
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/nsvt
 	name = "NSVT machine gun"
@@ -89,12 +94,14 @@
 		list(name = "automatic", burst=1, burst_delay=1.1, fire_delay=1.1, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a127
-	recoil = 30
+	recoil = 4
 	accuracy = 1
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/foldable
 	anchored = TRUE
 	var/path
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/foldable/verb/retrieve()
 	set category = null
@@ -112,6 +119,7 @@
 		usr.put_in_any_hand_if_possible(new path, prioritize_active_hand = TRUE)
 		visible_message(SPAN_WARNING("[usr] retrieves the [src] from the ground."))
 
+
 /obj/item/weapon/gun/projectile/automatic/stationary/foldable/pkm
 	name = "Foldable PKM machine gun"
 	desc = "Soviet Heavy foldable PKM machinegun. Chambered in 7.62x54mm rounds."
@@ -125,10 +133,11 @@
 		list(name = "automatic", burst=1, burst_delay=1.3, fire_delay=1.3, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a762x54/weak
-	recoil = 10
+	recoil = 3
 	accuracy = 3
 
 	path = /obj/item/weapon/foldable/pkm
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/vickers
 	name = "Vickers machine gun"
@@ -143,8 +152,9 @@
 		list(name = "automatic", burst=1, burst_delay=2, fire_delay=2, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a303/weak
-	recoil = 25
+	recoil = 4
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/vickers/type24
 	name = "Type 24 machine gun"
@@ -160,6 +170,7 @@
 		)
 	ammo_type = /obj/item/ammo_casing/a792x57/weak
 
+
 /obj/item/weapon/gun/projectile/automatic/stationary/hotchkiss1914
 	name = "Hotchkiss M1914 machine gun"
 	desc = "A french heavy machinegun. Chambered in 8x50mm Lebel."
@@ -169,8 +180,9 @@
 	magazine_type = /obj/item/ammo_magazine/hotchkiss
 	good_mags = list(/obj/item/ammo_magazine/hotchkiss)
 	ammo_type = /obj/item/ammo_casing/a8x50/weak
-	recoil = 25
+	recoil = 4
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/type3
 	name = "Type 3 machine gun"
@@ -181,8 +193,9 @@
 	magazine_type = /obj/item/ammo_magazine/type3
 	good_mags = list(/obj/item/ammo_magazine/type3)
 	ammo_type = /obj/item/ammo_casing/a65x50/weak
-	recoil = 25
+	recoil = 4
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/type98
 	name = "Type 92 machine gun"
@@ -198,11 +211,13 @@
 		)
 	ammo_type = /obj/item/ammo_casing/a77x58
 	attachment_slots = ATTACH_SCOPE
-	recoil = 25
+	recoil = 4
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/type98/update_icon()
 	icon_state = "type92hmg[ammo_magazine ? round(ammo_magazine.stored_ammo.len, 5) : "_empty"]"
+
 
 /obj/structure/type92tripod
 	name = "Type 92 Tripod"
@@ -212,6 +227,7 @@
 	anchored = FALSE
 	not_disassemblable = TRUE
 	density = TRUE
+
 
 /obj/structure/type92tripod/attackby(var/obj/item/W as obj, var/mob/living/human/H as mob)
 	if (istype(W, /obj/item/weapon/type92hmg))
@@ -224,6 +240,7 @@
 	else
 		to_chat(usr, SPAN_WARNING("You cant put that on the tripod!"))
 		return
+
 
 /obj/structure/type92tripod/attack_hand(var/mob/living/human/H as mob)
 	if (H.l_hand && H.r_hand)
@@ -239,6 +256,7 @@
 
 	visible_message(SPAN_WARNING("[usr] starts to disassemble the [src]."))
 
+
 /obj/item/weapon/type92tripod
 	name = "Type 92 HMG tripod"
 	desc = "Used to make gun emplacements"
@@ -252,6 +270,7 @@
 	slowdown = 0.3
 
 	attack_verb = list("attacked", "bashed", "battered", "bludgeoned", "whacked")
+
 
 /obj/item/weapon/type92tripod/attack_self(mob/user)
 	if (ishuman(user))
@@ -268,6 +287,7 @@
 				visible_message("<span class='danger'>[user] finishes placing the Type 92 Tripod.</span>")
 				return
 
+
 /obj/item/weapon/type92hmg
 	name = "Dismounted Type 92 HMG"
 	desc = "Slap this on a Type 92 Tripod to assemble the weapon. It's useless otherwise."
@@ -281,6 +301,7 @@
 	slowdown = 0.6
 
 	attack_verb = list("attacked", "bashed", "battered", "bludgeoned", "whacked")
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/type98/verb/disassemble()
 	set category = null
@@ -324,17 +345,19 @@
 	load_method = SINGLE_CASING | SPEEDLOADER
 	max_shells = 20
 	load_delay = 12
-	recoil = 20
+	recoil = 4
 	accuracy = 3
 
 /obj/item/weapon/gun/projectile/automatic/stationary/breda30/update_icon()
 	icon_state = "type92hmg[ammo_magazine ? round(ammo_magazine.stored_ammo.len, 5) : "_empty"]"
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/breda30/hull
 	name = "vehicle mounted Breda 30 machine gun"
 	anchored = TRUE
 	density = FALSE
 	can_turn = FALSE
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/solothurn
 	name = "Solothurn S-18/1000"
@@ -354,21 +377,24 @@
 	load_method = SINGLE_CASING | SPEEDLOADER
 	max_shells = 10
 	load_delay = 60
-	recoil = 30
+	recoil = 4
 	accuracy = 2
 
 /obj/item/weapon/gun/projectile/automatic/stationary/solothurn/update_icon()
 	icon_state = "type92hmg[ammo_magazine ? round(ammo_magazine.stored_ammo.len, 5) : "_empty"]"
 
+
 /obj/item/weapon/gun/projectile/automatic/stationary/solothurn/italian
 	name = "Fucile Controcarri S Mod.39"
 	desc = "An Italian variant of the Swiss Solothurn S18/1000 20mm anti-tank rifle. It is a later variant of the S-18/100 with modifications for a higher muzzle velocity, as well as a larger cartridge size. The more powerful ammunition resulted in significant recoil, which was problematic for the gunner, and its size made portability difficult."
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/solothurn/italian/stationary
 	name = "vehicle mounted Fucile Controcarri S Mod.39"
 	anchored = TRUE
 	density = FALSE
 	can_turn = FALSE
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/browning
 	name = "M1919A1 browning machine gun"
@@ -383,11 +409,12 @@
 		list(name = "automatic", burst=1, burst_delay=1.8, fire_delay=1.1, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a3006
-	recoil = 25
+	recoil = 4
 	accuracy = 3
 
 /obj/item/weapon/gun/projectile/automatic/stationary/browning/update_icon()
 	icon_state = "browning[ammo_magazine ? round(ammo_magazine.stored_ammo.len, 50) : "_empty"]"
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/m2browning
 	name = "M2HB browning machine gun"
@@ -402,8 +429,9 @@
 		list(name = "automatic", burst=1, burst_delay=1.8, fire_delay=1.1, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a50cal/weak
-	recoil = 30
+	recoil = 4
 	accuracy = 1
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/mg34
 	name = "MG 34 machine gun"
@@ -417,8 +445,9 @@
 		list(name = "automatic", burst=1, burst_delay=1, fire_delay=1, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a792x57/weak
-	recoil = 25
+	recoil = 4
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/mg3
 	name = "MG 3 machine gun"
@@ -432,8 +461,9 @@
 		list(name = "automatic", burst=1, burst_delay=1, fire_delay=1, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a762x51/weak
-	recoil = 25
+	recoil = 4
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/fnmag
 	name = "FN MAG machine gun"
@@ -447,8 +477,9 @@
 		list(name = "automatic", burst=1, burst_delay=1, fire_delay=1, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a762x51/weak
-	recoil = 25
+	recoil = 4
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/blugoslavia
 	name = "BHMG-21 machine gun"
@@ -462,8 +493,9 @@
 		list(name = "automatic", burst=1, burst_delay=1.3, fire_delay=2.5, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a762x54
-	recoil = 25
+	recoil = 4
 	accuracy = 3
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/redmenia
 	name = "RK-42 stationary machine gun"
@@ -477,8 +509,9 @@
 		list(name = "automatic", burst=1, burst_delay=3, fire_delay=2.3, accuracy=list(2))
 		)
 	ammo_type = /obj/item/ammo_casing/a762x54
-	recoil = 25
+	recoil = 4
 	accuracy = 3
+
 
 // Autocannons
 
@@ -511,6 +544,7 @@
 		return FALSE
 	return TRUE
 
+
 /obj/item/weapon/gun/projectile/automatic/stationary/autocannon/shipunov2a42 // BMD-2
 	name = "Shipunov 2A42 30mm autocannon"
 	desc = "The 30mm 2A42 autocannon was developed as a replacement for the 2A28 Grom. It fires 30mm rounds."
@@ -526,6 +560,7 @@
 		)
 	ammo_type = /obj/item/ammo_casing/a30mm_ap
 	full_auto = TRUE
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/autocannon/shipunov2a72 // BTR-80
 	name = "Shipunov 2A72 30mm autocannon"
@@ -543,6 +578,7 @@
 	ammo_type = /obj/item/ammo_casing/a30mm_ap
 	full_auto = TRUE
 
+
 /obj/item/weapon/gun/projectile/automatic/stationary/autocannon/bushmaster // CV-90
 	name = "Bushmaster III 35mm autocannon"
 	desc = "The Bushmaster III is a chain gun, like the other members of the Bushmaster family, which grants it great dependability and safety from ammunition cook-off even though it does result in lower rates of fire."
@@ -558,6 +594,7 @@
 		)
 	ammo_type = /obj/item/ammo_casing/a30mm_ap
 	full_auto = TRUE
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/autocannon/bushmaster/bradley
 	name = "M242 'Bushmaster' 25mm autocannon"
@@ -575,6 +612,7 @@
 		)
 	ammo_type = /obj/item/ammo_casing/a25mm_ap
 
+
 /obj/item/weapon/gun/projectile/automatic/stationary/autocannon/red
 	name = "30mm autocannon"
 	desc = "An autocannon capable of firing 20 rounds per minute."
@@ -591,6 +629,7 @@
 		)
 	ammo_type = /obj/item/ammo_casing/a30mm_ap
 	full_auto = FALSE
+
 
 // ATGMs
 
@@ -680,17 +719,20 @@
 	else
 		icon_state = "[base_icon]_empty"
 
+
 /obj/item/weapon/gun/projectile/automatic/stationary/atgm/kornet
 	name = "9K135 Kornet"
 	desc = "A highly accurate, Russian laser-guided anti-tank missile system with long-range capabilities and advanced armor penetration, designed for modern battlefield engagements."
 	icon_state = "kornet_atgm"
 	base_icon = "kornet_atgm"
 
+
 /obj/item/weapon/gun/projectile/automatic/stationary/atgm/bgm_tow
 	name = "BGM-71 TOW"
 	desc = "A wire-guided anti-tank missile, known for its effectiveness against armored vehicles at long distances."
 	icon_state = "bgm71_tow_atgm"
 	base_icon = "bgm71_tow_atgm"
+
 
 // Foldable ATGMs
 
@@ -723,12 +765,14 @@
 		usr.put_in_any_hand_if_possible(new path, prioritize_active_hand = TRUE)
 		visible_message(SPAN_WARNING("[usr] retrieves the [src] from the ground."))
 
+
 /obj/item/weapon/gun/projectile/automatic/stationary/atgm/foldable/kornet
 	name = "9K135 Kornet"
 	desc = "A highly accurate, Russian laser-guided anti-tank missile system with long-range capabilities and advanced armor penetration, designed for modern battlefield engagements."
 	icon_state = "kornet_atgm"
 	base_icon = "kornet_atgm"
 	path = /obj/item/weapon/foldable/atgm/kornet
+
 
 /obj/item/weapon/gun/projectile/automatic/stationary/atgm/foldable/bgm_tow
 	name = "BGM-71 TOW"
