@@ -201,7 +201,7 @@
 		)
 
 	sel_mode = 1
-	recoil = 25
+	recoil = 2.5
 	accuracy = 4
 
 /obj/item/weapon/gun/projectile/submachinegun/mp40/mp38
@@ -430,7 +430,7 @@
 	firemodes = list(
 		list(name = "automatic",	burst=1, burst_delay=1.4),
 		)
-	recoil = 10
+	recoil = 2.4
 	accuracy = 10
 
 	sel_mode = 1
