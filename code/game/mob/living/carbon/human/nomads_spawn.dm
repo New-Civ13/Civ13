@@ -373,7 +373,7 @@
 					give_languages()
 		update_character_appearance(possible_e_list, possible_h_list, possible_s_range)
 
-	else if (map && (map.ID == MAP_NOMADS_CONTINENTAL || map.ID == MAP_NOMADS_PANGEA || map.ID == MAP_NOMADS_GAIA || map.ID == MAP_NOMADS_TESTING))
+	else if (map && (map.ID == MAP_NOMADS_CONTINENTAL || map.ID == MAP_NOMADS_PANGEA || map.ID == MAP_NOMADS_GAIA || map.ID == MAP_NOMADS_THEIA || map.ID == MAP_NOMADS_TESTING))
 		switch (mob_area.climate)
 			if ("tundra","taiga")
 				add_language("Old Norse",TRUE)
@@ -593,6 +593,62 @@
 				possible_h_list = list("Light Brown","Dark Brown","Black", "Blond")
 				possible_e_list = list("Blue","Green","Brown")
 				possible_s_range = list(-20,-45)
+
+		update_character_appearance(possible_e_list, possible_h_list, possible_s_range)
+
+	else if (map.ID == MAP_NOMADS_THEIA)
+		switch (mob_area.climate)
+			if ("temperate")
+				add_language("Latin",TRUE)
+				remove_language("English")
+				remove_note("Known Languages","English")
+				for (var/datum/language/latin/A in languages)
+					default_language = A
+				name = species.get_random_roman_name(gender)
+				real_name = name
+				add_note("Known Languages", "Latin")
+				possible_h_list = list("Light Brown","Dark Brown")
+				possible_e_list = list("Green","Brown","Black")
+				possible_s_range = list(-15,-25)
+
+			if ("taiga")
+				add_language("Old Norse",TRUE)
+				remove_language("English")
+				remove_note("Known Languages","English")
+				for (var/datum/language/oldnorse/A in languages)
+					default_language = A
+				name = species.get_random_oldnorse_name(gender)
+				real_name = name
+				add_note("Known Languages", "Old Norse")
+				possible_h_list = list("Dirty Blond","Light Brown","Dark Brown")
+				possible_e_list = list("Blue","Green","Brown")
+				possible_s_range = list(-15,-25)
+
+			if ("jungle")
+				add_language("Japanese",TRUE)
+				remove_language("English")
+				remove_note("Known Languages","English")
+				for (var/datum/language/japanese/A in languages)
+					default_language = A
+				name = species.get_random_japanese_name(gender)
+				real_name = name
+				add_note("Known Languages", "Japanese")
+				possible_h_list = list("Dark Brown","Black")
+				possible_e_list = list("Brown","Black")
+				possible_s_range = list(-15,-25)
+
+			if ("desert")
+				add_language("Arabic",TRUE)
+				remove_language("English")
+				remove_note("Known Languages","English")
+				for (var/datum/language/arab/A in languages)
+					default_language = A
+				name = species.get_random_arab_name(gender)
+				real_name = name
+				add_note("Known Languages", "Arabic")
+				possible_h_list = list("Dark Brown","Black")
+				possible_e_list = list("Black")
+				possible_s_range = list(-15,-25)
 
 		update_character_appearance(possible_e_list, possible_h_list, possible_s_range)
 
