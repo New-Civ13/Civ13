@@ -243,17 +243,17 @@ RECIPE: /material/clay/,bloomery,/obj/structure/bloomery,10,150,1,1,none,26,0,0,
 
 RECIPE: /material/clay/,concrete pillar,/obj/structure/mine_support/stone/concrete,2,20,0,1,none,103,0,0,8,null
 
-RECIPE: /material/clay/,sheet mold,/obj/item/claymold/sheet,2,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,ingot mold,/obj/item/claymold/ingot,2,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,hammer mold,/obj/item/claymold/hammer,2,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,pickaxe mold,/obj/item/claymold/pickaxe,3,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,hatchet mold,/obj/item/claymold/hatchet,2,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,shovel mold,/obj/item/claymold/shovel,3,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,tongs mold,/obj/item/claymold/tongs,2,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,anvil mold,/obj/item/claymold/anvil,6,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,knife mold,/obj/item/claymold/knife,1,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,spear mold,/obj/item/claymold/spear,1,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,arrowhead mold,/obj/item/claymold/arrowhead,1,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,sheet mold,/obj/item/castingmold/sheet,2,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,ingot mold,/obj/item/castingmold/ingot,2,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,hammer mold,/obj/item/castingmold/hammer,2,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,pickaxe mold,/obj/item/castingmold/pickaxe,3,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,hatchet mold,/obj/item/castingmold/hatchet,2,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,shovel mold,/obj/item/castingmold/shovel,3,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,tongs mold,/obj/item/castingmold/tongs,2,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,anvil mold,/obj/item/castingmold/anvil,6,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,knife mold,/obj/item/castingmold/knife,1,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,spear mold,/obj/item/castingmold/spear,1,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,arrowhead mold,/obj/item/castingmold/arrowhead,1,40,0,1,molds,0,0,0,8,null
 RECIPE: /material/clay/,crucible,/obj/item/heatable/crucible,4,40,0,1,molds,0,0,0,8,null
 
 //*****************| CLAY STUCCO |***************************
@@ -2317,7 +2317,6 @@ RECIPE: /material/iron/,armor repair bench,/obj/structure/repair/workbench,16,18
 
 RECIPE: /material/iron/,engine maker,/obj/item/weapon/enginemaker,5,80,0,1,tools,115,0,0,8,null
 
-RECIPE: /material/iron/,iron blast furnace,/obj/structure/furnace/blast_furnace,25,220,1,1,production,0,102,0,8,null
 RECIPE: /material/iron/,iron furnace,/obj/structure/heatsource,15,140,1,1,production,0,102,0,8,null
 
 

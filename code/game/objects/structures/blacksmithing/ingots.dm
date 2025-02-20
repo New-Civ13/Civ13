@@ -17,6 +17,11 @@
 	..()
 	if(_amount)
 		amount = _amount
+		while(amount > stacklimit)
+			var/change = min(stacklimit, amount - stacklimit)
+			amount -= change
+			var/obj/item/heatable/ingot/I = type
+			new I(loc, change)
 	for(var/obj/item/heatable/ingot/I in loc)
 		if(istype(I, type))
 			var/change = min(amount, I.stacklimit - I.amount)

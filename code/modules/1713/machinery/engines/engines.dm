@@ -253,263 +253,127 @@
 
 
 /obj/item/weapon/enginemaker/attack_self(mob/living/human/H)
-	if (!istype(H.l_hand, /obj/item/stack/material/steel) && !istype(H.r_hand, /obj/item/stack/material/steel))
-		H << "<span class = 'warning'>You need to have a steel stack in one of your hands in order to make this.</span>"
+
+	if(!istype(H.l_hand, /obj/item/stack/material/steel) && !istype(H.r_hand, /obj/item/stack/material/steel) &&  !(locate(/obj/item/stack/material/steel) in get_turf(src)))
+		H << "<span class = 'warning'>You need to have a steel stack in one of your hands or on the floor in order to make this.</span>"
 		return
 	else
-		steelamt = 0
-		enginesize = 0
-		if (istype(H.l_hand, /obj/item/stack/material/steel))
-			steelamt = H.l_hand.amount
-		else if (istype(H.r_hand, /obj/item/stack/material/steel))
-			steelamt = H.r_hand.amount
-		if (steelamt == 0)
-			return
-
 		var/display = list("Turbine Engine (73 sheets per 1000 cc)","Hot Bulb Engine (33 sheets per 1000 cc)","4-Stroke Gasoline Engine (50 sheets per 1000 cc)","High Efficiency 4-Stroke Gasoline Engine (100 sheets per 1000 cc)","4-Stroke Ethanol-Gasoline Engine (60 sheets per 1000 cc)","2-Stroke Gasoline Engine (40 sheets per 1000 cc)","Diesel Engine (40 sheets per 1000 cc)","Biodiesel Engine (45 sheets per 1000 cc)","Hesselman Engine (43 sheets per 1000 cc)", "Cancel")
 		var/choice = WWinput(H, "What engine do you want to make?", "Engines", "Cancel", display)
-		if (choice == "Cancel")
+
+		if(choice == "Cancel" || !choice)
 			return
-		else if (choice == "Hot Bulb Engine (33 sheets per 1000 cc)")
-			enginesize = input(H, "Choose the engine size, in cc: (minimum 200, maximum 45000)") as num
-			enginesize = Clamp(enginesize, 200, 45000)
-			if ((enginesize/1000)*33 > steelamt)
-				H << "You don't have enough steel. You need [(enginesize/1000)*66] and you have [steelamt]. Try building a smaller engine."
-				return
+
+		enginesize = input(H, "Choose the engine size, in cc: (minimum 250, maximum 18000)") as num
+
+		var/minsize = 0
+		var/maxsize = 0
+		var/obj/structure/engine/respath = null
+		var/costmult = 1
+
+		// Engine Values
+		switch(choice)
+			if("Hot Bulb Engine (33 sheets per 1000 cc)")
+				minsize = 200
+				maxsize = 450000
+				costmult = 33 / 1000
+				respath = /obj/structure/engine/internal/hotbulb
+			if("Turbine Engine (73 sheets per 1000 cc)")
+				minsize = 250
+				maxsize = 18000
+				costmult = 73 / 1000
+				respath = /obj/structure/engine/internal/turbine
+			if("2-Stroke Gasoline Engine (40 sheets per 1000 cc)")
+				minsize = 49
+				maxsize = 1000
+				costmult = 40 / 1000
+				respath = /obj/structure/engine/internal/gasoline/twostroke
+			if("4-Stroke Gasoline Engine (50 sheets per 1000 cc)")
+				minsize = 80
+				maxsize = 30000
+				costmult = 50 / 1000
+				respath = /obj/structure/engine/internal/gasoline
+			if("High Efficiency 4-Stroke Gasoline Engine (100 sheets per 1000 cc)")
+				minsize = 100
+				maxsize = 30000
+				costmult = 100 / 1000
+				respath = /obj/structure/engine/internal/gasoline/efficient
+			if("4-Stroke Ethanol-Gasoline Engine (60 sheets per 1000 cc)")
+				minsize = 80
+				maxsize = 30000
+				costmult = 60 / 1000
+				respath = /obj/structure/engine/internal/gasoline/ethanol
+			if("Diesel Engine (40 sheets per 1000 cc)")
+				minsize = 300
+				maxsize = 45000
+				costmult = 40 / 1000
+				respath = /obj/structure/engine/internal/diesel
+			if("Biodiesel Engine (45 sheets per 1000 cc)")
+				minsize = 300
+				maxsize = 45000
+				costmult = 45 / 1000
+				respath = /obj/structure/engine/internal/diesel/biodiesel
+			if("Hesselman Engine (43 sheets per 1000 cc)")
+				minsize = 200
+				maxsize = 55000
+				costmult = 43 / 1000
+				respath = /obj/structure/engine/internal/hesselman
 			else
-				H << "You start building the engine..."
-				done = TRUE
-				if (do_after(H,220,src))
-					if (done)
-						if (istype(H.l_hand, /obj/item/stack/material/steel))
-							H.l_hand.amount -= (enginesize/1000)*33
-						else if (istype(H.r_hand, /obj/item/stack/material/steel))
-							H.r_hand.amount -= (enginesize/1000)*33
-						var/obj/structure/engine/internal/hotbulb/NEN = new/obj/structure/engine/internal/hotbulb(get_turf(H))
-						NEN.enginesize = enginesize
-						NEN.weight = 20*(NEN.enginesize/1000)
-						NEN.name = "[NEN.enginesize]cc hot bulb engine"
-						NEN.maxpower *= (NEN.enginesize/1000)
-						NEN.fuelefficiency *= (NEN.enginesize/1000)
-						H << "You finish building the engine."
-						done = FALSE
-						return
-				else
-					done = FALSE
-					return
-		else if (choice == "Turbine Engine (73 sheets per 1000 cc)")
-			enginesize = input(H, "Choose the engine size, in cc: (minimum 250, maximum 18000)") as num
-			enginesize = Clamp(enginesize, 250, 18000)
-			if ((enginesize/1000)*73 > steelamt)
-				H << "You don't have enough steel. You need [(enginesize/1000)*136] and you have [steelamt]. Try building a smaller engine."
 				return
-			else
-				H << "You start building the engine..."
-				done = TRUE
-				if (do_after(H,220,src))
-					if (done)
-						if (istype(H.l_hand, /obj/item/stack/material/steel))
-							H.l_hand.amount -= (enginesize/1000)*73
-						else if (istype(H.r_hand, /obj/item/stack/material/steel))
-							H.r_hand.amount -= (enginesize/1000)*73
-						var/obj/structure/engine/internal/turbine/NEN = new/obj/structure/engine/internal/turbine(get_turf(H))
-						NEN.enginesize = enginesize
-						NEN.weight = 20*(NEN.enginesize/1000)
-						NEN.name = "[NEN.enginesize]cc turbine engine"
-						NEN.maxpower *= (NEN.enginesize/1000)
-						NEN.fuelefficiency *= (NEN.enginesize/1000)
-						H << "You finish building the engine."
-						done = FALSE
-						return
-				else
-					done = FALSE
-					return
-		else if (choice == "2-Stroke Gasoline Engine (40 sheets per 1000 cc)")
-			enginesize = input(H, "Choose the engine size, in cc: (minimum 49, maximum 1000)") as num
-			enginesize = Clamp(enginesize, 49, 1000)
-			if ((enginesize/1000)*40 > steelamt)
-				H << "You don't have enough steel. You need [(enginesize/1000)*90] and you have [steelamt]. Try building a smaller engine."
+
+		if(!respath || !maxsize || !minsize)
+			return
+
+		enginesize = round(Clamp(enginesize, minsize, maxsize))
+		var/enginecost = ceil(enginesize * costmult)
+
+		to_chat(H, SPAN_NOTICE("You begin building the engine..."))
+		if(do_after(H, 120, src))
+			// Check if necessary resources exist
+			var/steel = 0
+
+			// - Check Hand
+			if (istype(H.l_hand, /obj/item/stack/material/steel))
+				steel += H.l_hand.amount
+			else if (istype(H.r_hand, /obj/item/stack/material/steel))
+				steel += H.r_hand.amount
+
+			// - Check Ground
+			for(var/obj/item/stack/material/steel/S in get_turf(src))
+				steel += S.amount
+
+			// - Compare
+			if(steel < enginecost)
+				to_chat(H, SPAN_WARNING("You don't have enough steel for that ([steel]/[enginecost])!"))
 				return
-			else
-				H << "You start building the engine..."
-				done = TRUE
-				if (do_after(H,200,src))
-					if (done)
-						if (istype(H.l_hand, /obj/item/stack/material/steel))
-							H.l_hand.amount -= (enginesize/1000)*40
-						else if (istype(H.r_hand, /obj/item/stack/material/steel))
-							H.r_hand.amount -= (enginesize/1000)*40
-						var/obj/structure/engine/internal/gasoline/twostroke/NEN = new/obj/structure/engine/internal/gasoline/twostroke(get_turf(H))
-						NEN.enginesize = enginesize
-						NEN.weight = 20*(NEN.enginesize/1000)
-						NEN.name = "[NEN.enginesize]cc 2-S gasoline engine"
-						NEN.maxpower *= (NEN.enginesize/1000)
-						NEN.fuelefficiency *= (NEN.enginesize/1000)
-						H << "You finish building the engine."
-						done = FALSE
-						return
-				else
-					done = FALSE
-					return
-		else if (choice == "4-Stroke Gasoline Engine (50 sheets per 1000 cc)")
-			enginesize = input(H, "Choose the engine size, in cc: (minimum 80, maximum 30000)") as num
-			enginesize = Clamp(enginesize, 80, 30000)
-			if ((enginesize/1000)*50 > steelamt)
-				H << "You don't have enough steel. You need [(enginesize/1000)*100] and you have [steelamt]. Try building a smaller engine."
-				return
-			else
-				H << "You start building the engine..."
-				done = TRUE
-				if (do_after(H,200,src))
-					if (done)
-						if (istype(H.l_hand, /obj/item/stack/material/steel))
-							H.l_hand.amount -= (enginesize/1000)*50
-						else if (istype(H.r_hand, /obj/item/stack/material/steel))
-							H.r_hand.amount -= (enginesize/1000)*50
-						var/obj/structure/engine/internal/gasoline/NEN = new/obj/structure/engine/internal/gasoline(get_turf(H))
-						NEN.enginesize = enginesize
-						NEN.weight = 20*(NEN.enginesize/1000)
-						NEN.name = "[NEN.enginesize]cc 4-S gasoline engine"
-						NEN.maxpower *= (NEN.enginesize/1000)
-						NEN.fuelefficiency *= (NEN.enginesize/1000)
-						H << "You finish building the engine."
-						done = FALSE
-						return
-				else
-					done = FALSE
-					return
-		else if (choice == "High Efficiency 4-Stroke Gasoline Engine (100 sheets per 1000 cc)")
-			enginesize = input(H, "Choose the engine size, in cc: (minimum 100, maximum 30000)") as num
-			enginesize = Clamp(enginesize, 100, 30000)
-			if ((enginesize/1000)*100 > steelamt)
-				H << "You don't have enough steel. You need [(enginesize/1000)*100] and you have [steelamt]. Try building a smaller engine."
-				return
-			else
-				H << "You start building the engine..."
-				done = TRUE
-				if (do_after(H,200,src))
-					if (done)
-						if (istype(H.l_hand, /obj/item/stack/material/steel))
-							H.l_hand.amount -= (enginesize/1000)*100
-						else if (istype(H.r_hand, /obj/item/stack/material/steel))
-							H.r_hand.amount -= (enginesize/1000)*100
-						var/obj/structure/engine/internal/gasoline/efficient/NEN = new/obj/structure/engine/internal/gasoline/efficient(get_turf(H))
-						NEN.enginesize = enginesize
-						NEN.weight = 40*(NEN.enginesize/1000)
-						NEN.name = "[NEN.enginesize]cc 4-S gasoline engine"
-						NEN.maxpower *= (NEN.enginesize/1000)
-						NEN.fuelefficiency *= (NEN.enginesize/1000)
-						H << "You finish building the engine."
-						done = FALSE
-						return
-				else
-					done = FALSE
-					return
-		else if (choice == "4-Stroke Ethanol-Gasoline Engine (60 sheets per 1000 cc)")
-			enginesize = input(H, "Choose the engine size, in cc: (minimum 80, maximum 30000)") as num
-			enginesize = Clamp(enginesize, 80, 30000)
-			if ((enginesize/1000)*60 > steelamt)
-				H << "You don't have enough steel. You need [(enginesize/1000)*120] and you have [steelamt]. Try building a smaller engine."
-				return
-			else
-				H << "You start building the engine..."
-				done = TRUE
-				if (do_after(H,200,src))
-					if (done)
-						if (istype(H.l_hand, /obj/item/stack/material/steel))
-							H.l_hand.amount -= (enginesize/1000)*60
-						else if (istype(H.r_hand, /obj/item/stack/material/steel))
-							H.r_hand.amount -= (enginesize/1000)*60
-						var/obj/structure/engine/internal/gasoline/ethanol/NEN = new/obj/structure/engine/internal/gasoline/ethanol(get_turf(H))
-						NEN.enginesize = enginesize
-						NEN.weight = 20*(NEN.enginesize/1000)
-						NEN.name = "[NEN.enginesize]cc 4-S ethanol-gasoline engine"
-						NEN.maxpower *= (NEN.enginesize/1000)
-						NEN.fuelefficiency *= (NEN.enginesize/1000)
-						H << "You finish building the engine."
-						done = FALSE
-						return
-				else
-					done = FALSE
-					return
-		else if (choice == "Diesel Engine (40 sheets per 1000 cc)")
-			enginesize = input(H, "Choose the engine size, in cc: (minimum 300, maximum 45000)") as num
-			enginesize = Clamp(enginesize, 300, 45000)
-			if ((enginesize/1000)*40 > steelamt)
-				H << "You don't have enough steel. You need [(enginesize/1000)*80] and you have [steelamt]. Try building a smaller engine."
-				return
-			else
-				H << "You start building the engine..."
-				done = TRUE
-				if (do_after(H,270,src))
-					if (done)
-						if (istype(H.l_hand, /obj/item/stack/material/steel))
-							H.l_hand.amount -= (enginesize/1000)*40
-						else if (istype(H.r_hand, /obj/item/stack/material/steel))
-							H.r_hand.amount -= (enginesize/1000)*40
-						var/obj/structure/engine/internal/diesel/NEN = new/obj/structure/engine/internal/diesel(get_turf(H))
-						NEN.enginesize = enginesize
-						NEN.weight = 20*(NEN.enginesize/1000)
-						NEN.name = "[NEN.enginesize]cc diesel engine"
-						NEN.maxpower *= (NEN.enginesize/1000)
-						NEN.fuelefficiency *= (NEN.enginesize/1000)
-						H << "You finish building the engine."
-						done = FALSE
-						return
-				else
-					done = FALSE
-					return
-		else if (choice == "Biodiesel Engine (45 sheets per 1000 cc)")
-			enginesize = input(H, "Choose the engine size, in cc: (minimum 300, maximum 45000)") as num
-			enginesize = Clamp(enginesize, 300, 45000)
-			if ((enginesize/1000)*45 > steelamt)
-				H << "You don't have enough steel. You need [(enginesize/1000)*90] and you have [steelamt]. Try building a smaller engine."
-				return
-			else
-				H << "You start building the engine..."
-				done = TRUE
-				if (do_after(H,270,src))
-					if (done)
-						if (istype(H.l_hand, /obj/item/stack/material/steel))
-							H.l_hand.amount -= (enginesize/1000)*45
-						else if (istype(H.r_hand, /obj/item/stack/material/steel))
-							H.r_hand.amount -= (enginesize/1000)*45
-						var/obj/structure/engine/internal/diesel/biodiesel/NEN = new/obj/structure/engine/internal/diesel/biodiesel(get_turf(H))
-						NEN.enginesize = enginesize
-						NEN.weight = 20*(NEN.enginesize/1000)
-						NEN.name = "[NEN.enginesize]cc biodiesel engine"
-						NEN.maxpower *= (NEN.enginesize/1000)
-						NEN.fuelefficiency *= (NEN.enginesize/1000)
-						H << "You finish building the engine."
-						done = FALSE
-						return
-				else
-					done = FALSE
-					return
-		else if (choice == "Hesselman Engine (43 sheets per 1000 cc)")
-			enginesize = input(H, "Choose the engine size, in cc: (minimum 200, maximum 55000)") as num
-			enginesize = Clamp(enginesize, 200, 55000)
-			if ((enginesize/1000)*43 > steelamt)
-				H << "You don't have enough steel. You need [(enginesize/1000)*86] and you have [steelamt]. Try building a smaller engine."
-				return
-			else
-				H << "You start building the engine..."
-				done = TRUE
-				if (do_after(H,240,src))
-					if (done)
-						if (istype(H.l_hand, /obj/item/stack/material/steel))
-							H.l_hand.amount -= (enginesize/1000)*43
-						else if (istype(H.r_hand, /obj/item/stack/material/steel))
-							H.r_hand.amount -= (enginesize/1000)*43
-						var/obj/structure/engine/internal/hesselman/NEN = new/obj/structure/engine/internal/hesselman(get_turf(H))
-						NEN.enginesize = enginesize
-						NEN.weight = 20*(NEN.enginesize/1000)
-						NEN.name = "[NEN.enginesize]cc hesselman engine"
-						NEN.maxpower *= (NEN.enginesize/1000)
-						NEN.fuelefficiency *= (NEN.enginesize/1000)
-						H << "You finish building the engine."
-						done = FALSE
-						return
-				else
-					done = FALSE
-					return
+
+			// Consume Resources
+
+			// - Steel in Hand
+			if (istype(H.l_hand, /obj/item/stack/material/steel))
+				var/obj/item/stack/material/steel/S = H.l_hand
+				var/change = min(S.amount, enginecost)
+				S.use(change)
+				enginecost -= change
+			else if (istype(H.r_hand, /obj/item/stack/material/steel))
+				var/obj/item/stack/material/steel/S = H.r_hand
+				var/change = min(S.amount, enginecost)
+				S.use(change, H)
+				enginecost -= change
+
+			// - Steel on Ground
+			for(var/obj/item/stack/material/steel/S in get_turf(src))	// When the inhand stack is consumed the floor stack is consumed entirely no matter what???
+				if(enginecost <= 0)
+					break
+				var/change = min(S.amount, enginecost)
+				S.use(change, H)
+				enginecost -= change
+
+			// Construct engine
+			to_chat(H, SPAN_NOTICE("You finish building the engine."))
+			var/obj/structure/engine/internal/I = new respath(get_turf(src))
+			I.enginesize = enginesize
+			I.weight = 20 * (enginesize/1000)
+			I.maxpower *= (enginesize/1000)
+			I.fuelefficiency *= (enginesize/1000)
+			I.name = "[enginesize]cc [I]"	//250cc 1000cc turbine wtf!??!?!?!??!?!??!?! fix

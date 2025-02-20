@@ -135,7 +135,6 @@ RECIPE: /material/iron/,syringe,/obj/item/weapon/reagent_containers/syringe,6,25
 RECIPE: /material/iron/,splints,/obj/item/stack/medical/splint,5,75,0,1,none,35,0,44,8,null
 RECIPE: /material/iron/,barbwire,/obj/item/stack/material/barbwire,4,30,1,1,none,120,0,0,8,null
 RECIPE: /material/iron/,iron shank,/obj/item/weapon/material/kitchen/utensil/knife/shank/iron,4,20,0,1,none,50,44,0,8,null
-RECIPE: /material/iron/,iron blast furnace,/obj/structure/furnace/blast_furnace,50,220,1,1,production,0,55,0,8,null
 RECIPE: /material/iron/,large drying rack,/obj/structure/drying_rack,18,120,1,1,production,0,0,16,8,null
 grinder,/obj/structure/meat_grinder,19,120,1,1,production,0,0,90,8,null
 RECIPE: /material/iron/,canner,/obj/structure/canner,26,120,1,1,production,95,0,0,8,null
@@ -218,17 +217,17 @@ RECIPE: /material/clay/,unfired very small clay pot,/obj/item/weapon/clay/verysm
 RECIPE: /material/clay/,unfired small clay pot,/obj/item/weapon/clay/smallclaypot,5,30,0,1,none,0,0,0,8,null
 RECIPE: /material/clay/,bloomery,/obj/structure/bloomery,35,150,1,1,none,26,0,0,8,null
 
-RECIPE: /material/clay/,sheet mold,/obj/item/claymold/sheet,2,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,ingot mold,/obj/item/claymold/ingot,2,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,hammer mold,/obj/item/claymold/hammer,2,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,pickaxe mold,/obj/item/claymold/pickaxe,3,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,hatchet mold,/obj/item/claymold/hatchet,2,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,shovel mold,/obj/item/claymold/shovel,3,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,tongs mold,/obj/item/claymold/tongs,2,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,anvil mold,/obj/item/claymold/anvil,6,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,knife mold,/obj/item/claymold/knife,1,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,spear mold,/obj/item/claymold/spear,1,40,0,1,molds,0,0,0,8,null
-RECIPE: /material/clay/,arrowhead mold,/obj/item/claymold/arrowhead,1,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,sheet mold,/obj/item/castingmold/sheet,2,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,ingot mold,/obj/item/castingmold/ingot,2,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,hammer mold,/obj/item/castingmold/hammer,2,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,pickaxe mold,/obj/item/castingmold/pickaxe,3,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,hatchet mold,/obj/item/castingmold/hatchet,2,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,shovel mold,/obj/item/castingmold/shovel,3,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,tongs mold,/obj/item/castingmold/tongs,2,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,anvil mold,/obj/item/castingmold/anvil,6,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,knife mold,/obj/item/castingmold/knife,1,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,spear mold,/obj/item/castingmold/spear,1,40,0,1,molds,0,0,0,8,null
+RECIPE: /material/clay/,arrowhead mold,/obj/item/castingmold/arrowhead,1,40,0,1,molds,0,0,0,8,null
 RECIPE: /material/clay/,crucible,/obj/item/heatable/crucible,4,40,0,1,molds,0,0,0,8,null
 
 RECIPE: /material/leaf/,thatch roofing,/obj/item/weapon/roofbuilder/leaves,2,45,0,1,none,0,0,0,8,null

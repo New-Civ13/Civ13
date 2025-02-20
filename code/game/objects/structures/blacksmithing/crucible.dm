@@ -2,10 +2,15 @@
 /* Crucible */
 //////////////
 
+/obj/item/heatable/crucible/steel
+	name = "\improper steel crucible"
+	icon_state = "steel-crucible"
+	itemLimit = 36
+
 /obj/item/heatable/crucible
 	name = "\improper clay crucible"
 	icon = 'icons/obj/blacksmithing.dmi'
-	icon_state = "claycrucible"
+	icon_state = "clay-crucible"
 	var/itemNum = 0
 	var/itemLimit = 24
 	var/list/contained = list()

@@ -43,7 +43,7 @@
 //If a stack is pulled over another stack, this proc is called.
 /obj/item/stack/Crossed(var/obj/item/stack/S)
 	//Checking if stack types match and if it isn't thrown to avoid scooping up stacks in flight.
-	if(istype(S, stacktype) && !S.throwing)
+	if(amount > 0 && S.amount > 0 && istype(S, stacktype) && !S.throwing)
 		merge(S)
 	. = ..()
 

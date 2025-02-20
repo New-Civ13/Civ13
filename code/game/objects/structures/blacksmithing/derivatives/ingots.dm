@@ -1,6 +1,6 @@
-//////////////////
-/* Wrought Iron */
-//////////////////
+////////////
+/* INGOTS */
+////////////
 
 // Wrought Iron
 /obj/item/heatable/ingot/wroughtiron
@@ -108,5 +108,5 @@
 	item_state = "steelingot"
 	multiplier = 1.2
 	meltingpoint = 1250
-	iconmodifier = "steelingot"
+	iconmodifier = "steel"
 	namemodifier = "steel"

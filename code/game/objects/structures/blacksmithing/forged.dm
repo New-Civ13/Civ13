@@ -63,15 +63,13 @@
 					var/obj/item/stack/S = result
 					new S(loc, count)
 				else if(ispath(result, /obj/item/heatable/ingot))
-					var/obj/item/heatable/ingot/ingot = result
-					new ingot(loc, count)
+					var/obj/item/heatable/ingot/ingtype = result
+					var/obj/item/heatable/ingot = new ingtype(loc, count)
+					ingot.temperature = temperature
+					ingot.update_icon()
 				else
 					while(count > 0)
 						var/obj/O = new result(loc)
-						if(ispath(O, /obj/item/heatable/ingot))
-							var/obj/item/heatable/ingot/ingot = O
-							ingot.temperature = temperature
-							ingot.update_icon()
 						if(istype(O, /obj/item/heatable/forged))
 							var/obj/item/heatable/forged/F = O
 							F.update_values(ingottype, temperature, matmultiplier, namemodifier, ingotvalue, iconmodifier)

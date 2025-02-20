@@ -796,7 +796,6 @@
 	icon_state = "sheet-metal"
 	default_type = "steel"
 	value = 5
-	max_amount = 2000
 	flags = CONDUCT
 
 /obj/item/stack/material/steel/New()

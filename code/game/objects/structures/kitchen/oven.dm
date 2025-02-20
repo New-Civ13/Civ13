@@ -169,6 +169,11 @@
 			contents -= I
 			qdel(I)
 
+		else if(istype(I, /obj/item/castingmold))
+			var/obj/item/castingmold/CM = I
+			CM.fired = TRUE
+			CM.update_icon()
+
 		else if (!istype(I, /obj/item/weapon/reagent_containers/food) || istype(I, /obj/item/weapon/reagent_containers/food/drinks) || istype(I, /obj/item/weapon/reagent_containers/food/snacks/badrecipe) || I.name == "Stew" || findtext(I.name, "soup") || (I.vars.Find("roasted") && I:roasted))
 			if (!istype(I, /obj/item/organ))
 				contents += new /obj/item/weapon/reagent_containers/food/snacks/badrecipe(src)

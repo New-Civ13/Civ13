@@ -2,22 +2,23 @@
 /* Clay Molds */
 ////////////////
 
-/obj/item/claymold
+/obj/item/castingmold
 	name = "\improper debug mold"
 	icon = 'icons/obj/blacksmithing.dmi'
 	icon_state = "axemold"
-	var/fired = TRUE
+	var/fired = FALSE
+	var/fireable = TRUE
 	var/obj/mold_result = /obj/item/heatable/ingot
 	var/ingot_value = 1
 	var/list/allowed_metals = list()
 	var/cool_time = 30
 	var/metal_contained = null			// Type path of material ingot as string
 
-/obj/item/claymold/New()
+/obj/item/castingmold/New()
 	..()
 	update_icon()
 
-/obj/item/claymold/attackby(obj/item/I, mob/user, params)
+/obj/item/castingmold/attackby(obj/item/I, mob/user, params)
 	if(istype(I, /obj/item/heatable/forged/tongs))
 		var/obj/item/heatable/forged/tongs/T = I
 		if(istype(T.holding, /obj/item/heatable/crucible))
@@ -25,7 +26,7 @@
 		return
 	else if(istype(I, /obj/item/heatable/crucible))
 		//-- Checks --//
-		if(!fired)
+		if(!fired && fireable)
 			to_chat(user, "<span class='notice'>\The [src] is too wet for casting.</span>")
 			return
 		if(metal_contained)
@@ -51,14 +52,14 @@
 		return
 	..()
 
-/obj/item/claymold/process()
+/obj/item/castingmold/process()
 	if(cool_time <= 0)
 		processing_objects -= src
 		return
 	cool_time--
 	update_icon()
 
-/obj/item/claymold/attack_hand(mob/living/user)
+/obj/item/castingmold/attack_hand(mob/living/user)
 	if(metal_contained)
 		if(cool_time > 0)
 			to_chat(user, "<span class='italics'>You burn your hands on \the [src].</span>")
@@ -70,7 +71,7 @@
 		return
 	..()
 
-/obj/item/claymold/proc/result()
+/obj/item/castingmold/proc/result()
 	var/new_item
 	if(ispath(mold_result, /obj/item/heatable/forged))
 		var/obj/item/heatable/ingot/I = text2path(metal_contained)
@@ -87,9 +88,9 @@
 	update_icon()
 	return new_item
 
-/obj/item/claymold/update_icon()
+/obj/item/castingmold/update_icon()
 	..()
-	if(fired)
+	if(fired && fireable)
 		icon_state = "[initial(icon_state)]-fired"
 	overlays = null
 	if(metal_contained)
@@ -98,6 +99,6 @@
 		i += rgb(400*cooled, 200*cooled*cooled, 100*cooled*cooled)
 		overlays += i
 
-/obj/item/claymold/examine(mob/user)
+/obj/item/castingmold/examine(mob/user)
 	..()
-	to_chat(user, "This claymold requires [ingot_value] ingot[(ingot_value != 1) ? "s" : ""].")
+	to_chat(user, "This mold requires [ingot_value] ingot[(ingot_value != 1) ? "s" : ""].")
