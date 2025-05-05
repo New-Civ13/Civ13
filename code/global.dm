@@ -55,6 +55,7 @@ var/max_explosion_range = 14
 //var/global/obj/item/radio/intercom/global_announcer = new(null)
 
 // "convenient" (shitcode) way to make normal windows look like nanoUI, since BYOND won't load stylesheets normally - Kachnov
+
 var/common_browser_style = {"
 <meta charset='utf-8'>
 <style>
