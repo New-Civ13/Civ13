@@ -9,7 +9,7 @@ var/list/ban_types = list("Faction Ban", "Job Ban", "Server Ban", "Playing Ban",
 /datum/quickBan_handler/Topic(href,href_list[])
 	..()
 	if (href_list["quickBan_removeBan"])
-		var/client/caller = locate(href_list["caller"])
+		var/client/gather = locate(href_list["gather"])
 		var/UID = href_list["quickBan_removeBan_UID"]
 		var/ckey = href_list["quickBan_removeBan_ckey"]
 		var/cID = href_list["quickBan_removeBan_cID"]

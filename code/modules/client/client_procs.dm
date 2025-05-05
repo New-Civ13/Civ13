@@ -51,7 +51,7 @@
 		if (UID)
 			var/confirm = input("Are you sure you want to remove the ban with the UID '[UID]' ?") in list("Yes", "No")
 			if (confirm == "Yes")
-				var/client/caller = locate(href_list["caller"])
+				var/client/gather = locate(href_list["gather"])
 				var/ckey = href_list["quickBan_removeBan_ckey"]
 				var/cID = href_list["quickBan_removeBan_cID"]
 				var/ip = href_list["quickBan_removeBan_ip"]

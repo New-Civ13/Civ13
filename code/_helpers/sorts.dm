@@ -386,7 +386,7 @@
 
 		outer:
 			while(1)
-				var/count1 = 0	//# of times in a row that first run won
+				var/coun = 0	//# of times in a row that first run won
 				var/count2 = 0	//	"	"	"	"	"	"  second run won
 
 				//do the straightfoward thin until one run starts winning consistently
@@ -398,20 +398,20 @@
 						--len2
 
 						++count2
-						count1 = 0
+						coun = 0
 
 						if(len2 == 0)
 							break outer
 					else
 						++cursor1
 
-						++count1
+						++coun
 						count2 = 0
 
 						if(--len1 == 1)
 							break outer
 
-				while((count1 | count2) < minGallop)
+				while((coun | count2) < minGallop)
 
 
 				//one run is winning consistently so galloping may provide huge benifits
@@ -419,10 +419,10 @@
 				do
 					//ASSERT(len1 > 1 && len2 > 0)
 
-					count1 = gallopRight(fetchElement(L,cursor2), cursor1, len1, 0)
-					if(count1)
-						cursor1 += count1
-						len1 -= count1
+					coun = gallopRight(fetchElement(L,cursor2), cursor1, len1, 0)
+					if(coun)
+						cursor1 += coun
+						len1 -= coun
 
 						if(len1 <= 1)
 							break outer
@@ -450,7 +450,7 @@
 
 					--minGallop
 
-				while((count1|count2) > MIN_GALLOP)
+				while((coun|count2) > MIN_GALLOP)
 
 				if(minGallop < 0)
 					minGallop = 0
@@ -486,7 +486,7 @@
 
 		outer:
 			while(1)
-				var/count1 = 0	//# of times in a row that first run won
+				var/coun = 0	//# of times in a row that first run won
 				var/count2 = 0	//	"	"	"	"	"	"  second run won
 
 				//do the straightfoward thing until one run starts winning consistently
@@ -496,7 +496,7 @@
 						moveElement(L, cursor1--, cursor2-- + 1)
 						--len1
 
-						++count1
+						++coun
 						count2 = 0
 
 						if(len1 == 0)
@@ -506,25 +506,25 @@
 						--len2
 
 						++count2
-						count1 = 0
+						coun = 0
 
 						if(len2 == 1)
 							break outer
-				while((count1 | count2) < minGallop)
+				while((coun | count2) < minGallop)
 
 				//one run is winning consistently so galloping may provide huge benifits
 				//so try galloping, until such time as the run is no longer consistently winning
 				do
 					//ASSERT(len1 > 0 && len2 > 1)
 
-					count1 = len1 - gallopRight(fetchElement(L,cursor2), base1, len1, len1-1)	//should cursor1 be base1?
-					if(count1)
-						cursor1 -= count1
+					coun = len1 - gallopRight(fetchElement(L,cursor2), base1, len1, len1-1)	//should cursor1 be base1?
+					if(coun)
+						cursor1 -= coun
 
-						moveRange(L, cursor1+1, cursor2+1, count1)	//cursor1+1 == cursor2 by definition
+						moveRange(L, cursor1+1, cursor2+1, coun)	//cursor1+1 == cursor2 by definition
 
-						cursor2 -= count1
-						len1 -= count1
+						cursor2 -= coun
+						len1 -= coun
 
 						if(len1 == 0)
 							break outer
@@ -549,7 +549,7 @@
 						break outer
 
 					--minGallop
-				while((count1|count2) > MIN_GALLOP)
+				while((coun|count2) > MIN_GALLOP)
 
 				if(minGallop < 0)
 					minGallop = 0

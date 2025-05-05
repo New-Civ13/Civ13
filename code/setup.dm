@@ -79,7 +79,7 @@
 
 	for (var/i in all_craft_lists)
 		var/current_list = "global"
-		var/F3 = file("config/crafting/[i]")
+		var/F3 = file("config//[i]")
 		current_list = replacetext(i,"material_recipes_","")
 		current_list = replacetext(current_list,".txt","")
 		if (fexists(F3) && findtext(i,"material_recipes"))
