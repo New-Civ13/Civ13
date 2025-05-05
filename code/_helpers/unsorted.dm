@@ -223,7 +223,7 @@ Turf and target are seperate in case you want to teleport some distance from a t
 			return TRUE
 	return FALSE
 
-/proc/sign(x)
+/proc/_sign(x)
 	return x!=0?x/abs(x):0
 
 //Ultra-Fast Bresenham Line-Drawing Algorithm

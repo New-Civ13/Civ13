@@ -551,7 +551,7 @@
 	if (href_list["mach_close"])
 		var/t1 = text("window=[href_list["mach_close"]]")
 		unset_using_object()
-		src << browse(null, t1)
+		src << browse(t1)
 
 	if (href_list["flavor_more"])
 		if (src in view(usr))

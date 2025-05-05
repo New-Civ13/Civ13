@@ -9,7 +9,7 @@ var/list/ban_types = list("Faction Ban", "Job Ban", "Server Ban", "Playing Ban",
 /datum/quickBan_handler/Topic(href,href_list[])
 	..()
 	if (href_list["quickBan_removeBan"])
-		var/client/caller = locate(href_list["caller"])
+		var/client/gather = locate(href_list["gather"])
 		var/UID = href_list["quickBan_removeBan_UID"]
 		var/ckey = href_list["quickBan_removeBan_ckey"]
 		var/cID = href_list["quickBan_removeBan_cID"]
@@ -33,8 +33,8 @@ var/list/ban_types = list("Faction Ban", "Job Ban", "Server Ban", "Playing Ban",
 							for(var/L in details_lines)
 								text2file("[L]|||", bans_file)
 
-			log_admin("[key_name(caller)] removed a ban for '[UID]/[ckey]/[cID]/[ip]'.")
-			message_admins("[key_name(caller)] removed a ban for '[UID]/[ckey]/[cID]/[ip]'.", key_name(caller))
+			log_admin("[key_name(gather)] removed a ban for '[UID]/[ckey]/[cID]/[ip]'.")
+			message_admins("[key_name(gather)] removed a ban for '[UID]/[ckey]/[cID]/[ip]'.", key_name(gather))
 			for (var/client/C in clients)
 				if (C.ckey == ckey)
 					C << "<span class = 'good'>href_list["Your ban has been lifted."]</span>"
@@ -90,7 +90,7 @@ var/datum/quickBan_handler/quickBan_handler = null
 	var/list/possibilities = list()
 	if (islist(result) && !isemptylist(result))
 		for (var/list/v in result)
-			possibilities += "<big><b>UID [v[3]]</b> (<a href='byond://?src=\ref[quickBan_handler];caller=\ref[src];quickBan_removeBan=1;quickBan_removeBan_UID=[v[3]];quickBan_removeBan_ckey=[v[9]];quickBan_removeBan_cID=[v[10]];quickBan_removeBan_ip=[v[11]]'>DELETE</a>)</big>: [v[9]]/[v[10]]/[v[11]], type '[v[1]]' ([v[2]]): banned for '[v[4]]' by [v[5]] on [v[6]]. <b>[v[8]]</b>. (After assigned date)"
+			possibilities += "<big><b>UID [v[3]]</b> (<a href='byond://?src=\ref[quickBan_handler];gather=\ref[src];quickBan_removeBan=1;quickBan_removeBan_UID=[v[3]];quickBan_removeBan_ckey=[v[9]];quickBan_removeBan_cID=[v[10]];quickBan_removeBan_ip=[v[11]]'>DELETE</a>)</big>: [v[9]]/[v[10]]/[v[11]], type '[v[1]]' ([v[2]]): banned for '[v[4]]' by [v[5]] on [v[6]]. <b>[v[8]]</b>. (After assigned date)"
 	for (var/possibility in possibilities)
 		html += "<br>"
 		html += possibility

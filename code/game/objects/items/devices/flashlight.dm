@@ -233,7 +233,7 @@
 	desc = "A signal flare for signalling spot to aircraft above. There are instructions on the side reading 'pull cord, make light'. Lasts for about 2 minutes."
 	icon_state = "flareW"
 	flame_base_tint = "#07d800"
-	var/mob/living/human/caller = null
+	var/mob/living/human/gather = null
 
 	var/attack_direction = "NORTH"
 	var/list/attack_direction_list = list("NORTH", "EAST", "SOUTH", "WEST")
@@ -263,7 +263,7 @@
 
 	// All good, turn it on.
 	if(src)
-		caller = H
+		gather = H
 		user.visible_message(SPAN_NOTICE("[user] activates the flare."), SPAN_NOTICE("You pull the cord on the flare, activating it!"))
 		playsound(src, turn_on_sound, 75, TRUE)
 		turn_on()
@@ -317,7 +317,7 @@
 	payload = payload_list[1]
 	attack_direction = pick(attack_direction_list)
 
-	T.try_airstrike(caller.ckey, caller.faction_text, get_faction_aircraft(caller), attack_direction, payload, get_payload_class())
+	T.try_airstrike(usr.ckey, gather.faction_text, get_faction_aircraft(gather), attack_direction, payload, get_payload_class())
 	sleep(50)
 	qdel(src)
 
