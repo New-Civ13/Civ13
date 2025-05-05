@@ -71,8 +71,8 @@
 								fdel(bans_file)
 								for(var/L in details_lines)
 									text2file("[L]|||", bans_file)
-					log_admin("[key_name(caller)] removed a ban for '[UID]/[ckey]/[cID]/[ip]'.")
-					message_admins("[key_name(caller)] removed a ban for '[UID]/[ckey]/[cID]/[ip]'.", key_name(caller))
+					log_admin("[key_name(gather)] removed a ban for '[UID]/[ckey]/[cID]/[ip]'.")
+					message_admins("[key_name(gather)] removed a ban for '[UID]/[ckey]/[cID]/[ip]'.", key_name(gather))
 					for (var/client/C in clients)
 						if (C.ckey == ckey)
 							C << "<span class = 'good'>href_list["Your ban has been lifted."]</span>"
