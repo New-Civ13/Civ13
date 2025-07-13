@@ -1,514 +1,10061 @@
-"aa" = (/turf/floor/beach/water/deep/saltwater,/area/caribbean/sea/sea)
-"ab" = (/turf/floor/grass,/area/caribbean/island)
-"ac" = (/obj/structure/closet/hideout/beach,/turf/floor/grass,/area/caribbean/island)
-"ad" = (/turf/floor/beach/water/shallowsaltwater,/area/caribbean/pirates/land/outside)
-"ae" = (/obj/structure/wild/palm,/turf/floor/grass,/area/caribbean/island)
-"af" = (/obj/item/weapon/material/thrown/tomahawk,/obj/item/weapon/material/thrown/tomahawk,/obj/item/weapon/material/thrown/tomahawk,/obj/item/weapon/material/thrown/tomahawk,/obj/item/weapon/material/thrown/tomahawk,/obj/item/weapon/material/thrown/tomahawk,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"ag" = (/obj/structure/wild/palm,/obj/structure/wild/burnedtree,/turf/floor/grass,/area/caribbean/island)
-"ah" = (/turf/floor/beach/water/shallowsaltwater,/area/caribbean/sea/shallow)
-"ai" = (/obj/structure/wild/bush,/turf/floor/grass,/area/caribbean/island)
-"aj" = (/obj/structure/closet/cabinet{anchored = 1; desc = "Something looks strange in this bush..."; icon = 'icons/obj/flora/wild.dmi'; icon_closed = "small_bush"; icon_opened = "small_bush"; icon_state = "small_bush"; name = "weird bush"; opened = 1},/turf/floor/dirt,/area/caribbean/no_mans_land/invisible_wall)
-"ak" = (/turf/floor/dirt,/area/caribbean/island)
-"al" = (/obj/structure/sink/puddle,/turf/floor/grass,/area/caribbean/island)
-"am" = (/obj/structure/wild/junglebush,/turf/floor/grass,/area/caribbean/island)
-"an" = (/turf/floor/beach/sand,/area/caribbean/pirates/land/outside)
-"ao" = (/turf/floor/beach/sand,/area/caribbean/island)
-"ap" = (/obj/item/weapon/reagent_containers/food/snacks/grown/coconut,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"aq" = (/obj/structure/wild/tree/anchored,/turf/floor/grass,/area/caribbean/island)
-"ar" = (/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"as" = (/turf/floor/beach/water/shallowsaltwater,/area/caribbean/no_mans_land/invisible_wall)
-"at" = (/obj/structure/wild/palm,/turf/floor/beach/sand,/area/caribbean/pirates/land/outside)
-"au" = (/obj/structure/grille/fence,/turf/floor/grass,/area/caribbean/island)
-"av" = (/mob/living/simple_animal/chicken,/turf/floor/grass,/area/caribbean/island)
-"aw" = (/obj/structure/table/wood,/obj/item/weapon/attachment/scope/adjustable/binoculars,/turf/floor/grass,/area/caribbean/island)
-"ax" = (/turf/floor/dirt/dust,/area/caribbean/island)
-"ay" = (/obj/structure/grille/logfence{dir = 4; icon_state = "palisade"},/turf/floor/beach/sand,/area/caribbean/island)
-"az" = (/obj/structure/wild/rock,/turf/floor/dirt/dust,/area/caribbean/island)
-"aA" = (/obj/structure/wild/burnedtree,/turf/floor/dirt,/area/caribbean/island)
-"aB" = (/obj/structure/grille/logfence,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"aC" = (/obj/structure/grille/logfence,/turf/floor/beach/sand,/area/caribbean/pirates/land/outside)
-"aD" = (/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"aE" = (/obj/item/weapon/gun/projectile/bow,/obj/item/weapon/gun/projectile/bow,/obj/item/weapon/gun/projectile/bow,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"aF" = (/turf/floor/beach/sand,/area/caribbean/indians/camp)
-"aG" = (/obj/structure/grille/logfence{dir = 4; icon_state = "palisade"},/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"aH" = (/mob/living/simple_animal/chick,/turf/floor/grass,/area/caribbean/island)
-"aI" = (/turf/floor/dirt,/area/caribbean/indians/camp)
-"aJ" = (/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"aK" = (/obj/structure/wild/palm,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"aL" = (/obj/structure/wild/bush,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"aM" = (/obj/item/flashlight/lantern/on,/turf/floor/grass,/area/caribbean/island)
-"aN" = (/obj/structure/wild/bush,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"aO" = (/obj/item/weapon/handcuffs/rope,/obj/item/weapon/handcuffs/rope,/obj/item/weapon/handcuffs/rope,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"aP" = (/obj/structure/grille/logfence{dir = 4; icon_state = "palisade"},/turf/floor/beach/sand,/area/caribbean/pirates/land/outside)
-"aQ" = (/obj/structure/simple_door/wood{name = "Animal Pen"},/turf/floor/grass,/area/caribbean/island)
-"aR" = (/obj/structure/table/wood,/obj/item/weapon/material/kitchen/utensil/knife/butcher,/obj/item/weapon/material/kitchen/utensil/knife/butcher,/obj/item/weapon/key/tribal,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"aS" = (/obj/item/weapon/material/spear,/obj/item/weapon/material/spear,/obj/item/weapon/material/spear,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"aT" = (/obj/item/weapon/material/spear,/obj/item/weapon/material/spear,/obj/item/weapon/material/spear,/obj/item/weapon/material/spear,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"aU" = (/obj/item/ammo_casing/arrow/stone,/obj/item/ammo_casing/arrow/stone,/obj/item/ammo_casing/arrow/stone,/obj/item/ammo_casing/arrow/stone,/obj/item/ammo_casing/arrow/stone,/obj/item/ammo_casing/arrow/stone,/obj/item/ammo_casing/arrow/stone,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"aV" = (/obj/item/flashlight/torch/on/unlimited,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"aW" = (/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"aX" = (/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"aY" = (/obj/structure/wild/palm,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"aZ" = (/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"ba" = (/obj/item/flashlight/torch/on/unlimited,/obj/structure/religious/tribalmask{layer = 4},/turf/wall/old_stone,/area/caribbean/indians/camp)
-"bb" = (/obj/item/weapon/barrier,/obj/item/weapon/barrier,/obj/item/weapon/barrier,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"bc" = (/obj/structure/wild/junglebush,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"bd" = (/obj/structure/grille/logfence,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"be" = (/obj/item/weapon/material/hatchet/tribal,/obj/item/weapon/material/hatchet/tribal,/obj/item/weapon/material/hatchet/tribal,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"bf" = (/obj/item/weapon/barrier,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"bg" = (/mob/living/simple_animal/parrot{name = "Captain Crackers"},/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"bh" = (/obj/effect/landmark{name = "JoinLatePirateQM"},/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"bi" = (/turf/floor/beach/water/shallowsaltwater,/area/caribbean/indians/camp)
-"bj" = (/obj/item/weapon/handcuffs/rope,/obj/item/weapon/handcuffs/rope,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"bk" = (/obj/structure/wild/palm,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"bl" = (/obj/item/weapon/reagent_containers/food/snacks/grown/coconut,/turf/floor/grass,/area/caribbean/island)
-"bm" = (/obj/structure/potted_plant,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"bn" = (/obj/effect/landmark{name = "JoinLatePirateBoatswain"},/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"bo" = (/obj/structure/potted_plant{dir = 10; icon_state = "potted_plant"},/turf/floor/wood,/area/caribbean/houses/nml_one)
-"bp" = (/obj/item/stack/material/rope,/turf/floor/grass,/area/caribbean/british/land/outside)
-"bq" = (/obj/structure/wild/largejungle,/turf/floor/dirt,/area/caribbean/indians/camp)
-"br" = (/turf/floor/grass,/area/caribbean/indians/camp)
-"bs" = (/turf/floor/beach/water/deep/saltwater,/area/caribbean/sea/shallow)
-"bt" = (/obj/structure/bed/chair/wood/red{dir = 4},/obj/effect/floor_decal/spline/fancy/wood{dir = 8},/obj/effect/landmark{name = "JoinLateRNCap"},/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"bu" = (/obj/effect/landmark{icon_state = "x3"; name = "JoinLateIND"},/turf/floor/grass,/area/caribbean/indians/camp)
-"bv" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 4},/obj/effect/landmark{name = "JoinLateRNQM"},/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"bw" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 4},/obj/effect/landmark{name = "JoinLateRNBoatswain"},/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"bx" = (/obj/effect/landmark{name = "JoinLatePirateSurgeon"},/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"by" = (/obj/item/stack/medical/advanced/herbs,/obj/item/stack/medical/advanced/herbs,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"bz" = (/obj/structure/wild/junglebush,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"bA" = (/obj/structure/potted_plant{dir = 1; icon_state = "potted_plant"},/turf/floor/wood_broken,/area/caribbean/houses/nml_one)
-"bB" = (/obj/item/stack/medical/advanced/herbs,/turf/floor/grass,/area/caribbean/indians/camp)
-"bC" = (/obj/structure/wallclock,/turf/floor/wood,/area/caribbean/british/land/inside)
-"bD" = (/obj/effect/landmark{icon_state = "x3"; name = "JoinLateIND"},/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"bE" = (/obj/effect/landmark{name = "JoinLatePirateMidshipman"},/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"bF" = (/obj/structure/wild/palm,/turf/floor/grass,/area/caribbean/indians/camp)
-"bG" = (/obj/effect/landmark{icon_state = "x3"; name = "JoinLateIND"},/obj/structure/bed/bedroll,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"bH" = (/obj/structure/sink/puddle,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"bI" = (/obj/structure/wild/bush,/turf/floor/dirt,/area/caribbean/island)
-"bJ" = (/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/obj/item/weapon/punji_sticks,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"bK" = (/obj/effect/landmark{name = "JoinLatePirateCarpenter"},/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"bL" = (/obj/structure/potted_plant{dir = 1; icon_state = "potted_plant"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"bM" = (/obj/structure/wallclock,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"bN" = (/obj/structure/potted_plant{dir = 4; icon_state = "potted_plant"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"bO" = (/obj/structure/potted_plant,/turf/floor/wood,/area/caribbean/british/land/inside)
-"bP" = (/obj/item/flashlight/torch/on/unlimited,/turf/floor/grass,/area/caribbean/indians/camp)
-"bQ" = (/obj/structure/closet/hideout/beach,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"bR" = (/obj/structure/wild/bush,/turf/floor/dirt,/area/caribbean/indians/camp)
-"bS" = (/obj/structure/wild/bush/big{name = "large bush"},/turf/floor/grass,/area/caribbean/island)
-"bT" = (/obj/structure/closet/crate/wood,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"bU" = (/obj/structure/bed/bedroll,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"bV" = (/obj/structure/religious/totem,/turf/floor/plating/stone_old,/area/caribbean/indians/camp)
-"bW" = (/obj/effect/landmark{icon_state = "x3"; name = "JoinLateIND"},/obj/structure/bed/bedroll,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"bX" = (/turf/floor/plating/stone_old,/area/caribbean/indians/camp)
-"bY" = (/turf/floor/dirt,/area/caribbean/no_mans_land/invisible_wall)
-"bZ" = (/turf/floor/beach/water/shallowsaltwater,/area/caribbean/island)
-"ca" = (/turf/floor/beach/water/deep/saltwater,/area/caribbean/no_mans_land/invisible_wall)
-"cb" = (/obj/structure/wild/largejungle,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"cc" = (/obj/structure/wild,/turf/floor/grass,/area/caribbean/island)
-"cd" = (/obj/structure/wild/rock,/turf/floor/grass,/area/caribbean/island)
-"ce" = (/turf/floor/beach/sand,/area/caribbean/sea/shallow)
-"cf" = (/obj/structure/barricade/ship/wood/a4,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"cg" = (/obj/structure/barricade/ship/wood/a7,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"ch" = (/obj/structure/barricade/ship/wood/a8,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"ci" = (/obj/structure/bed/bedroll,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"cj" = (/obj/effect/landmark{name = "Observer-Start"},/turf/floor/beach/water/deep/saltwater,/area/caribbean/no_mans_land/invisible_wall)
-"ck" = (/obj/effect/landmark{icon_state = "x3"; name = "JoinLateIND"},/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"cl" = (/obj/structure/wild/rock,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"cm" = (/obj/structure/wild/junglebush,/turf/floor/dirt,/area/caribbean/island)
-"cn" = (/obj/effect/landmark{name = "JoinLatePirate"},/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"co" = (/obj/structure/barricade/ship/wood/a7,/turf/floor/beach/water/deep/saltwater,/area/caribbean/british/ship{name = "British Ship"})
-"cp" = (/obj/structure/barricade/ship/wood/a9,/turf/floor/beach/water/deep/saltwater,/area/caribbean/british/ship{name = "British Ship"})
-"cq" = (/obj/structure/barricade/ship/wood/a3,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"cr" = (/obj/structure/closet/crate/musketball_pistol,/obj/effect/floor_decal/spline/fancy/wood{dir = 9},/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"cs" = (/obj/item/flashlight/lantern/on/anchored,/obj/effect/floor_decal/spline/fancy/wood{dir = 1},/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"ct" = (/obj/structure/bookcase,/obj/effect/floor_decal/spline/fancy/wood{dir = 5},/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"cu" = (/obj/structure/barricade/ship/wood/a2,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"cv" = (/obj/structure/barricade/ship/wood/a12,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"cw" = (/obj/item/weapon/material/kitchen/utensil/knife/hook,/obj/item/flashlight/lantern/on/anchored,/turf/floor/wood,/area/caribbean/british/land/inside)
-"cx" = (/obj/effect/landmark{name = "JoinLatePirateCap"},/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"cy" = (/obj/structure/multiz/stairs{dir = 8},/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"cz" = (/obj/effect/landmark{name = "JoinLatePirate"},/obj/effect/decal/cleanable/blood/drip,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"cA" = (/obj/effect/decal/cleanable/blood,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"cB" = (/obj/structure/bed/chair/wood/red{dir = 4},/obj/effect/floor_decal/spline/fancy/wood{dir = 8},/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"cC" = (/obj/structure/table/marble,/obj/item/weapon/book,/obj/item/weapon/pen,/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"cD" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 4},/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"cE" = (/obj/structure/table/marble,/obj/item/weapon/flame/candle,/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"cF" = (/obj/structure/barricade/ship/wood/a5,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"cG" = (/obj/structure/simple_door/key_door/anyone/wood,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"cH" = (/mob/living/simple_animal/parrot,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"cI" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 8},/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"cJ" = (/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"cK" = (/obj/structure/toilet/pit_latrine,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"cL" = (/obj/structure/barricade/ship/wood/a6,/turf/floor/beach/water/deep/saltwater,/area/caribbean/british/ship{name = "British Ship"})
-"cM" = (/obj/structure/closet/crate/empty,/obj/item/weapon/gun/projectile/flintlock/pistol,/obj/item/weapon/gun/projectile/flintlock/pistol,/obj/item/weapon/gun/projectile/flintlock/pistol,/obj/effect/floor_decal/spline/fancy/wood{dir = 10},/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"cN" = (/obj/item/flashlight/lantern/on/anchored,/obj/effect/floor_decal/spline/fancy/wood,/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"cO" = (/obj/structure/closet/cabinet,/obj/item/clothing/head/powdered_wig,/obj/item/clothing/head/powdered_wig,/obj/effect/floor_decal/spline/fancy/wood{dir = 6},/turf/floor/carpet,/area/caribbean/british/ship{name = "British Ship"})
-"cP" = (/obj/structure/barricade/ship/blue/b18,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"cQ" = (/obj/structure/barricade/ship/wood/a6,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"cR" = (/obj/structure/barricade/ship/blue/b19,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"cS" = (/obj/structure/wild/burnedbush,/turf/floor/grass,/area/caribbean/island)
-"cT" = (/obj/structure/wild/tree,/turf/floor/grass,/area/caribbean/island)
-"cU" = (/obj/structure/wild/bush/big,/turf/floor/grass,/area/caribbean/island)
-"cV" = (/obj/effect/landmark{name = "Observer-Start"},/turf/floor/grass,/area/caribbean/island)
-"cW" = (/obj/structure/wild/burnedtree,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"cX" = (/obj/structure/closet/coffin,/turf/floor/grass,/area/caribbean/island)
-"cY" = (/obj/structure/barricade/ship/blue/b17,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"cZ" = (/obj/structure/wild/junglebush,/turf/floor/beach/sand,/area/caribbean/island)
-"da" = (/obj/structure/wild/burnedtree,/turf/floor/grass,/area/caribbean/island)
-"db" = (/obj/structure/wild/palm,/turf/floor/beach/sand,/area/caribbean/island)
-"dc" = (/obj/structure/barricade/ship/blue/b9,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"dd" = (/obj/structure/grille/fence,/obj/structure/grille/fence{dir = 4},/turf/floor/grass,/area/caribbean/island)
-"de" = (/obj/structure/grille/fence{dir = 4},/turf/floor/grass,/area/caribbean/island)
-"df" = (/obj/structure/barricade/ship/blue/b8,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"dg" = (/obj/structure/bed/wood,/turf/floor/plating/stone_old,/area/caribbean/pirates/land/outside)
-"dh" = (/obj/item/weapon/reagent_containers/food/snacks/meat/human,/obj/item/weapon/reagent_containers/food/snacks/meat/human,/obj/item/weapon/reagent_containers/food/snacks/meat/human,/obj/item/weapon/reagent_containers/food/snacks/meat/human,/obj/item/weapon/reagent_containers/food/snacks/meat/human,/obj/structure/closet/crate/empty{name = "meat crate"},/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"di" = (/obj/structure/table/wood,/obj/item/kitchen/wood_bowl,/obj/item/kitchen/wood_bowl,/obj/item/kitchen/wood_bowl,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"dj" = (/obj/effect/landmark{name = "JoinLatePirateCook"},/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"dk" = (/obj/effect/landmark{name = "JoinLatePirateMidshipman"},/obj/structure/bed/bedroll,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"dl" = (/obj/structure/barricade/ship/blue/b10,/turf/floor/beach/water/deep/saltwater,/area/caribbean/british/ship{name = "British Ship"})
-"dm" = (/turf/floor/plating/cobblestone/vertical/dark,/area/caribbean/island)
-"dn" = (/obj/structure/wild/junglebush,/turf/floor/plating/stone_old,/area/caribbean/indians/camp)
-"do" = (/obj/structure/wild/tree/anchored,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"dp" = (/obj/effect/landmark{name = "JoinLatePirateMidshipman"},/obj/structure/bed/bedroll,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"dq" = (/obj/structure/wild/bush/big{name = "large bush"},/turf/floor/beach/sand,/area/caribbean/no_mans_land/invisible_wall)
-"dr" = (/obj/item/weapon/reagent_containers/food/snacks/grown/coconut,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"ds" = (/obj/structure/wild/tree,/turf/floor/dirt,/area/caribbean/island)
-"dt" = (/turf/floor/beach/sand,/area/caribbean/no_mans_land/invisible_wall)
-"du" = (/obj/structure/table/wood,/obj/item/kitchen/wood_bowl,/obj/item/kitchen/wood_bowl,/obj/item/kitchen/wood_bowl,/obj/item/flashlight/torch,/obj/item/flashlight/torch,/obj/item/flashlight/torch,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"dv" = (/obj/structure/closet/hideout/beach,/turf/floor/dirt,/area/caribbean/island)
-"dw" = (/obj/map_metadata/supply_raid,/turf/floor/beach/water/deep/saltwater,/area/caribbean/sea/sea)
-"dx" = (/mob/living/simple_animal/monkey,/turf/floor/grass,/area/caribbean/island)
-"dy" = (/mob/living/simple_animal/mouse/brown,/turf/floor/grass,/area/caribbean/island)
-"dz" = (/obj/structure/wild/bush,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"dA" = (/obj/structure/wild/tree,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"dB" = (/obj/structure/wild/junglebush,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"dC" = (/obj/structure/pot,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"dD" = (/obj/item/weapon/reagent_containers/food/snacks/grown/coconut,/turf/floor/dirt,/area/caribbean/island)
-"dE" = (/obj/structure/wild/bush/big{name = "large bush"},/turf/floor/dirt,/area/caribbean/island)
-"dF" = (/obj/structure/window/barrier{dir = 1},/obj/structure/window/barrier{dir = 8},/turf/floor/dirt,/area/caribbean/island)
-"dG" = (/obj/structure/window/barrier{dir = 1},/turf/floor/dirt,/area/caribbean/island)
-"dH" = (/obj/structure/window/barrier{dir = 8},/turf/floor/dirt,/area/caribbean/island)
-"dI" = (/obj/item/weapon/barrier,/turf/floor/beach/sand,/area/caribbean/island)
-"dJ" = (/obj/item/flashlight/lantern/on/anchored,/obj/structure/barricade,/turf/floor/grass,/area/caribbean/island)
-"dK" = (/turf/wall/wood,/area/caribbean/houses/nml_one)
-"dL" = (/obj/structure/window/classic,/obj/structure/curtain/open/bed,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"dM" = (/obj/structure/bed,/obj/item/weapon/bedsheet/brown,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"dN" = (/turf/floor/wood,/area/caribbean/houses/nml_one)
-"dO" = (/obj/structure/oven,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"dP" = (/obj/structure/table/wood,/obj/item/weapon/material/kitchen/utensil/knife,/turf/floor/wood_broken,/area/caribbean/houses/nml_one)
-"dQ" = (/obj/structure/bed/chair/wood{dir = 8},/turf/floor/wood,/area/caribbean/houses/nml_one)
-"dR" = (/obj/structure/bed,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"dS" = (/turf/floor/wood_broken,/area/caribbean/houses/nml_one)
-"dT" = (/obj/structure/bed,/obj/item/weapon/bedsheet/orange,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"dU" = (/obj/structure/closet/cabinet,/obj/item/weapon/reagent_containers/food/drinks/bottle/rum,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"dV" = (/obj/structure/bed/chair/wood{dir = 1},/turf/floor/wood,/area/caribbean/houses/nml_one)
-"dW" = (/obj/structure/table/wood,/obj/item/trash/candle,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"dX" = (/turf/floor/dirt,/area/caribbean/british/land/outside)
-"dY" = (/turf/floor/grass,/area/caribbean/british/land/outside)
-"dZ" = (/obj/structure/wild/junglebush,/turf/floor/dirt,/area/caribbean/british/land/outside)
-"ea" = (/obj/item/flashlight/lantern/on/anchored,/turf/wall/wood,/area/caribbean/houses/nml_one)
-"eb" = (/obj/structure/simple_door/wood{name = "House"},/turf/floor/wood,/area/caribbean/houses/nml_one)
-"ec" = (/obj/item/weapon/barrier,/obj/item/weapon/barrier,/obj/item/weapon/barrier,/turf/floor/grass,/area/caribbean/british/land/outside)
-"ed" = (/obj/item/weapon/barrier,/obj/item/weapon/barrier,/turf/floor/grass,/area/caribbean/british/land/outside)
-"ee" = (/obj/item/weapon/barrier,/turf/floor/grass,/area/caribbean/british/land/outside)
-"ef" = (/obj/item/weapon/material/shovel,/obj/item/weapon/material/shovel,/turf/floor/grass,/area/caribbean/british/land/outside)
-"eg" = (/turf/wall/wood,/area/caribbean/british/land/inside)
-"eh" = (/obj/structure/window/classic,/obj/structure/curtain/open/bed,/turf/floor/wood,/area/caribbean/british/land/inside)
-"ei" = (/obj/structure/wild/burnedtree,/turf/floor/dirt,/area/caribbean/british/land/outside)
-"ej" = (/obj/structure/table/wood,/obj/item/weapon/flame/candle,/obj/item/flashlight/lantern/on/anchored,/turf/floor/wood,/area/caribbean/british/land/inside)
-"ek" = (/turf/floor/wood,/area/caribbean/british/land/inside)
-"el" = (/obj/item/weapon/reagent_containers/glass/barrel/rum,/turf/floor/wood,/area/caribbean/british/land/inside)
-"em" = (/obj/item/weapon/reagent_containers/glass/barrel/water,/turf/floor/wood,/area/caribbean/british/land/inside)
-"en" = (/obj/item/flashlight/lantern/on/anchored,/turf/wall/wood,/area/caribbean/british/land/inside)
-"eo" = (/obj/structure/wild/burnedbush,/obj/structure/window/barrier{dir = 8},/turf/floor/dirt,/area/caribbean/island)
-"ep" = (/turf/floor/plating/cobblestone/vertical/dark,/area/caribbean/british/land/outside)
-"eq" = (/obj/structure/wild/junglebush,/turf/floor/grass,/area/caribbean/indians/camp)
-"er" = (/turf/floor/wood_broken,/area/caribbean/british/land/inside)
-"es" = (/obj/structure/simple_door/wood{name = "Granary"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"et" = (/obj/structure/bed/chair/wood{dir = 4},/turf/floor/wood,/area/caribbean/houses/nml_one)
-"eu" = (/obj/structure/table/wood,/obj/item/kitchen/snack_bowl,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"ev" = (/obj/item/weapon/bedsheet/medical,/obj/structure/bed,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"ew" = (/obj/effect/landmark{name = "JoinLateRNSurgeon"},/turf/floor/wood,/area/caribbean/houses/nml_one)
-"ex" = (/obj/effect/decal/cleanable/ash,/obj/structure/window/barrier{dir = 8},/turf/floor/dirt,/area/caribbean/island)
-"ey" = (/obj/structure/wild/burnedbush,/turf/floor/dirt,/area/caribbean/british/land/outside)
-"ez" = (/obj/item/weapon/reagent_containers/glass/barrel/gunpowder,/turf/floor/wood,/area/caribbean/british/land/inside)
-"eA" = (/obj/item/weapon/material/sword/spadroon,/obj/item/weapon/material/sword/spadroon,/obj/item/weapon/material/sword/spadroon,/obj/item/weapon/material/sword/spadroon,/obj/item/weapon/material/sword/spadroon,/obj/structure/closet/crate/empty{name = "spadroon crate"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"eB" = (/obj/structure/closet/crate/wood,/turf/floor/wood,/area/caribbean/british/land/inside)
-"eC" = (/obj/item/flashlight/lantern,/turf/floor/grass,/area/caribbean/british/land/outside)
-"eD" = (/obj/item/weapon/reagent_containers/food/snacks/grown/potato,/obj/item/weapon/reagent_containers/food/snacks/grown/potato,/obj/item/weapon/reagent_containers/food/snacks/grown/carrot,/obj/item/weapon/reagent_containers/food/snacks/grown/carrot,/obj/item/weapon/reagent_containers/food/snacks/grown/cabbage,/obj/item/weapon/reagent_containers/food/snacks/grown/cabbage,/obj/item/weapon/reagent_containers/food/snacks/grown/beans,/obj/item/weapon/reagent_containers/food/snacks/grown/beans,/obj/structure/closet/crate/empty{name = "vegetables crate"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"eE" = (/obj/structure/bed/chair/wood{dir = 4},/turf/floor/wood_broken,/area/caribbean/houses/nml_one)
-"eF" = (/obj/structure/table/wood,/obj/item/weapon/material/kitchen/utensil/knife,/obj/item/weapon/material/kitchen/utensil/fork,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"eG" = (/obj/structure/window/barrier{dir = 8},/turf/floor/grass,/area/caribbean/island)
-"eH" = (/obj/structure/religious/impaledskull,/turf/floor/grass,/area/caribbean/island)
-"eI" = (/obj/effect/landmark{name = "JoinLateRNCarpenter"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"eJ" = (/obj/structure/simple_door/wood{name = "Medic"},/turf/floor/wood,/area/caribbean/houses/nml_one)
-"eK" = (/obj/structure/sink/puddle,/turf/floor/grass,/area/caribbean/british/land/outside)
-"eL" = (/obj/structure/closet/cabinet,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"eM" = (/obj/structure/bed,/obj/item/weapon/bedsheet/purple,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"eN" = (/obj/item/weapon/mop,/obj/item/weapon/reagent_containers/glass/bucket,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"eO" = (/obj/structure/table/marble,/obj/item/weapon/storage/firstaid/surgery,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"eP" = (/obj/structure/table/marble,/obj/item/stack/medical/splint,/obj/item/stack/medical/splint,/obj/item/stack/medical/advanced/bruise_pack,/obj/item/stack/medical/advanced/bruise_pack,/obj/item/stack/medical/advanced/bruise_pack,/obj/item/stack/medical/advanced/ointment,/obj/item/stack/medical/advanced/ointment,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"eQ" = (/obj/structure/table/marble,/obj/item/stack/medical/bruise_pack/bint,/obj/item/stack/medical/bruise_pack/bint,/obj/item/stack/medical/bruise_pack/bint,/obj/item/stack/medical/bruise_pack/bint,/obj/item/stack/medical/bruise_pack/bint,/turf/floor/wood_broken,/area/caribbean/houses/nml_one)
-"eR" = (/obj/structure/window/barrier,/obj/structure/window/barrier{dir = 8},/turf/floor/grass,/area/caribbean/island)
-"eS" = (/obj/structure/wild/burnedbush,/turf/floor/grass,/area/caribbean/british/land/outside)
-"eT" = (/obj/structure/wild/junglebush,/turf/floor/grass,/area/caribbean/british/land/outside)
-"eU" = (/obj/structure/wild/bush/big{name = "large bush"},/turf/floor/grass,/area/caribbean/british/land/outside)
-"eV" = (/obj/structure/wild/palm,/turf/floor/grass,/area/caribbean/british/land/outside)
-"eW" = (/obj/item/flashlight/lantern/on/anchored,/obj/structure/barricade,/turf/floor/grass,/area/caribbean/british/land/outside)
-"eX" = (/obj/structure/simple_door/wood{name = "Tavern"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"eY" = (/obj/item/weapon/bedsheet,/obj/structure/bed,/obj/item/weapon/bedsheet/brown,/turf/floor/carpet,/area/caribbean/british/land/inside)
-"eZ" = (/obj/effect/landmark{name = "JoinLateRNMidshipman"},/turf/floor/carpet,/area/caribbean/british/land/inside)
-"fa" = (/obj/structure/bed/chair/wood/wings{dir = 4},/turf/floor/carpet,/area/caribbean/british/land/inside)
-"fb" = (/obj/structure/table/wood,/obj/item/weapon/reagent_containers/food/drinks/bottle/wine,/obj/item/weapon/reagent_containers/food/drinks/drinkingglass/mug/brit,/obj/item/weapon/pen,/obj/item/weapon/paper,/turf/floor/carpet,/area/caribbean/british/land/inside)
-"fc" = (/obj/structure/table/wood,/obj/item/weapon/gun/projectile/flintlock/pistol,/obj/item/weapon/paper/crumpled/bloody{name = "Bar Tab"; text = "10 Dabloons"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"fd" = (/obj/structure/bed/chair/wood/wings{dir = 8},/turf/floor/wood,/area/caribbean/british/land/inside)
-"fe" = (/obj/structure/bed/chair/wood/wings{dir = 4},/turf/floor/wood,/area/caribbean/british/land/inside)
-"ff" = (/obj/item/weapon/reagent_containers/food/snacks/grown/coconut,/turf/floor/plating/cobblestone/vertical/dark,/area/caribbean/island)
-"fg" = (/obj/item/flashlight/lantern/on/anchored,/turf/floor/wood_broken,/area/caribbean/british/land/inside)
-"fh" = (/obj/structure/table/wood,/obj/item/weapon/book,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"fi" = (/turf/floor/carpet,/area/caribbean/british/land/inside)
-"fj" = (/obj/structure/simple_door/wood{name = "Officer's Quarters"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"fk" = (/obj/structure/bed/chair/wood/wings{dir = 1},/turf/floor/wood,/area/caribbean/british/land/inside)
-"fl" = (/obj/structure/sink/kitchen,/turf/floor/wood,/area/caribbean/british/land/inside)
-"fm" = (/obj/structure/closet/crate/musketball,/turf/floor/wood,/area/caribbean/british/land/inside)
-"fn" = (/obj/structure/vending/muskets,/turf/floor/wood,/area/caribbean/british/land/inside)
-"fo" = (/obj/structure/bookcase,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"fp" = (/obj/structure/table/wood,/obj/item/kitchen/snack_bowl,/obj/item/weapon/material/kitchen/utensil/fork,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"fq" = (/obj/structure/vending/muskets,/turf/floor/carpet,/area/caribbean/british/land/inside)
-"fr" = (/obj/item/weapon/material/sword/cutlass{name = "Captain's Blade"},/turf/floor/carpet,/area/caribbean/british/land/inside)
-"fs" = (/obj/item/flashlight/torch/on/unlimited,/obj/structure/grille/logfence{dir = 4; icon_state = "palisade"},/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"ft" = (/obj/structure/vending/britishapparel,/turf/floor/carpet,/area/caribbean/british/land/inside)
-"fu" = (/obj/effect/landmark{name = "JoinLatePirateCook"},/obj/effect/decal/cleanable/blood/drip,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"fv" = (/obj/structure/table/wood,/obj/item/trash/candle,/obj/item/weapon/reagent_containers/food/drinks/teapot/filled,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"fw" = (/obj/item/weapon/reagent_containers/glass/bucket,/obj/item/weapon/material/kitchen/utensil/knife/butcher,/obj/structure/table/wood,/turf/floor/wood,/area/caribbean/british/land/inside)
-"fx" = (/obj/effect/landmark{name = "JoinLateRNCook"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"fy" = (/obj/structure/closet/crate/rations/meat,/turf/floor/wood,/area/caribbean/british/land/inside)
-"fz" = (/obj/structure/closet/crate/musketball,/turf/floor/wood_broken,/area/caribbean/british/land/inside)
-"fA" = (/obj/structure/bed,/obj/item/weapon/bedsheet/green,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"fB" = (/obj/structure/bed,/obj/item/weapon/bedsheet/ce,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"fC" = (/obj/structure/closet/cabinet,/obj/item/weapon/material/sword/cutlass,/turf/floor/wood,/area/caribbean/houses/nml_one)
-"fD" = (/obj/item/weapon/reagent_containers/glass/bucket,/obj/structure/table/wood,/obj/item/kitchen/wood_bowl,/obj/item/kitchen/wood_bowl,/obj/item/kitchen/wood_bowl,/obj/item/kitchen/wood_bowl,/obj/item/kitchen/wood_bowl,/turf/floor/wood,/area/caribbean/british/land/inside)
-"fE" = (/obj/structure/pot,/turf/floor/wood,/area/caribbean/british/land/inside)
-"fF" = (/obj/structure/closet/cabinet,/obj/item/weapon/reagent_containers/food/drinks/bottle/rum{step_x = 0; step_y = 0},/obj/item/weapon/reagent_containers/food/drinks/bottle/rum{step_x = 0; step_y = 0},/obj/item/weapon/reagent_containers/food/drinks/bottle/rum{step_x = 0; step_y = 0},/obj/item/weapon/reagent_containers/food/drinks/bottle/rum{step_x = 0; step_y = 0},/obj/item/weapon/storage/box/drinkingglasses,/turf/floor/wood_broken,/area/caribbean/british/land/inside)
-"fG" = (/obj/structure/simple_door/wood{name = "Arms and Ammo"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"fH" = (/obj/item/weapon/barrier,/turf/floor/dirt,/area/caribbean/island)
-"fI" = (/obj/structure/wild/palm,/turf/floor/beach/sand,/area/caribbean/british/land/outside)
-"fJ" = (/turf/floor/beach/sand,/area/caribbean/british/land/outside)
-"fK" = (/obj/item/weapon/reagent_containers/food/snacks/grown/coconut,/turf/floor/grass,/area/caribbean/british/land/outside)
-"fL" = (/obj/structure/closet/coffin,/turf/floor/grass,/area/caribbean/british/land/outside)
-"fM" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet,/obj/effect/landmark{name = "JoinLateRN"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"fN" = (/obj/effect/landmark{name = "JoinLateRN"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"fO" = (/obj/structure/simple_door/wood{name = "Sleeping Quarters"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"fP" = (/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"fQ" = (/obj/effect/landmark{name = "JoinLateRN"},/turf/floor/wood_broken,/area/caribbean/british/land/inside)
-"fR" = (/obj/structure/vending/britishapparel,/turf/floor/wood,/area/caribbean/british/land/inside)
-"fS" = (/obj/structure/closet/crate/empty{name = "bandolier crate"},/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/turf/floor/wood,/area/caribbean/british/land/inside)
-"fT" = (/obj/structure/table/wood,/obj/item/trash/candle,/obj/item/weapon/attachment/bayonet,/obj/item/weapon/attachment/bayonet,/obj/item/weapon/attachment/bayonet,/obj/item/weapon/attachment/bayonet,/turf/floor/wood,/area/caribbean/british/land/inside)
-"fU" = (/mob/living/simple_animal/mouse/gray,/turf/floor/grass,/area/caribbean/island)
-"fV" = (/mob/living/simple_animal/parrot,/turf/floor/grass,/area/caribbean/island)
-"fW" = (/mob/living/simple_animal/mouse/white,/turf/floor/grass,/area/caribbean/island)
-"fX" = (/obj/item/weapon/material/shovel,/turf/floor/grass,/area/caribbean/british/land/outside)
-"fY" = (/obj/structure/simple_door/wood{name = "Engineering"},/turf/floor/wood,/area/caribbean/british/land/inside)
-"fZ" = (/obj/structure/closet/hideout/beach,/obj/effect/landmark{icon_state = "x3"; name = "JoinLateIND"},/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"ga" = (/obj/item/weapon/reagent_containers/glass/bucket,/obj/effect/decal/cleanable/blood/drip,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"gb" = (/obj/structure/wild/junglebush,/mob/living/simple_animal/mouse/gray,/turf/floor/grass,/area/caribbean/island)
-"gc" = (/obj/structure/wild/jungle,/turf/floor/grass,/area/caribbean/island)
-"gd" = (/obj/structure/closet/crate/grenades,/turf/floor/wood_broken,/area/caribbean/british/land/inside)
-"ge" = (/obj/structure/religious/impaledskull,/turf/floor/dirt,/area/caribbean/island)
-"gf" = (/obj/structure/wild/bush,/obj/structure/wild/jungle,/turf/floor/grass,/area/caribbean/island)
-"gg" = (/obj/structure/wild/bush/big,/obj/structure/wild/jungle,/turf/floor/grass,/area/caribbean/island)
-"gh" = (/obj/structure/wild/jungle,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"gi" = (/obj/structure/wild/rock,/obj/structure/wild/jungle,/turf/floor/grass,/area/caribbean/island)
-"gj" = (/obj/effect/landmark{name = "JoinLateRN"},/obj/item/weapon/material/boarding_axe,/turf/floor/wood_broken,/area/caribbean/british/land/inside)
-"gk" = (/obj/structure/wild/largejungle,/turf/floor/grass,/area/caribbean/island)
-"gl" = (/obj/structure/wild/bush,/obj/structure/wild/largejungle,/turf/floor/grass,/area/caribbean/island)
-"gm" = (/obj/structure/wild/tree,/obj/structure/wild/largejungle,/turf/floor/grass,/area/caribbean/island)
-"gn" = (/obj/structure/wild,/obj/structure/wild/largejungle,/turf/floor/grass,/area/caribbean/island)
-"go" = (/obj/structure/wild/junglebush,/obj/structure/wild/largejungle,/turf/floor/grass,/area/caribbean/island)
-"gp" = (/obj/structure/wild/bush/big,/obj/structure/wild/largejungle,/turf/floor/grass,/area/caribbean/island)
-"gq" = (/obj/structure/wild/largejungle,/mob/living/simple_animal/parrot,/turf/floor/grass,/area/caribbean/island)
-"gr" = (/mob/living/simple_animal/turkey_m,/turf/floor/grass,/area/caribbean/island)
-"gs" = (/obj/structure/closet/hideout/beach,/turf/floor/grass,/area/caribbean/indians/camp)
-"gt" = (/mob/living/simple_animal/turkey_f,/turf/floor/grass,/area/caribbean/island)
-"gu" = (/obj/effect/landmark{name = "JoinLatePirate"},/turf/floor/grass,/area/caribbean/indians/camp)
-"gv" = (/mob/living/simple_animal/goose,/turf/floor/beach/sand,/area/caribbean/island)
-"gw" = (/obj/item/weapon/key/tribal,/turf/floor/grass,/area/caribbean/island)
-"gx" = (/obj/structure/oven/fireplace,/turf/floor/dirt,/area/caribbean/indians/camp)
-"gy" = (/obj/structure/window/barrier/ship/wood/port0,/turf/floor/ship/wood_ship,/area/caribbean/british/ship{name = "British Ship"})
-"gz" = (/obj/structure/barricade/ship/blue/b16,/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"gA" = (/obj/covers/jail/woodjail,/turf/floor/wood,/area/caribbean/island)
-"gB" = (/obj/structure/wild/junglebush,/obj/item/flashlight/torch/on,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"gC" = (/obj/item/weapon/gun/projectile/flintlock/pistol{accuracy_decrease_mod = 3; accuracy_increase_mod = 3; name = "Captains Pistol"},/obj/structure/table/wood,/obj/item/weapon/reagent_containers/food/drinks/teapot/filled,/turf/floor/carpet,/area/caribbean/british/land/inside)
-"gD" = (/obj/structure/window/barrier/ship/wood/port0,/obj/item/flashlight/lantern/on/anchored,/turf/floor/ship/wood_ship,/area/caribbean/british/ship{name = "British Ship"})
-"gE" = (/obj/structure/flag/british,/turf/floor/dirt,/area/caribbean/island)
-"gF" = (/obj/structure/table/wood,/obj/item/weapon/reagent_containers/food/drinks/teapot/filled,/turf/floor/wood,/area/caribbean/british/land/inside)
-"gG" = (/obj/structure/sink/well,/turf/floor/grass,/area/caribbean/island)
-"gH" = (/obj/structure/wild,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"gI" = (/obj/structure/wild/bush/big,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"gJ" = (/obj/effect/landmark{name = "JoinLatePirate"},/turf/floor/dirt,/area/caribbean/indians/camp)
-"gK" = (/turf/floor/ship/wood_ship,/area/caribbean/british/ship{name = "British Ship"})
-"gL" = (/obj/item/violin,/turf/floor/ship/wood_ship,/area/caribbean/british/ship{name = "British Ship"})
-"gM" = (/obj/item/flashlight/lantern/on/anchored,/turf/floor/ship/wood_ship,/area/caribbean/british/ship{name = "British Ship"})
-"gN" = (/obj/structure/simple_door/key_door/custom/jail/woodjail/tribal,/turf/floor/wood,/area/caribbean/island)
-"gO" = (/obj/structure/closet/crate/empty{name = "vegetables crate"},/obj/item/weapon/reagent_containers/food/snacks/grown/cabbage,/obj/item/weapon/reagent_containers/food/snacks/grown/cabbage,/obj/item/weapon/reagent_containers/food/snacks/grown/cabbage,/obj/item/weapon/reagent_containers/food/snacks/grown/carrot,/obj/item/weapon/reagent_containers/food/snacks/grown/carrot,/obj/item/weapon/reagent_containers/food/snacks/grown/carrot,/turf/floor/grass,/area/caribbean/indians/camp)
-"gP" = (/obj/structure/barricade/ship/mast,/turf/floor/ship/wood_ship,/area/caribbean/british/ship{name = "British Ship"})
-"gQ" = (/turf/floor/wood,/area/caribbean/island)
-"gR" = (/obj/structure/bed/wood,/turf/floor/wood,/area/caribbean/island)
-"gS" = (/obj/structure/toilet/pit_latrine,/turf/floor/wood,/area/caribbean/island)
-"gT" = (/obj/structure/grille/logfence,/obj/structure/grille/logfence{dir = 8; icon_state = "palisade"},/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"gU" = (/obj/structure/window/barrier{dir = 4},/turf/floor/beach/sand,/area/caribbean/island)
-"gV" = (/obj/covers/repairedfloor,/obj/structure/window/barrier,/turf/floor/beach/water/shallowsaltwater,/area/caribbean/sea/shallow)
-"gW" = (/obj/covers/repairedfloor,/obj/structure/window/barrier,/obj/structure/window/barrier{dir = 4},/turf/floor/beach/water/shallowsaltwater,/area/caribbean/sea/shallow)
-"gX" = (/obj/covers/repairedfloor,/obj/structure/window/barrier{dir = 1},/obj/structure/window/barrier{dir = 8},/turf/floor/beach/water/shallowsaltwater,/area/caribbean/sea/shallow)
-"gY" = (/obj/structure/window/barrier{dir = 8},/obj/structure/window/barrier{dir = 1},/turf/floor/dirt,/area/caribbean/island)
-"gZ" = (/obj/structure/sink/puddle,/turf/floor/grass,/area/caribbean/indians/camp)
-"ha" = (/obj/covers/repairedfloor,/obj/structure/window/barrier{dir = 1},/turf/floor/beach/water/shallowsaltwater,/area/caribbean/sea/shallow)
-"hb" = (/obj/effect/decal/cleanable/blood/splatter,/turf/floor/grass,/area/caribbean/indians/camp)
-"hc" = (/obj/covers/repairedfloor,/obj/structure/window/barrier{dir = 4},/turf/floor/beach/water/shallowsaltwater,/area/caribbean/sea/shallow)
-"hd" = (/obj/structure/grille/logfence,/turf/floor/beach/sand,/area/caribbean/island)
-"he" = (/obj/structure/grille/logfence,/turf/floor/beach/water/shallowsaltwater,/area/caribbean/island)
-"hf" = (/obj/structure/grille/logfence,/turf/floor/beach/water/shallowsaltwater,/area/caribbean/sea/shallow)
-"hg" = (/obj/structure/wild/junglebush,/mob/living/simple_animal/frog/poisonous,/turf/floor/grass,/area/caribbean/island)
-"hh" = (/obj/item/weapon/material/shovel/bone,/obj/item/weapon/material/shovel/bone,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"hi" = (/obj/structure/wild/rock/basalt,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"hj" = (/obj/item/weapon/material/kitchen/utensil/knife/bone,/obj/item/weapon/material/kitchen/utensil/knife/bone,/obj/item/weapon/material/kitchen/utensil/knife/bone,/obj/item/weapon/material/kitchen/utensil/knife/bone,/obj/item/weapon/material/kitchen/utensil/knife/bone,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"hk" = (/obj/item/weapon/hammer,/obj/item/weapon/hammer,/obj/item/weapon/hammer,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"hl" = (/obj/item/weapon/material/hatchet/bone_battleaxe,/obj/item/weapon/material/hatchet/bone_battleaxe,/obj/item/weapon/material/hatchet/bone_battleaxe,/obj/item/weapon/material/hatchet/bone_battleaxe,/obj/item/weapon/material/hatchet/bone_battleaxe,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"hm" = (/obj/effect/spawner/mobspawner/frogpoisonous,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"hn" = (/obj/effect/spawner/mobspawner/frogpoisonous,/turf/floor/grass,/area/caribbean/island)
-"ho" = (/obj/structure/window/barrier{dir = 4},/obj/structure/window/barrier,/turf/floor/beach/sand,/area/caribbean/island)
-"hp" = (/obj/covers/repairedfloor,/turf/floor/beach/water/shallowsaltwater,/area/caribbean/sea/shallow)
-"hq" = (/obj/structure/window/barrier/ship/blue/bport3,/turf/floor/ship/wood_ship,/area/caribbean/british/ship{name = "British Ship"})
-"hr" = (/obj/structure/window/barrier/ship/blue/bport0,/turf/floor/ship/wood_ship,/area/caribbean/british/ship{name = "British Ship"})
-"hs" = (/obj/structure/window/barrier/ship/blue/bport0,/obj/item/flashlight/lantern/on/anchored,/turf/floor/ship/wood_ship,/area/caribbean/british/ship{name = "British Ship"})
-"ht" = (/obj/covers/repairedfloor,/obj/structure/window/barrier{dir = 8},/turf/floor/beach/water/shallowsaltwater,/area/caribbean/sea/shallow)
-"hu" = (/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 8},/turf/floor/wood/ship,/area/caribbean/british/ship{name = "British Ship"})
-"hv" = (/obj/structure/window/barrier{dir = 4},/turf/floor/dirt,/area/caribbean/island)
-"hw" = (/obj/structure/window/barrier{dir = 8},/turf/floor/beach/sand,/area/caribbean/island)
-"hx" = (/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 8},/turf/floor/wood/ship,/area/caribbean/sea/shallow)
-"hy" = (/obj/structure/window/barrier,/turf/floor/beach/sand,/area/caribbean/island)
-"hz" = (/obj/structure/window/barrier{dir = 4},/obj/structure/window/barrier,/turf/floor/dirt,/area/caribbean/island)
-"hA" = (/obj/structure/flag/british,/turf/floor/beach/sand,/area/caribbean/island)
-"hB" = (/obj/structure/window/barrier{dir = 8},/obj/structure/window/barrier{dir = 1},/turf/floor/beach/sand,/area/caribbean/island)
-"hC" = (/obj/structure/window/barrier{dir = 1},/turf/floor/grass,/area/caribbean/island)
-"hD" = (/obj/structure/window/barrier{dir = 4},/turf/floor/grass,/area/caribbean/island)
-"hE" = (/obj/structure/window/barrier{dir = 8},/turf/floor/dirt,/area/caribbean/british/land/outside)
-"hF" = (/obj/structure/window/barrier{dir = 4},/turf/floor/grass,/area/caribbean/british/land/outside)
-"hG" = (/obj/structure/window/barrier{dir = 4},/turf/floor/dirt,/area/caribbean/british/land/outside)
-"hH" = (/obj/structure/window/barrier{dir = 1},/turf/floor/beach/sand,/area/caribbean/island)
-"hI" = (/obj/structure/wild/bush/big{name = "large bush"},/obj/structure/window/barrier{dir = 1},/turf/floor/grass,/area/caribbean/island)
-"hJ" = (/obj/structure/religious/grave,/turf/floor/grass,/area/caribbean/island)
-"hK" = (/obj/structure/closet/coffin,/obj/structure/religious/grave,/turf/floor/grass,/area/caribbean/island)
-"hL" = (/obj/structure/religious/grave,/turf/floor/beach/sand,/area/caribbean/island)
-"hM" = (/obj/structure/window/barrier{dir = 8},/obj/structure/window/barrier,/turf/floor/grass,/area/caribbean/island)
-"hN" = (/obj/structure/window/barrier,/turf/floor/grass,/area/caribbean/island)
-"hO" = (/obj/structure/window/barrier{dir = 1},/turf/floor/beach/sand,/area/caribbean/sea/shallow)
-"hP" = (/obj/structure/window/barrier{dir = 1},/turf/floor/beach/water/shallowsaltwater,/area/caribbean/sea/shallow)
-"hQ" = (/obj/structure/window/barrier,/turf/floor/dirt,/area/caribbean/island)
-"hR" = (/obj/structure/closet/crate/empty{name = "wheat crate"},/obj/item/weapon/storage/box/wheat,/obj/item/weapon/storage/box/wheat,/obj/item/weapon/storage/box/wheat,/turf/floor/wood,/area/caribbean/british/land/inside)
-"hS" = (/obj/structure/table/wood,/obj/item/weapon/reagent_containers/food/snacks/hardtack,/obj/item/weapon/reagent_containers/food/snacks/hardtack,/obj/item/weapon/reagent_containers/food/snacks/hardtack,/turf/floor/wood,/area/caribbean/british/land/inside)
-"hT" = (/obj/structure/table/wood,/obj/structure/mill,/turf/floor/wood,/area/caribbean/british/land/inside)
-"hU" = (/obj/item/weapon/hammer,/obj/item/weapon/hammer,/turf/floor/wood_broken,/area/caribbean/british/land/inside)
-"hV" = (/obj/structure/window/barrier{dir = 8},/turf/floor/grass,/area/caribbean/british/land/outside)
-"hW" = (/obj/structure/window/barrier{dir = 4},/obj/structure/window/barrier,/turf/floor/grass,/area/caribbean/island)
-"hX" = (/obj/structure/wild/junglebush,/obj/structure/window/barrier{dir = 8},/turf/floor/grass,/area/caribbean/island)
-"hY" = (/obj/structure/wild/bush/big{name = "large bush"},/obj/structure/window/barrier,/turf/floor/dirt,/area/caribbean/island)
-"hZ" = (/obj/structure/grille/logfence,/obj/structure/grille/logfence{dir = 4; icon_state = "palisade"},/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"ia" = (/obj/structure/table/wood,/obj/item/weapon/reagent_containers/food/drinks/bottle/rum{step_x = 0; step_y = 0},/obj/item/weapon/material/thrown/throwing_knife,/turf/floor/wood,/area/caribbean/british/land/inside)
-"ib" = (/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/turf/floor/dirt,/area/caribbean/pirates/land/outside)
-"ic" = (/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/obj/item/clothing/shoes/sandal,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"id" = (/obj/item/flashlight/torch/on/unlimited,/turf/floor/grass,/area/caribbean/island)
-"ie" = (/obj/structure/window/barrier/ship/wood/port2,/turf/floor/beach/water/deep/saltwater,/turf/floor/ship/wood_ship/south,/area/caribbean/british/ship{name = "British Ship"})
-"le" = (/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/turf/floor/wood,/area/caribbean/british/land/inside)
-"lE" = (/obj/structure/wild/tallgrass,/turf/floor/grass,/area/caribbean/island)
-"ne" = (/obj/structure/wild/tallgrass,/turf/floor/grass,/area/caribbean/pirates/land/outside)
-"nQ" = (/obj/structure/wild/largejungle,/obj/structure/wild/tallgrass,/turf/floor/grass,/area/caribbean/island)
-"os" = (/obj/structure/wild/bush/big,/obj/structure/wild/tallgrass,/turf/floor/grass,/area/caribbean/island)
-"yH" = (/obj/structure/wild/junglebush,/obj/structure/wild/largejungle,/obj/structure/wild/tallgrass,/turf/floor/grass,/area/caribbean/island)
-"Aj" = (/obj/structure/wild/tallgrass,/turf/floor/grass,/area/caribbean/indians/camp)
-"FG" = (/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/turf/floor/wood,/area/caribbean/british/land/inside)
-"Gc" = (/obj/structure/wild/bush,/obj/structure/wild/tallgrass,/turf/floor/grass,/area/caribbean/island)
-"Kg" = (/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/turf/floor/wood,/area/caribbean/british/land/inside)
-"Nz" = (/obj/structure/wild/junglebush,/obj/structure/wild/tallgrass,/turf/floor/grass,/area/caribbean/indians/camp)
-"QE" = (/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/obj/item/clothing/accessory/storage/webbing,/turf/floor/wood,/area/caribbean/british/land/inside)
-"Tk" = (/obj/structure/wild/tallgrass,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall)
-"UE" = (/obj/structure/wild/tallgrass,/turf/floor/grass,/area/caribbean/british/land/outside)
-"Ya" = (/obj/structure/wild/tallgrass,/obj/structure/wild/tallgrass,/turf/floor/grass,/area/caribbean/island)
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/turf/floor/beach/water/deep/saltwater,
+/area/caribbean/sea/sea)
+"ab" = (
+/turf/floor/grass,
+/area/caribbean/island)
+"ac" = (
+/obj/structure/closet/hideout/beach,
+/turf/floor/grass,
+/area/caribbean/island)
+"ad" = (
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/pirates/land/outside)
+"ae" = (
+/obj/structure/wild/palm,
+/turf/floor/grass,
+/area/caribbean/island)
+"af" = (
+/obj/item/weapon/material/thrown/tomahawk,
+/obj/item/weapon/material/thrown/tomahawk,
+/obj/item/weapon/material/thrown/tomahawk,
+/obj/item/weapon/material/thrown/tomahawk,
+/obj/item/weapon/material/thrown/tomahawk,
+/obj/item/weapon/material/thrown/tomahawk,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"ag" = (
+/obj/structure/wild/palm,
+/obj/structure/wild/burnedtree,
+/turf/floor/grass,
+/area/caribbean/island)
+"ah" = (
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/sea/shallow)
+"ai" = (
+/obj/structure/wild/bush,
+/turf/floor/grass,
+/area/caribbean/island)
+"aj" = (
+/obj/structure/closet/cabinet{
+	anchored = 1;
+	desc = "Something looks strange in this bush...";
+	icon = 'icons/obj/flora/wild.dmi';
+	icon_closed = "small_bush";
+	icon_opened = "small_bush";
+	icon_state = "small_bush";
+	name = "weird bush";
+	opened = 1
+	},
+/turf/floor/dirt,
+/area/caribbean/no_mans_land/invisible_wall)
+"ak" = (
+/turf/floor/dirt,
+/area/caribbean/island)
+"al" = (
+/obj/structure/sink/puddle,
+/turf/floor/grass,
+/area/caribbean/island)
+"am" = (
+/obj/structure/wild/junglebush,
+/turf/floor/grass,
+/area/caribbean/island)
+"an" = (
+/turf/floor/beach/sand,
+/area/caribbean/pirates/land/outside)
+"ao" = (
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"ap" = (
+/obj/item/weapon/reagent_containers/food/snacks/grown/coconut,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"aq" = (
+/obj/structure/wild/tree/anchored,
+/turf/floor/grass,
+/area/caribbean/island)
+"ar" = (
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"as" = (
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/no_mans_land/invisible_wall)
+"at" = (
+/obj/structure/wild/palm,
+/turf/floor/beach/sand,
+/area/caribbean/pirates/land/outside)
+"au" = (
+/obj/structure/grille/fence,
+/turf/floor/grass,
+/area/caribbean/island)
+"av" = (
+/mob/living/simple_animal/chicken,
+/turf/floor/grass,
+/area/caribbean/island)
+"aw" = (
+/obj/structure/table/wood,
+/obj/item/weapon/attachment/scope/adjustable/binoculars,
+/turf/floor/grass,
+/area/caribbean/island)
+"ax" = (
+/turf/floor/dirt/dust,
+/area/caribbean/island)
+"ay" = (
+/obj/structure/grille/logfence{
+	dir = 4;
+	icon_state = "palisade"
+	},
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"az" = (
+/obj/structure/wild/rock,
+/turf/floor/dirt/dust,
+/area/caribbean/island)
+"aA" = (
+/obj/structure/wild/burnedtree,
+/turf/floor/dirt,
+/area/caribbean/island)
+"aB" = (
+/obj/structure/grille/logfence,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"aC" = (
+/obj/structure/grille/logfence,
+/turf/floor/beach/sand,
+/area/caribbean/pirates/land/outside)
+"aD" = (
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"aE" = (
+/obj/item/weapon/gun/projectile/bow,
+/obj/item/weapon/gun/projectile/bow,
+/obj/item/weapon/gun/projectile/bow,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"aF" = (
+/turf/floor/beach/sand,
+/area/caribbean/indians/camp)
+"aG" = (
+/obj/structure/grille/logfence{
+	dir = 4;
+	icon_state = "palisade"
+	},
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"aH" = (
+/mob/living/simple_animal/chick,
+/turf/floor/grass,
+/area/caribbean/island)
+"aI" = (
+/turf/floor/dirt,
+/area/caribbean/indians/camp)
+"aJ" = (
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"aK" = (
+/obj/structure/wild/palm,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"aL" = (
+/obj/structure/wild/bush,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"aN" = (
+/obj/structure/wild/bush,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"aO" = (
+/obj/item/weapon/handcuffs/rope,
+/obj/item/weapon/handcuffs/rope,
+/obj/item/weapon/handcuffs/rope,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"aP" = (
+/obj/structure/grille/logfence{
+	dir = 4;
+	icon_state = "palisade"
+	},
+/turf/floor/beach/sand,
+/area/caribbean/pirates/land/outside)
+"aQ" = (
+/obj/structure/simple_door/wood{
+	name = "Animal Pen"
+	},
+/turf/floor/grass,
+/area/caribbean/island)
+"aR" = (
+/obj/structure/table/wood,
+/obj/item/weapon/material/kitchen/utensil/knife/butcher,
+/obj/item/weapon/material/kitchen/utensil/knife/butcher,
+/obj/item/weapon/key/tribal,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"aS" = (
+/obj/item/weapon/material/spear,
+/obj/item/weapon/material/spear,
+/obj/item/weapon/material/spear,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"aT" = (
+/obj/item/weapon/material/spear,
+/obj/item/weapon/material/spear,
+/obj/item/weapon/material/spear,
+/obj/item/weapon/material/spear,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"aU" = (
+/obj/item/ammo_casing/arrow/stone,
+/obj/item/ammo_casing/arrow/stone,
+/obj/item/ammo_casing/arrow/stone,
+/obj/item/ammo_casing/arrow/stone,
+/obj/item/ammo_casing/arrow/stone,
+/obj/item/ammo_casing/arrow/stone,
+/obj/item/ammo_casing/arrow/stone,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"aW" = (
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"aX" = (
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"aY" = (
+/obj/structure/wild/palm,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"aZ" = (
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"ba" = (
+/obj/structure/religious/tribalmask{
+	layer = 4
+	},
+/turf/wall/old_stone,
+/area/caribbean/indians/camp)
+"bb" = (
+/obj/item/weapon/barrier,
+/obj/item/weapon/barrier,
+/obj/item/weapon/barrier,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"bc" = (
+/obj/structure/wild/junglebush,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"bd" = (
+/obj/structure/grille/logfence,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"be" = (
+/obj/item/weapon/material/hatchet/tribal,
+/obj/item/weapon/material/hatchet/tribal,
+/obj/item/weapon/material/hatchet/tribal,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"bf" = (
+/obj/item/weapon/barrier,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"bg" = (
+/mob/living/simple_animal/parrot{
+	name = "Captain Crackers"
+	},
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"bh" = (
+/obj/effect/landmark{
+	name = "JoinLatePirateQM"
+	},
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"bi" = (
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/indians/camp)
+"bj" = (
+/obj/item/weapon/handcuffs/rope,
+/obj/item/weapon/handcuffs/rope,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"bk" = (
+/obj/structure/wild/palm,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"bl" = (
+/obj/item/weapon/reagent_containers/food/snacks/grown/coconut,
+/turf/floor/grass,
+/area/caribbean/island)
+"bm" = (
+/obj/structure/potted_plant,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"bn" = (
+/obj/effect/landmark{
+	name = "JoinLatePirateBoatswain"
+	},
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"bo" = (
+/obj/structure/potted_plant{
+	dir = 10;
+	icon_state = "potted_plant"
+	},
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"bp" = (
+/obj/item/stack/material/rope,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"bq" = (
+/obj/structure/wild/largejungle,
+/turf/floor/dirt,
+/area/caribbean/indians/camp)
+"br" = (
+/turf/floor/grass,
+/area/caribbean/indians/camp)
+"bs" = (
+/turf/floor/beach/water/deep/saltwater,
+/area/caribbean/sea/shallow)
+"bt" = (
+/obj/structure/bed/chair/wood/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/effect/landmark{
+	name = "JoinLateRNCap"
+	},
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"bu" = (
+/obj/effect/landmark{
+	icon_state = "x3";
+	name = "JoinLateIND"
+	},
+/turf/floor/grass,
+/area/caribbean/indians/camp)
+"bv" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/landmark{
+	name = "JoinLateRNQM"
+	},
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"bw" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/obj/effect/landmark{
+	name = "JoinLateRNBoatswain"
+	},
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"bx" = (
+/obj/effect/landmark{
+	name = "JoinLatePirateSurgeon"
+	},
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"by" = (
+/obj/item/stack/medical/advanced/herbs,
+/obj/item/stack/medical/advanced/herbs,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"bz" = (
+/obj/structure/wild/junglebush,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"bA" = (
+/obj/structure/potted_plant{
+	dir = 1;
+	icon_state = "potted_plant"
+	},
+/turf/floor/wood_broken,
+/area/caribbean/houses/nml_one)
+"bB" = (
+/obj/item/stack/medical/advanced/herbs,
+/turf/floor/grass,
+/area/caribbean/indians/camp)
+"bC" = (
+/obj/structure/wallclock,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"bD" = (
+/obj/effect/landmark{
+	icon_state = "x3";
+	name = "JoinLateIND"
+	},
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"bE" = (
+/obj/effect/landmark{
+	name = "JoinLatePirateMidshipman"
+	},
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"bF" = (
+/obj/structure/wild/palm,
+/turf/floor/grass,
+/area/caribbean/indians/camp)
+"bG" = (
+/obj/effect/landmark{
+	icon_state = "x3";
+	name = "JoinLateIND"
+	},
+/obj/structure/bed/bedroll,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"bH" = (
+/obj/structure/sink/puddle,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"bI" = (
+/obj/structure/wild/bush,
+/turf/floor/dirt,
+/area/caribbean/island)
+"bJ" = (
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/obj/item/weapon/punji_sticks,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"bK" = (
+/obj/effect/landmark{
+	name = "JoinLatePirateCarpenter"
+	},
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"bL" = (
+/obj/structure/potted_plant{
+	dir = 1;
+	icon_state = "potted_plant"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"bM" = (
+/obj/structure/wallclock,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"bN" = (
+/obj/structure/potted_plant{
+	dir = 4;
+	icon_state = "potted_plant"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"bO" = (
+/obj/structure/potted_plant,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"bQ" = (
+/obj/structure/closet/hideout/beach,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"bR" = (
+/obj/structure/wild/bush,
+/turf/floor/dirt,
+/area/caribbean/indians/camp)
+"bS" = (
+/obj/structure/wild/bush/big{
+	name = "large bush"
+	},
+/turf/floor/grass,
+/area/caribbean/island)
+"bT" = (
+/obj/structure/closet/crate/wood,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"bU" = (
+/obj/structure/bed/bedroll,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"bV" = (
+/obj/structure/religious/totem,
+/turf/floor/plating/stone_old,
+/area/caribbean/indians/camp)
+"bW" = (
+/obj/effect/landmark{
+	icon_state = "x3";
+	name = "JoinLateIND"
+	},
+/obj/structure/bed/bedroll,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"bX" = (
+/turf/floor/plating/stone_old,
+/area/caribbean/indians/camp)
+"bY" = (
+/turf/floor/dirt,
+/area/caribbean/no_mans_land/invisible_wall)
+"bZ" = (
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/island)
+"ca" = (
+/turf/floor/beach/water/deep/saltwater,
+/area/caribbean/no_mans_land/invisible_wall)
+"cb" = (
+/obj/structure/wild/largejungle,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"cc" = (
+/obj/structure/wild,
+/turf/floor/grass,
+/area/caribbean/island)
+"cd" = (
+/obj/structure/wild/rock,
+/turf/floor/grass,
+/area/caribbean/island)
+"ce" = (
+/turf/floor/beach/sand,
+/area/caribbean/sea/shallow)
+"cf" = (
+/obj/structure/barricade/ship/wood/a4,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cg" = (
+/obj/structure/barricade/ship/wood/a7,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"ch" = (
+/obj/structure/barricade/ship/wood/a8,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"ci" = (
+/obj/structure/bed/bedroll,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"cj" = (
+/obj/effect/landmark{
+	name = "Observer-Start"
+	},
+/turf/floor/beach/water/deep/saltwater,
+/area/caribbean/no_mans_land/invisible_wall)
+"ck" = (
+/obj/effect/landmark{
+	icon_state = "x3";
+	name = "JoinLateIND"
+	},
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"cl" = (
+/obj/structure/wild/rock,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"cm" = (
+/obj/structure/wild/junglebush,
+/turf/floor/dirt,
+/area/caribbean/island)
+"cn" = (
+/obj/effect/landmark{
+	name = "JoinLatePirate"
+	},
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"co" = (
+/obj/structure/barricade/ship/wood/a7,
+/turf/floor/beach/water/deep/saltwater,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cp" = (
+/obj/structure/barricade/ship/wood/a9,
+/turf/floor/beach/water/deep/saltwater,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cq" = (
+/obj/structure/barricade/ship/wood/a3,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cr" = (
+/obj/structure/closet/crate/musketball_pistol,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cs" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"ct" = (
+/obj/structure/bookcase,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 5
+	},
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cu" = (
+/obj/structure/barricade/ship/wood/a2,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cv" = (
+/obj/structure/barricade/ship/wood/a12,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cw" = (
+/obj/item/weapon/material/kitchen/utensil/knife/hook,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"cx" = (
+/obj/effect/landmark{
+	name = "JoinLatePirateCap"
+	},
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"cy" = (
+/obj/structure/multiz/stairs{
+	dir = 8
+	},
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cz" = (
+/obj/effect/landmark{
+	name = "JoinLatePirate"
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"cA" = (
+/obj/effect/decal/cleanable/blood,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"cB" = (
+/obj/structure/bed/chair/wood/red{
+	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cC" = (
+/obj/structure/table/marble,
+/obj/item/weapon/book,
+/obj/item/weapon/pen,
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cD" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cE" = (
+/obj/structure/table/marble,
+/obj/item/weapon/flame/candle,
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cF" = (
+/obj/structure/barricade/ship/wood/a5,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cG" = (
+/obj/structure/simple_door/key_door/anyone/wood,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cH" = (
+/mob/living/simple_animal/parrot,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"cI" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cJ" = (
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cK" = (
+/obj/structure/toilet/pit_latrine,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"cL" = (
+/obj/structure/barricade/ship/wood/a6,
+/turf/floor/beach/water/deep/saltwater,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cM" = (
+/obj/structure/closet/crate/empty,
+/obj/item/weapon/gun/projectile/flintlock/pistol,
+/obj/item/weapon/gun/projectile/flintlock/pistol,
+/obj/item/weapon/gun/projectile/flintlock/pistol,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
+	},
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cN" = (
+/obj/effect/floor_decal/spline/fancy/wood,
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cO" = (
+/obj/structure/closet/cabinet,
+/obj/item/clothing/head/powdered_wig,
+/obj/item/clothing/head/powdered_wig,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/floor/carpet,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cP" = (
+/obj/structure/barricade/ship/blue/b18,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cQ" = (
+/obj/structure/barricade/ship/wood/a6,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cR" = (
+/obj/structure/barricade/ship/blue/b19,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cS" = (
+/obj/structure/wild/burnedbush,
+/turf/floor/grass,
+/area/caribbean/island)
+"cT" = (
+/obj/structure/wild/tree,
+/turf/floor/grass,
+/area/caribbean/island)
+"cU" = (
+/obj/structure/wild/bush/big,
+/turf/floor/grass,
+/area/caribbean/island)
+"cV" = (
+/obj/effect/landmark{
+	name = "Observer-Start"
+	},
+/turf/floor/grass,
+/area/caribbean/island)
+"cW" = (
+/obj/structure/wild/burnedtree,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"cX" = (
+/obj/structure/closet/coffin,
+/turf/floor/grass,
+/area/caribbean/island)
+"cY" = (
+/obj/structure/barricade/ship/blue/b17,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"cZ" = (
+/obj/structure/wild/junglebush,
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"da" = (
+/obj/structure/wild/burnedtree,
+/turf/floor/grass,
+/area/caribbean/island)
+"db" = (
+/obj/structure/wild/palm,
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"dc" = (
+/obj/structure/barricade/ship/blue/b9,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"dd" = (
+/obj/structure/grille/fence,
+/obj/structure/grille/fence{
+	dir = 4
+	},
+/turf/floor/grass,
+/area/caribbean/island)
+"de" = (
+/obj/structure/grille/fence{
+	dir = 4
+	},
+/turf/floor/grass,
+/area/caribbean/island)
+"df" = (
+/obj/structure/barricade/ship/blue/b8,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"dg" = (
+/obj/structure/bed/wood,
+/turf/floor/plating/stone_old,
+/area/caribbean/pirates/land/outside)
+"dh" = (
+/obj/item/weapon/reagent_containers/food/snacks/meat/human,
+/obj/item/weapon/reagent_containers/food/snacks/meat/human,
+/obj/item/weapon/reagent_containers/food/snacks/meat/human,
+/obj/item/weapon/reagent_containers/food/snacks/meat/human,
+/obj/item/weapon/reagent_containers/food/snacks/meat/human,
+/obj/structure/closet/crate/empty{
+	name = "meat crate"
+	},
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"di" = (
+/obj/structure/table/wood,
+/obj/item/kitchen/wood_bowl,
+/obj/item/kitchen/wood_bowl,
+/obj/item/kitchen/wood_bowl,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"dj" = (
+/obj/effect/landmark{
+	name = "JoinLatePirateCook"
+	},
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"dk" = (
+/obj/effect/landmark{
+	name = "JoinLatePirateMidshipman"
+	},
+/obj/structure/bed/bedroll,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"dl" = (
+/obj/structure/barricade/ship/blue/b10,
+/turf/floor/beach/water/deep/saltwater,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"dm" = (
+/turf/floor/plating/cobblestone/vertical/dark,
+/area/caribbean/island)
+"dn" = (
+/obj/structure/wild/junglebush,
+/turf/floor/plating/stone_old,
+/area/caribbean/indians/camp)
+"do" = (
+/obj/structure/wild/tree/anchored,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"dp" = (
+/obj/effect/landmark{
+	name = "JoinLatePirateMidshipman"
+	},
+/obj/structure/bed/bedroll,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"dq" = (
+/obj/structure/wild/bush/big{
+	name = "large bush"
+	},
+/turf/floor/beach/sand,
+/area/caribbean/no_mans_land/invisible_wall)
+"dr" = (
+/obj/item/weapon/reagent_containers/food/snacks/grown/coconut,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"ds" = (
+/obj/structure/wild/tree,
+/turf/floor/dirt,
+/area/caribbean/island)
+"dt" = (
+/turf/floor/beach/sand,
+/area/caribbean/no_mans_land/invisible_wall)
+"dv" = (
+/obj/structure/closet/hideout/beach,
+/turf/floor/dirt,
+/area/caribbean/island)
+"dw" = (
+/obj/map_metadata/supply_raid,
+/turf/floor/beach/water/deep/saltwater,
+/area/caribbean/sea/sea)
+"dx" = (
+/mob/living/simple_animal/monkey,
+/turf/floor/grass,
+/area/caribbean/island)
+"dy" = (
+/mob/living/simple_animal/mouse/brown,
+/turf/floor/grass,
+/area/caribbean/island)
+"dz" = (
+/obj/structure/wild/bush,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"dA" = (
+/obj/structure/wild/tree,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"dB" = (
+/obj/structure/wild/junglebush,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"dC" = (
+/obj/structure/pot,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"dD" = (
+/obj/item/weapon/reagent_containers/food/snacks/grown/coconut,
+/turf/floor/dirt,
+/area/caribbean/island)
+"dE" = (
+/obj/structure/wild/bush/big{
+	name = "large bush"
+	},
+/turf/floor/dirt,
+/area/caribbean/island)
+"dF" = (
+/obj/structure/window/barrier{
+	dir = 1
+	},
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/dirt,
+/area/caribbean/island)
+"dG" = (
+/obj/structure/window/barrier{
+	dir = 1
+	},
+/turf/floor/dirt,
+/area/caribbean/island)
+"dH" = (
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/dirt,
+/area/caribbean/island)
+"dI" = (
+/obj/item/weapon/barrier,
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"dJ" = (
+/obj/structure/barricade,
+/turf/floor/grass,
+/area/caribbean/island)
+"dK" = (
+/turf/wall/wood,
+/area/caribbean/houses/nml_one)
+"dL" = (
+/obj/structure/window/classic,
+/obj/structure/curtain/open/bed,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"dM" = (
+/obj/structure/bed,
+/obj/item/weapon/bedsheet/brown,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"dN" = (
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"dO" = (
+/obj/structure/oven,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"dP" = (
+/obj/structure/table/wood,
+/obj/item/weapon/material/kitchen/utensil/knife,
+/turf/floor/wood_broken,
+/area/caribbean/houses/nml_one)
+"dQ" = (
+/obj/structure/bed/chair/wood{
+	dir = 8
+	},
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"dR" = (
+/obj/structure/bed,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"dS" = (
+/turf/floor/wood_broken,
+/area/caribbean/houses/nml_one)
+"dT" = (
+/obj/structure/bed,
+/obj/item/weapon/bedsheet/orange,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"dU" = (
+/obj/structure/closet/cabinet,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/rum,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"dV" = (
+/obj/structure/bed/chair/wood{
+	dir = 1
+	},
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"dW" = (
+/obj/structure/table/wood,
+/obj/item/trash/candle,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"dX" = (
+/turf/floor/dirt,
+/area/caribbean/british/land/outside)
+"dY" = (
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"dZ" = (
+/obj/structure/wild/junglebush,
+/turf/floor/dirt,
+/area/caribbean/british/land/outside)
+"eb" = (
+/obj/structure/simple_door/wood{
+	name = "House"
+	},
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"ec" = (
+/obj/item/weapon/barrier,
+/obj/item/weapon/barrier,
+/obj/item/weapon/barrier,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"ed" = (
+/obj/item/weapon/barrier,
+/obj/item/weapon/barrier,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"ee" = (
+/obj/item/weapon/barrier,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"ef" = (
+/obj/item/weapon/material/shovel,
+/obj/item/weapon/material/shovel,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"eg" = (
+/turf/wall/wood,
+/area/caribbean/british/land/inside)
+"eh" = (
+/obj/structure/window/classic,
+/obj/structure/curtain/open/bed,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"ei" = (
+/obj/structure/wild/burnedtree,
+/turf/floor/dirt,
+/area/caribbean/british/land/outside)
+"ej" = (
+/obj/structure/table/wood,
+/obj/item/weapon/flame/candle,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"ek" = (
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"el" = (
+/obj/item/weapon/reagent_containers/glass/barrel/rum,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"em" = (
+/obj/item/weapon/reagent_containers/glass/barrel/water,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"eo" = (
+/obj/structure/wild/burnedbush,
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/dirt,
+/area/caribbean/island)
+"ep" = (
+/turf/floor/plating/cobblestone/vertical/dark,
+/area/caribbean/british/land/outside)
+"eq" = (
+/obj/structure/wild/junglebush,
+/turf/floor/grass,
+/area/caribbean/indians/camp)
+"er" = (
+/turf/floor/wood_broken,
+/area/caribbean/british/land/inside)
+"es" = (
+/obj/structure/simple_door/wood{
+	name = "Granary"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"et" = (
+/obj/structure/bed/chair/wood{
+	dir = 4
+	},
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"eu" = (
+/obj/structure/table/wood,
+/obj/item/kitchen/snack_bowl,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"ev" = (
+/obj/item/weapon/bedsheet/medical,
+/obj/structure/bed,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"ew" = (
+/obj/effect/landmark{
+	name = "JoinLateRNSurgeon"
+	},
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"ex" = (
+/obj/effect/decal/cleanable/ash,
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/dirt,
+/area/caribbean/island)
+"ey" = (
+/obj/structure/wild/burnedbush,
+/turf/floor/dirt,
+/area/caribbean/british/land/outside)
+"ez" = (
+/obj/item/weapon/reagent_containers/glass/barrel/gunpowder,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"eA" = (
+/obj/item/weapon/material/sword/spadroon,
+/obj/item/weapon/material/sword/spadroon,
+/obj/item/weapon/material/sword/spadroon,
+/obj/item/weapon/material/sword/spadroon,
+/obj/item/weapon/material/sword/spadroon,
+/obj/structure/closet/crate/empty{
+	name = "spadroon crate"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"eB" = (
+/obj/structure/closet/crate/wood,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"eD" = (
+/obj/item/weapon/reagent_containers/food/snacks/grown/potato,
+/obj/item/weapon/reagent_containers/food/snacks/grown/potato,
+/obj/item/weapon/reagent_containers/food/snacks/grown/carrot,
+/obj/item/weapon/reagent_containers/food/snacks/grown/carrot,
+/obj/item/weapon/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/weapon/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/weapon/reagent_containers/food/snacks/grown/beans,
+/obj/item/weapon/reagent_containers/food/snacks/grown/beans,
+/obj/structure/closet/crate/empty{
+	name = "vegetables crate"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"eE" = (
+/obj/structure/bed/chair/wood{
+	dir = 4
+	},
+/turf/floor/wood_broken,
+/area/caribbean/houses/nml_one)
+"eF" = (
+/obj/structure/table/wood,
+/obj/item/weapon/material/kitchen/utensil/knife,
+/obj/item/weapon/material/kitchen/utensil/fork,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"eG" = (
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/grass,
+/area/caribbean/island)
+"eH" = (
+/obj/structure/religious/impaledskull,
+/turf/floor/grass,
+/area/caribbean/island)
+"eI" = (
+/obj/effect/landmark{
+	name = "JoinLateRNCarpenter"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"eJ" = (
+/obj/structure/simple_door/wood{
+	name = "Medic"
+	},
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"eK" = (
+/obj/structure/sink/puddle,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"eL" = (
+/obj/structure/closet/cabinet,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"eM" = (
+/obj/structure/bed,
+/obj/item/weapon/bedsheet/purple,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"eN" = (
+/obj/item/weapon/mop,
+/obj/item/weapon/reagent_containers/glass/bucket,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"eO" = (
+/obj/structure/table/marble,
+/obj/item/weapon/storage/firstaid/surgery,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"eP" = (
+/obj/structure/table/marble,
+/obj/item/stack/medical/splint,
+/obj/item/stack/medical/splint,
+/obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/stack/medical/advanced/ointment,
+/obj/item/stack/medical/advanced/ointment,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"eQ" = (
+/obj/structure/table/marble,
+/obj/item/stack/medical/bruise_pack/bint,
+/obj/item/stack/medical/bruise_pack/bint,
+/obj/item/stack/medical/bruise_pack/bint,
+/obj/item/stack/medical/bruise_pack/bint,
+/obj/item/stack/medical/bruise_pack/bint,
+/turf/floor/wood_broken,
+/area/caribbean/houses/nml_one)
+"eR" = (
+/obj/structure/window/barrier,
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/grass,
+/area/caribbean/island)
+"eS" = (
+/obj/structure/wild/burnedbush,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"eT" = (
+/obj/structure/wild/junglebush,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"eU" = (
+/obj/structure/wild/bush/big{
+	name = "large bush"
+	},
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"eV" = (
+/obj/structure/wild/palm,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"eW" = (
+/obj/structure/barricade,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"eX" = (
+/obj/structure/simple_door/wood{
+	name = "Tavern"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"eY" = (
+/obj/item/weapon/bedsheet,
+/obj/structure/bed,
+/obj/item/weapon/bedsheet/brown,
+/turf/floor/carpet,
+/area/caribbean/british/land/inside)
+"eZ" = (
+/obj/effect/landmark{
+	name = "JoinLateRNMidshipman"
+	},
+/turf/floor/carpet,
+/area/caribbean/british/land/inside)
+"fa" = (
+/obj/structure/bed/chair/wood/wings{
+	dir = 4
+	},
+/turf/floor/carpet,
+/area/caribbean/british/land/inside)
+"fb" = (
+/obj/structure/table/wood,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/wine,
+/obj/item/weapon/reagent_containers/food/drinks/drinkingglass/mug/brit,
+/obj/item/weapon/pen,
+/obj/item/weapon/paper,
+/turf/floor/carpet,
+/area/caribbean/british/land/inside)
+"fc" = (
+/obj/structure/table/wood,
+/obj/item/weapon/gun/projectile/flintlock/pistol,
+/obj/item/weapon/paper/crumpled/bloody{
+	name = "Bar Tab";
+	text = "10 Dabloons"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fd" = (
+/obj/structure/bed/chair/wood/wings{
+	dir = 8
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fe" = (
+/obj/structure/bed/chair/wood/wings{
+	dir = 4
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"ff" = (
+/obj/item/weapon/reagent_containers/food/snacks/grown/coconut,
+/turf/floor/plating/cobblestone/vertical/dark,
+/area/caribbean/island)
+"fh" = (
+/obj/structure/table/wood,
+/obj/item/weapon/book,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"fi" = (
+/turf/floor/carpet,
+/area/caribbean/british/land/inside)
+"fj" = (
+/obj/structure/simple_door/wood{
+	name = "Officer's Quarters"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fk" = (
+/obj/structure/bed/chair/wood/wings{
+	dir = 1
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fl" = (
+/obj/structure/sink/kitchen,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fm" = (
+/obj/structure/closet/crate/musketball,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fn" = (
+/obj/structure/vending/muskets,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fo" = (
+/obj/structure/bookcase,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"fp" = (
+/obj/structure/table/wood,
+/obj/item/kitchen/snack_bowl,
+/obj/item/weapon/material/kitchen/utensil/fork,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"fq" = (
+/obj/structure/vending/muskets,
+/turf/floor/carpet,
+/area/caribbean/british/land/inside)
+"fr" = (
+/obj/item/weapon/material/sword/cutlass{
+	name = "Captain's Blade"
+	},
+/turf/floor/carpet,
+/area/caribbean/british/land/inside)
+"ft" = (
+/obj/structure/vending/britishapparel,
+/turf/floor/carpet,
+/area/caribbean/british/land/inside)
+"fu" = (
+/obj/effect/landmark{
+	name = "JoinLatePirateCook"
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"fv" = (
+/obj/structure/table/wood,
+/obj/item/trash/candle,
+/obj/item/weapon/reagent_containers/food/drinks/teapot/filled,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"fw" = (
+/obj/item/weapon/reagent_containers/glass/bucket,
+/obj/item/weapon/material/kitchen/utensil/knife/butcher,
+/obj/structure/table/wood,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fx" = (
+/obj/effect/landmark{
+	name = "JoinLateRNCook"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fy" = (
+/obj/structure/closet/crate/rations/meat,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fz" = (
+/obj/structure/closet/crate/musketball,
+/turf/floor/wood_broken,
+/area/caribbean/british/land/inside)
+"fA" = (
+/obj/structure/bed,
+/obj/item/weapon/bedsheet/green,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"fB" = (
+/obj/structure/bed,
+/obj/item/weapon/bedsheet/ce,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"fC" = (
+/obj/structure/closet/cabinet,
+/obj/item/weapon/material/sword/cutlass,
+/turf/floor/wood,
+/area/caribbean/houses/nml_one)
+"fD" = (
+/obj/item/weapon/reagent_containers/glass/bucket,
+/obj/structure/table/wood,
+/obj/item/kitchen/wood_bowl,
+/obj/item/kitchen/wood_bowl,
+/obj/item/kitchen/wood_bowl,
+/obj/item/kitchen/wood_bowl,
+/obj/item/kitchen/wood_bowl,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fE" = (
+/obj/structure/pot,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fF" = (
+/obj/structure/closet/cabinet,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/rum{
+	step_x = 0;
+	step_y = 0
+	},
+/obj/item/weapon/reagent_containers/food/drinks/bottle/rum{
+	step_x = 0;
+	step_y = 0
+	},
+/obj/item/weapon/reagent_containers/food/drinks/bottle/rum{
+	step_x = 0;
+	step_y = 0
+	},
+/obj/item/weapon/reagent_containers/food/drinks/bottle/rum{
+	step_x = 0;
+	step_y = 0
+	},
+/obj/item/weapon/storage/box/drinkingglasses,
+/turf/floor/wood_broken,
+/area/caribbean/british/land/inside)
+"fG" = (
+/obj/structure/simple_door/wood{
+	name = "Arms and Ammo"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fH" = (
+/obj/item/weapon/barrier,
+/turf/floor/dirt,
+/area/caribbean/island)
+"fI" = (
+/obj/structure/wild/palm,
+/turf/floor/beach/sand,
+/area/caribbean/british/land/outside)
+"fJ" = (
+/turf/floor/beach/sand,
+/area/caribbean/british/land/outside)
+"fK" = (
+/obj/item/weapon/reagent_containers/food/snacks/grown/coconut,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"fL" = (
+/obj/structure/closet/coffin,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"fM" = (
+/obj/structure/bed/padded,
+/obj/item/weapon/bedsheet,
+/obj/effect/landmark{
+	name = "JoinLateRN"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fN" = (
+/obj/effect/landmark{
+	name = "JoinLateRN"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fO" = (
+/obj/structure/simple_door/wood{
+	name = "Sleeping Quarters"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fP" = (
+/obj/item/clothing/shoes/sandal,
+/obj/item/clothing/shoes/sandal,
+/obj/item/clothing/shoes/sandal,
+/obj/item/clothing/shoes/sandal,
+/obj/item/clothing/shoes/sandal,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"fQ" = (
+/obj/effect/landmark{
+	name = "JoinLateRN"
+	},
+/turf/floor/wood_broken,
+/area/caribbean/british/land/inside)
+"fR" = (
+/obj/structure/vending/britishapparel,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fS" = (
+/obj/structure/closet/crate/empty{
+	name = "bandolier crate"
+	},
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fT" = (
+/obj/structure/table/wood,
+/obj/item/trash/candle,
+/obj/item/weapon/attachment/bayonet,
+/obj/item/weapon/attachment/bayonet,
+/obj/item/weapon/attachment/bayonet,
+/obj/item/weapon/attachment/bayonet,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fU" = (
+/mob/living/simple_animal/mouse/gray,
+/turf/floor/grass,
+/area/caribbean/island)
+"fV" = (
+/mob/living/simple_animal/parrot,
+/turf/floor/grass,
+/area/caribbean/island)
+"fW" = (
+/mob/living/simple_animal/mouse/white,
+/turf/floor/grass,
+/area/caribbean/island)
+"fX" = (
+/obj/item/weapon/material/shovel,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"fY" = (
+/obj/structure/simple_door/wood{
+	name = "Engineering"
+	},
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"fZ" = (
+/obj/structure/closet/hideout/beach,
+/obj/effect/landmark{
+	icon_state = "x3";
+	name = "JoinLateIND"
+	},
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"ga" = (
+/obj/item/weapon/reagent_containers/glass/bucket,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"gb" = (
+/obj/structure/wild/junglebush,
+/mob/living/simple_animal/mouse/gray,
+/turf/floor/grass,
+/area/caribbean/island)
+"gc" = (
+/obj/structure/wild/jungle,
+/turf/floor/grass,
+/area/caribbean/island)
+"gd" = (
+/obj/structure/closet/crate/grenades,
+/turf/floor/wood_broken,
+/area/caribbean/british/land/inside)
+"ge" = (
+/obj/structure/religious/impaledskull,
+/turf/floor/dirt,
+/area/caribbean/island)
+"gf" = (
+/obj/structure/wild/bush,
+/obj/structure/wild/jungle,
+/turf/floor/grass,
+/area/caribbean/island)
+"gg" = (
+/obj/structure/wild/bush/big,
+/obj/structure/wild/jungle,
+/turf/floor/grass,
+/area/caribbean/island)
+"gh" = (
+/obj/structure/wild/jungle,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"gi" = (
+/obj/structure/wild/rock,
+/obj/structure/wild/jungle,
+/turf/floor/grass,
+/area/caribbean/island)
+"gj" = (
+/obj/effect/landmark{
+	name = "JoinLateRN"
+	},
+/obj/item/weapon/material/boarding_axe,
+/turf/floor/wood_broken,
+/area/caribbean/british/land/inside)
+"gk" = (
+/obj/structure/wild/largejungle,
+/turf/floor/grass,
+/area/caribbean/island)
+"gl" = (
+/obj/structure/wild/bush,
+/obj/structure/wild/largejungle,
+/turf/floor/grass,
+/area/caribbean/island)
+"gm" = (
+/obj/structure/wild/tree,
+/obj/structure/wild/largejungle,
+/turf/floor/grass,
+/area/caribbean/island)
+"gn" = (
+/obj/structure/wild,
+/obj/structure/wild/largejungle,
+/turf/floor/grass,
+/area/caribbean/island)
+"go" = (
+/obj/structure/wild/junglebush,
+/obj/structure/wild/largejungle,
+/turf/floor/grass,
+/area/caribbean/island)
+"gp" = (
+/obj/structure/wild/bush/big,
+/obj/structure/wild/largejungle,
+/turf/floor/grass,
+/area/caribbean/island)
+"gq" = (
+/obj/structure/wild/largejungle,
+/mob/living/simple_animal/parrot,
+/turf/floor/grass,
+/area/caribbean/island)
+"gr" = (
+/mob/living/simple_animal/turkey_m,
+/turf/floor/grass,
+/area/caribbean/island)
+"gs" = (
+/obj/structure/closet/hideout/beach,
+/turf/floor/grass,
+/area/caribbean/indians/camp)
+"gt" = (
+/mob/living/simple_animal/turkey_f,
+/turf/floor/grass,
+/area/caribbean/island)
+"gu" = (
+/obj/effect/landmark{
+	name = "JoinLatePirate"
+	},
+/turf/floor/grass,
+/area/caribbean/indians/camp)
+"gv" = (
+/mob/living/simple_animal/goose,
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"gw" = (
+/obj/item/weapon/key/tribal,
+/turf/floor/grass,
+/area/caribbean/island)
+"gx" = (
+/obj/structure/oven/fireplace,
+/turf/floor/dirt,
+/area/caribbean/indians/camp)
+"gy" = (
+/obj/structure/window/barrier/ship/wood/port0,
+/turf/floor/ship/wood_ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"gz" = (
+/obj/structure/barricade/ship/blue/b16,
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"gA" = (
+/obj/covers/jail/woodjail,
+/turf/floor/wood,
+/area/caribbean/island)
+"gC" = (
+/obj/item/weapon/gun/projectile/flintlock/pistol{
+	accuracy_decrease_mod = 3;
+	accuracy_increase_mod = 3;
+	name = "Captains Pistol"
+	},
+/obj/structure/table/wood,
+/obj/item/weapon/reagent_containers/food/drinks/teapot/filled,
+/turf/floor/carpet,
+/area/caribbean/british/land/inside)
+"gE" = (
+/obj/structure/flag/british,
+/turf/floor/dirt,
+/area/caribbean/island)
+"gF" = (
+/obj/structure/table/wood,
+/obj/item/weapon/reagent_containers/food/drinks/teapot/filled,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"gG" = (
+/obj/structure/sink/well,
+/turf/floor/grass,
+/area/caribbean/island)
+"gH" = (
+/obj/structure/wild,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"gI" = (
+/obj/structure/wild/bush/big,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"gJ" = (
+/obj/effect/landmark{
+	name = "JoinLatePirate"
+	},
+/turf/floor/dirt,
+/area/caribbean/indians/camp)
+"gK" = (
+/turf/floor/ship/wood_ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"gL" = (
+/obj/item/violin,
+/turf/floor/ship/wood_ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"gN" = (
+/obj/structure/simple_door/key_door/custom/jail/woodjail/tribal,
+/turf/floor/wood,
+/area/caribbean/island)
+"gO" = (
+/obj/structure/closet/crate/empty{
+	name = "vegetables crate"
+	},
+/obj/item/weapon/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/weapon/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/weapon/reagent_containers/food/snacks/grown/cabbage,
+/obj/item/weapon/reagent_containers/food/snacks/grown/carrot,
+/obj/item/weapon/reagent_containers/food/snacks/grown/carrot,
+/obj/item/weapon/reagent_containers/food/snacks/grown/carrot,
+/turf/floor/grass,
+/area/caribbean/indians/camp)
+"gP" = (
+/obj/structure/barricade/ship/mast,
+/turf/floor/ship/wood_ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"gQ" = (
+/turf/floor/wood,
+/area/caribbean/island)
+"gR" = (
+/obj/structure/bed/wood,
+/turf/floor/wood,
+/area/caribbean/island)
+"gS" = (
+/obj/structure/toilet/pit_latrine,
+/turf/floor/wood,
+/area/caribbean/island)
+"gT" = (
+/obj/structure/grille/logfence,
+/obj/structure/grille/logfence{
+	dir = 8;
+	icon_state = "palisade"
+	},
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"gU" = (
+/obj/structure/window/barrier{
+	dir = 4
+	},
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"gV" = (
+/obj/covers/repairedfloor,
+/obj/structure/window/barrier,
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/sea/shallow)
+"gW" = (
+/obj/covers/repairedfloor,
+/obj/structure/window/barrier,
+/obj/structure/window/barrier{
+	dir = 4
+	},
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/sea/shallow)
+"gX" = (
+/obj/covers/repairedfloor,
+/obj/structure/window/barrier{
+	dir = 1
+	},
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/sea/shallow)
+"gY" = (
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/obj/structure/window/barrier{
+	dir = 1
+	},
+/turf/floor/dirt,
+/area/caribbean/island)
+"gZ" = (
+/obj/structure/sink/puddle,
+/turf/floor/grass,
+/area/caribbean/indians/camp)
+"ha" = (
+/obj/covers/repairedfloor,
+/obj/structure/window/barrier{
+	dir = 1
+	},
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/sea/shallow)
+"hb" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/floor/grass,
+/area/caribbean/indians/camp)
+"hc" = (
+/obj/covers/repairedfloor,
+/obj/structure/window/barrier{
+	dir = 4
+	},
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/sea/shallow)
+"hd" = (
+/obj/structure/grille/logfence,
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"he" = (
+/obj/structure/grille/logfence,
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/island)
+"hf" = (
+/obj/structure/grille/logfence,
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/sea/shallow)
+"hg" = (
+/obj/structure/wild/junglebush,
+/mob/living/simple_animal/frog/poisonous,
+/turf/floor/grass,
+/area/caribbean/island)
+"hh" = (
+/obj/item/weapon/material/shovel/bone,
+/obj/item/weapon/material/shovel/bone,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"hi" = (
+/obj/structure/wild/rock/basalt,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"hj" = (
+/obj/item/weapon/material/kitchen/utensil/knife/bone,
+/obj/item/weapon/material/kitchen/utensil/knife/bone,
+/obj/item/weapon/material/kitchen/utensil/knife/bone,
+/obj/item/weapon/material/kitchen/utensil/knife/bone,
+/obj/item/weapon/material/kitchen/utensil/knife/bone,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"hk" = (
+/obj/item/weapon/hammer,
+/obj/item/weapon/hammer,
+/obj/item/weapon/hammer,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"hl" = (
+/obj/item/weapon/material/hatchet/bone_battleaxe,
+/obj/item/weapon/material/hatchet/bone_battleaxe,
+/obj/item/weapon/material/hatchet/bone_battleaxe,
+/obj/item/weapon/material/hatchet/bone_battleaxe,
+/obj/item/weapon/material/hatchet/bone_battleaxe,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"hm" = (
+/obj/effect/spawner/mobspawner/frogpoisonous,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"hn" = (
+/obj/effect/spawner/mobspawner/frogpoisonous,
+/turf/floor/grass,
+/area/caribbean/island)
+"ho" = (
+/obj/structure/window/barrier{
+	dir = 4
+	},
+/obj/structure/window/barrier,
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"hp" = (
+/obj/covers/repairedfloor,
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/sea/shallow)
+"hq" = (
+/obj/structure/window/barrier/ship/blue/bport3,
+/turf/floor/ship/wood_ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"hr" = (
+/obj/structure/window/barrier/ship/blue/bport0,
+/turf/floor/ship/wood_ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"ht" = (
+/obj/covers/repairedfloor,
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/sea/shallow)
+"hu" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/floor/wood/ship,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"hv" = (
+/obj/structure/window/barrier{
+	dir = 4
+	},
+/turf/floor/dirt,
+/area/caribbean/island)
+"hw" = (
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"hx" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/floor/wood/ship,
+/area/caribbean/sea/shallow)
+"hy" = (
+/obj/structure/window/barrier,
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"hz" = (
+/obj/structure/window/barrier{
+	dir = 4
+	},
+/obj/structure/window/barrier,
+/turf/floor/dirt,
+/area/caribbean/island)
+"hA" = (
+/obj/structure/flag/british,
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"hB" = (
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/obj/structure/window/barrier{
+	dir = 1
+	},
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"hC" = (
+/obj/structure/window/barrier{
+	dir = 1
+	},
+/turf/floor/grass,
+/area/caribbean/island)
+"hD" = (
+/obj/structure/window/barrier{
+	dir = 4
+	},
+/turf/floor/grass,
+/area/caribbean/island)
+"hE" = (
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/dirt,
+/area/caribbean/british/land/outside)
+"hF" = (
+/obj/structure/window/barrier{
+	dir = 4
+	},
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"hG" = (
+/obj/structure/window/barrier{
+	dir = 4
+	},
+/turf/floor/dirt,
+/area/caribbean/british/land/outside)
+"hH" = (
+/obj/structure/window/barrier{
+	dir = 1
+	},
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"hI" = (
+/obj/structure/wild/bush/big{
+	name = "large bush"
+	},
+/obj/structure/window/barrier{
+	dir = 1
+	},
+/turf/floor/grass,
+/area/caribbean/island)
+"hJ" = (
+/obj/structure/religious/grave,
+/turf/floor/grass,
+/area/caribbean/island)
+"hK" = (
+/obj/structure/closet/coffin,
+/obj/structure/religious/grave,
+/turf/floor/grass,
+/area/caribbean/island)
+"hL" = (
+/obj/structure/religious/grave,
+/turf/floor/beach/sand,
+/area/caribbean/island)
+"hM" = (
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/obj/structure/window/barrier,
+/turf/floor/grass,
+/area/caribbean/island)
+"hN" = (
+/obj/structure/window/barrier,
+/turf/floor/grass,
+/area/caribbean/island)
+"hO" = (
+/obj/structure/window/barrier{
+	dir = 1
+	},
+/turf/floor/beach/sand,
+/area/caribbean/sea/shallow)
+"hP" = (
+/obj/structure/window/barrier{
+	dir = 1
+	},
+/turf/floor/beach/water/shallowsaltwater,
+/area/caribbean/sea/shallow)
+"hQ" = (
+/obj/structure/window/barrier,
+/turf/floor/dirt,
+/area/caribbean/island)
+"hR" = (
+/obj/structure/closet/crate/empty{
+	name = "wheat crate"
+	},
+/obj/item/weapon/storage/box/wheat,
+/obj/item/weapon/storage/box/wheat,
+/obj/item/weapon/storage/box/wheat,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"hS" = (
+/obj/structure/table/wood,
+/obj/item/weapon/reagent_containers/food/snacks/hardtack,
+/obj/item/weapon/reagent_containers/food/snacks/hardtack,
+/obj/item/weapon/reagent_containers/food/snacks/hardtack,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"hT" = (
+/obj/structure/table/wood,
+/obj/structure/mill,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"hU" = (
+/obj/item/weapon/hammer,
+/obj/item/weapon/hammer,
+/turf/floor/wood_broken,
+/area/caribbean/british/land/inside)
+"hV" = (
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"hW" = (
+/obj/structure/window/barrier{
+	dir = 4
+	},
+/obj/structure/window/barrier,
+/turf/floor/grass,
+/area/caribbean/island)
+"hX" = (
+/obj/structure/wild/junglebush,
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/grass,
+/area/caribbean/island)
+"hY" = (
+/obj/structure/wild/bush/big{
+	name = "large bush"
+	},
+/obj/structure/window/barrier,
+/turf/floor/dirt,
+/area/caribbean/island)
+"hZ" = (
+/obj/structure/grille/logfence,
+/obj/structure/grille/logfence{
+	dir = 4;
+	icon_state = "palisade"
+	},
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"ia" = (
+/obj/structure/table/wood,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/rum{
+	step_x = 0;
+	step_y = 0
+	},
+/obj/item/weapon/material/thrown/throwing_knife,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"ib" = (
+/obj/item/clothing/shoes/sandal,
+/obj/item/clothing/shoes/sandal,
+/obj/item/clothing/shoes/sandal,
+/obj/item/clothing/shoes/sandal,
+/obj/item/clothing/shoes/sandal,
+/obj/item/clothing/shoes/sandal,
+/turf/floor/dirt,
+/area/caribbean/pirates/land/outside)
+"ic" = (
+/obj/item/clothing/shoes/sandal,
+/obj/item/clothing/shoes/sandal,
+/obj/item/clothing/shoes/sandal,
+/obj/item/clothing/shoes/sandal,
+/obj/item/clothing/shoes/sandal,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"ie" = (
+/obj/structure/window/barrier/ship/wood/port2,
+/turf/floor/beach/water/deep/saltwater,
+/turf/floor/ship/wood_ship/south,
+/area/caribbean/british/ship{
+	name = "British Ship"
+	})
+"le" = (
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"lE" = (
+/obj/structure/wild/tallgrass,
+/turf/floor/grass,
+/area/caribbean/island)
+"ne" = (
+/obj/structure/wild/tallgrass,
+/turf/floor/grass,
+/area/caribbean/pirates/land/outside)
+"nQ" = (
+/obj/structure/wild/largejungle,
+/obj/structure/wild/tallgrass,
+/turf/floor/grass,
+/area/caribbean/island)
+"os" = (
+/obj/structure/wild/bush/big,
+/obj/structure/wild/tallgrass,
+/turf/floor/grass,
+/area/caribbean/island)
+"yH" = (
+/obj/structure/wild/junglebush,
+/obj/structure/wild/largejungle,
+/obj/structure/wild/tallgrass,
+/turf/floor/grass,
+/area/caribbean/island)
+"Aj" = (
+/obj/structure/wild/tallgrass,
+/turf/floor/grass,
+/area/caribbean/indians/camp)
+"FG" = (
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"Gc" = (
+/obj/structure/wild/bush,
+/obj/structure/wild/tallgrass,
+/turf/floor/grass,
+/area/caribbean/island)
+"Kg" = (
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"Nz" = (
+/obj/structure/wild/junglebush,
+/obj/structure/wild/tallgrass,
+/turf/floor/grass,
+/area/caribbean/indians/camp)
+"QE" = (
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/turf/floor/wood,
+/area/caribbean/british/land/inside)
+"Tk" = (
+/obj/structure/wild/tallgrass,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall)
+"UE" = (
+/obj/structure/wild/tallgrass,
+/turf/floor/grass,
+/area/caribbean/british/land/outside)
+"Ya" = (
+/obj/structure/wild/tallgrass,
+/obj/structure/wild/tallgrass,
+/turf/floor/grass,
+/area/caribbean/island)
 
 (1,1,1) = {"
-aaahahahahahahahahahahahahahahahahahahahahahahahahaoaoahahahahahahahahahahahahahahahahahasasahahahahahahahahahaoaoaoayahahahahahahahahahahananananadaoaoahahahahahahahahahahahbsbsaaaaaaaaaaaaaaaaaaaaaa
-aaahahahahahahahahceaoaoahahaoaoaoahaoaoahaoaoaoahaoaoahahaoaoaoahaoaoaoaoaoahaoaoaoaoaodtasahahahahahahahahaoaoaoaoayaoaoaoaoaoaoaoaoaoaoanananananaIaFaFaFaFaFaFaFbibiahahahahbsaaaaaaaaaaaaaaaaaaaaaa
-aaahahahahahaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaodtdtaoaoaoaoaoaoaoaoaoaoaoaoaPananatanananananananaranaratbkbqaFaIaFaIaFaFaFaFbiahahahahahahahaaaaaaaaaaaaaaaaaa
-aaahahahaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaodtdtaoaoaoaoaoaoaoaoaoaodbaoaPananananananaDaLhmbDbxnenearbybBbrbFbrbrbPaFaFaFaFahahahahahahaaaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaodtaJabamamablEaoaoaoaoaoaoaoaPananbDananaOaKaEbTbDbxaDaVcnfPbRbrbrbabVbabraFaFaFahahahahahahaaaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaYaJabababababaeaehnaodbaoabaGaDbeaSaTaVbjaUaUaUararbcaRcAczgJAjAjbXdgbXbrbraFaFahahahahahahaaaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoababaJaYabcTgkabagabalabaoaoababaGaKafbcaDbGarbGacbUbGarbWdidjdhgObraIbXdnbXaIbFaFaFahahahahahaaaaaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoaoaoaoaoaoaoaoaoaoababaoaoabaoaoabaoaoaoabaoaoabaoaoaoaoabaoaoaoaoaoaoaoabaeaJaJgkachgcSabcTabaegclEaeabaGaDaLbbaraLaDbGibbWciclaKdufudCgubrbFbrbreqbrbraFaFaoahahahahahahaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoaoaoaoaoabaeaoaoaoabababababaoaoaoabaoaoababababababdxabaoaoabaoaeaeabaeaeabTkaJamamamababababamabababeHfsaDhhbfckaNhibgbhbzbDaDaDdidjgabugZbreqAjbrgseqbPaFaoahahahahahahaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoaoabaoababababababababaoabababababababcTababababcTamabaoababamababcSabaiablEdATkababablEaegcabababaeabamaDaLaDckckaVarbnaDaDcxarckaDgwabgxgxbrhbbrNzbrbrbraFaoahahahahahaaaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoabaeabababaeablEYaababgcabababaolEamabaiabaoaeababaoaoaoaoaoaodyabbSabblababaJaJabaeababdacTabglabcmakakarararckckapbzarckacaDaDcKgAgNgAgAlEamabgoabababaFaFaoahahahaaaaaaaaaaaaaaaaaaaaaaaa
-aaahahaoaoaoababaeababababbSababababababaoababababababccabgrabaeabababaeaeabamcccTababaeaJaJaiabgmabblabakakakakakgefsbJaDckfZhjdkbEdpdkaVaDcKgAgQgRgAababidabamaNamaFaFaoahahahaaaaaaaaaaaaaaaaaaaaaaaa
-aaahahaoaoaoaoabaiabbllEababaeabaeaeababaeababaeababcTababcTabababgcabaelEablEdaabgfababaJTkabablEabaeakakbIcTabababaGaWbKfPhkaLdpbEdpdpicnecKgAgQgRgAabacablEabababaFaFbZahahahahahahaaaaaaaaaaaaaaaaaa
-aaahahaoaoaoaoababababcTabaiabababccababdxablEabgkcdgkababababaeababakakabakabababaecTamdzaYabaeabakakamabablEabaelEaGaXaZhlaLgBaDarbcaDaDnecKgAgSgRgAamamababababanaoaobZahahahahahahaaaaaaaaaaaaaaaaaa
-aaaaahaoaoaoaoabababcTcTababaogcababababdaabaecUababaoababgglEabakabakakabakakaiablEababaJaJabakakabababablEaiabaiabaGaBaBaBbdaBaBararaBaBaBaBgTaBaBhZaBaBaBaBaBaCaChdhehehfhfhfhfaaaaaaaaaaaaaaaaaaaaaa
-aaaaahaoaoaoaoabbSaeababababababababcTfUgcabababgkacabababaeababakccamgkaiabakabababablEaJbQaeababcTcTaeabaeabakababaDaDneaDaDaeaVararaVaDaDaDaDaDaDbHaDaDaDaDanananaoaobZahahahahaaaaaaaaaaaaaaaaaaaaaa
-aaahahaoaoaoaoabababccabaeaeababgnaeababablEabababababaebllEabakabccababababakakabaeabaedBbYabcdlElEabababacgcabgmababamababababeHarabeHgkababaeababababababaeaoaoaoaoaobZahahahahaaaaaaaaaaaaaaaaaaaaaa
-aaahahahaoaoaoaoabablEabcTababfVabaiababccabaeabcdabababbllEabakabfWabaeaeabababakakakakajbYaoababababgkcTaoaoaoabaeababcVaeaeabararabababaeblababyHabgkabaeababaoaoaoaoaoahahahahahahaaaaaaaaaaaaaaaaaa
-aaaaahahaoaoaoabaeamabababababgcabcdcUabababalabababaeabakakababababababablEabcdabaoacabaJaYabaodbdbaoaoaoaoaoaoababaoaoaoaoarararababababaelEamababacamababababaoaoaoaoaoahahahahahahaaaaaaaaaaaaaaaaaa
-aaahahahaoaoaoababamababamaeabababababgcabaiabababababakakcmababaeaeabgnablEaeabgcabababdraJamaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoababaeabgkabababamabababababaoaoaoaoaobZahahahahahahaaaaaaaaaaaaaaaaaa
-aaaaaaahaoaoaoaeababaelEababacabccgtabacabababgcabaeabakamabcUcUablEcdlEabababaoaoaoaoaeaJdodqdtdtdtdtdtdtdtdtdtdtdtdtdtdtasdtdtdtdtaJaJaJaJTkaJaJaJaJaJghaJaJdtdtdtdtasasasasasasascacacacacacacacacaca
-aaaaahahaoaoaoababgkablEabaiaeabababaiablEamabblabaiabakabaeabgcababababababaoaoaoakaoabdtdtdtdtdtdtdtdtdtdtdtdtdtdtdtdtasasasdtdtdtaJaJaJTkaJcbaJaJaYaJaJaJaJdtasasdtasasasasasasascacacacacacacacacaca
-aaahahahaoaoababaiabcclEgkaeabgcblabgkbSababababababamabakablEccababaeabgpabaoaoaoaoaoabdtdtaoaoaoaoaoaoaoahahahaoaoaoaoahahahaoaoaoaoaoaoamabamabaiababaebllEaobZbZbZbZbZahahahahahaaaaaaaaaaaaaaaaaaaa
-aaahahaoaoaoaeabababaeaiababababababcUabgrabaeabgmabababakamamccccaeababababaodtbYdtdtdtdtdtaoaoaoaoahahahahahahaoaoaoaoahahahahahaoaoaoaoaoaoabababamababababaoaobZbZbZbZahahahahahaaaaaaaaaaaaaaaaaaaa
-aaahahaoaoababccabaiababababaeabccababababababgkabccabaeakabababaiabdaabababaodtdtdtdtdtdtdtaoaoaoaoahahahahahahahahahahahahahahahahaoaoaoaoaoaolEababblgkababaoaobZbZbZbZahahahahaaaaaaaaaaaaaaaaaaaaaa
-aaahahaoaoaeababababbSabaegkababaeababaeaeabababamabcdakakabgkababaoaoaoaoaoaodtasahahahahahahahahahahahahahahahaoahahahahahahaoaoahahaoaoaoaoaoaoabababaoabababaoaobZbZbZahahahahaaaaaaaaaaaaaaaaaaaaaa
-aaahahaoaoabababaeabababaiablEababccabababaeaeakakakakamcTaeabacgkaoaoaoaoaoaodtasahahahahahahahahahahahahahahaoaoaoahahaaahahahaoaoahahahahaoaoaoaoaoaoaoaoabaeaoaoaoaobZahahahahaaaaaaaaaaaaaaaaaaaaaa
-aaahahaoaoaoabaeabamcTabababaiaecTabgkabccababakabcUabamababamababaoaoaoaoaoahasasahceahahahahahahahahahahahahahahahahahaaahahahahahahahahahaoaoaoaoaoaoaoaoaoababaoaoaoaoahahahahahaaaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoababaiababaelEamabababababamgiablEabakabamamgcabcTgkamababaoaoaoahasasahahahahahahahahahahahahahahceahahaaahaaaaaaaaaaahahahahahaoaoaoaoaoaoaoaoaoaoaoaoaoaoaoceahahahahaaaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoaoacababaiababaeacablEabababababosakccababababcUabababacabaoaoaoahasasahahahaaaaaaaaaaaaaaaaahahahahahbsaaaaaaaaaaaaaaaaaaaaahahahahahahaoahahahahaoaoaoaoaoaoahahahahahaaaaaaaaaaaaaaaaaaaa
-aaahaoaoaoababababaeababaiamgcabababaeababababakabGcabaeabababaeaeabaoaoaoaoahasdtahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahaoaoaoahahahahahahahahaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoaoabababababababdxabcTaeababaegtabakakabaeaeabgbababaeababaoaoaoahasdtceceahaaaaaaaaaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaahahahahahahahahahahaaaaaaaaaaaaaaaaaaaaaa
-aaahahaoaoaoaobSabaegkababablEabaelEababamamabakakabamcTababcTababaeaoaoaoaoahasasahahahaaaaaaaaaaaacacacacacacacacacacacacacacacacacacacacacacacacacacacacacaaaaaaaaaaaahaaahahahaaaaaaaaaaaaaaaaaaaaaa
-aaaaahaoaoaoaoabababablEaeababababababcTgkababakdvamabcdablEalabgqaicUaoaoceahcacaahaaaaaaaaaaaaaaaacacacfcgcgcgchiegyiegyiegyiegDiegyiegyiegDcqcgcgcocpaacacacacacacacacacacacacacacacacacacacacacacaca
-aaaaahahaoaoababamababaiababaeamabaeabababcUakakamababamlEabamablEabaoaoaoahahcacaaaaaaaaaaaaaaaaaaacjcacucrcsctcvgKgKgKgKgKgKgKgKgKgKgKgKgKgKcygKgLgMcFcpcacacacacacacacacacacacacacacacacacacacacacaca
-aaahahaoaoaoababababaegkabbSababababaeababamakakabaiaeabdaababablEababaoaoahahascaaaaaaaaaaaaaaaaaaacacacubtcCbvcvgMgKgKgKgKgKgKgKgKgKgKgKgKgKcygKgKgKgKcFcpaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-cacaasdtdtdtaJbQaJaJdraJcHdBaJcWaJdrcbaJdBaJaJbYgHaJaJaJaJdAaJgIaJaJdzdtdtdtasasasascacacacacacacacacacacucBcEbwcGgKgKgPgKgKgKgKgKgKgKgKgPgKgKcygKgKgKgKgKcLaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-cacaasdtdtdtaYaJdzaJaJaJdzaJaJaJaJdAaJdAaJaJaJbYbYaJaYaJaJaJdBaJdraJdtdtdtdtdtdtasasasasasascacacacacacacucIcJcDcvgMgKgKgKgKgKgKgKgKgKgKgKgKgKcygKgKgKgKcPdlaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaahahaoaoaoabababababbSabaeababababababaelEabakakababaeabababccabababababaeaoaoaoaoaohygVgWgXahahahahcucMcNcOcQgKgKgKgKgKgKgKgKgKgKgKgKgKgKcygKgKgMcPcRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaahahahaoaoaoaoababaiabababacabaeabccababababababakamamakabababababaeabababacaoaoaoaohogYdGhahpahahahahcYdcdcdcdfhqhrhqhrgKhrhqhshqhrgKhrhqhsgzdcdcdccRaaaaaaahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaahahahaoaoaoaoababababaeababablEababaeababccaeabakablEabababgcababcTabglababaoaoaogUdFakakaoaoahahaoaoahahahahahahhtahahhuahahahahahhuahahahahhcahahahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaahahaoaoaoaoaeabamabcTabbSababablEabaAakababakakakakakaeaeabakabcTcdablEamaoaoaohvdHakdIaoaoaoaoaoaoaoaoaoaoaoaohwaoaohxaoahahahahhxaoaoaoaogUahahahaoaoaoaoahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaahahaoaoaoaoabababbSababaiababaeababcdabakakakakaidJabakakabaeababakababaiaoaoaogUdHaoaoaoaoaoaoaoaoaoabablEababeGaoaoakaoaoaoaoaoakaoabaoaohDaoaoaoaoaoaoaoaoahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaahahahaoaoaoababacabgcabfVabgkabakdKdKdLdKdKdLdKdKabdKdLdKdKdKdLdKamabcTababcZaohyhzdHaohAaoaoaoaoakhBhCababababaehChCabakhQhQhQhQhQhQhNababhChCaoababgvaogvaoaoaoahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaahahaoaoaoaoabaiabaeabakabaqcTakabdKdMdNdOdPdQdRdKabdKdOdSbmdTdUdKababcTabaqabgUdFdGakakaoaoaoakaoaoeGabaeabcTabablEablEakdddedededededdabaeablEababababaoabaoaoaoahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoaoabababablEamdyababaklEdKbodNdNdVdNdNdKabdKfvdQdNdNdNdKakabamgkababhDdHakaoaoaoabababakabhEdXdYdZdXdYdYababakabauabababavabauababamamabaeaeabawababgvaoahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoaoaeacabcSabaiabcTababakdKdKeaebeadKdKdKabdKdKeaebeadKdKdJabakamamlEhDdHaoecedeeefUEdYUEdYegehegehegegdXaeaeakcVauavlEababavauamablEababablEababababaoaoaoahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoababababaeababababcTlEakdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmdmacbShvdHazdXeidYdXdXdXdXdYegcwhRelemendYdmakakabauababaHlEabauababablEabcTabalababaeaoaoaoahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaahaoaoaoaoaelEgkababaeaeabaeamabakakabakdJdKdKeaebeadKdKdmdKdKeaeJeadKdKdmakabhveoakdXegegegegegepbpeghSekerekesepdmcmamaMauababaHabaHauabaedaabgkcTababaeababgvaoaoaoahahahahaaaaaaaaaaaaaaaaaaaaaaaa
-aaahaoaoaoabababababaiababaicTcTabdDakabaklEdKdOdNdNeteudKdmdKevewewewevdKdmakamhDexaxeyegezeAeBenepeCeghShTeDeDegUEdmcmdmdmaQababablEabauakababaeabababababaoabaoaoaoaoaoaoahahaaaaaaaaaaaaaaaaaaaaaaaa
-aaahahaoaoababacaoaoabaeaecUcTgcabakakdsakabdLbAdNdNeEeFdLdmdLevdSdNdNevdLdmamaehveGabdYeggdhUeIfYepeKegehegehegegdYdmgEdmlEdddedededededdabamlEababaoaoaoaoaoaoaoahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaa
-aaahahahaoaoaoaoaoaoaoaoaoaoaoaoaoamabamakabdKeLeMdNdNeNdKdmdKevdNeOePeQdKdmdJabhveRbSdYegegegegegepdXdXeSeTeidYeUdXdmakdmgGabcmdacSabakakababcSaoabaoahahaoaoaoaoahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaahahaoaoaoaoaoahahahahahaoaoaoaoaoaoamakdKdKdKdKdKdKdKdmdKdKdKdKdKdKdKdmdmdmdmdmdmepepepepepepepepepepepepepepepepepepepepepepepepabakakaklEababaoaoahaoaoaoaoahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaahahahahahahahahahahahahaoaoaoaoaoamcTdmdmdmdmdmdmdmdmdmdmdmffdmdmdmdmamakhDdFaeegegehegegegeTeUeWepegegegeheneXenehegegehegdYepepeVdXdXdXUEababaoaoahaoaoahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaahahahahahahahahahahaoaoaoahaoaoabcTamabakakdJdKeaebeadKdKabdKdKeaebeadKdKdsabegeYeZfafbendYeSeSepegbCfcfdbLekfeiafdfeejegeTeWepegegegegegabgkabaoaoahahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaahahahahahahaoahahahaoaoaoaoabaklEababdKdWdNbMdOdKabdKdMdNdNetfhdKakakegeZeZeZfifjepepepepehekfkekerekekekekekflegdXUEepegfmfgfnegabaoababaoaoaoaoahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaahahahahahahahahahahahahaoaoababaolEdKdVdNdSdNdKakdKfodNdSeEfpdKaklEegfqfrgCfteneTdYeUepegbNekekfegFfdekfwfxfyegdXdYepegfzFGfnegaoaoaoabababaoaoahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaahahahahahahahahahahahahaoaoababaoabdKfAdNdNfBdKakdKfCdNdNdNdOdKcmabegegehegegegUEdXdYepeXekekekekekekbOfDfEfFegeUeVepegfmKgfnegaoahaoaoaoaoaoahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahahahaoabababdKdLdKdKdLdKabdKdKdKdLdKdKdKakabdYdYdYdYdYdYdYeyUEepenegegehegegegehegegehegdYdXepfGQElefnegaoahahahahahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahahahaoaoababaoaoabababaoakabababakababhvdHakdYeUdXdXdXeVeVeTdXhFhVdXeifXfXdXdYeidXdYdYdXeieTepegegegegegaoahahahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahahahahaoaoaoababablEababablEamablEabakhvdHfHeVfIfJfJfJfJfJfJdYhGhVeVdYfKeTfLdYegegegegegendYepdYabababaoaoahahahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahahahahaoaoaoaoaoaoaoaoaoaoababamamaoaohvhwababaoaoahahahaohyhyhWhXabababbScXabegfMfNfMfNfOepepeTablEabaoaoaoaoahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahaoaoaoaoaoaoaoaoaoaoababaogUhwcTablEaoaoahahaohHhChIabaeamhJabhKabehfNgjfNfNenakakhDeGgkaoaoaoabaoahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahahahahahahaoaoaoaoaoaoaoaogUeGababamaoahahahaoaoabablEhJabhLabhLakegfMfNfMfNeghYhNhWeGabaoaoabaeaoahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahahahahahahahaoaoaoaoaoaohDhMhNhyhyhyhyhyhyhydbabcTababaoaoaoaoabehfQfNfNfQehdGhChCablEablEababaoahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahahahahahahahahahahaoaoababhChHhOhPhPhHhHhHhCablEababamabaoahaoakegfMfNfMfNegakabgkabaeabababaoaoahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahahahahaoababaoaoahahaoaoaoabamabaeabnQababaoahaoabegfQfNfNfNegabababababaoaoaoaoahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahaoaoaoaoaoahahaoaoaoabablEabaoaoabaeaoahaoaoehfMfNfMfNehdEabcTabaoaoaoahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahahahahahahaoaoaoaoababaoaoaoaoaoahahaoegfRfRfSfTegababaoaoaoahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahahahahahahaoaoaoaoaoaoaoahaoaoahahahaoegenegegenegabaoaoahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahahahahahahahahahahahahahahahahahaoaoaeababaoaoaoaoaoaoahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahahahahahahahahaoaoabnQabaoaoahahaoaoaoahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahahahahahahahahahaoaoaoaodbabababaoaoahahahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahaaaaahahahahahaoaoaoababablEaoaoahahahahahahahaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaahahahahahaoaoaoaoaoaoahahahahahahbsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadw
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(2,1,1) = {"
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+ah
+ah
+aa
+ah
+aa
+aa
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+ah
+ca
+ca
+aa
+ah
+ah
+aa
+aa
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(3,1,1) = {"
+ah
+ah
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+as
+as
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(4,1,1) = {"
+ah
+ah
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ah
+ao
+dt
+dt
+ah
+ah
+ah
+ah
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(5,1,1) = {"
+ah
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+dt
+dt
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(6,1,1) = {"
+ah
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ae
+ab
+ao
+ao
+ao
+ab
+ao
+ao
+ao
+ao
+ao
+dt
+dt
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ao
+ao
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(7,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ae
+ab
+ab
+ab
+ab
+ab
+ao
+ab
+ao
+ao
+ao
+ab
+ab
+aJ
+aY
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ae
+ab
+ab
+ao
+ao
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(8,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ae
+ab
+ab
+ab
+ab
+ab
+ab
+ao
+ab
+ab
+ae
+ab
+ab
+ab
+cc
+ab
+ab
+ae
+ab
+ac
+ab
+ab
+bS
+ab
+ab
+ab
+bQ
+aJ
+ab
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+ae
+ab
+lE
+ab
+ac
+ao
+ao
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(9,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ae
+ai
+ab
+ab
+bS
+ab
+ab
+ae
+ab
+ab
+ab
+ai
+ab
+ab
+ab
+ae
+ab
+ai
+ab
+ab
+ab
+ab
+ab
+am
+ab
+aJ
+dz
+ab
+ab
+ab
+ae
+ab
+ab
+ai
+ab
+ac
+ab
+gk
+ab
+ao
+ao
+ao
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(10,1,1) = {"
+ah
+ce
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+ab
+ab
+ab
+ae
+ab
+ab
+am
+am
+ab
+gk
+ab
+ab
+ai
+ab
+ab
+am
+ab
+ab
+ae
+ab
+ae
+ab
+ab
+ab
+aJ
+aJ
+ab
+ab
+ab
+ab
+ab
+ac
+ab
+ab
+ab
+ab
+ab
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(11,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+ab
+bl
+ab
+cT
+ab
+cc
+lE
+ab
+ab
+ae
+ab
+cc
+ae
+ab
+bS
+ab
+cT
+ab
+ai
+ab
+ab
+gk
+ab
+ab
+ae
+dr
+aJ
+ab
+ai
+ab
+am
+ab
+ab
+ae
+ab
+cS
+ae
+ab
+ai
+ab
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(12,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ae
+ab
+ae
+ab
+lE
+cT
+cT
+ab
+ab
+ab
+ab
+ab
+lE
+lE
+lE
+ai
+ab
+ab
+ab
+ab
+ae
+ab
+ab
+ab
+ab
+lE
+ai
+gk
+aJ
+aJ
+ab
+ab
+ab
+ab
+bS
+gc
+ab
+lE
+ab
+ab
+ae
+ab
+ae
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(13,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ae
+cT
+ab
+am
+ab
+ab
+gk
+ab
+ab
+ae
+ai
+ab
+lE
+ab
+ai
+ab
+ab
+ae
+ab
+ab
+cH
+dz
+bS
+ab
+ae
+cT
+ab
+ab
+ak
+am
+ai
+ab
+ae
+ab
+ae
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(14,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+lE
+bS
+ab
+ai
+ab
+ab
+ae
+ab
+ab
+ae
+ab
+ai
+ae
+ab
+ab
+gk
+ab
+ab
+am
+ae
+am
+ab
+ab
+ab
+ab
+bS
+dB
+aJ
+ab
+ab
+ab
+ab
+ab
+fV
+ab
+dy
+ab
+ab
+ab
+ai
+cU
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(15,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+Ya
+ab
+ae
+ab
+ao
+ab
+ab
+ab
+ab
+ab
+ac
+ae
+ab
+ab
+ae
+ab
+lE
+ai
+ab
+ac
+gc
+dx
+lE
+ab
+ae
+ab
+aJ
+aJ
+ae
+ac
+ab
+bS
+ai
+ab
+aq
+ab
+cT
+ab
+ae
+cT
+cT
+ao
+ao
+ah
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(16,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+gc
+ab
+ab
+fV
+gc
+ab
+ab
+ab
+gc
+ab
+ab
+ab
+ab
+ae
+ab
+ab
+ab
+ab
+ab
+ab
+am
+ab
+cW
+aJ
+ab
+ab
+ab
+ab
+ab
+gk
+cT
+ab
+ab
+cT
+am
+cT
+gc
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(17,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+ab
+ab
+ae
+ab
+ab
+ab
+gn
+ab
+ab
+ab
+cc
+ab
+bl
+ab
+cc
+ae
+ab
+cT
+ab
+lE
+ab
+cT
+ae
+ab
+ab
+ab
+aJ
+aJ
+ab
+ae
+lE
+ab
+ab
+ab
+ak
+ak
+ab
+lE
+ab
+ab
+ab
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(18,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ao
+gc
+ab
+ae
+cc
+ab
+ab
+ae
+ai
+cd
+ab
+gt
+ab
+ab
+ab
+ab
+ab
+cc
+ab
+ab
+ab
+ab
+ae
+lE
+ab
+ae
+ab
+dr
+dA
+ab
+ab
+ab
+ab
+ae
+ak
+ab
+lE
+ak
+ak
+ak
+dD
+ak
+am
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(19,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+cT
+ab
+ab
+cU
+ab
+ab
+ai
+gk
+cU
+ab
+ab
+ab
+gk
+ab
+ab
+ae
+ab
+ab
+ab
+ab
+ae
+cb
+aJ
+ab
+cc
+ab
+lE
+ab
+dK
+dK
+dK
+dK
+dm
+ak
+ak
+ak
+ab
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(20,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+fU
+ab
+ab
+ab
+gc
+ac
+ab
+bS
+ab
+ab
+ae
+ab
+ab
+am
+ab
+ab
+ab
+ab
+cT
+ab
+ab
+aJ
+dA
+ab
+ab
+ae
+ab
+ab
+dK
+dM
+bo
+dK
+dm
+ab
+ab
+ds
+am
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(21,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ao
+ae
+dx
+da
+gc
+ab
+cc
+ab
+ab
+ab
+lE
+ab
+gr
+ab
+ae
+ab
+cc
+gi
+ab
+ab
+ae
+am
+gk
+ab
+ab
+dB
+aJ
+ab
+ab
+ab
+aA
+cd
+dL
+dN
+dN
+dK
+dm
+ak
+ak
+ak
+ak
+am
+am
+ab
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(22,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ao
+ab
+ab
+ab
+ab
+ab
+lE
+ab
+ab
+ai
+ab
+am
+ab
+ab
+ab
+ab
+ae
+ab
+ab
+ab
+ab
+gt
+am
+ab
+cU
+am
+aJ
+aJ
+ae
+ab
+ab
+ak
+ab
+dK
+dO
+dN
+eb
+dm
+dJ
+lE
+ab
+ab
+ak
+cT
+cT
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(23,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ao
+ab
+lE
+ab
+ab
+lE
+ae
+ab
+ab
+ae
+al
+ab
+ab
+ab
+ab
+ae
+ab
+ab
+ae
+ab
+lE
+os
+ab
+ab
+ab
+ab
+ak
+ak
+aJ
+aJ
+lE
+ab
+cc
+ab
+ak
+dK
+dP
+dV
+dK
+dm
+dK
+dK
+dL
+dK
+dK
+dm
+am
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(24,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+am
+ab
+ae
+ab
+cU
+ab
+ab
+ab
+ab
+ab
+gc
+bl
+ab
+ab
+gk
+ab
+ak
+ak
+ab
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+bY
+bY
+ab
+ab
+ae
+ab
+ak
+dL
+dQ
+dN
+dK
+dm
+dK
+dO
+bA
+eL
+dK
+dm
+ab
+ak
+ab
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(25,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+ab
+gk
+ab
+gk
+ab
+cd
+ab
+ab
+ab
+ab
+ab
+gm
+ab
+am
+ak
+ab
+ak
+cc
+ab
+ak
+ak
+dv
+am
+ab
+gH
+bY
+ak
+ab
+ab
+ak
+ak
+dK
+dR
+dN
+dK
+dm
+dK
+dN
+dN
+eM
+dK
+dm
+ak
+lE
+ab
+ab
+ab
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(26,1,1) = {"
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+cT
+ai
+ab
+ab
+cd
+ab
+ac
+ab
+ab
+ab
+ab
+ae
+ai
+ab
+ab
+cc
+ab
+ak
+cU
+ab
+ab
+Gc
+ab
+ab
+am
+ab
+ai
+aJ
+aJ
+ak
+ak
+ak
+ak
+ak
+dK
+dK
+dK
+dK
+dm
+eb
+dN
+dN
+dN
+dK
+dm
+ak
+ab
+ao
+ao
+ab
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(27,1,1) = {"
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+ab
+ab
+cT
+gk
+ao
+ab
+ab
+ab
+ae
+ab
+ab
+ab
+am
+ab
+ab
+cd
+ak
+ab
+am
+ab
+ab
+ae
+am
+ab
+ab
+ae
+aJ
+aY
+ab
+am
+ab
+ak
+ai
+ab
+ab
+ab
+ab
+dm
+dK
+et
+eE
+dN
+dK
+dm
+dJ
+ab
+lE
+ab
+ab
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(28,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ao
+cc
+ab
+ab
+ab
+ab
+ae
+ab
+ab
+ak
+ak
+ak
+ab
+ab
+ae
+ak
+am
+am
+am
+ab
+ae
+ae
+cT
+cd
+am
+ab
+aJ
+aJ
+ab
+am
+lE
+ak
+dJ
+dK
+dK
+dK
+dK
+dm
+dK
+eu
+eF
+eN
+dK
+dm
+dK
+dK
+dK
+dK
+dK
+ao
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(29,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ae
+ab
+ab
+ab
+ab
+ab
+bl
+bl
+ak
+ak
+am
+ab
+ak
+ak
+ak
+ak
+cT
+ab
+gc
+ab
+ab
+ab
+ab
+ab
+lE
+da
+aJ
+aJ
+ae
+ak
+ab
+ak
+ab
+dL
+dO
+fv
+dK
+dm
+dK
+dK
+dL
+dK
+dK
+dm
+dK
+dW
+dV
+fA
+dL
+ao
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(30,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+ab
+gr
+cT
+ab
+gg
+ae
+lE
+lE
+ak
+cm
+ab
+ae
+ab
+am
+ab
+ab
+ae
+ab
+ab
+cU
+ab
+gb
+ab
+lE
+ab
+ab
+dA
+aJ
+ab
+ab
+ab
+ae
+ak
+dK
+dS
+dQ
+dK
+dm
+dm
+dm
+dm
+dm
+dm
+dm
+eb
+dN
+dN
+dN
+dK
+ab
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(31,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+cT
+ab
+ab
+ab
+ab
+lE
+ab
+ab
+ab
+ab
+ab
+cU
+ab
+lE
+am
+ab
+gk
+ab
+am
+cT
+ab
+ab
+ab
+cT
+al
+am
+ab
+aJ
+dB
+ab
+ab
+ab
+ae
+ak
+dK
+bm
+dN
+eb
+dm
+dK
+dK
+dL
+dK
+dK
+dm
+dK
+bM
+dS
+dN
+dK
+ab
+lE
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(32,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+am
+ao
+ae
+ab
+ae
+ab
+ab
+ak
+ak
+ab
+ab
+cU
+gc
+cc
+cc
+ab
+ab
+ac
+ab
+gk
+ab
+ae
+ab
+ab
+ab
+ab
+ab
+gI
+aJ
+ab
+ab
+gc
+ab
+ab
+dK
+dT
+dN
+dK
+dm
+dK
+ev
+ev
+ev
+dK
+dm
+dK
+dO
+dN
+fB
+dL
+ab
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+"}
+(33,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+dx
+ab
+ao
+ab
+ab
+ab
+ak
+ak
+ab
+ab
+ab
+ae
+ab
+ab
+ab
+cc
+ai
+ab
+gk
+ab
+am
+ab
+ae
+ae
+ab
+gq
+lE
+lE
+aJ
+dr
+cc
+ab
+ab
+ak
+ae
+dL
+dU
+dN
+dK
+dm
+dK
+ew
+dS
+dN
+dK
+dm
+dK
+dK
+dK
+dK
+dK
+ao
+ab
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+"}
+(34,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ao
+ao
+ab
+gc
+ab
+ab
+cc
+cc
+fW
+ab
+ae
+lE
+ab
+ab
+ae
+ab
+ao
+ao
+ao
+ab
+ac
+ab
+ab
+ae
+ai
+ab
+ab
+aJ
+aJ
+ab
+ab
+ab
+ab
+ab
+dK
+dK
+dK
+dK
+dm
+eJ
+ew
+dN
+eO
+dK
+ff
+ab
+ab
+ak
+ak
+ab
+ak
+ab
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+"}
+(35,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ao
+ab
+ao
+ab
+ab
+ak
+ak
+am
+ab
+ab
+ab
+ab
+cd
+ab
+ae
+ab
+da
+ao
+ao
+ao
+ab
+ab
+ao
+ab
+ao
+cU
+ao
+ab
+dz
+dt
+ab
+ae
+cT
+cT
+ab
+am
+ab
+ak
+dJ
+dm
+dK
+ew
+dN
+eP
+dK
+dm
+dK
+dK
+dK
+dK
+dK
+ab
+lE
+ab
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+"}
+(36,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ao
+ae
+ae
+ak
+ak
+gk
+ab
+ae
+ab
+gn
+lE
+ab
+ab
+ab
+ab
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+dt
+dt
+ab
+ab
+ab
+cd
+ak
+ab
+ab
+ab
+ab
+dm
+dK
+ev
+ev
+eQ
+dK
+dm
+dK
+dM
+fo
+fC
+dK
+ab
+am
+ab
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+"}
+(37,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+am
+ao
+ae
+lE
+ab
+ab
+ai
+ab
+ae
+ab
+ab
+ab
+ab
+gp
+ab
+ab
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+dt
+dt
+ab
+ab
+gl
+ab
+ab
+cT
+cT
+am
+ak
+dm
+dK
+dK
+dL
+dK
+dK
+dm
+dK
+dN
+dN
+dN
+dK
+ab
+ab
+am
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+"}
+(38,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+dy
+ab
+ab
+ak
+ak
+ab
+ab
+ab
+lE
+lE
+ab
+ab
+ab
+ab
+ab
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ce
+ah
+ah
+dt
+dt
+ab
+ab
+ab
+lE
+ab
+ab
+ab
+gk
+am
+dm
+dm
+dm
+dm
+dm
+dm
+dm
+eb
+dN
+dS
+dN
+dL
+ak
+lE
+am
+ab
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+"}
+(39,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ae
+ab
+ab
+am
+lE
+ab
+ak
+ak
+ak
+ab
+ab
+ae
+ab
+ao
+ao
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+as
+dt
+ae
+ac
+ab
+am
+ai
+ab
+aq
+ab
+am
+ac
+ak
+ak
+am
+dJ
+dm
+am
+dK
+et
+eE
+dN
+dK
+ab
+ab
+ao
+ab
+ao
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+"}
+(40,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ae
+cS
+bS
+cc
+da
+ab
+ai
+ab
+ak
+ab
+cd
+ab
+ao
+ao
+ao
+dt
+dt
+dt
+dt
+as
+as
+as
+as
+as
+as
+ca
+ca
+as
+as
+dt
+ao
+ao
+ao
+ao
+ao
+cZ
+ab
+ab
+lE
+bS
+ab
+am
+ae
+ab
+dm
+ak
+dK
+fh
+fp
+dO
+dK
+ab
+ak
+ao
+ao
+ao
+ao
+ab
+ab
+ao
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+"}
+(41,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+cT
+ab
+ab
+ab
+ab
+ab
+ak
+ab
+gc
+ao
+ao
+ao
+bY
+dt
+as
+as
+as
+as
+as
+dt
+dt
+as
+ca
+ca
+ca
+as
+as
+ao
+ao
+ao
+ao
+ao
+ao
+gU
+hD
+hD
+hv
+hv
+hD
+hv
+hv
+dm
+hD
+dK
+dK
+dK
+dK
+dK
+hv
+hv
+hv
+gU
+gU
+hD
+ab
+ab
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+"}
+(42,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ae
+ai
+bl
+ab
+gf
+ae
+lE
+ab
+ae
+ak
+ao
+ab
+ao
+ak
+ao
+dt
+dt
+ah
+ah
+ah
+ah
+ah
+ah
+ce
+ah
+ah
+aa
+aa
+as
+as
+ao
+ao
+ao
+ao
+ao
+hy
+dF
+dH
+dH
+dH
+eo
+ex
+eG
+eR
+dm
+dF
+ds
+ak
+ak
+cm
+ak
+dH
+dH
+hw
+hw
+eG
+hM
+hC
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+"}
+(43,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ae
+ab
+ab
+ab
+ab
+cT
+ab
+ab
+ab
+ak
+ac
+ab
+ao
+ao
+ao
+dt
+dt
+ah
+ah
+ce
+ah
+ah
+ah
+ce
+ah
+aa
+aa
+aa
+ca
+as
+ao
+ao
+gU
+hv
+gU
+hz
+dG
+ak
+ao
+az
+ak
+ax
+ab
+bS
+dm
+ae
+ab
+ak
+lE
+ab
+ab
+ak
+fH
+ab
+cT
+ab
+hN
+hH
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+"}
+(44,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ab
+ae
+ab
+lE
+ab
+ae
+ab
+am
+ab
+lE
+ae
+ak
+ab
+ab
+ae
+ab
+ab
+dt
+dt
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+ca
+as
+ao
+ho
+dF
+dH
+dH
+dH
+ak
+ao
+ec
+dX
+dX
+ey
+dY
+dY
+ep
+eg
+eg
+eg
+eg
+eg
+dY
+dY
+eV
+ab
+ab
+ab
+hy
+hO
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+"}
+(45,1,1) = {"
+as
+dt
+dt
+dt
+dt
+aY
+aJ
+aJ
+Tk
+dA
+aJ
+aJ
+aJ
+dz
+aJ
+aJ
+dB
+aj
+aJ
+dr
+aJ
+dt
+dt
+dt
+dt
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+as
+hy
+gY
+ak
+ak
+ao
+ao
+ak
+ao
+ed
+ei
+eg
+eg
+eg
+eg
+ep
+eg
+eY
+eZ
+fq
+eg
+dY
+eU
+fI
+ao
+lE
+am
+hy
+hP
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+"}
+(46,1,1) = {"
+as
+as
+dt
+dt
+aJ
+aJ
+aY
+aJ
+aJ
+Tk
+aJ
+aJ
+Tk
+aY
+aJ
+bQ
+bY
+bY
+aY
+aJ
+do
+dt
+dt
+dt
+dt
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+as
+gV
+dG
+ak
+dI
+ao
+hA
+ao
+ao
+ee
+dY
+eg
+ez
+gd
+eg
+ep
+eh
+eZ
+eZ
+fr
+eh
+dY
+dX
+fJ
+ao
+ao
+ao
+hy
+hP
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+"}
+(47,1,1) = {"
+ah
+ah
+ao
+ao
+ab
+ab
+ab
+gk
+am
+ab
+ab
+ai
+ab
+ab
+ab
+ae
+ab
+ao
+ab
+am
+dq
+dt
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+gW
+ha
+ao
+ao
+ao
+ao
+ao
+ab
+ef
+dX
+eg
+eA
+hU
+eg
+ep
+eg
+fa
+eZ
+gC
+eg
+dY
+dX
+fJ
+ah
+ao
+ah
+hy
+hH
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+aa
+aa
+"}
+(48,1,1) = {"
+ah
+ah
+ao
+ao
+am
+ab
+cT
+ac
+am
+ab
+ae
+ab
+ab
+ae
+ak
+ab
+cd
+ab
+ao
+ao
+dt
+dt
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+gX
+hp
+ao
+ao
+ao
+ao
+ao
+ab
+UE
+dX
+eg
+eB
+eI
+eg
+ep
+eg
+fb
+fi
+ft
+eg
+dY
+dX
+fJ
+ah
+ah
+ah
+hy
+hH
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+aa
+aa
+"}
+(49,1,1) = {"
+ah
+ah
+ao
+ao
+am
+ab
+gk
+hg
+am
+ab
+ab
+gm
+lE
+ab
+ak
+ab
+lE
+ab
+db
+ao
+dt
+dt
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+ah
+ah
+ah
+ao
+ao
+ao
+ak
+ab
+dY
+dX
+eg
+eg
+fY
+eg
+ep
+eg
+eg
+fj
+eg
+eg
+dY
+eV
+fJ
+ah
+ah
+ah
+hy
+hH
+ab
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+"}
+(50,1,1) = {"
+ah
+ah
+ao
+ao
+ab
+ab
+ab
+cS
+ab
+lE
+ab
+ab
+ab
+ak
+ab
+cT
+lE
+ab
+db
+ao
+dt
+dt
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+ah
+ah
+ah
+ao
+ao
+ao
+ao
+ak
+UE
+dX
+ep
+ep
+ep
+ep
+ep
+eT
+dY
+ep
+eT
+UE
+dY
+eV
+fJ
+ao
+ao
+ao
+hy
+hC
+am
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+"}
+(51,1,1) = {"
+ah
+ah
+ao
+ao
+lE
+ab
+ag
+ab
+ab
+ae
+da
+bl
+ae
+ak
+ab
+cT
+ab
+ab
+ao
+ao
+dt
+dt
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+ca
+ca
+ca
+cj
+ca
+ca
+ca
+ah
+ah
+ao
+ao
+ao
+ak
+ao
+ab
+dY
+dY
+bp
+dY
+eK
+dX
+ep
+eU
+eS
+ep
+dY
+dX
+ey
+eT
+fJ
+hy
+hH
+ao
+db
+ab
+ab
+lE
+ab
+ao
+ah
+ah
+ah
+ah
+ah
+"}
+(52,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ae
+ab
+cT
+ab
+gc
+cT
+ab
+ak
+am
+ab
+ae
+ab
+gk
+ao
+ao
+dt
+dt
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+ca
+ca
+ca
+ca
+ca
+ca
+ca
+ah
+ah
+ao
+ao
+ao
+hB
+eG
+hE
+eg
+eg
+eg
+eg
+eg
+dX
+ep
+eW
+eS
+ep
+eU
+dY
+UE
+dX
+dY
+hy
+hC
+ab
+ab
+lE
+ae
+ab
+ab
+ao
+ah
+ah
+ah
+ah
+ah
+"}
+(53,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+ae
+al
+ab
+ab
+ab
+ab
+ak
+ak
+ab
+ab
+ab
+ab
+cT
+ao
+ao
+dt
+dt
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+ca
+ca
+cf
+cu
+cu
+cu
+cu
+cu
+cY
+ah
+ao
+ao
+hC
+ab
+dX
+eh
+cw
+hS
+hS
+eh
+eS
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+hF
+hG
+hW
+hI
+ab
+cT
+ab
+ab
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+"}
+(54,1,1) = {"
+ah
+ah
+ao
+ao
+ao
+hn
+ab
+ae
+am
+ab
+gl
+ak
+bI
+ab
+lE
+ae
+ac
+ao
+ao
+ao
+dt
+dt
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+ca
+ca
+cg
+cr
+bt
+cB
+cI
+cM
+dc
+ah
+ao
+ab
+ab
+ae
+dY
+eg
+hR
+ek
+hT
+eg
+eT
+ep
+eg
+eg
+eh
+eg
+eX
+eg
+hV
+hV
+hX
+ab
+lE
+ab
+ab
+nQ
+ao
+ao
+ah
+ah
+ah
+ao
+ao
+ah
+"}
+(55,1,1) = {"
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+gc
+ab
+ab
+ab
+ak
+cT
+lE
+ai
+ab
+gc
+ao
+ao
+ao
+dt
+dt
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+ca
+ca
+cg
+cs
+cC
+cE
+cJ
+cN
+dc
+ah
+ao
+ab
+ab
+ab
+dZ
+eh
+el
+er
+eD
+eh
+ei
+ep
+eg
+bC
+ek
+bN
+ek
+eg
+dX
+eV
+ab
+ae
+hJ
+ab
+am
+ab
+ab
+ao
+ao
+ah
+ah
+ao
+ao
+ah
+"}
+(56,1,1) = {"
+ao
+ao
+ao
+ao
+ao
+db
+ao
+lE
+ab
+ae
+cm
+ak
+ab
+ab
+ab
+ak
+ab
+ao
+ao
+ao
+dt
+dt
+ah
+ah
+ah
+ah
+ao
+ah
+ce
+ah
+aa
+ca
+ca
+cg
+ct
+bv
+bw
+cD
+cO
+dc
+ah
+ao
+lE
+ab
+cT
+dX
+eg
+em
+ek
+eD
+eg
+dY
+ep
+eg
+fc
+fk
+ek
+ek
+eg
+ei
+dY
+ab
+am
+ab
+ao
+ab
+ab
+ae
+ao
+ao
+ah
+ah
+ao
+ao
+ao
+"}
+(57,1,1) = {"
+ao
+ao
+ao
+db
+ao
+ao
+ab
+ae
+ab
+ab
+ak
+ak
+ab
+ae
+ai
+ab
+gm
+ab
+ab
+ao
+dt
+dt
+ao
+ao
+ah
+ao
+ao
+ah
+ah
+ah
+aa
+ca
+ca
+ch
+cv
+cv
+cG
+cv
+cQ
+df
+ah
+ao
+ab
+ab
+ab
+dY
+eg
+eg
+es
+eg
+eg
+eU
+ep
+eh
+fd
+ek
+ek
+ek
+eh
+fX
+fK
+ab
+hJ
+hL
+ao
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+ao
+ab
+ao
+"}
+(58,1,1) = {"
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+eH
+am
+ak
+ge
+ab
+lE
+ab
+ab
+ab
+ae
+ab
+ao
+dt
+dt
+ao
+ao
+ah
+ah
+ao
+ah
+ah
+bs
+aa
+ca
+ca
+ie
+gK
+gK
+gK
+gK
+gK
+hq
+ah
+ao
+ab
+ae
+ab
+dY
+dX
+dY
+ep
+UE
+dY
+dX
+ep
+eg
+bL
+er
+fe
+ek
+eg
+fX
+eT
+bS
+ab
+ab
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ao
+db
+ab
+ao
+"}
+(59,1,1) = {"
+ay
+ay
+aP
+aP
+aP
+aG
+aG
+aG
+aG
+aD
+ar
+aG
+aG
+aG
+aG
+aD
+ab
+ab
+ao
+ao
+dt
+dt
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+ca
+ca
+gy
+gK
+gK
+gK
+gK
+gK
+hr
+ht
+hw
+eG
+hC
+lE
+ab
+ae
+dm
+dm
+dm
+dm
+dm
+ep
+eX
+ek
+ek
+gF
+ek
+eg
+dX
+fL
+cX
+hK
+hL
+ao
+ao
+ao
+ao
+ah
+ah
+ao
+ao
+ab
+ab
+ao
+"}
+(60,1,1) = {"
+ah
+ao
+an
+an
+an
+aD
+aK
+aD
+aD
+aL
+ar
+bJ
+aW
+aX
+aB
+aD
+am
+ab
+ao
+ao
+dt
+dt
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+ca
+ca
+ie
+gK
+gK
+gP
+gK
+gK
+hq
+ah
+ao
+ao
+hC
+ab
+ab
+ae
+ak
+cm
+cm
+gE
+ak
+ep
+eg
+fe
+ek
+fd
+ek
+eg
+dY
+dY
+ab
+ab
+ak
+ab
+ak
+ab
+ao
+ao
+ao
+ao
+ab
+ab
+lE
+ao
+"}
+(61,1,1) = {"
+ah
+ao
+an
+an
+an
+be
+af
+aL
+hh
+aD
+ar
+aD
+bK
+aZ
+aB
+ne
+ab
+cV
+ao
+ao
+dt
+as
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+gy
+gK
+gK
+gK
+gK
+gK
+hr
+ah
+ao
+ao
+ab
+lE
+ak
+ak
+ak
+am
+dm
+dm
+dm
+ep
+eh
+ia
+ek
+ek
+bO
+eh
+ei
+eg
+eg
+eh
+eg
+eh
+eg
+eg
+eh
+eg
+eg
+ae
+nQ
+ab
+ao
+ao
+"}
+(62,1,1) = {"
+ah
+ao
+at
+an
+bD
+aS
+bc
+bb
+bf
+ck
+ck
+ck
+fP
+hl
+aB
+aD
+ab
+ae
+ao
+ao
+as
+as
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+ca
+ca
+ie
+gK
+gK
+gK
+gK
+gK
+gK
+hu
+hx
+ak
+ak
+ak
+ab
+cV
+ab
+ab
+dm
+lE
+gG
+ep
+eg
+fd
+ek
+fw
+fD
+eg
+dX
+eg
+fM
+fN
+fM
+fQ
+fM
+fQ
+fM
+fR
+eg
+ab
+ab
+ao
+ao
+ah
+"}
+(63,1,1) = {"
+ah
+ao
+an
+an
+an
+aT
+aD
+ar
+ck
+ck
+ck
+fZ
+hk
+aL
+bd
+aD
+ab
+ae
+ar
+ao
+dt
+as
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+ca
+ca
+gy
+gK
+gK
+gK
+gK
+gK
+hr
+ah
+ao
+ao
+hQ
+dd
+au
+au
+au
+au
+aQ
+dd
+ab
+ep
+eg
+fe
+ek
+fx
+fE
+eg
+dY
+eg
+fN
+gj
+fN
+fN
+fN
+fN
+fN
+fR
+eg
+ab
+ao
+ao
+ah
+ah
+"}
+(64,1,1) = {"
+ah
+ao
+an
+an
+an
+aD
+bG
+aL
+aN
+aD
+ap
+hj
+aL
+bc
+aB
+ae
+ab
+ab
+ar
+ao
+dt
+dt
+ao
+ah
+ah
+ao
+ah
+ah
+aa
+aa
+aa
+ca
+ca
+ie
+gK
+gK
+gK
+gK
+gK
+hq
+ah
+ah
+ao
+hQ
+de
+ab
+av
+ab
+ab
+ab
+de
+cm
+ep
+eh
+ej
+fl
+fy
+fF
+eh
+dY
+eg
+fM
+fN
+fM
+fN
+fM
+fN
+fM
+fS
+eg
+ao
+ao
+ah
+ah
+ah
+"}
+(65,1,1) = {"
+ah
+ao
+an
+an
+aO
+bj
+ar
+aD
+hi
+ar
+bz
+dk
+dp
+aD
+aB
+aD
+eH
+ar
+ar
+ao
+dt
+dt
+ao
+ah
+ah
+ao
+ao
+ah
+aa
+aa
+aa
+ca
+ca
+gy
+gK
+gK
+gK
+gK
+gK
+hr
+ah
+ah
+ao
+hQ
+de
+ab
+lE
+ab
+ab
+ab
+de
+da
+ep
+eg
+eg
+eg
+eg
+eg
+eg
+dX
+eg
+fN
+fN
+fN
+fQ
+fN
+fN
+fN
+fT
+eg
+ao
+ah
+ah
+ah
+ah
+"}
+(66,1,1) = {"
+ah
+ao
+an
+aD
+aK
+aU
+bG
+bG
+bg
+bn
+ar
+bE
+bE
+ar
+ar
+ar
+ar
+ar
+ab
+ab
+dt
+dt
+ao
+ao
+ah
+ah
+ao
+ah
+ah
+aa
+aa
+ca
+ca
+ie
+gK
+gK
+gK
+gK
+gK
+hq
+ah
+ah
+ao
+hQ
+de
+ab
+ab
+aH
+aH
+ab
+de
+cS
+ep
+dY
+eT
+dX
+dX
+eU
+dY
+ei
+eg
+fO
+eg
+eg
+eh
+eg
+eg
+eh
+eg
+eg
+ao
+ah
+ah
+ah
+ah
+"}
+(67,1,1) = {"
+ah
+ao
+an
+aL
+aE
+aU
+ac
+ib
+bh
+aD
+ck
+dp
+dp
+bc
+ar
+ar
+ab
+ab
+ab
+ab
+aJ
+aJ
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+ca
+ca
+gy
+gK
+gK
+gK
+gK
+gK
+hr
+ah
+ah
+ao
+hQ
+de
+av
+ab
+lE
+ab
+lE
+de
+ab
+ep
+ep
+eW
+UE
+dY
+eV
+dX
+eT
+dY
+ep
+ak
+hY
+dG
+ak
+ab
+dE
+ab
+ab
+ao
+ao
+ah
+ah
+ah
+"}
+(68,1,1) = {"
+ah
+ao
+an
+hm
+bT
+aU
+bU
+bW
+bz
+aD
+ac
+dk
+dp
+aD
+aB
+aD
+eH
+ab
+ab
+ae
+aJ
+aJ
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+aa
+aa
+ca
+ca
+ie
+gK
+gK
+gK
+gK
+gK
+gK
+hu
+hx
+ak
+hQ
+de
+ab
+av
+ab
+aH
+ab
+de
+ak
+ab
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ep
+ak
+hN
+hC
+ab
+ab
+ab
+ab
+ao
+ao
+ao
+ah
+ah
+bs
+"}
+(69,1,1) = {"
+ah
+ao
+an
+bD
+bD
+ar
+bG
+ci
+bD
+cx
+aD
+aD
+ic
+aD
+aB
+aD
+gk
+ab
+ab
+ab
+aJ
+aJ
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+ca
+ca
+gy
+gK
+gK
+gP
+gK
+gK
+hr
+ah
+ao
+ao
+hN
+dd
+au
+au
+au
+au
+au
+dd
+ak
+ak
+eV
+eg
+eg
+eg
+eg
+fG
+eg
+dY
+eT
+hD
+hW
+hC
+gk
+ab
+cT
+ao
+ao
+ao
+ao
+ah
+ah
+aa
+"}
+(70,1,1) = {"
+an
+an
+ar
+bx
+bx
+ar
+ar
+cl
+aD
+ar
+aD
+aD
+ne
+ne
+aB
+aD
+ab
+ae
+ae
+gk
+aJ
+Tk
+am
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+ca
+ca
+ie
+gK
+gK
+gK
+gK
+gK
+hq
+ah
+ao
+ab
+ab
+ab
+ab
+am
+ab
+ab
+ak
+ab
+ab
+ak
+dX
+eg
+fm
+fz
+fm
+QE
+eg
+ab
+ab
+eG
+eG
+ab
+ab
+ab
+ab
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+"}
+(71,1,1) = {"
+an
+an
+an
+ne
+aD
+bc
+bW
+aK
+aD
+ck
+cK
+cK
+cK
+cK
+aB
+aD
+ab
+bl
+lE
+ab
+Tk
+aJ
+ab
+ao
+ao
+ao
+ao
+ao
+ao
+ah
+ah
+ca
+ca
+gy
+gK
+gK
+gK
+gK
+gK
+hr
+ah
+ao
+ao
+ab
+ae
+ab
+ab
+ab
+ae
+ab
+am
+ab
+ak
+dX
+eg
+er
+FG
+Kg
+le
+eg
+ab
+lE
+gk
+ab
+lE
+ae
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+"}
+(72,1,1) = {"
+an
+an
+ar
+ne
+aD
+aR
+di
+di
+di
+aD
+gA
+gA
+gA
+gA
+gT
+aD
+ae
+ab
+am
+ab
+aJ
+cb
+am
+ab
+ao
+ao
+ao
+ao
+ao
+ah
+ah
+ca
+ca
+cq
+cy
+cy
+cy
+cy
+cy
+gz
+ah
+ao
+ao
+hC
+ab
+am
+lE
+ab
+da
+ab
+lE
+cS
+lE
+dX
+eg
+fn
+fn
+fn
+fn
+eg
+ab
+ab
+ao
+ao
+ab
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+"}
+(73,1,1) = {"
+an
+an
+at
+ar
+cn
+cA
+dj
+fu
+dj
+gw
+gN
+gQ
+gQ
+gS
+aB
+aD
+ab
+ab
+ab
+ab
+aJ
+aJ
+ab
+ab
+lE
+ao
+ao
+ao
+ao
+ah
+ah
+ca
+ca
+cg
+gK
+gK
+gK
+gK
+gK
+dc
+hc
+gU
+hD
+hC
+lE
+am
+ab
+lE
+ab
+ae
+ab
+ao
+ab
+UE
+eg
+eg
+eg
+eg
+eg
+eg
+ao
+ao
+ao
+ao
+lE
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+"}
+(74,1,1) = {"
+ad
+an
+bk
+by
+fP
+cz
+dh
+dC
+ga
+ab
+gA
+gR
+gR
+gR
+aB
+aD
+ab
+yH
+ab
+am
+aJ
+aJ
+ai
+ab
+ab
+ab
+ao
+ao
+ao
+ah
+ah
+ca
+ca
+cg
+gL
+gK
+gK
+gK
+gK
+dc
+ah
+ah
+ao
+ao
+ab
+ab
+ab
+ab
+gk
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ab
+ab
+ab
+ao
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+"}
+(75,1,1) = {"
+ao
+aI
+bq
+bB
+bR
+gJ
+gO
+gu
+bu
+gx
+gA
+gA
+gA
+gA
+hZ
+bH
+ab
+ab
+ac
+ab
+aJ
+aY
+ab
+am
+ab
+ab
+ao
+ao
+ao
+ao
+ah
+ca
+ca
+co
+gK
+gK
+gK
+gK
+gK
+dc
+ah
+ah
+ao
+ab
+ab
+ae
+ab
+cT
+cT
+ab
+ao
+ao
+ao
+ab
+gk
+ao
+ao
+ah
+ah
+ah
+ah
+ao
+ab
+ae
+ab
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+"}
+(76,1,1) = {"
+ao
+aF
+aF
+br
+br
+Aj
+br
+br
+gZ
+gx
+lE
+ab
+ab
+am
+aB
+aD
+ab
+gk
+am
+ab
+aJ
+aJ
+ab
+ab
+bl
+ab
+ao
+ao
+ao
+ah
+ah
+ca
+ca
+cp
+cF
+gK
+gK
+gK
+cP
+cR
+ah
+ah
+ao
+ab
+ab
+ae
+lE
+ab
+ab
+ab
+ao
+ah
+ao
+ao
+ab
+ab
+ao
+ao
+ah
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+"}
+(77,1,1) = {"
+ah
+aF
+aI
+bF
+br
+Aj
+aI
+bF
+br
+br
+am
+ab
+ac
+am
+aB
+aD
+ab
+ab
+ab
+ab
+gh
+aJ
+ae
+ab
+gk
+ao
+ao
+ao
+ao
+ah
+ah
+ca
+ca
+aa
+cp
+cF
+gK
+cP
+cR
+aa
+ah
+ao
+ao
+gv
+ab
+ab
+ab
+al
+ab
+ab
+ao
+ah
+ah
+ao
+ao
+ab
+ab
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(78,1,1) = {"
+ah
+aF
+aF
+br
+ba
+bX
+bX
+br
+eq
+hb
+ab
+ab
+ab
+ab
+aB
+aD
+ab
+ae
+ab
+ab
+aJ
+aJ
+bl
+ab
+ab
+ab
+ao
+ao
+ao
+ah
+ah
+ca
+ca
+ca
+ca
+cp
+cL
+dl
+aa
+aa
+ah
+ao
+ao
+ao
+ao
+aw
+ab
+ab
+ae
+ab
+ao
+ao
+ao
+ah
+ao
+ao
+ab
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(79,1,1) = {"
+ah
+aF
+aI
+br
+bV
+dg
+dn
+br
+Aj
+br
+go
+ab
+lE
+ab
+aB
+aD
+ae
+ab
+ab
+ab
+aJ
+aJ
+lE
+ab
+ab
+ab
+ab
+ao
+ao
+ah
+ah
+ca
+ca
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+ah
+ao
+ao
+gv
+ab
+ab
+ab
+ab
+ab
+ao
+ao
+ao
+ao
+ao
+ah
+ao
+ab
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(80,1,1) = {"
+ah
+aF
+aF
+br
+ba
+bX
+bX
+eq
+br
+Nz
+ab
+am
+ab
+ab
+aB
+an
+ao
+ab
+ab
+ao
+dt
+dt
+ao
+ao
+ao
+ab
+ae
+ab
+ao
+ao
+ah
+ah
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+ah
+ah
+ao
+ao
+ao
+ao
+ab
+ab
+ae
+ab
+ab
+ao
+ao
+ao
+ao
+ah
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(81,1,1) = {"
+ah
+aF
+aF
+aF
+br
+br
+aI
+br
+gs
+br
+ab
+aN
+ab
+ab
+aC
+an
+ao
+ao
+ao
+ao
+dt
+as
+bZ
+ao
+ao
+ao
+ao
+ab
+ao
+ao
+ao
+ah
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+ah
+ah
+ah
+ao
+ao
+ao
+gv
+ao
+ao
+gv
+ao
+ao
+ao
+ao
+ah
+ah
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(82,1,1) = {"
+ah
+aF
+aF
+aF
+aF
+br
+bF
+br
+eq
+br
+ab
+am
+ab
+an
+aC
+an
+ao
+ao
+ao
+ao
+dt
+as
+bZ
+bZ
+bZ
+ao
+ao
+ao
+ao
+ao
+ao
+ah
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+ah
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(83,1,1) = {"
+ah
+bi
+aF
+aF
+aF
+aF
+aF
+aF
+br
+br
+aF
+aF
+aF
+ao
+hd
+ao
+ao
+ao
+ao
+ao
+dt
+dt
+bZ
+bZ
+bZ
+bZ
+ao
+ao
+ao
+ao
+ao
+ah
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ah
+ah
+ah
+ah
+ao
+ao
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(84,1,1) = {"
+ah
+bi
+bi
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+aF
+ao
+he
+ao
+ao
+ao
+ao
+ao
+as
+as
+bZ
+bZ
+bZ
+bZ
+ao
+ao
+ao
+ao
+ah
+ah
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ah
+ah
+ah
+ah
+ah
+ah
+ao
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(85,1,1) = {"
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ao
+ao
+ao
+ao
+ao
+bZ
+bZ
+he
+bZ
+bZ
+ao
+ao
+bZ
+as
+as
+bZ
+bZ
+bZ
+bZ
+bZ
+ao
+ao
+ao
+ah
+ah
+ah
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ah
+ah
+ao
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(86,1,1) = {"
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+hf
+ah
+ah
+ah
+ah
+ah
+as
+as
+ah
+ah
+ah
+ah
+ah
+ah
+ce
+ah
+ah
+ah
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ah
+ah
+ao
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(87,1,1) = {"
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+hf
+ah
+ah
+ah
+ah
+ah
+as
+as
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(88,1,1) = {"
+bs
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+hf
+ah
+ah
+ah
+ah
+ah
+as
+as
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(89,1,1) = {"
+bs
+bs
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+aa
+aa
+ah
+ah
+hf
+ah
+ah
+ah
+ah
+ah
+as
+as
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(90,1,1) = {"
+aa
+aa
+ah
+ah
+ah
+ah
+aa
+ah
+ah
+ah
+aa
+aa
+ah
+ah
+aa
+aa
+aa
+ah
+ah
+ah
+as
+as
+ah
+ah
+aa
+aa
+aa
+ah
+ah
+ah
+ah
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(91,1,1) = {"
+aa
+aa
+ah
+aa
+aa
+aa
+aa
+ah
+ah
+aa
+aa
+aa
+ah
+ah
+aa
+aa
+aa
+ah
+ah
+ah
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ah
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(92,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(93,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(94,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(95,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(96,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(97,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(98,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(99,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+"}
+(100,1,1) = {"
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+ca
+ca
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+dw
 "}

@@ -1,302 +1,7749 @@
-"az" = (/obj/map_metadata/twotribes,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"aK" = (/obj/covers/wood_wall/log,/obj/roof/thatch,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"aM" = (/obj/covers/wood,/obj/roof/thatch,/obj/effect/landmark{name = "JoinLateBTribesperson"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"aT" = (/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"aV" = (/obj/effect/spawner/mobspawner/monkeys,/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"bt" = (/obj/covers/wood/stairs{dir = 2; icon_state = "wood2_stairs2"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"bB" = (/obj/covers/thatch,/obj/roof/thatch,/obj/effect/landmark{name = "JoinLateRShaman"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"bK" = (/obj/roof/thatch,/obj/covers/thatch,/obj/structure/table/wood,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"bP" = (/obj/effect/spawner/mobspawner/snake,/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"cF" = (/turf/floor/beach/water/jungle,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"cK" = (/obj/structure/wild/largejungle,/obj/effect/spawner/mobspawner/frogpoisonous,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"cL" = (/obj/structure/wild/junglebush,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"cZ" = (/obj/structure/grille/logfence,/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"dc" = (/obj/structure/grille/logfence{dir = 8; icon_state = "palisade"},/obj/structure/wild/largejungle,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"dk" = (/obj/structure/wild/rock,/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"dm" = (/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/structure/table/wood,/obj/structure/mine_support,/turf/floor/dirt/dust,/area/caribbean/void/caves)
-"dR" = (/obj/structure/wild/flowers{icon_state = "smallbush38"},/turf/floor/dirt,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"dT" = (/obj/effect/spawner/mobspawner/mouse,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"dU" = (/obj/structure/grille/logfence{dir = 1; icon_state = "palisade"},/obj/structure/grille/logfence{dir = 8; icon_state = "palisade"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"dZ" = (/obj/structure/wild/jungle{icon_state = "tree7"},/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"ep" = (/obj/structure/window/barrier,/turf/floor/dirt/dust,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"eO" = (/obj/roof/thatch,/obj/covers/thatch,/obj/effect/spawner/mobspawner/monkeys,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"eR" = (/obj/effect/landmark{name = "JoinLateBShaman"},/turf/floor/dirt/dust,/area/caribbean/void/caves)
-"fi" = (/obj/structure/wild/tallgrass,/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"fJ" = (/obj/structure/wild/jungle{icon_state = "tree3"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"fP" = (/obj/covers/dirt_wall/blocks,/obj/roof/thatch,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"fT" = (/obj/structure/wild/junglebush,/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"gi" = (/obj/covers/wood,/obj/structure/bed/wood,/obj/roof/thatch,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"gL" = (/obj/covers/wood,/obj/structure/closet/crate/wood,/obj/roof/thatch,/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"gM" = (/obj/roof/thatch,/obj/covers/dirt_wall/blocks,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"gO" = (/obj/structure/dehydrator,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"gW" = (/turf/floor/beach/water/jungle,/area/caribbean/colonies/jungle)
-"hu" = (/obj/structure/wild/rock{icon_state = "basalt1"},/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"hy" = (/turf/floor/dirt/underground,/area/caribbean/void/caves)
-"hC" = (/obj/roof/thatch,/obj/covers/thatch,/obj/structure/table/wood,/obj/item/weapon/storage/produce_basket,/obj/item/weapon/berriesgatherer,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"hR" = (/obj/structure/wild/largejungle,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"iu" = (/obj/structure/wild/flowers{icon_state = "flower10"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"iF" = (/obj/structure/wild/junglebush,/turf/floor/dirt/jungledirt,/area/caribbean/colonies/jungle)
-"iX" = (/obj/structure/wild/berrybush/zelenyy,/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"ja" = (/obj/structure/wild/flowers{icon_state = "smallbush16"},/obj/effect/spawner/mobspawner/parrot,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"jv" = (/obj/structure/wild/largejungle,/obj/structure/wild/rock{icon_state = "rock4"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"jL" = (/obj/structure/wild/largejungle,/obj/effect/spawner/mobspawner/monkeys,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"jU" = (/obj/covers/wood,/obj/roof/thatch,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"kb" = (/obj/structure/table/wood,/obj/item/weapon/material/hatchet/tribal/bone{pixel_y = -3},/obj/item/weapon/material/hatchet/tribal/bone,/obj/item/weapon/material/hatchet/tribal/bone{pixel_y = 3},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"kj" = (/obj/item/stack/material/bone{amount = 7},/obj/effect/decal/cleanable/blood,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"kn" = (/obj/structure/wild/junglebush,/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"kA" = (/obj/structure/wild/berrybush/azul,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"kP" = (/obj/structure/wild/berrybush/zelenyy,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"kT" = (/obj/structure/wild/flowers{icon_state = "smallbush22"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"lq" = (/obj/covers/wood/stairs{dir = 6; icon_state = "wood2_stairs"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"lw" = (/obj/structure/wild/jungle,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"ly" = (/obj/structure/wild/jungle{icon_state = "tree6"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"lK" = (/obj/structure/wild/flowers{icon_state = "smallbush16"},/obj/structure/wild/largejungle,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"lT" = (/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"md" = (/obj/item/weapon/flint/sharpened,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"mf" = (/obj/structure/wild/jungle{icon_state = "tree4"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"mg" = (/obj/structure/wild/berrybush/tinto,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"mn" = (/obj/structure/bed/wood,/obj/structure/mine_support,/turf/floor/dirt/dust,/area/caribbean/void/caves)
-"mC" = (/turf/floor/dirt,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"mE" = (/obj/covers/wood,/obj/roof/thatch,/obj/effect/landmark{name = "JoinLateBChief"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"mQ" = (/obj/structure/grille/logfence{dir = 8; icon_state = "palisade"},/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"mV" = (/obj/covers/wood/stairs{dir = 4; icon_state = "wood2_stairs2"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"nd" = (/obj/structure/grille/logfence{dir = 4; icon_state = "palisade"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"oa" = (/obj/covers/wood,/obj/structure/table/wood,/obj/item/weapon/storage/produce_basket,/obj/item/weapon/berriesgatherer,/obj/roof/thatch,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"oc" = (/obj/structure/window/barrier{dir = 1},/turf/floor/dirt/dust,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"od" = (/obj/item/weapon/material/pickaxe/bone,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"oz" = (/obj/covers/repairedfloor/ship,/turf/floor/beach/water/jungle,/area/caribbean/colonies/jungle)
-"oH" = (/obj/structure/grille/logfence{dir = 1; icon_state = "palisade"},/obj/structure/grille/logfence{dir = 4; icon_state = "palisade"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"oK" = (/turf/floor/beach/water/swamp{name = "Swamp Water"},/area/caribbean/colonies/jungle)
-"oM" = (/obj/structure/wild/berrybush/corcairghorm,/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"oU" = (/obj/structure/wild/flowers{icon_state = "flower7"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"pc" = (/obj/structure/wild/flowers{icon_state = "flower10"},/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"pr" = (/obj/covers/wood/stairs{dir = 1},/obj/covers/wood/stairs{dir = 1; icon_state = "wood2_stairs2"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"py" = (/obj/structure/wild/berrybush/amar,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"pA" = (/obj/structure/wild/berrybush/majo,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"pK" = (/obj/covers/thatch,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"pQ" = (/obj/structure/grille/logfence{dir = 1; icon_state = "palisade"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"pT" = (/obj/roof/thatch,/obj/covers/thatch,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"qq" = (/obj/covers/wood/stairs{dir = 8; icon_state = "wood2_stairs2"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"qA" = (/obj/structure/religious/animal_statue,/turf/floor/dirt/dust,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"qE" = (/obj/structure/wild/smallbush{icon_state = "smallbush30"},/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"qH" = (/obj/structure/wild/flowers{icon_state = "smallbush38"},/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"qK" = (/obj/covers/thatch,/obj/structure/table/wood,/obj/item/stack/medical/bruise_pack/bint/leather,/obj/item/stack/medical/bruise_pack/bint/leather,/obj/item/stack/medical/bruise_pack/bint/leather,/obj/item/stack/medical/bruise_pack/bint/leather,/obj/roof/thatch,/obj/item/stack/medical/advanced/herbs,/obj/item/stack/medical/advanced/herbs,/obj/item/stack/medical/advanced/herbs,/obj/item/stack/medical/advanced/herbs,/obj/item/weapon/doctor_handbook,/obj/item/weapon/doctor_handbook,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"qS" = (/obj/item/weapon/material/shovel/bone,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"rf" = (/obj/roof/thatch,/obj/covers/thatch,/obj/structure/table/wood,/obj/item/clothing/under/loinleather,/obj/item/clothing/under/loinleather{pixel_y = 3},/obj/item/clothing/under/loinleather{pixel_y = 6},/obj/item/clothing/under/loinleather{pixel_y = 9},/obj/item/clothing/under/loinleather{pixel_y = 12},/obj/item/clothing/under/loinleather{pixel_y = 15},/obj/item/clothing/suit/hairbonearmor,/obj/item/clothing/suit/hairbonearmor,/obj/item/clothing/suit/hairbonearmor,/obj/item/clothing/suit/hairbonearmor,/obj/item/clothing/suit/hairbonearmor,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"rh" = (/obj/structure/wild/flowers{icon_state = "smallbush38"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"rK" = (/obj/structure/wild/rock,/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"su" = (/obj/structure/wild/smallbush,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"sA" = (/obj/structure/sink/puddle,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"sH" = (/obj/structure/table/wood,/obj/item/clothing/under/loinleather,/obj/item/clothing/under/loinleather{pixel_y = 3},/obj/item/clothing/under/loinleather{pixel_y = 6},/obj/item/clothing/under/loinleather{pixel_y = 9},/obj/item/clothing/under/loinleather{pixel_y = 12},/obj/item/clothing/under/loinleather{pixel_y = 15},/obj/covers/wood,/obj/roof/thatch,/obj/item/clothing/suit/hairbonearmor,/obj/item/clothing/suit/hairbonearmor,/obj/item/clothing/suit/hairbonearmor,/obj/item/clothing/suit/hairbonearmor,/obj/item/clothing/suit/hairbonearmor,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"te" = (/obj/structure/table/wood,/obj/covers/wood,/obj/roof/thatch,/obj/item/clothing/accessory/armband/french,/obj/item/clothing/accessory/armband/french,/obj/item/clothing/accessory/armband/french,/obj/item/clothing/accessory/armband/french,/obj/item/clothing/accessory/armband/french,/obj/item/clothing/accessory/armband/french,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"tf" = (/obj/covers/wood,/obj/structure/closet/crate/wood,/obj/roof/thatch,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"ts" = (/obj/item/weapon/branch/sharpened,/obj/item/weapon/flint/sharpened,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"tJ" = (/obj/structure/wild/jungle{icon_state = "tree7"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"tW" = (/obj/covers/wood/stairs{dir = 9; icon_state = "wood2_stairs"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"ue" = (/obj/structure/wild/tallgrass,/obj/effect/spawner/mobspawner/snake,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"ul" = (/obj/structure/wild/berrybush/marron,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"uq" = (/obj/structure/wild/rock,/obj/effect/spawner/mobspawner/panthers/jaguar,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"uB" = (/obj/roof/thatch,/obj/covers/thatch,/obj/structure/table/wood,/obj/item/clothing/accessory/armband/british,/obj/item/clothing/accessory/armband/british,/obj/item/clothing/accessory/armband/british,/obj/item/clothing/accessory/armband/british,/obj/item/clothing/accessory/armband/british,/obj/item/clothing/accessory/armband/british,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"uC" = (/obj/structure/curtain/leather,/obj/roof/thatch,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"uK" = (/obj/structure/wild/jungle{icon_state = "tree4"},/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"uT" = (/obj/covers/thatch,/obj/structure/bed/bedroll,/obj/roof/thatch,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"ve" = (/obj/structure/table/wood,/obj/item/weapon/gun/projectile/bow/sling{pixel_y = -3},/obj/item/weapon/gun/projectile/bow/sling,/obj/item/weapon/gun/projectile/bow/sling{pixel_y = 3},/obj/covers/wood,/obj/roof/thatch,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"vf" = (/obj/structure/window/barrier/railing/stone{icon_state = "stone"; dir = 1},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"vq" = (/obj/structure/grille/logfence{dir = 8; icon_state = "palisade"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"vy" = (/obj/structure/grille/logfence,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"vI" = (/obj/structure/wild/flowers{icon_state = "smallbush38"},/obj/structure/wild/flowers{icon_state = "flower7"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"vO" = (/obj/covers/thatch,/obj/roof/thatch,/obj/structure/curtain/leather,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"vQ" = (/obj/structure/table/wood,/obj/item/weapon/melee/classic_baton/club{pixel_y = 6},/obj/item/weapon/melee/classic_baton/club{pixel_y = 3},/obj/item/weapon/melee/classic_baton/club,/obj/item/weapon/shield/nomads,/obj/item/weapon/shield/nomads,/obj/item/weapon/shield/nomads,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"vY" = (/obj/item/flashlight/torch/on/unlimited,/turf/floor/dirt/dust,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"wn" = (/obj/structure/table/wood,/obj/item/weapon/material/spear{pixel_y = 3},/obj/item/weapon/material/spear,/obj/item/weapon/material/spear{pixel_y = -3},/obj/item/weapon/shield/nguni_shield,/obj/item/weapon/shield/nguni_shield,/obj/item/weapon/shield/nguni_shield,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"wr" = (/obj/structure/grille/logfence{dir = 4; icon_state = "palisade"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"xh" = (/turf/floor/dirt/jungledirt,/area/caribbean/colonies/jungle)
-"xi" = (/obj/structure/wild/jungle{icon_state = "tree5"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"xu" = (/obj/structure/wild/berrybush/marron,/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"xy" = (/obj/structure/wild/flowers{icon_state = "smallbush16"},/obj/item/ammo_casing/arrow/stone,/obj/item/ammo_casing/arrow/stone,/obj/item/ammo_casing/arrow/stone,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"xS" = (/obj/effect/spawner/mobspawner/monkeys,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"yi" = (/obj/covers/wood/stairs{dir = 6; icon_state = "wood2_stairs2"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"yu" = (/obj/structure/grille/logfence{dir = 4; icon_state = "palisade"},/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"yJ" = (/obj/structure/wild/rock{icon_state = "rock4"},/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"zd" = (/obj/effect/spawner/mobspawner/frogpoisonous,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"zj" = (/obj/structure/wild/flowers{icon_state = "smallbush16"},/obj/structure/wild/berrybush/marron,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"zN" = (/obj/roof/thatch,/obj/covers/thatch,/obj/effect/landmark{name = "JoinLateRChief"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Af" = (/obj/roof/thatch,/obj/covers/thatch,/obj/structure/roof_support,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Ak" = (/turf/wall/rockwall{opacity = 0},/area/caribbean/colonies/jungle)
-"AC" = (/obj/structure/window/barrier{dir = 4},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"AF" = (/obj/structure/wild/junglebush,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"Ba" = (/obj/item/weapon/material/pickaxe/bone{pixel_y = -3},/obj/item/weapon/material/pickaxe/bone,/obj/item/weapon/material/pickaxe/bone{pixel_y = 3},/obj/structure/table/wood,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"BH" = (/obj/roof/thatch,/obj/covers/thatch,/obj/structure/table/wood,/obj/item/stack/medical/bruise_pack/bint/leather,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"BY" = (/obj/structure/wild/rock{icon_state = "rock4"},/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"Cf" = (/obj/covers/wood/stairs{dir = 9; icon_state = "wood2_stairs"},/obj/covers/wood/stairs{dir = 5; icon_state = "wood2_stairs"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Co" = (/obj/roof/thatch,/obj/covers/thatch,/obj/structure/table/wood,/obj/item/clothing/mask/smokable/cigarette/joint,/obj/item/clothing/mask/smokable/cigarette/joint{pixel_y = 3},/obj/item/clothing/mask/smokable/cigarette/joint{pixel_y = 6},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Cw" = (/obj/structure/table/wood,/obj/item/stack/material/stone{amount = 50},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"CE" = (/obj/structure/wild/rock{icon_state = "rock1"},/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"CJ" = (/obj/covers/thatch,/obj/structure/table/wood,/obj/item/weapon/storage/produce_basket,/obj/item/weapon/berriesgatherer,/obj/roof/thatch,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"CP" = (/obj/effect/spawner/mobspawner/parrot,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"CX" = (/obj/structure/closet/crate/wood,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Dm" = (/obj/structure/wild/berrybush/marron,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Dr" = (/obj/structure/table/wood,/obj/item/stack/material/stone{amount = 50},/obj/covers/wood,/obj/roof/thatch,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"DB" = (/obj/covers/wood,/obj/structure/table/wood,/obj/roof/thatch,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"DC" = (/obj/covers/wood,/obj/structure/table/wood,/obj/item/weapon/material/hatchet/tribal/flint,/obj/item/weapon/material/hatchet/tribal/flint,/obj/roof/thatch,/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"DR" = (/obj/structure/wild/flowers{icon_state = "smallbush10"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"DY" = (/obj/structure/wild/largejungle,/obj/effect/spawner/mobspawner/alligator,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Eb" = (/turf/floor/dirt/dust,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"Ez" = (/obj/effect/spawner/mobspawner/panthers,/obj/structure/wild/flowers{icon_state = "smallbush38"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"EN" = (/obj/covers/wood/stairs{dir = 10},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Fb" = (/obj/covers/wood/stairs{dir = 5; icon_state = "wood2_stairs2"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Fj" = (/obj/structure/grille/logfence{dir = 4; icon_state = "palisade"},/obj/structure/wild/smallbush,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Fp" = (/obj/structure/wild/flowers,/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"Ft" = (/obj/structure/wild/jungle{icon_state = "tree2"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"FK" = (/obj/structure/wild/junglebush,/obj/effect/spawner/mobspawner/panthers/jaguar,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Gf" = (/obj/item/weapon/gun/projectile/bow,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Gt" = (/obj/structure/table/wood,/obj/item/weapon/material/kitchen/utensil/knife/bone,/obj/item/stack/material/rope,/obj/item/weapon/material/handle,/obj/item/weapon/hammer/tribalhammer,/obj/item/flashlight/torch,/obj/structure/mine_support,/turf/floor/dirt/dust,/area/caribbean/void/caves)
-"GP" = (/obj/structure/wild/berrybush/narco,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Hd" = (/obj/effect/spawner/mobspawner/monkeys,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Hk" = (/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,/obj/structure/table/wood,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Ho" = (/obj/structure/wild/tallgrass,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Ht" = (/obj/structure/oven/fireplace,/obj/item/weapon/reagent_containers/glass/small_pot/clay,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Hv" = (/obj/covers/thatch,/obj/roof/thatch,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"HK" = (/obj/structure/wild/jungle,/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"HQ" = (/obj/effect/spawner/mobspawner/panthers/jaguar,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"HT" = (/obj/structure/wild/rock,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"If" = (/obj/covers/wood,/obj/structure/simple_door/wood,/obj/roof/thatch,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"In" = (/obj/item/flashlight/torch/on/unlimited,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Ix" = (/obj/item/ammo_casing/arrow/stone,/obj/item/ammo_casing/arrow/stone,/obj/item/ammo_casing/arrow/stone,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Jm" = (/obj/covers/wood/stairs{dir = 9; icon_state = "wood2_stairs2"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Jn" = (/obj/structure/wild/berrybush/narco,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"Jv" = (/obj/structure/wild/rock{icon_state = "basalt1"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Ke" = (/turf/floor/dirt/underground{opacity = 0},/area/caribbean/void/caves)
-"Ks" = (/obj/effect/spawner/mobspawner/panthers/jaguar,/obj/structure/wild/largejungle,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Kv" = (/obj/effect/spawner/mobspawner/alligator,/obj/structure/wild/largejungle,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"KT" = (/obj/structure/wild/berrybush/corcairghorm,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Ln" = (/obj/structure/altar/wood,/obj/item/weapon/material/hatchet/tribal/bone,/turf/floor/dirt/dust,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"LL" = (/obj/structure/grille/logfence{dir = 8; icon_state = "palisade"},/obj/structure/wild/rock,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"LS" = (/obj/covers/thatch,/obj/structure/table/wood,/obj/item/weapon/material/kitchen/utensil/knife/bone,/obj/item/stack/material/rope,/obj/item/weapon/material/handle,/obj/item/weapon/hammer/tribalhammer,/obj/item/flashlight/torch,/obj/roof/thatch,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Mq" = (/obj/structure/window/barrier{dir = 8},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"ML" = (/obj/structure/wild/flowers,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Nf" = (/obj/item/weapon/material/hatchet/tribal/flint,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Nj" = (/obj/effect/spawner/mobspawner/snake,/turf/floor/grass,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"Np" = (/obj/covers/thatch,/obj/roof/thatch,/obj/structure/roof_support,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Nu" = (/obj/structure/wild/rock{icon_state = "rock1"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"NI" = (/obj/structure/wild/flowers{icon_state = "flower13"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"NQ" = (/obj/structure/grille/logfence{dir = 4; icon_state = "palisade"},/obj/structure/wild/rock{icon_state = "rock1"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Oc" = (/obj/item/ammo_casing/arrow/stone,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Od" = (/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"Ol" = (/obj/structure/window/barrier,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Ow" = (/obj/effect/spawner/mobspawner/panthers,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Ox" = (/obj/structure/wild/smallbush,/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"OD" = (/obj/structure/window/barrier{dir = 8},/turf/floor/dirt/dust,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"OR" = (/obj/structure/wild/largejungle,/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"Pb" = (/obj/structure/table/wood,/obj/item/weapon/material/shovel/bone{pixel_y = -3},/obj/item/weapon/material/shovel/bone,/obj/item/weapon/material/shovel/bone{pixel_y = 3},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Pc" = (/obj/structure/wild/flowers{icon_state = "smallbush16"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Pi" = (/obj/structure/table/wood,/obj/item/stack/medical/bruise_pack/bint/leather,/obj/covers/wood,/obj/roof/thatch,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Pk" = (/obj/structure/wild/smallbush{icon_state = "smallbush30"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Pl" = (/obj/structure/wild/jungle{icon_state = "tree2"},/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"PB" = (/obj/structure/wild/flowers{icon_state = "smallbush38"},/obj/item/ammo_casing/arrow/stone,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"PP" = (/obj/structure/barricade,/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"PZ" = (/obj/structure/table/wood,/obj/item/clothing/mask/smokable/cigarette/joint,/obj/item/clothing/mask/smokable/cigarette/joint{pixel_y = 3},/obj/item/clothing/mask/smokable/cigarette/joint{pixel_y = 6},/obj/covers/wood,/obj/roof/thatch,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Qs" = (/obj/item/weapon/material/hatchet/tribal/flint,/turf/floor/dirt/dust,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"Qx" = (/obj/structure/converter/tanning,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"QN" = (/obj/covers/repairedfloor/ship,/turf/floor/beach/water/jungle,/area/caribbean/no_mans_land/invisible_wall/jungle)
-"RD" = (/obj/covers/wood,/obj/roof/thatch,/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"RJ" = (/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"RP" = (/obj/structure/wild/junglebush,/obj/structure/wild/largejungle,/turf/floor/dirt/jungledirt,/area/caribbean/colonies/jungle)
-"Se" = (/obj/structure/grille/logfence,/obj/structure/grille/logfence{dir = 8; icon_state = "palisade"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Sq" = (/obj/item/weapon/branch/sharpened,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Sx" = (/obj/structure/wild/berrybush/zelenyy,/obj/item/ammo_casing/arrow/stone,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"SN" = (/obj/structure/table/wood,/obj/item/stack/medical/bruise_pack/bint/leather,/obj/item/stack/medical/bruise_pack/bint/leather,/obj/item/stack/medical/bruise_pack/bint/leather,/obj/item/stack/medical/bruise_pack/bint/leather,/obj/item/stack/medical/advanced/herbs,/obj/item/stack/medical/advanced/herbs,/obj/item/stack/medical/advanced/herbs,/obj/item/stack/medical/advanced/herbs,/obj/item/weapon/doctor_handbook,/obj/item/weapon/doctor_handbook,/turf/floor/dirt/dust,/area/caribbean/void/caves)
-"SV" = (/obj/structure/wild/rock{icon_state = "basalt1"},/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"Tc" = (/obj/effect/spawner/mobspawner/frogpoisonous,/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"Tk" = (/obj/effect/spawner/mobspawner/frog,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"TK" = (/obj/structure/wild/largejungle,/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"TV" = (/obj/structure/grille/logfence,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Ue" = (/obj/structure/salting_container,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Uf" = (/obj/structure/grille/logfence{dir = 1; icon_state = "palisade"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Ug" = (/obj/structure/window/barrier{dir = 4},/turf/floor/dirt/dust,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"UG" = (/obj/effect/spawner/mobspawner/snake,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"UQ" = (/obj/structure/wild/berrybush/narco,/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"Vv" = (/obj/structure/wild/rock{icon_state = "rock4"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"VE" = (/obj/covers/wood_wall/log/corner,/obj/roof/thatch,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"VP" = (/obj/structure/grille/logfence{dir = 4; icon_state = "palisade"},/obj/structure/grille/logfence,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"VU" = (/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Wf" = (/obj/structure/wild/tallgrass,/obj/structure/wild/rock{icon_state = "rock1"},/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Wm" = (/obj/structure/window/barrier{dir = 1},/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"Xd" = (/obj/covers/wood_wall/log{dir = 4; icon_state = "log_wall"},/obj/roof/thatch,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Xg" = (/obj/covers/wood,/obj/roof/thatch,/obj/structure/roof_support,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"XM" = (/obj/structure/wild/jungle{icon_state = "tree7"},/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"Yi" = (/turf/floor/dirt/dust,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"Yl" = (/turf/floor/dirt/dust,/area/caribbean/void/caves)
-"Ym" = (/obj/structure/window/barrier/railing/stone{icon_state = "stone"; dir = 1},/obj/item/ammo_casing/arrow/stone,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"YJ" = (/obj/roof/thatch,/obj/covers/thatch,/obj/effect/landmark{name = "JoinLateRTribesperson"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"YO" = (/obj/structure/wild/jungle,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"YT" = (/obj/covers/wood/stairs{dir = 1},/obj/covers/wood/stairs{dir = 10; icon_state = "wood2_stairs2"},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Zh" = (/obj/covers/wood,/obj/roof/thatch,/obj/effect/landmark{name = "JoinLateBTribesperson"},/turf/floor/dirt,/area/caribbean/colonies/jungle)
-"Zi" = (/obj/structure/wild/rock{icon_state = "rock4"},/obj/structure/wild/jungle{icon_state = "tree4"},/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"Zs" = (/obj/roof/thatch,/obj/covers/thatch,/obj/structure/bed/bedroll,/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"Zt" = (/obj/effect/spawner/mobspawner/alligator,/turf/floor/grass,/area/caribbean/colonies/jungle)
-"Zw" = (/obj/structure/table/wood,/obj/item/weapon/gun/projectile/bow/sling{pixel_y = -3},/obj/item/weapon/gun/projectile/bow/sling,/obj/item/weapon/gun/projectile/bow/sling{pixel_y = 3},/turf/floor/dirt/dust,/area/caribbean/colonies/jungle)
-"ZE" = (/obj/structure/window/barrier{dir = 8},/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
-"ZH" = (/obj/item/weapon/material/hatchet/tribal/flint,/turf/floor/grass,/area/caribbean/island{base_turf = /turf/floor/dirt; location = 0; name = "Castle"})
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"az" = (
+/obj/map_metadata/twotribes,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"aK" = (
+/obj/covers/wood_wall/log,
+/obj/roof/thatch,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"aM" = (
+/obj/covers/wood,
+/obj/roof/thatch,
+/obj/effect/landmark{
+	name = "JoinLateBTribesperson"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"aT" = (
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"aV" = (
+/obj/effect/spawner/mobspawner/monkeys,
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"bt" = (
+/obj/covers/wood/stairs{
+	dir = 2;
+	icon_state = "wood2_stairs2"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"bB" = (
+/obj/covers/thatch,
+/obj/roof/thatch,
+/obj/effect/landmark{
+	name = "JoinLateRShaman"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"bK" = (
+/obj/roof/thatch,
+/obj/covers/thatch,
+/obj/structure/table/wood,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"bP" = (
+/obj/effect/spawner/mobspawner/snake,
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"cF" = (
+/turf/floor/beach/water/jungle,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"cK" = (
+/obj/structure/wild/largejungle,
+/obj/effect/spawner/mobspawner/frogpoisonous,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"cL" = (
+/obj/structure/wild/junglebush,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"cZ" = (
+/obj/structure/grille/logfence,
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"dc" = (
+/obj/structure/grille/logfence{
+	dir = 8;
+	icon_state = "palisade"
+	},
+/obj/structure/wild/largejungle,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"dk" = (
+/obj/structure/wild/rock,
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"dm" = (
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/structure/table/wood,
+/obj/structure/mine_support,
+/turf/floor/dirt/dust,
+/area/caribbean/void/caves)
+"dR" = (
+/obj/structure/wild/flowers{
+	icon_state = "smallbush38"
+	},
+/turf/floor/dirt,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"dT" = (
+/obj/effect/spawner/mobspawner/mouse,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"dU" = (
+/obj/structure/grille/logfence{
+	dir = 1;
+	icon_state = "palisade"
+	},
+/obj/structure/grille/logfence{
+	dir = 8;
+	icon_state = "palisade"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"dZ" = (
+/obj/structure/wild/jungle{
+	icon_state = "tree7"
+	},
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"ep" = (
+/obj/structure/window/barrier,
+/turf/floor/dirt/dust,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"eO" = (
+/obj/roof/thatch,
+/obj/covers/thatch,
+/obj/effect/spawner/mobspawner/monkeys,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"eR" = (
+/obj/effect/landmark{
+	name = "JoinLateBShaman"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/void/caves)
+"fi" = (
+/obj/structure/wild/tallgrass,
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"fJ" = (
+/obj/structure/wild/jungle{
+	icon_state = "tree3"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"fP" = (
+/obj/covers/dirt_wall/blocks,
+/obj/roof/thatch,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"fT" = (
+/obj/structure/wild/junglebush,
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"gi" = (
+/obj/covers/wood,
+/obj/structure/bed/wood,
+/obj/roof/thatch,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"gL" = (
+/obj/covers/wood,
+/obj/structure/closet/crate/wood,
+/obj/roof/thatch,
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"gM" = (
+/obj/roof/thatch,
+/obj/covers/dirt_wall/blocks,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"gO" = (
+/obj/structure/dehydrator,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"gW" = (
+/turf/floor/beach/water/jungle,
+/area/caribbean/colonies/jungle)
+"hu" = (
+/obj/structure/wild/rock{
+	icon_state = "basalt1"
+	},
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"hy" = (
+/turf/floor/dirt/underground,
+/area/caribbean/void/caves)
+"hC" = (
+/obj/roof/thatch,
+/obj/covers/thatch,
+/obj/structure/table/wood,
+/obj/item/weapon/storage/produce_basket,
+/obj/item/weapon/berriesgatherer,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"hR" = (
+/obj/structure/wild/largejungle,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"iu" = (
+/obj/structure/wild/flowers{
+	icon_state = "flower10"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"iF" = (
+/obj/structure/wild/junglebush,
+/turf/floor/dirt/jungledirt,
+/area/caribbean/colonies/jungle)
+"iX" = (
+/obj/structure/wild/berrybush/zelenyy,
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"ja" = (
+/obj/structure/wild/flowers{
+	icon_state = "smallbush16"
+	},
+/obj/effect/spawner/mobspawner/parrot,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"jv" = (
+/obj/structure/wild/largejungle,
+/obj/structure/wild/rock{
+	icon_state = "rock4"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"jL" = (
+/obj/structure/wild/largejungle,
+/obj/effect/spawner/mobspawner/monkeys,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"jU" = (
+/obj/covers/wood,
+/obj/roof/thatch,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"kb" = (
+/obj/structure/table/wood,
+/obj/item/weapon/material/hatchet/tribal/bone{
+	pixel_y = -3
+	},
+/obj/item/weapon/material/hatchet/tribal/bone,
+/obj/item/weapon/material/hatchet/tribal/bone{
+	pixel_y = 3
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"kj" = (
+/obj/item/stack/material/bone{
+	amount = 7
+	},
+/obj/effect/decal/cleanable/blood,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"kn" = (
+/obj/structure/wild/junglebush,
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"kA" = (
+/obj/structure/wild/berrybush/azul,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"kP" = (
+/obj/structure/wild/berrybush/zelenyy,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"kT" = (
+/obj/structure/wild/flowers{
+	icon_state = "smallbush22"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"lq" = (
+/obj/covers/wood/stairs{
+	dir = 6;
+	icon_state = "wood2_stairs"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"lw" = (
+/obj/structure/wild/jungle,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"ly" = (
+/obj/structure/wild/jungle{
+	icon_state = "tree6"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"lK" = (
+/obj/structure/wild/flowers{
+	icon_state = "smallbush16"
+	},
+/obj/structure/wild/largejungle,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"lT" = (
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"md" = (
+/obj/item/weapon/flint/sharpened,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"mf" = (
+/obj/structure/wild/jungle{
+	icon_state = "tree4"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"mg" = (
+/obj/structure/wild/berrybush/tinto,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"mn" = (
+/obj/structure/bed/wood,
+/obj/structure/mine_support,
+/turf/floor/dirt/dust,
+/area/caribbean/void/caves)
+"mC" = (
+/turf/floor/dirt,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"mE" = (
+/obj/covers/wood,
+/obj/roof/thatch,
+/obj/effect/landmark{
+	name = "JoinLateBChief"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"mQ" = (
+/obj/structure/grille/logfence{
+	dir = 8;
+	icon_state = "palisade"
+	},
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"mV" = (
+/obj/covers/wood/stairs{
+	dir = 4;
+	icon_state = "wood2_stairs2"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"nd" = (
+/obj/structure/grille/logfence{
+	dir = 4;
+	icon_state = "palisade"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"oa" = (
+/obj/covers/wood,
+/obj/structure/table/wood,
+/obj/item/weapon/storage/produce_basket,
+/obj/item/weapon/berriesgatherer,
+/obj/roof/thatch,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"oc" = (
+/obj/structure/window/barrier{
+	dir = 1
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"od" = (
+/obj/item/weapon/material/pickaxe/bone,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"oz" = (
+/obj/covers/repairedfloor/ship,
+/turf/floor/beach/water/jungle,
+/area/caribbean/colonies/jungle)
+"oH" = (
+/obj/structure/grille/logfence{
+	dir = 1;
+	icon_state = "palisade"
+	},
+/obj/structure/grille/logfence{
+	dir = 4;
+	icon_state = "palisade"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"oK" = (
+/turf/floor/beach/water/swamp{
+	name = "Swamp Water"
+	},
+/area/caribbean/colonies/jungle)
+"oM" = (
+/obj/structure/wild/berrybush/corcairghorm,
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"oU" = (
+/obj/structure/wild/flowers{
+	icon_state = "flower7"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"pc" = (
+/obj/structure/wild/flowers{
+	icon_state = "flower10"
+	},
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"pr" = (
+/obj/covers/wood/stairs{
+	dir = 1
+	},
+/obj/covers/wood/stairs{
+	dir = 1;
+	icon_state = "wood2_stairs2"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"py" = (
+/obj/structure/wild/berrybush/amar,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"pA" = (
+/obj/structure/wild/berrybush/majo,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"pK" = (
+/obj/covers/thatch,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"pQ" = (
+/obj/structure/grille/logfence{
+	dir = 1;
+	icon_state = "palisade"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"pT" = (
+/obj/roof/thatch,
+/obj/covers/thatch,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"qq" = (
+/obj/covers/wood/stairs{
+	dir = 8;
+	icon_state = "wood2_stairs2"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"qA" = (
+/obj/structure/religious/animal_statue,
+/turf/floor/dirt/dust,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"qE" = (
+/obj/structure/wild/smallbush{
+	icon_state = "smallbush30"
+	},
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"qH" = (
+/obj/structure/wild/flowers{
+	icon_state = "smallbush38"
+	},
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"qK" = (
+/obj/covers/thatch,
+/obj/structure/table/wood,
+/obj/item/stack/medical/bruise_pack/bint/leather,
+/obj/item/stack/medical/bruise_pack/bint/leather,
+/obj/item/stack/medical/bruise_pack/bint/leather,
+/obj/item/stack/medical/bruise_pack/bint/leather,
+/obj/roof/thatch,
+/obj/item/stack/medical/advanced/herbs,
+/obj/item/stack/medical/advanced/herbs,
+/obj/item/stack/medical/advanced/herbs,
+/obj/item/stack/medical/advanced/herbs,
+/obj/item/weapon/doctor_handbook,
+/obj/item/weapon/doctor_handbook,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"qS" = (
+/obj/item/weapon/material/shovel/bone,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"rf" = (
+/obj/roof/thatch,
+/obj/covers/thatch,
+/obj/structure/table/wood,
+/obj/item/clothing/under/loinleather,
+/obj/item/clothing/under/loinleather{
+	pixel_y = 3
+	},
+/obj/item/clothing/under/loinleather{
+	pixel_y = 6
+	},
+/obj/item/clothing/under/loinleather{
+	pixel_y = 9
+	},
+/obj/item/clothing/under/loinleather{
+	pixel_y = 12
+	},
+/obj/item/clothing/under/loinleather{
+	pixel_y = 15
+	},
+/obj/item/clothing/suit/hairbonearmor,
+/obj/item/clothing/suit/hairbonearmor,
+/obj/item/clothing/suit/hairbonearmor,
+/obj/item/clothing/suit/hairbonearmor,
+/obj/item/clothing/suit/hairbonearmor,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"rh" = (
+/obj/structure/wild/flowers{
+	icon_state = "smallbush38"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"rK" = (
+/obj/structure/wild/rock,
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"su" = (
+/obj/structure/wild/smallbush,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"sA" = (
+/obj/structure/sink/puddle,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"sH" = (
+/obj/structure/table/wood,
+/obj/item/clothing/under/loinleather,
+/obj/item/clothing/under/loinleather{
+	pixel_y = 3
+	},
+/obj/item/clothing/under/loinleather{
+	pixel_y = 6
+	},
+/obj/item/clothing/under/loinleather{
+	pixel_y = 9
+	},
+/obj/item/clothing/under/loinleather{
+	pixel_y = 12
+	},
+/obj/item/clothing/under/loinleather{
+	pixel_y = 15
+	},
+/obj/covers/wood,
+/obj/roof/thatch,
+/obj/item/clothing/suit/hairbonearmor,
+/obj/item/clothing/suit/hairbonearmor,
+/obj/item/clothing/suit/hairbonearmor,
+/obj/item/clothing/suit/hairbonearmor,
+/obj/item/clothing/suit/hairbonearmor,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"te" = (
+/obj/structure/table/wood,
+/obj/covers/wood,
+/obj/roof/thatch,
+/obj/item/clothing/accessory/armband/french,
+/obj/item/clothing/accessory/armband/french,
+/obj/item/clothing/accessory/armband/french,
+/obj/item/clothing/accessory/armband/french,
+/obj/item/clothing/accessory/armband/french,
+/obj/item/clothing/accessory/armband/french,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"tf" = (
+/obj/covers/wood,
+/obj/structure/closet/crate/wood,
+/obj/roof/thatch,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"ts" = (
+/obj/item/weapon/branch/sharpened,
+/obj/item/weapon/flint/sharpened,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"tJ" = (
+/obj/structure/wild/jungle{
+	icon_state = "tree7"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"tW" = (
+/obj/covers/wood/stairs{
+	dir = 9;
+	icon_state = "wood2_stairs"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"ue" = (
+/obj/structure/wild/tallgrass,
+/obj/effect/spawner/mobspawner/snake,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"ul" = (
+/obj/structure/wild/berrybush/marron,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"uq" = (
+/obj/structure/wild/rock,
+/obj/effect/spawner/mobspawner/panthers/jaguar,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"uB" = (
+/obj/roof/thatch,
+/obj/covers/thatch,
+/obj/structure/table/wood,
+/obj/item/clothing/accessory/armband/british,
+/obj/item/clothing/accessory/armband/british,
+/obj/item/clothing/accessory/armband/british,
+/obj/item/clothing/accessory/armband/british,
+/obj/item/clothing/accessory/armband/british,
+/obj/item/clothing/accessory/armband/british,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"uC" = (
+/obj/structure/curtain/leather,
+/obj/roof/thatch,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"uK" = (
+/obj/structure/wild/jungle{
+	icon_state = "tree4"
+	},
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"uT" = (
+/obj/covers/thatch,
+/obj/structure/bed/bedroll,
+/obj/roof/thatch,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"ve" = (
+/obj/structure/table/wood,
+/obj/item/weapon/gun/projectile/bow/sling{
+	pixel_y = -3
+	},
+/obj/item/weapon/gun/projectile/bow/sling,
+/obj/item/weapon/gun/projectile/bow/sling{
+	pixel_y = 3
+	},
+/obj/covers/wood,
+/obj/roof/thatch,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"vf" = (
+/obj/structure/window/barrier/railing/stone{
+	icon_state = "stone";
+	dir = 1
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"vq" = (
+/obj/structure/grille/logfence{
+	dir = 8;
+	icon_state = "palisade"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"vy" = (
+/obj/structure/grille/logfence,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"vI" = (
+/obj/structure/wild/flowers{
+	icon_state = "smallbush38"
+	},
+/obj/structure/wild/flowers{
+	icon_state = "flower7"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"vO" = (
+/obj/covers/thatch,
+/obj/roof/thatch,
+/obj/structure/curtain/leather,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"vQ" = (
+/obj/structure/table/wood,
+/obj/item/weapon/melee/classic_baton/club{
+	pixel_y = 6
+	},
+/obj/item/weapon/melee/classic_baton/club{
+	pixel_y = 3
+	},
+/obj/item/weapon/melee/classic_baton/club,
+/obj/item/weapon/shield/nomads,
+/obj/item/weapon/shield/nomads,
+/obj/item/weapon/shield/nomads,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"wn" = (
+/obj/structure/table/wood,
+/obj/item/weapon/material/spear{
+	pixel_y = 3
+	},
+/obj/item/weapon/material/spear,
+/obj/item/weapon/material/spear{
+	pixel_y = -3
+	},
+/obj/item/weapon/shield/nguni_shield,
+/obj/item/weapon/shield/nguni_shield,
+/obj/item/weapon/shield/nguni_shield,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"wr" = (
+/obj/structure/grille/logfence{
+	dir = 4;
+	icon_state = "palisade"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"xh" = (
+/turf/floor/dirt/jungledirt,
+/area/caribbean/colonies/jungle)
+"xi" = (
+/obj/structure/wild/jungle{
+	icon_state = "tree5"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"xu" = (
+/obj/structure/wild/berrybush/marron,
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"xy" = (
+/obj/structure/wild/flowers{
+	icon_state = "smallbush16"
+	},
+/obj/item/ammo_casing/arrow/stone,
+/obj/item/ammo_casing/arrow/stone,
+/obj/item/ammo_casing/arrow/stone,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"xS" = (
+/obj/effect/spawner/mobspawner/monkeys,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"yi" = (
+/obj/covers/wood/stairs{
+	dir = 6;
+	icon_state = "wood2_stairs2"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"yu" = (
+/obj/structure/grille/logfence{
+	dir = 4;
+	icon_state = "palisade"
+	},
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"yJ" = (
+/obj/structure/wild/rock{
+	icon_state = "rock4"
+	},
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"zd" = (
+/obj/effect/spawner/mobspawner/frogpoisonous,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"zj" = (
+/obj/structure/wild/flowers{
+	icon_state = "smallbush16"
+	},
+/obj/structure/wild/berrybush/marron,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"zN" = (
+/obj/roof/thatch,
+/obj/covers/thatch,
+/obj/effect/landmark{
+	name = "JoinLateRChief"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Af" = (
+/obj/roof/thatch,
+/obj/covers/thatch,
+/obj/structure/roof_support,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Ak" = (
+/turf/wall/rockwall{
+	opacity = 0
+	},
+/area/caribbean/colonies/jungle)
+"AC" = (
+/obj/structure/window/barrier{
+	dir = 4
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"AF" = (
+/obj/structure/wild/junglebush,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"Ba" = (
+/obj/item/weapon/material/pickaxe/bone{
+	pixel_y = -3
+	},
+/obj/item/weapon/material/pickaxe/bone,
+/obj/item/weapon/material/pickaxe/bone{
+	pixel_y = 3
+	},
+/obj/structure/table/wood,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"BH" = (
+/obj/roof/thatch,
+/obj/covers/thatch,
+/obj/structure/table/wood,
+/obj/item/stack/medical/bruise_pack/bint/leather,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"BY" = (
+/obj/structure/wild/rock{
+	icon_state = "rock4"
+	},
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"Cf" = (
+/obj/covers/wood/stairs{
+	dir = 9;
+	icon_state = "wood2_stairs"
+	},
+/obj/covers/wood/stairs{
+	dir = 5;
+	icon_state = "wood2_stairs"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Co" = (
+/obj/roof/thatch,
+/obj/covers/thatch,
+/obj/structure/table/wood,
+/obj/item/clothing/mask/smokable/cigarette/joint,
+/obj/item/clothing/mask/smokable/cigarette/joint{
+	pixel_y = 3
+	},
+/obj/item/clothing/mask/smokable/cigarette/joint{
+	pixel_y = 6
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Cw" = (
+/obj/structure/table/wood,
+/obj/item/stack/material/stone{
+	amount = 50
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"CE" = (
+/obj/structure/wild/rock{
+	icon_state = "rock1"
+	},
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"CJ" = (
+/obj/covers/thatch,
+/obj/structure/table/wood,
+/obj/item/weapon/storage/produce_basket,
+/obj/item/weapon/berriesgatherer,
+/obj/roof/thatch,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"CP" = (
+/obj/effect/spawner/mobspawner/parrot,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"CX" = (
+/obj/structure/closet/crate/wood,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Dm" = (
+/obj/structure/wild/berrybush/marron,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Dr" = (
+/obj/structure/table/wood,
+/obj/item/stack/material/stone{
+	amount = 50
+	},
+/obj/covers/wood,
+/obj/roof/thatch,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"DB" = (
+/obj/covers/wood,
+/obj/structure/table/wood,
+/obj/roof/thatch,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"DC" = (
+/obj/covers/wood,
+/obj/structure/table/wood,
+/obj/item/weapon/material/hatchet/tribal/flint,
+/obj/item/weapon/material/hatchet/tribal/flint,
+/obj/roof/thatch,
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"DR" = (
+/obj/structure/wild/flowers{
+	icon_state = "smallbush10"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"DY" = (
+/obj/structure/wild/largejungle,
+/obj/effect/spawner/mobspawner/alligator,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Eb" = (
+/turf/floor/dirt/dust,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"Ez" = (
+/obj/effect/spawner/mobspawner/panthers,
+/obj/structure/wild/flowers{
+	icon_state = "smallbush38"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"EN" = (
+/obj/covers/wood/stairs{
+	dir = 10
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Fb" = (
+/obj/covers/wood/stairs{
+	dir = 5;
+	icon_state = "wood2_stairs2"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Fj" = (
+/obj/structure/grille/logfence{
+	dir = 4;
+	icon_state = "palisade"
+	},
+/obj/structure/wild/smallbush,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Fp" = (
+/obj/structure/wild/flowers,
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"Ft" = (
+/obj/structure/wild/jungle{
+	icon_state = "tree2"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"FK" = (
+/obj/structure/wild/junglebush,
+/obj/effect/spawner/mobspawner/panthers/jaguar,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Gf" = (
+/obj/item/weapon/gun/projectile/bow,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Gt" = (
+/obj/structure/table/wood,
+/obj/item/weapon/material/kitchen/utensil/knife/bone,
+/obj/item/stack/material/rope,
+/obj/item/weapon/material/handle,
+/obj/item/weapon/hammer/tribalhammer,
+/obj/structure/mine_support,
+/turf/floor/dirt/dust,
+/area/caribbean/void/caves)
+"GP" = (
+/obj/structure/wild/berrybush/narco,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Hd" = (
+/obj/effect/spawner/mobspawner/monkeys,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Hk" = (
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/item/weapon/reagent_containers/food/drinks/bottle/palmwine,
+/obj/structure/table/wood,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Ho" = (
+/obj/structure/wild/tallgrass,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Ht" = (
+/obj/structure/oven/fireplace,
+/obj/item/weapon/reagent_containers/glass/small_pot/clay,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Hv" = (
+/obj/covers/thatch,
+/obj/roof/thatch,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"HK" = (
+/obj/structure/wild/jungle,
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"HQ" = (
+/obj/effect/spawner/mobspawner/panthers/jaguar,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"HT" = (
+/obj/structure/wild/rock,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"If" = (
+/obj/covers/wood,
+/obj/structure/simple_door/wood,
+/obj/roof/thatch,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Ix" = (
+/obj/item/ammo_casing/arrow/stone,
+/obj/item/ammo_casing/arrow/stone,
+/obj/item/ammo_casing/arrow/stone,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Jm" = (
+/obj/covers/wood/stairs{
+	dir = 9;
+	icon_state = "wood2_stairs2"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Jn" = (
+/obj/structure/wild/berrybush/narco,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"Jv" = (
+/obj/structure/wild/rock{
+	icon_state = "basalt1"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Ke" = (
+/turf/floor/dirt/underground{
+	opacity = 0
+	},
+/area/caribbean/void/caves)
+"Ks" = (
+/obj/effect/spawner/mobspawner/panthers/jaguar,
+/obj/structure/wild/largejungle,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Kv" = (
+/obj/effect/spawner/mobspawner/alligator,
+/obj/structure/wild/largejungle,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"KT" = (
+/obj/structure/wild/berrybush/corcairghorm,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Ln" = (
+/obj/structure/altar/wood,
+/obj/item/weapon/material/hatchet/tribal/bone,
+/turf/floor/dirt/dust,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"LL" = (
+/obj/structure/grille/logfence{
+	dir = 8;
+	icon_state = "palisade"
+	},
+/obj/structure/wild/rock,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"LS" = (
+/obj/covers/thatch,
+/obj/structure/table/wood,
+/obj/item/weapon/material/kitchen/utensil/knife/bone,
+/obj/item/stack/material/rope,
+/obj/item/weapon/material/handle,
+/obj/item/weapon/hammer/tribalhammer,
+/obj/roof/thatch,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Mq" = (
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"ML" = (
+/obj/structure/wild/flowers,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Nf" = (
+/obj/item/weapon/material/hatchet/tribal/flint,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Nj" = (
+/obj/effect/spawner/mobspawner/snake,
+/turf/floor/grass,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"Np" = (
+/obj/covers/thatch,
+/obj/roof/thatch,
+/obj/structure/roof_support,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Nu" = (
+/obj/structure/wild/rock{
+	icon_state = "rock1"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"NI" = (
+/obj/structure/wild/flowers{
+	icon_state = "flower13"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"NQ" = (
+/obj/structure/grille/logfence{
+	dir = 4;
+	icon_state = "palisade"
+	},
+/obj/structure/wild/rock{
+	icon_state = "rock1"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Oc" = (
+/obj/item/ammo_casing/arrow/stone,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Od" = (
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"Ol" = (
+/obj/structure/window/barrier,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Ow" = (
+/obj/effect/spawner/mobspawner/panthers,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Ox" = (
+/obj/structure/wild/smallbush,
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"OD" = (
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"OR" = (
+/obj/structure/wild/largejungle,
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"Pb" = (
+/obj/structure/table/wood,
+/obj/item/weapon/material/shovel/bone{
+	pixel_y = -3
+	},
+/obj/item/weapon/material/shovel/bone,
+/obj/item/weapon/material/shovel/bone{
+	pixel_y = 3
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Pc" = (
+/obj/structure/wild/flowers{
+	icon_state = "smallbush16"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Pi" = (
+/obj/structure/table/wood,
+/obj/item/stack/medical/bruise_pack/bint/leather,
+/obj/covers/wood,
+/obj/roof/thatch,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Pk" = (
+/obj/structure/wild/smallbush{
+	icon_state = "smallbush30"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Pl" = (
+/obj/structure/wild/jungle{
+	icon_state = "tree2"
+	},
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"PB" = (
+/obj/structure/wild/flowers{
+	icon_state = "smallbush38"
+	},
+/obj/item/ammo_casing/arrow/stone,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"PP" = (
+/obj/structure/barricade,
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"PZ" = (
+/obj/structure/table/wood,
+/obj/item/clothing/mask/smokable/cigarette/joint,
+/obj/item/clothing/mask/smokable/cigarette/joint{
+	pixel_y = 3
+	},
+/obj/item/clothing/mask/smokable/cigarette/joint{
+	pixel_y = 6
+	},
+/obj/covers/wood,
+/obj/roof/thatch,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Qs" = (
+/obj/item/weapon/material/hatchet/tribal/flint,
+/turf/floor/dirt/dust,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"Qx" = (
+/obj/structure/converter/tanning,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"QN" = (
+/obj/covers/repairedfloor/ship,
+/turf/floor/beach/water/jungle,
+/area/caribbean/no_mans_land/invisible_wall/jungle)
+"RD" = (
+/obj/covers/wood,
+/obj/roof/thatch,
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"RJ" = (
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"RP" = (
+/obj/structure/wild/junglebush,
+/obj/structure/wild/largejungle,
+/turf/floor/dirt/jungledirt,
+/area/caribbean/colonies/jungle)
+"Se" = (
+/obj/structure/grille/logfence,
+/obj/structure/grille/logfence{
+	dir = 8;
+	icon_state = "palisade"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Sq" = (
+/obj/item/weapon/branch/sharpened,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Sx" = (
+/obj/structure/wild/berrybush/zelenyy,
+/obj/item/ammo_casing/arrow/stone,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"SN" = (
+/obj/structure/table/wood,
+/obj/item/stack/medical/bruise_pack/bint/leather,
+/obj/item/stack/medical/bruise_pack/bint/leather,
+/obj/item/stack/medical/bruise_pack/bint/leather,
+/obj/item/stack/medical/bruise_pack/bint/leather,
+/obj/item/stack/medical/advanced/herbs,
+/obj/item/stack/medical/advanced/herbs,
+/obj/item/stack/medical/advanced/herbs,
+/obj/item/stack/medical/advanced/herbs,
+/obj/item/weapon/doctor_handbook,
+/obj/item/weapon/doctor_handbook,
+/turf/floor/dirt/dust,
+/area/caribbean/void/caves)
+"SV" = (
+/obj/structure/wild/rock{
+	icon_state = "basalt1"
+	},
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"Tc" = (
+/obj/effect/spawner/mobspawner/frogpoisonous,
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"Tk" = (
+/obj/effect/spawner/mobspawner/frog,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"TK" = (
+/obj/structure/wild/largejungle,
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"TV" = (
+/obj/structure/grille/logfence,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Ue" = (
+/obj/structure/salting_container,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Uf" = (
+/obj/structure/grille/logfence{
+	dir = 1;
+	icon_state = "palisade"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Ug" = (
+/obj/structure/window/barrier{
+	dir = 4
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"UG" = (
+/obj/effect/spawner/mobspawner/snake,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"UQ" = (
+/obj/structure/wild/berrybush/narco,
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"Vv" = (
+/obj/structure/wild/rock{
+	icon_state = "rock4"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"VE" = (
+/obj/covers/wood_wall/log/corner,
+/obj/roof/thatch,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"VP" = (
+/obj/structure/grille/logfence{
+	dir = 4;
+	icon_state = "palisade"
+	},
+/obj/structure/grille/logfence,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"VU" = (
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Wf" = (
+/obj/structure/wild/tallgrass,
+/obj/structure/wild/rock{
+	icon_state = "rock1"
+	},
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Wm" = (
+/obj/structure/window/barrier{
+	dir = 1
+	},
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"Xd" = (
+/obj/covers/wood_wall/log{
+	dir = 4;
+	icon_state = "log_wall"
+	},
+/obj/roof/thatch,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Xg" = (
+/obj/covers/wood,
+/obj/roof/thatch,
+/obj/structure/roof_support,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"XM" = (
+/obj/structure/wild/jungle{
+	icon_state = "tree7"
+	},
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"Yi" = (
+/turf/floor/dirt/dust,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"Yl" = (
+/turf/floor/dirt/dust,
+/area/caribbean/void/caves)
+"Ym" = (
+/obj/structure/window/barrier/railing/stone{
+	icon_state = "stone";
+	dir = 1
+	},
+/obj/item/ammo_casing/arrow/stone,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"YJ" = (
+/obj/roof/thatch,
+/obj/covers/thatch,
+/obj/effect/landmark{
+	name = "JoinLateRTribesperson"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"YO" = (
+/obj/structure/wild/jungle,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"YT" = (
+/obj/covers/wood/stairs{
+	dir = 1
+	},
+/obj/covers/wood/stairs{
+	dir = 10;
+	icon_state = "wood2_stairs2"
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Zh" = (
+/obj/covers/wood,
+/obj/roof/thatch,
+/obj/effect/landmark{
+	name = "JoinLateBTribesperson"
+	},
+/turf/floor/dirt,
+/area/caribbean/colonies/jungle)
+"Zi" = (
+/obj/structure/wild/rock{
+	icon_state = "rock4"
+	},
+/obj/structure/wild/jungle{
+	icon_state = "tree4"
+	},
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"Zs" = (
+/obj/roof/thatch,
+/obj/covers/thatch,
+/obj/structure/bed/bedroll,
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"Zt" = (
+/obj/effect/spawner/mobspawner/alligator,
+/turf/floor/grass,
+/area/caribbean/colonies/jungle)
+"Zw" = (
+/obj/structure/table/wood,
+/obj/item/weapon/gun/projectile/bow/sling{
+	pixel_y = -3
+	},
+/obj/item/weapon/gun/projectile/bow/sling,
+/obj/item/weapon/gun/projectile/bow/sling{
+	pixel_y = 3
+	},
+/turf/floor/dirt/dust,
+/area/caribbean/colonies/jungle)
+"ZE" = (
+/obj/structure/window/barrier{
+	dir = 8
+	},
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
+"ZH" = (
+/obj/item/weapon/material/hatchet/tribal/flint,
+/turf/floor/grass,
+/area/caribbean/island{
+	base_turf = /turf/floor/dirt;
+	location = 0;
+	name = "Castle"
+	})
 
 (1,1,1) = {"
-VUVUVUFtVUVUcLtJVUVUndlTlTlTxSlTlTfPlTlTlTlTlTlTlTlTgOvqVUVUcLVUVUVUVUHTVUVvVUVUVUVUVUVUVUVUVUVUVUVURJgWgWgWgWgWgWRJRJVUYOVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVUVvVUVUVUVUVUVUVUVUVUiuVUVUVUVUVUVUVUVUVU
-VUFtVUVUVUVUVUoUmgxiNQlTlTlTlTpKpTfPfPlTlTlTlTlTlTlTgOvqmfVUVUVUVUVUVUHQVUhRVUVUVUVUVUVUHQtJVUVUVUVURJRJgWgWgWgWgWgWRJRJZtVUVUVUYOVUVUVUVUYOVUVUVUVUYOVUVUYOVUVUVUVUVvVUmfVUVUVUVUVUVUVUVUVUVUVUYOVUVUVUVU
-rhNuVUhRHTFtVUVUVUVUndlTlTlTpKpTpTHvfPlTlTlTlTlTlTlTgOLLVUVUVUhRVUYOVUVUVUHTVUtJVUVvlyVUVUVUsuVUVvVUVURJRJgWgWgWgWgWgWRJRJRJYOVUVUVUVUYOVUVUVUYOVUVUVUVUVUVUVUVUYOVUVUVUcLVUVUYOVUVUVUVUVUlyVUNuVUVUVUVUrh
-VUVUfJcLVUVUVUxiVvhRndlTlTlTpTpTpTHvfPlTlTlTlTlTlTlTlTVUhRVUYOHQVUcLVUVUlyVUVUcLVUVUVUsutJVUVUfJZtVUVUVUTcRJgWgWgWgWgWgWgWRJRJVUVUVUVUVUVUVUVUVUYONuVUxiVUVUYOVUMLVUVUVUVUVUVUVUHTYOVUYOVUVUVUVUVUVUYOVUVU
-FtkAVUVUVUhRVUVUVUVUVUlTlTpKpTeOpTHvfPlTlTlTlTlTlTlTlTdcVUcLVUVUVvhRVUVUDmHTsuVUhRVUVUVUHTVUcLVUVUVUmfVUVURJRJgWgWgWgWgWgWgWRJRJYOVUVUVUVUxiVUGPlTlTlTlTlTlTlTlTVUVUVUfJVUVUVUVUVUVUVvVUVUVUVUYOVUVUVUVUVU
-VUVUVUVUYOVUxicLrhxioUlTlTfPpTpTpTfPfPgOlTlTlTlTlTlTlTUflTUfUfdcVUYOVUFtVUcLVUVUHQVUlyVUVUVUVUVUVUVUVUVUVUVURJRJgWgWgWgWgWgWgWRJRJVUYOVUVUVUlTlTlTlTlTlTlTlTlTlTlTYOVUNuMLiuYOVUVUVUVUVUlyVUcLVUVUmfVUVUVU
-VUVUfJmgCPVUVUVUmgVUndlTlTfPfPHvfPfPlTlTlTlTlTxSlTlTlTlTlTlTlTvqVUVUuqVUVUhRVUtJVUjvVUVUHTfJVUHTYOVUVUVUVUVUVURJRJRJgWgWgWgWgWgWRJRJRJVUVUlTlTlTlTlTlTVUVUGPlTlTlTlTVUVUVUVUVUVUVUYOVUVUiuVUVUVUVvrhVUVUVU
-tJHTVUcLVUhRVvVUVUhRndlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTvqcLVUVUVUFtVUVUVUsuVUVUVUhRVUVUVUVUVUmfVUVUhRVUVUVUTcRJgWgWgWgWgWgWgWRJFtVUlTlTlTVUVUVUfJVUJvfPfPvOfPfPGPVUVUVUVUVUVUVUVUVUVUVUYOVUVUVUYOVU
-VUVUVUVUtJVUcLYOVUVUNQvyvyvyvyvyvyvyvylTxSlTvyvyvyvyvyxSlTlTlTVUVUmfhRVUVUVUVUhRVUDmxiVUVUVUFtVUVUVUVUVUlyVUcLVUVUVURJRJgWgWgWgWgWgWRJRJYOlTlTGPVUVUVUVUGPfPfPpTpTpTfPfPVUfJVUYOVUiuVUYOVUVUVUVUVUVUVUVUVU
-VUVUYOhRVUVUVUVUVUYORJRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJyuvylTlTlTKsVUVUFtVUVUVUfJVUHQVUHTVUYOVUHTVUlycLhRVUVUVUVUVUhRVUVURJRJRJgWgWgWgWgWRJRJlTlTVUJvVUVUVUVUfPZspTpTpTZsfPVUVUMLVUVvVUVUVUVUVUmfVUVUVUmfVUVU
-fJVUVUcLVUYOVUVUVURJRJgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWRJRJlTlTlTlTlTlTVUVUFtVUHTVUVUVUVvDmAkAkAkAkAkAkAkAkAkhRVUVUHTVUcLVUZtRJRJgWgWgWgWgWRJlTlTRJRJVUfJVUVUfPZspTpTpTZsfPVUVvVUVUVUVUVUVUVUVUVUVUYOVUZtRJRJ
-VUVUVUVUrhdTHTYOJvRJgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWRJlTlTlTlTlTlTlTFKVUVUVUVUfJAkAkAkAkVUPkVUVUsuDmVUAkAkAkAkAkAkAkHTVUVUzdRJgWgWgWgWgWozozgWRJRJRJVUVUfPZspTpTpTZsfPVUVUVUVUVUYOVUVUYOMLVUHTVURJRJRJcF
-VUYOVvYOVUVUVURJRJRJgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWlTlTlTlTlTlTlTlTVUxiVUAkAkAksuHTVUVUsuVUVUVUVUVUVUVUVUVUVUVUAkAkAkJvcLRJRJgWgWgWgWozozcFcFcFRJRJRJfPfPhCBHbKfPfPVUVUfJVUVUcLVUVUVUVUVURJRJRJcFcFcF
-VUkAVUCPVUxiRJRJgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWozozozRJRJlTlTlTlTlTlTmVMqlTlTlThRVUMLFthRVUVUhRVUVUVUVUVUVUVUVUAkAkVUVURJRJgWgWgWozozcFcFcFcFcFRJRJfPfPfPfPfPVUVUVUVUlyVUVUmfVUrhRJRJRJcFcFcFcFcF
-VUVUcLVUpyRJRJgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWozozozgWRJRJlTlTlTlTlTCfMqlTlTlTlTlTlTVUVUVUYOPkVUmfVUVUYODmHTPkVUAkVUVUZtRJRJRJRJlTEbmCcFcFcFcFcFRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJcFcFcFcFcFcFRJ
-YOhRVUxiJvRJgWgWgWgWgWgWgWgWgWgWRJRJRJxhxhRJRJRJgWgWgWgWozozozgWgWRJRJlTlTlTlTFbMqlTlTlTlTlTlTlThRVUHTlTlTlTlTlTlTlTlTlTlTAkhRVUDmcLrhlTlTlTEbmCmCRJcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFRJRJ
-VUVUVURJRJRJgWgWgWgWgWgWgWgWgWRJxhxhxhxhoKxhxhRJRJgWgWgWozozozgWgWgWRJVvVUVUVUAkAkVUJvlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTACJmlTlTlTlTlTlTlTlTpcaTdZRJRJRJcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFRJRJYO
-cLxiHTRJgWgWgWgWgWgWgWgWgWgWRJxhxhoKiFxhxhxhxhVURJRJgWgWozozozgWgWgWRJRJhRVUYOcLAkHTVUYOVUVUVUlTlTlTlTlTlTlTlTVUVUVUMLlTACtWlTlTlTlTlTlTlTtJNjJnaTVUVURJRJRJcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFcFRJRJRJVUVU
-VURJRJRJgWgWgWgWgWgWgWRJRJxhxhxhxhxhoKxhxhVUcLVUZtRJRJRJozozozgWgWgWgWRJRJRJkPcLAkAkVUVUJvhRVUHTOlOlOllTlTVUHThRVUYOVUlTACqqlTlTlTlTlTlTlTrhJnaTulfJVUVUxiRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJVUYOVUVU
-YORJgWgWgWgWgWgWgWxhRJxhxhxhxhiFoKxhxhxhVUoKhRoKVvVUVURJlTlTlTRJgWgWgWgWgWRJRJRJRJAkAkAkAkAkAkAkbtlqyiAkAkAkAkAkAkAkAkAkAkAkRJRJRJlTlTlTlTDmyJAFaTcLVUiuVUZtxiVUVUVUtJVUVUVUVUxicLVUVUFtVUVUYOVUmfVUcLVUYO
-RJRJgWgWgWgWgWgWRJxhRJxhxhxhxhxhxhxhVvhRVUcLVUVUoKVUVUVUlTlTlTRJgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWozozozgWgWgWgWgWgWgWgWgWgWgWgWgWgWRJRJlTlTlTlwqHJnVvVUVUVUVUcLVvfJVUVUcLxiVUdUpQpQpQpQpQpQpQpQpQpQpQpQpQpQ
-RJgWgWgWgWgWgWgWxhxhoKxhoKiFoKxhZtVUoKVUoKVUoKhRVUhRVUlTlTlTlTRJRJgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWozozozgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWRJRJlTlTEbaTaTUGGPVUfJVUVUVUVUVUVUVUVUdUVUVUVUVUVUVUVUlTlTlTlTlTlTlTlT
-gWgWgWgWgWgWgWRJxhxhxhxhxhxhxhVUoKoKoKhRVUVUVUZtoKVUlTlTlTlTlTHTRJRJRJRJRJgWgWgWgWgWgWgWgWgWgWgWozozozgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWgWRJlTlTEbEblwVUDRVUVUcLYOiuVUfJVUVUdUVUVUVUVUVUVUHTlTlTfPfPfPfPfPlTlT
-gWgWgWgWgWgWgWRJxhoKiFxhoKxhhRVUoKoKoKcLhRVUoKVUVUHTlTlTlTlTlTkPiuVUHoVURJRJRJRJRJRJRJAkAkAkAkAkYTENprAkAkAkAkAkRJRJRJRJgWgWgWgWgWgWgWRJRJlTEbEbEbVUYOVvcLVUVUVUVvcLfJndVUVUVUVUYOVUVUlTlTfPfPCJBHCofPfPlT
-gWgWgWgWgWgWgWRJxhxhxhoKxhVUVvcLoKVUVUHToKVUVUhRVUVUlTlTlTlTsuVUVUVUVUHTHomfUGkPVUVUcLAkOdOdOdOdocococqEOdOdOdAkAkhRVUbPRJRJRJRJgWgWgWgWRJRJEbEbEblTVUPkVUVUVUVUfJVUVUndVUVUfJVUVUVUlTlTlTfPZsYJpTYJZsfPlT
-cFcFcFcFcFcFcFcFRJxhxhxhiFoKVUoKZthRoKVUVUHTVUoKVUlTlTlTlTlTkPVUVUmfhRVUVUVUHTDmhRVUAkAkOdknOdOdYiYiYiknOdOdOdOdAkNIVUVUFtHTcLbPgWgWgWgWgWRJmCEbEblTlTYODRVUfJVUVUsuVUndVUVUVUVUHTlTlTlTqSfPZszNAfYJZsfPlT
-cFcFcFcFcFcFcFcFcFRJxhoKxhVUhRVUoKVUVUhRVUoKhRVUVUlTlTlTlTlTVUtJNuMLVUhRHdVUVUcLVUAkAkOdOdOdFpuKYiYiYiZHOdOdHKOdAkVUlykPcLVUVURJRJgWgWgWgWgWmCmCEblTlTlTVUVUHTcLVvcLfJndVUVUVUVUlTlTlTlTCXfPZsYJpTYJZsfPlT
-cFcFcFcFcFcFcFcFcFRJRJxhxhxhcLZtcLVUoKVUoKVUoKVUlTlTlTlTlTlTVUcLsuVUVUVUWfDmVUVUrhAkOdOdHKknxuYiYiYiYiYiHKknFpOdAkhRVUVUHdrhYOVURJaVgWgWgWgWcFmCdRlTlTlTkTYOVUVUSqiuHTndVUFtVUVUlTkjlTodCXfPfPpTpTpTfPfPlT
-RJRJRJRJRJRJcFcFcFcFRJRJxhoKVUVUJvVUhRVUVUcLVUoKlTlTlTlTlTVUVUHTVUVUFtPkVUVUVUVUAkAkqEOdknfiYiQsqAYiqAYiYiYifiHKAkAkMLhRVUVvrhcLYORJRJgWgWgWcFcFmCRJlTlTDRtsVUVUHTVUVUndVUVUHTlTlTlTlTlTlTwnfPfPvOfPfPvQlT
-RJRJRJfTRJRJRJcFcFcFcFRJxhxhRPoKVUoKVUoKcLVUVUVUlTlTlTlTlThRVUVUhRVUMLVUNuVUYOAkAkOdCEZiYiYiYiYiYiLnYiYiYiYiYiiXqEAkAkAkAkAkAkAkVUVURJRJgWgWcFcFcFRJlTlTPkJvVUfJPkVUVUndVUZwCwlTlTlTHtlTlTlTlTlTlTlTlTlTlT
-BYORRJoKRJRJRJRJcFcFcFcFRJRJxhxhVUVUVUoKoKhRoKVUlTlTlTlTsuHoVUVUVUVUUGrhcLVUAkAkOdOdYiYiYiYiYiYivYYivYYiYiYiYiYiknOdCEknFpOdqEAkjLVUmfRJRJgWcFcFcFRJlTlTsuHTmdkTSqVvYOndlTlTlTlTlTlTlTlTlTlTodlTlTlTqSlTlT
-oKfTRJSVORrKRJRJRJcFcFcFcFRJxhoKDYoKcLoKoKoKVUlTlTlTlTlTiuVUMLFtVUVUVUHoVUAkAkOdOxYiYiYiYiYiOdYiYiYiYiQsOdYiYiYiYiYiYiYiYiYiYiAkkTMLrhFtRJRJcFcFcFRJlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTQxQxQxlTlTlTlTlTlTNflTlT
-VUzdHTcLVUoKRJRJRJRJcFcFcFcFRJxhVUVUVUVUVUVvVUlTlTlTlTVUVUVUHTMLVUmfVUVUAkAkOdOdYiYiYiYifiFpHKfiYiYiYiUQuKOdqEYiYiYiYiYiYiYiYiAkAkcLcLDmVURJcFcFcFRJlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTsAInHtlTlTlT
-hRVUoKVUVvTkcLhRRJRJRJcFcFcFRJRJxhhRoKhRVUKvVUlTlTlTlTDRlyVUVUVUueVUAkAkAkOdOdYiYiYiYiOdOdOdOdknknOddkfiqEOdOdOxYiYiYiYiYiYiYiYiAkAkAkcLYORJcFcFcFRJlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTQxQxQxlTlTlTlTlTlTlTlTlT
-oKoKhRVUoKVUoKVUoKRJRJcFcFcFcFRJxhoKxhVUoKVUoKlTlTlTlTHoUGVUVUcLKTAkAkOdCEOdYiYiYidkknOdHKOdOdOdOdPlOdhuknOdOdOdOxOdFpYiYiYiYiUgYiYiAkAkMLRJcFcFcFRJlTlTpyVUVUpAVUJvVUndVUVUlTlTlTlTlTlTlTlTNflTlTlTlTlTlT
-JvoKoKVUVUhRVUJvHThRRJRJcFcFcFcFRJRJxhhRVUVUVUlTlTlTlTsucLlyVUAkAkAkOdWmODYiYiYiOdHKOdOxOdOdHKTKOdOxOdOdOdOdHKOdknTKOdkndkYiUgocYiYiYiAkEzRJcFcFcFRJlTlTDRVUYODRHTfJmdndVUVUVUJvlTlTHtlTlTlTlTlTlTlTlTqSlT
-oKoKoKoKoKVUcLVUoKcLVURJRJcFcFcFcFRJxhxhoKhRZtlTlTlTlTVUHTAkAkAkknHKYiYiocODYiOdOdAkAkAkAkAkdkOdknOdHKOdAkAkAkAkAkAkAkAkAkUgocYiYiYiYiAkVUaVcFcFcFRJlTlTJvVUVUVUcLVUVvndVUYOVUVUlTlTlTlTlTkbfPfPuCfPfPHklT
-cLVUVUcLcKVUVUVUNuVUhRRJRJcFcFcFcFRJRJoKxhVUoKlTlTlTlTVUAkAkCEoMOdYiYiYiYiWmZEFpAkAkVvVUVUAkAkAkAkAkAkAkAkVvVUVUVUVUVUVUAkAkYiYiYiYiYiAkVURJcFcFcFRJlTlTVUfJHTVUVUVUiuFjVUVUVUVUVUlTodlTgOfPfPpTpTpTfPfPlT
-VUoKhRVUVvoKVUhRVUoKVUoKRJRJcFcFcFcFRJxhxhVUVUlTlTlTlTMLAkknOdYiYiYiYiOdknOdAkAkAkcLVUmfHTVUVUVUVUVUVUVUVUkTVUNIVUYOVUVUVvAkAkYiYiYiYiAkmfRJcFcFcFRJlTlTiuVUDRVUYOVUVUndVUVUVUfJVUlTlTlTgOfPuBpTqKbBuTfPlT
-hRVUVUVUVUVUVUoKVUcLzdVUTkRJPPcFcFcFcFRJxhxhZtlTlTlTlTcLAkFpYiYiYiOdOdHKAkAkAkcLVUVUVUVUVUkPhRVUYOVUVUfJkPVUFtVUVUUGVUfJVUVUAkAkepepepAkrhRJcFcFcFRJlTlTlTVUVvVUcLHTVUndVUFtVUVUVUVUlTlTgOfPBHpTNpbBuTfPlT
-cZcZcZcZcZcZcZcZcZcZRJhRVURJRJRJcFcFcFcFRJxhxhlTlTlTlTVUAkOdYiYiYiHKOdAkAkVUVUVUVUKsVUVUVUYOVUcLVUVUVUVUVUcLkTMLVUVUVUNIVUVUVUAkbtlqyiAkVvRJcFcFcFRJlTlTlTfJsuVvVUVUfJndVUVUVUVUVUVUlTlTgOfPrfpTLSbBuTfPlT
-VUVUVUtJVUVUtJJvVUVUmQRJVUVUoKRJRJcFcFcFRJRJxhlTlTlTlTYOAkAkepepepOdknAkcLVUMLVUtJVUVUYOVUkTVUVUHdxihRVUVUVUVUUGfJVUVUVUVUmfVUVvlTlTlTOwVURJcFcFcFRJRJlTlTVUHTVUVUMLVUndVUJvVUYOVUVUlTlTUefPfPpTpTpTfPfPlT
-VUVEXdXdXdXdXdVEUelTmQRJRJVUoKVURJPPcFcFcFRJxhxhlTlTlTVUfTAkbtlqyiAkAkAkVUtJVUHQVUVUVUVUHdVUFtVUVUMLVUVUYOVUVUVUHTVUlyVUVUNuNIVUlTlTlTMLlyRJcFcFcFcFRJlTlTiufJVUVUVUVUsuSeVUVUVUVUVUVUlTlTlTfPfPgMfPfPlTlT
-YOaKtfgLDCveDraKgOlToHRJRJhRVUVUVURJcFcFcFRJRJxhlTlTlTlTlTlTlTlTlTlTlTlTlTlTVUxiVUMLtJcLhRHTPccLxikPlyVUzjlyhRVUkPNIPclylTlTlTlTlTlTlTlTlTlTlTQNQNQNlTlTlTVUMLcLYOVUYOMLVUSeVUVUVUfJVUVUVUlTlTlTlTlTlTlTVU
-VUaKRDjUXgjUjUaKgOlTlToHRJRJoKVUoKRJRJcFcFcFRJxhxhlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTQNQNQNlTlTlTVUVUMLrhVUrhcLVUVUSeTVTVTVTVTVTVTVTVTVTVTVTVTVTV
-VUaKsHoajUDBPiaKgOlTHtwrRJRJRJRJRJRJRJRJcFcFcFRJxhxhlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTQNQNQNlTlTiucLlyiuoUmfVUVUMLVUVUVUVUVUNIVUVUVUVUVUVUcLVUVUVU
-xiVEXdXdIfXdXdVEgOlTPbwrRJQxQxQxQxQxQxRJPPcFcFcFRJRJlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTRJRJRJRJRJRJRJRJRJRJcFcFcFRJRJVUDRMLVUVUrhVUmfVUVUVUmfVUVUVUVUVUVUFtVUVUVUVUlyVU
-lTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTQNQNQNQNQNlTlTlTlTlTlTlTRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJRJlTlTlTRJRJRJRJRJRJRJRJVvVUpAYOVUVUHTVURJcFcFcFcFRJiuVUVUfJVUVUcLMLrhmfVUVUKTmfVUFtVUkAVUVUVUVUVUoUVU
-lTlTlTHtInsAlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTQNQNQNQNQNlTlTlTlTVUVUVUmfcLVUDmNuYOkTVUVUYOVvDRVUrhNukTxiRJlTlTlTXMVUVUHTVUVUmfVUHdlyVUhRVUYOVUtJRJRJcFcFcFRJRJlypAvIMLfJoUVUVUVUVUdTVUPccLVUVUVUDRfJVUfJVUNIVU
-lTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTlTQNQNQNQNQNlTlTVUFtVUfJHTVUMLYOVUhRHTDRYOVvcLNuDmxiAkAkAkAkAkYTENprAkAkAkAkhRNuVUhRVUNuVUVUVUVUhRVUVURJcFcFcFcFRJRJMLVUVUMLVUfJVUVUVUVUoUVUVUDRVUVUVUNIVUVUVUcLVU
-lyVEXdXdIfXdXdVEkblTBawrRJRJRJRJRJlTRJRJRJRJPPcFcFcFRJDmVUcLVUrhhRVUVvhRDRVUVUVUHdAkAkvfvfvfAkNuVUkPVUVUVUVUJvkPOcAkvfYmvfvfAkhRVUYOhRVUVUVUmfRJRJcFcFcFcFRJrhtJVUVUVUVUoUrhtJVUVUmfVvVUlyVUcLVUFtVUVUVUVU
-VUaKgiaMjUmEteaKwnlTHtwrRJRJRJRJRJlTRJRJRJRJRJcFcFcFRJRJFtVUFtNuMLfJcLJvVUmfHTFtAkAkVUVUkPVUVUVUYOVUlyVUVUVUVUjarhHTGfSxPBOclTvfvfAkJvKTlyVUVUGPRJRJcFcFcFRJRJRJMLmfcLrhVUVUVUVUVUPcpAVUVUVUVUVUVUVUfJVUVU
-VUaKgijUXgjUPiaKvQlTlTVPVURJDRtJVUlTVUDRFthyhycFcFcFcFhyhyhyKeKeKeKeKeKeKeKeKeKeAkVUYOhRVUYOVUVUVUDmHTHdVUlyVUVUhROcOcVUVUOcVUGfIxlTvfAkHThRVUVUmfRJcFcFcFcFcFRJVUpAkAVUtJVUVUmfVUVUVUVUoUVUtJVUKTVUVUVUVU
-xiaKgiaMaMZhPZaKlTlTVPVUVUfJHTVUVUlTlTNuhyhyhycFcFcFcFhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhylyNuMLVUlyVUVUVUxiVUVUVUxiVUVUYOxyMLOcVUlTvfAkFtVUVURJRJcFcFcFcFRJRJRJcLVUVUVUcLVUVUVUVUlyVUGPVUVvVUFtVUlyNI
-VUVEXdXdXdXdXdVElTlTvqVUVUcLVUVUVUVUlTJvhyhyhyhycFcFcFcFhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyVvlyhRVUMLHTxiVUVUlyhRHTNuDmVUVUOcOcAkAkhRHdVvRJcFcFcFcFcFcFRJRJkAVUmfVUVUVUlyVUKTVUVUVUVUPcVUVUVUVU
-VUlyVUtJVUVUVUlyHTVUvqxiDRVUVUVUVUVUlThyhymnmnhycFcFcFcFcFhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyJvVUVUVUAkAkFtVURJRJcFcFcFcFcFcFRJRJRJVUoUmfVUVUDRkPtJNIVUFtVUVUlyVUVU
-pQpQpQpQpQpQpQpQpQpQVUMLVUVUVUfJVUVUYlYlYlYlYlhyhycFcFcFcFcFhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhRVUVUAkKTVUVURJRJcFcFcFcFcFcFcFRJVUVUVUVUVUVUVUVUVUVUVUVUVUVUFtGP
-cLVUVUkTVUfJMLVUVUVUVUcLfJHTVUkTHThydmeRSNGtmnhyhyhycFcFcFcFcFhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyJvVUVUAkAkfJhRVURJRJcFcFcFcFcFcFRJRJlyVUmfVUcLVUVUFtVUVUlyVUVUcLVU
-azfJVUxiHTVUcLxiVUfJMLNuVUVUfJVUhyhyhyhyhyhyhyhyhyhyhycFcFcFcFhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhyhylKVUVUAkJvmfVvfJRJcFcFcFcFcFcFcFRJVUVvzjNIVUlyVUVUFtVUPcVUFtVUVU
+VU
+VU
+rh
+VU
+Ft
+VU
+VU
+tJ
+VU
+VU
+fJ
+VU
+VU
+VU
+VU
+YO
+VU
+cL
+VU
+YO
+RJ
+RJ
+gW
+gW
+gW
+cF
+cF
+cF
+RJ
+RJ
+BY
+oK
+VU
+hR
+oK
+Jv
+oK
+cL
+VU
+hR
+cZ
+VU
+VU
+YO
+VU
+VU
+xi
+lT
+lT
+lT
+ly
+VU
+VU
+xi
+VU
+VU
+pQ
+cL
+az
+"}
+(2,1,1) = {"
+VU
+Ft
+Nu
+VU
+kA
+VU
+VU
+HT
+VU
+VU
+VU
+VU
+YO
+kA
+VU
+hR
+VU
+xi
+RJ
+RJ
+RJ
+gW
+gW
+gW
+gW
+cF
+cF
+cF
+RJ
+RJ
+OR
+fT
+zd
+VU
+oK
+oK
+oK
+VU
+oK
+VU
+cZ
+VU
+VE
+aK
+aK
+aK
+VE
+lT
+lT
+lT
+VE
+aK
+aK
+aK
+VE
+ly
+pQ
+VU
+fJ
+"}
+(3,1,1) = {"
+VU
+VU
+VU
+fJ
+VU
+VU
+fJ
+VU
+VU
+YO
+VU
+VU
+Vv
+VU
+cL
+VU
+VU
+HT
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+cF
+cF
+cF
+RJ
+RJ
+RJ
+RJ
+HT
+oK
+hR
+oK
+oK
+VU
+hR
+VU
+cZ
+VU
+Xd
+tf
+RD
+sH
+Xd
+lT
+lT
+lT
+Xd
+gi
+gi
+gi
+Xd
+VU
+pQ
+VU
+VU
+"}
+(4,1,1) = {"
+Ft
+VU
+hR
+cL
+VU
+VU
+mg
+cL
+VU
+hR
+cL
+VU
+YO
+CP
+VU
+xi
+RJ
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+cF
+cF
+cF
+RJ
+fT
+oK
+SV
+cL
+VU
+VU
+VU
+oK
+cL
+VU
+VU
+cZ
+tJ
+Xd
+gL
+jU
+oa
+Xd
+lT
+Ht
+lT
+Xd
+aM
+jU
+aM
+Xd
+tJ
+pQ
+kT
+xi
+"}
+(5,1,1) = {"
+VU
+VU
+HT
+VU
+VU
+YO
+CP
+VU
+tJ
+VU
+VU
+rh
+VU
+VU
+py
+Jv
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+cF
+cF
+cF
+RJ
+RJ
+RJ
+OR
+VU
+Vv
+oK
+VU
+oK
+cK
+Vv
+VU
+cZ
+VU
+Xd
+DC
+Xg
+jU
+If
+lT
+lT
+lT
+If
+jU
+Xg
+aM
+Xd
+VU
+pQ
+VU
+HT
+"}
+(6,1,1) = {"
+VU
+VU
+Ft
+VU
+hR
+VU
+VU
+hR
+VU
+VU
+YO
+dT
+VU
+xi
+RJ
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+cF
+cF
+cF
+RJ
+RJ
+RJ
+rK
+oK
+Tk
+VU
+hR
+VU
+VU
+oK
+VU
+cZ
+VU
+Xd
+ve
+jU
+DB
+Xd
+lT
+sA
+lT
+Xd
+mE
+jU
+Zh
+Xd
+VU
+pQ
+fJ
+VU
+"}
+(7,1,1) = {"
+cL
+VU
+VU
+VU
+VU
+xi
+VU
+Vv
+cL
+VU
+VU
+HT
+VU
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+cF
+cF
+cF
+cF
+RJ
+RJ
+RJ
+RJ
+cL
+oK
+VU
+cL
+VU
+VU
+VU
+cZ
+tJ
+Xd
+Dr
+jU
+Pi
+Xd
+lT
+lT
+lT
+Xd
+te
+Pi
+PZ
+Xd
+VU
+pQ
+ML
+cL
+"}
+(8,1,1) = {"
+tJ
+oU
+VU
+xi
+VU
+cL
+VU
+VU
+YO
+VU
+VU
+YO
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+RJ
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+RJ
+hR
+VU
+Jv
+VU
+VU
+hR
+oK
+cZ
+Jv
+VE
+aK
+aK
+aK
+VE
+lT
+lT
+lT
+VE
+aK
+aK
+aK
+VE
+ly
+pQ
+VU
+xi
+"}
+(9,1,1) = {"
+VU
+mg
+VU
+Vv
+VU
+rh
+mg
+VU
+VU
+VU
+VU
+Jv
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+xh
+xh
+xh
+xh
+RJ
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+RJ
+oK
+HT
+oK
+Nu
+VU
+VU
+cZ
+VU
+Ue
+gO
+gO
+gO
+gO
+lT
+lT
+lT
+kb
+wn
+vQ
+lT
+lT
+HT
+pQ
+VU
+VU
+"}
+(10,1,1) = {"
+VU
+xi
+VU
+hR
+VU
+xi
+VU
+hR
+VU
+YO
+RJ
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+xh
+xh
+xh
+xh
+oK
+xh
+xh
+RJ
+RJ
+cF
+cF
+cF
+cF
+RJ
+RJ
+RJ
+hR
+cL
+VU
+oK
+cL
+cZ
+VU
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+VU
+pQ
+VU
+fJ
+"}
+(11,1,1) = {"
+nd
+NQ
+nd
+nd
+VU
+oU
+nd
+nd
+NQ
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+oK
+xh
+iF
+xh
+xh
+xh
+RJ
+RJ
+cF
+cF
+cF
+cF
+RJ
+RJ
+RJ
+VU
+hR
+VU
+zd
+RJ
+mQ
+mQ
+oH
+lT
+Ht
+Pb
+lT
+lT
+lT
+Ba
+Ht
+lT
+VP
+vq
+vq
+VU
+VU
+ML
+"}
+(12,1,1) = {"
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+vy
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+xh
+xh
+xh
+xh
+xh
+oK
+xh
+oK
+xh
+RJ
+RJ
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+RJ
+oK
+VU
+hR
+RJ
+RJ
+RJ
+oH
+wr
+wr
+lT
+lT
+lT
+wr
+wr
+VP
+VU
+VU
+xi
+ML
+cL
+Nu
+"}
+(13,1,1) = {"
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+vy
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+xh
+xh
+oK
+xh
+oK
+xh
+iF
+xh
+xh
+xh
+xh
+RJ
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+RJ
+Tk
+VU
+VU
+RJ
+RJ
+RJ
+RJ
+RJ
+lT
+lT
+lT
+RJ
+RJ
+VU
+VU
+VU
+DR
+VU
+fJ
+VU
+"}
+(14,1,1) = {"
+lT
+lT
+lT
+lT
+pK
+fP
+fP
+lT
+vy
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+xh
+xh
+xh
+iF
+xh
+xh
+VU
+oK
+VU
+xh
+oK
+xh
+RJ
+RJ
+cF
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+RJ
+VU
+VU
+hR
+RJ
+RJ
+Qx
+lT
+lT
+lT
+RJ
+RJ
+RJ
+fJ
+cL
+VU
+VU
+HT
+VU
+"}
+(15,1,1) = {"
+xS
+lT
+pK
+pT
+pT
+pT
+fP
+lT
+vy
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+xh
+xh
+xh
+oK
+xh
+hR
+Vv
+VU
+hR
+cL
+VU
+RP
+xh
+xh
+RJ
+RJ
+cF
+cF
+cF
+cF
+cF
+PP
+RJ
+oK
+oK
+VU
+oK
+RJ
+Qx
+lT
+lT
+lT
+RJ
+RJ
+DR
+HT
+VU
+VU
+VU
+VU
+fJ
+"}
+(16,1,1) = {"
+lT
+pK
+pT
+pT
+eO
+pT
+Hv
+lT
+vy
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+xh
+xh
+iF
+xh
+xh
+VU
+VU
+cL
+oK
+VU
+Zt
+VU
+oK
+xh
+oK
+xh
+RJ
+RJ
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+VU
+VU
+VU
+RJ
+Qx
+lT
+lT
+lT
+RJ
+RJ
+tJ
+VU
+VU
+VU
+fJ
+kT
+VU
+"}
+(17,1,1) = {"
+lT
+pT
+pT
+pT
+pT
+pT
+fP
+lT
+vy
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+xh
+xh
+xh
+oK
+xh
+Zt
+oK
+oK
+oK
+Zt
+oK
+cL
+Jv
+VU
+VU
+DY
+VU
+xh
+xh
+RJ
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+VU
+oK
+RJ
+Qx
+lT
+lT
+lT
+RJ
+RJ
+VU
+VU
+VU
+VU
+VU
+HT
+hy
+"}
+(18,1,1) = {"
+fP
+fP
+Hv
+Hv
+Hv
+fP
+fP
+lT
+vy
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+xh
+oK
+xh
+xh
+xh
+VU
+oK
+oK
+VU
+hR
+VU
+VU
+VU
+oK
+VU
+oK
+VU
+hR
+oK
+RJ
+RJ
+RJ
+cF
+cF
+cF
+cF
+PP
+RJ
+RJ
+RJ
+Qx
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+VU
+VU
+VU
+hy
+hy
+"}
+(19,1,1) = {"
+lT
+fP
+fP
+fP
+fP
+fP
+lT
+lT
+vy
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+xh
+iF
+oK
+xh
+Vv
+oK
+oK
+oK
+VU
+oK
+VU
+oK
+hR
+VU
+VU
+cL
+VU
+oK
+xh
+xh
+xh
+RJ
+RJ
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+Qx
+lT
+lT
+lT
+RJ
+RJ
+VU
+lT
+lT
+lT
+Yl
+dm
+hy
+"}
+(20,1,1) = {"
+lT
+lT
+lT
+lT
+lT
+gO
+lT
+lT
+lT
+RJ
+gW
+gW
+gW
+gW
+gW
+xh
+xh
+xh
+xh
+xh
+hR
+VU
+hR
+cL
+HT
+VU
+hR
+VU
+VU
+oK
+oK
+oK
+VU
+hR
+VU
+hR
+xh
+oK
+xh
+RJ
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+lT
+lT
+lT
+RJ
+RJ
+DR
+Nu
+Jv
+hy
+Yl
+eR
+hy
+"}
+(21,1,1) = {"
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+xS
+RJ
+gW
+gW
+gW
+gW
+gW
+xh
+oK
+xh
+xh
+VU
+VU
+oK
+VU
+hR
+oK
+VU
+VU
+oK
+VU
+cL
+oK
+oK
+VU
+VU
+oK
+VU
+oK
+xh
+xh
+xh
+RJ
+RJ
+cF
+cF
+cF
+cF
+PP
+lT
+lT
+lT
+RJ
+RJ
+Ft
+hy
+hy
+hy
+Yl
+SN
+hy
+"}
+(22,1,1) = {"
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+xh
+xh
+VU
+oK
+cL
+VU
+VU
+VU
+VU
+HT
+oK
+VU
+cL
+VU
+hR
+oK
+Vv
+Kv
+VU
+VU
+hR
+VU
+VU
+xh
+xh
+RJ
+RJ
+RJ
+cF
+cF
+cF
+QN
+QN
+QN
+RJ
+RJ
+hy
+hy
+hy
+mn
+Yl
+Gt
+hy
+"}
+(23,1,1) = {"
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+vy
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+xh
+xh
+cL
+hR
+VU
+oK
+VU
+oK
+VU
+VU
+hR
+oK
+VU
+VU
+oK
+VU
+VU
+VU
+oK
+VU
+Zt
+oK
+VU
+Zt
+xh
+xh
+xh
+RJ
+RJ
+cF
+cF
+QN
+QN
+QN
+PP
+RJ
+hy
+hy
+hy
+mn
+Yl
+mn
+hy
+"}
+(24,1,1) = {"
+lT
+lT
+lT
+lT
+lT
+lT
+xS
+lT
+vy
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+VU
+VU
+oK
+VU
+hR
+Zt
+VU
+hR
+oK
+VU
+VU
+oK
+VU
+VU
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+xh
+xh
+xh
+RJ
+cF
+QN
+QN
+QN
+cF
+cF
+cF
+cF
+hy
+hy
+hy
+hy
+hy
+"}
+(25,1,1) = {"
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+vy
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+Zt
+Vv
+oK
+VU
+oK
+VU
+VU
+VU
+VU
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+xh
+xh
+RJ
+QN
+QN
+QN
+cF
+cF
+cF
+cF
+cF
+cF
+hy
+hy
+hy
+"}
+(26,1,1) = {"
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+vy
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+VU
+VU
+hR
+VU
+HT
+VU
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+xh
+RJ
+QN
+QN
+QN
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+hy
+hy
+"}
+(27,1,1) = {"
+gO
+gO
+gO
+lT
+lT
+lT
+lT
+lT
+vy
+yu
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+VU
+VU
+VU
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+RJ
+RJ
+cF
+cF
+cF
+cF
+cF
+cF
+hy
+"}
+(28,1,1) = {"
+vq
+vq
+LL
+VU
+dc
+Uf
+lT
+lT
+xS
+vy
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+VU
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+VU
+DR
+Ho
+su
+VU
+VU
+ML
+cL
+VU
+YO
+VU
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+Dm
+RJ
+hy
+hy
+cF
+cF
+cF
+cF
+cF
+"}
+(29,1,1) = {"
+VU
+mf
+VU
+hR
+VU
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+oz
+oz
+oz
+oz
+oz
+oz
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+su
+iu
+VU
+ly
+UG
+cL
+HT
+Ak
+Ak
+Ak
+Ak
+Ak
+fT
+lT
+lT
+lT
+lT
+lT
+lT
+VU
+VU
+Ft
+hy
+hy
+hy
+cF
+cF
+cF
+cF
+"}
+(30,1,1) = {"
+VU
+VU
+VU
+VU
+cL
+Uf
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+oz
+oz
+oz
+oz
+oz
+oz
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+VU
+hR
+Ho
+VU
+VU
+VU
+VU
+ly
+Ak
+Ak
+kn
+Fp
+Od
+Ak
+Ak
+lT
+lT
+lT
+lT
+lT
+lT
+Ft
+cL
+VU
+hy
+hy
+hy
+hy
+cF
+cF
+cF
+"}
+(31,1,1) = {"
+cL
+VU
+VU
+YO
+VU
+Uf
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+oz
+oz
+oz
+oz
+oz
+oz
+lT
+lT
+lT
+lT
+lT
+su
+kP
+VU
+VU
+VU
+VU
+VU
+ML
+HT
+VU
+VU
+VU
+Ak
+CE
+Od
+Yi
+Yi
+ep
+bt
+lT
+lT
+lT
+lT
+lT
+VU
+VU
+VU
+Ft
+Ke
+hy
+hy
+hy
+hy
+cF
+cF
+"}
+(32,1,1) = {"
+VU
+VU
+hR
+HQ
+VU
+dc
+vq
+vq
+VU
+Ks
+lT
+lT
+lT
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+RJ
+HT
+kP
+VU
+VU
+tJ
+cL
+HT
+VU
+VU
+Ft
+ML
+VU
+cL
+Ak
+Ak
+oM
+Yi
+Yi
+Yi
+ep
+lq
+lT
+lT
+lT
+lT
+lT
+VU
+fJ
+rh
+Nu
+Ke
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(33,1,1) = {"
+VU
+VU
+VU
+VU
+Vv
+VU
+VU
+cL
+VU
+VU
+lT
+lT
+lT
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+iu
+VU
+VU
+Nu
+su
+VU
+hR
+VU
+VU
+VU
+ue
+KT
+Ak
+kn
+Od
+Yi
+Yi
+Yi
+ep
+yi
+lT
+lT
+lT
+lT
+lT
+VU
+HT
+hR
+ML
+Ke
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(34,1,1) = {"
+VU
+VU
+YO
+cL
+hR
+YO
+VU
+VU
+mf
+VU
+lT
+lT
+lT
+lT
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+VU
+VU
+mf
+ML
+VU
+VU
+VU
+VU
+VU
+mf
+VU
+Ak
+Ak
+HK
+Yi
+Yi
+Od
+HK
+Od
+Ak
+lT
+lT
+lT
+lT
+RJ
+mf
+VU
+VU
+fJ
+Ke
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(35,1,1) = {"
+VU
+VU
+VU
+VU
+VU
+VU
+uq
+VU
+hR
+Ft
+VU
+lT
+lT
+lT
+lT
+RJ
+RJ
+RJ
+gW
+gW
+gW
+gW
+RJ
+Ho
+VU
+hR
+VU
+VU
+Ft
+ML
+UG
+VU
+VU
+Ak
+Ak
+Od
+Yi
+Yi
+Yi
+Od
+Od
+kn
+Ak
+lT
+lT
+lT
+lT
+RJ
+cL
+ML
+Vv
+cL
+Ke
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(36,1,1) = {"
+HT
+HQ
+VU
+VU
+VU
+Ft
+VU
+VU
+VU
+VU
+VU
+FK
+lT
+lT
+lT
+lT
+Vv
+RJ
+RJ
+gW
+gW
+gW
+RJ
+VU
+HT
+VU
+hR
+VU
+Pk
+VU
+rh
+Ho
+VU
+Ak
+Od
+Wm
+Yi
+Yi
+Od
+HK
+Ak
+Ak
+Ak
+lT
+lT
+lT
+lT
+RJ
+VU
+YO
+hR
+Jv
+Ke
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(37,1,1) = {"
+VU
+VU
+VU
+ly
+Dm
+VU
+VU
+Ft
+VU
+VU
+Ft
+VU
+VU
+lT
+lT
+lT
+VU
+hR
+RJ
+gW
+gW
+gW
+RJ
+RJ
+Ho
+VU
+Hd
+Wf
+VU
+Nu
+cL
+VU
+Ak
+Ak
+CE
+OD
+oc
+Yi
+kn
+Ak
+Ak
+cL
+VU
+lT
+lT
+lT
+lT
+RJ
+Dm
+VU
+DR
+VU
+Ke
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(38,1,1) = {"
+Vv
+hR
+HT
+VU
+HT
+cL
+hR
+VU
+VU
+VU
+VU
+VU
+xi
+lT
+lT
+lT
+VU
+VU
+RJ
+RJ
+gW
+gW
+gW
+RJ
+mf
+VU
+VU
+Dm
+VU
+VU
+VU
+Ak
+Ak
+Od
+Od
+Yi
+OD
+Wm
+Od
+Ak
+VU
+VU
+tJ
+lT
+lT
+lT
+lT
+RJ
+Nu
+hR
+VU
+mf
+Ke
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(39,1,1) = {"
+VU
+VU
+VU
+VU
+su
+VU
+VU
+VU
+VU
+fJ
+HT
+VU
+VU
+lT
+lT
+lT
+VU
+YO
+kP
+RJ
+gW
+gW
+gW
+RJ
+UG
+HT
+VU
+VU
+VU
+YO
+Ak
+Ak
+Od
+Od
+Yi
+Yi
+Yi
+ZE
+Ak
+Ak
+VU
+ML
+VU
+VU
+lT
+lT
+lT
+RJ
+YO
+HT
+VU
+HT
+Ke
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(40,1,1) = {"
+VU
+VU
+tJ
+cL
+VU
+VU
+tJ
+VU
+hR
+VU
+VU
+VU
+Ak
+mV
+Cf
+Fb
+Ak
+cL
+cL
+RJ
+gW
+gW
+gW
+RJ
+kP
+Dm
+cL
+VU
+VU
+Ak
+Ak
+Od
+Od
+Yi
+Yi
+Yi
+Od
+Fp
+Ak
+cL
+VU
+VU
+HQ
+xi
+lT
+lT
+lT
+RJ
+kT
+DR
+VU
+Ft
+Ke
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(41,1,1) = {"
+VU
+VU
+VU
+VU
+hR
+HQ
+VU
+su
+VU
+HQ
+VU
+fJ
+Ak
+Mq
+Mq
+Mq
+Ak
+Ak
+Ak
+RJ
+gW
+gW
+gW
+RJ
+VU
+hR
+VU
+rh
+Ak
+Ak
+Od
+Ox
+Yi
+Yi
+Yi
+Od
+Od
+Ak
+Ak
+VU
+VU
+tJ
+VU
+VU
+lT
+lT
+lT
+RJ
+VU
+YO
+Hd
+Ak
+Ak
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(42,1,1) = {"
+VU
+VU
+Vv
+VU
+VU
+VU
+jv
+VU
+Dm
+VU
+VU
+Ak
+Ak
+lT
+lT
+lT
+VU
+HT
+Ak
+Ak
+gW
+gW
+gW
+RJ
+VU
+VU
+Ak
+Ak
+Ak
+Od
+Od
+Yi
+Yi
+Yi
+dk
+HK
+Ak
+Ak
+cL
+VU
+Ks
+VU
+VU
+ML
+lT
+lT
+lT
+RJ
+VU
+Vv
+Ak
+Ak
+VU
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(43,1,1) = {"
+VU
+VU
+ly
+VU
+VU
+ly
+VU
+VU
+xi
+HT
+Vv
+Ak
+su
+lT
+lT
+lT
+Jv
+VU
+VU
+Ak
+gW
+gW
+gW
+RJ
+cL
+Ak
+Ak
+Od
+qE
+CE
+Yi
+Yi
+Yi
+Yi
+kn
+Od
+Ak
+Vv
+VU
+VU
+VU
+VU
+VU
+tJ
+lT
+lT
+lT
+RJ
+YO
+cL
+Ak
+VU
+YO
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(44,1,1) = {"
+VU
+VU
+VU
+su
+VU
+VU
+VU
+VU
+VU
+VU
+Dm
+Ak
+HT
+lT
+lT
+lT
+lT
+YO
+VU
+Ak
+gW
+gW
+gW
+Ak
+Ak
+Ak
+Od
+Od
+Od
+Zi
+Yi
+Yi
+Yi
+Od
+Od
+Ox
+Ak
+VU
+mf
+VU
+VU
+YO
+VU
+cL
+lT
+lT
+lT
+RJ
+Vv
+Nu
+vf
+VU
+hR
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(45,1,1) = {"
+VU
+HQ
+VU
+tJ
+HT
+VU
+HT
+hR
+VU
+YO
+Ak
+Ak
+VU
+hR
+lT
+lT
+lT
+VU
+Jv
+Ak
+gW
+gW
+gW
+Ak
+Od
+Od
+Od
+HK
+kn
+Yi
+Yi
+Yi
+fi
+Od
+HK
+Od
+Ak
+VU
+HT
+VU
+VU
+VU
+Hd
+hR
+lT
+lT
+lT
+RJ
+DR
+Dm
+vf
+kP
+VU
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(46,1,1) = {"
+VU
+tJ
+VU
+VU
+VU
+VU
+fJ
+VU
+VU
+VU
+Ak
+VU
+VU
+VU
+lT
+lT
+lT
+VU
+hR
+Ak
+gW
+gW
+gW
+Ak
+Od
+kn
+Od
+kn
+fi
+Yi
+Yi
+Yi
+Fp
+Od
+Od
+Od
+Ak
+Ak
+VU
+kP
+YO
+kT
+VU
+HT
+lT
+lT
+lT
+RJ
+VU
+xi
+vf
+VU
+YO
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(47,1,1) = {"
+VU
+VU
+su
+VU
+cL
+VU
+VU
+VU
+Ft
+HT
+Ak
+Pk
+su
+ML
+lT
+lT
+lT
+VU
+VU
+Ak
+gW
+gW
+gW
+Ak
+Od
+Od
+Fp
+xu
+Yi
+Yi
+Yi
+Od
+HK
+Od
+Od
+HK
+dk
+Ak
+VU
+hR
+VU
+VU
+Ft
+Pc
+lT
+lT
+lT
+RJ
+rh
+Ak
+Ak
+VU
+VU
+hy
+hy
+hy
+hy
+hy
+hy
+"}
+(48,1,1) = {"
+VU
+VU
+VU
+fJ
+VU
+VU
+HT
+VU
+VU
+VU
+Ak
+VU
+VU
+Ft
+VU
+lT
+lT
+lT
+HT
+Ak
+gW
+gW
+gW
+Ak
+Od
+Od
+uK
+Yi
+Qs
+Yi
+Yi
+Yi
+fi
+kn
+Od
+TK
+Od
+Ak
+VU
+VU
+cL
+VU
+VU
+cL
+lT
+lT
+lT
+RJ
+Nu
+Ak
+Nu
+VU
+VU
+ly
+hy
+hy
+hy
+hy
+hy
+"}
+(49,1,1) = {"
+VU
+VU
+Vv
+Zt
+VU
+VU
+YO
+VU
+VU
+ly
+Ak
+VU
+VU
+hR
+VU
+hR
+lT
+lT
+Ol
+bt
+oz
+oz
+oz
+YT
+oc
+Yi
+Yi
+Yi
+qA
+Yi
+Yi
+Yi
+Yi
+kn
+Od
+Od
+kn
+Ak
+VU
+YO
+VU
+Hd
+VU
+xi
+lT
+lT
+lT
+RJ
+kT
+Ak
+VU
+YO
+VU
+Nu
+hy
+hy
+hy
+hy
+hy
+"}
+(50,1,1) = {"
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+cL
+Ak
+su
+VU
+VU
+VU
+VU
+lT
+lT
+Ol
+lq
+oz
+oz
+oz
+EN
+oc
+Yi
+Yi
+Yi
+Yi
+Ln
+Yi
+Yi
+Yi
+Od
+Pl
+Ox
+Od
+Ak
+VU
+VU
+VU
+xi
+ML
+kP
+lT
+lT
+lT
+RJ
+xi
+Ak
+kP
+VU
+Dm
+ML
+hy
+hy
+hy
+hy
+hy
+"}
+(51,1,1) = {"
+RJ
+RJ
+VU
+VU
+mf
+VU
+VU
+mf
+VU
+hR
+Ak
+Dm
+VU
+VU
+YO
+HT
+lT
+lT
+Ol
+yi
+oz
+oz
+oz
+pr
+oc
+Yi
+Yi
+Yi
+qA
+Yi
+Yi
+Yi
+Yi
+dk
+Od
+Od
+HK
+Ak
+VU
+VU
+VU
+hR
+VU
+ly
+lT
+lT
+lT
+RJ
+RJ
+Ak
+VU
+ly
+HT
+VU
+hy
+hy
+hy
+hy
+hy
+"}
+(52,1,1) = {"
+gW
+RJ
+RJ
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+Ak
+VU
+VU
+hR
+Pk
+lT
+lT
+lT
+lT
+Ak
+gW
+gW
+gW
+Ak
+qE
+kn
+ZH
+Yi
+Yi
+Yi
+Yi
+Qs
+UQ
+fi
+hu
+Od
+Od
+Ak
+VU
+fJ
+VU
+VU
+VU
+VU
+lT
+lT
+lT
+lT
+lT
+YT
+VU
+VU
+Hd
+ly
+Vv
+hy
+hy
+hy
+hy
+"}
+(53,1,1) = {"
+gW
+gW
+RJ
+Tc
+VU
+VU
+VU
+VU
+ly
+VU
+Ak
+Ak
+VU
+VU
+VU
+lT
+lT
+lT
+lT
+Ak
+gW
+gW
+gW
+Ak
+Od
+Od
+Od
+HK
+Yi
+Yi
+Yi
+Od
+uK
+qE
+kn
+Od
+Ak
+Ak
+VU
+kP
+VU
+VU
+YO
+zj
+lT
+lT
+lT
+lT
+lT
+EN
+VU
+VU
+VU
+VU
+ly
+hy
+hy
+hy
+hy
+"}
+(54,1,1) = {"
+gW
+gW
+gW
+RJ
+RJ
+VU
+VU
+hR
+VU
+VU
+hR
+Ak
+VU
+VU
+mf
+lT
+lT
+lT
+VU
+Ak
+gW
+gW
+gW
+Ak
+Od
+Od
+Od
+kn
+Yi
+Yi
+Yi
+Yi
+Od
+Od
+Od
+Od
+Ak
+Vv
+kT
+VU
+cL
+VU
+VU
+ly
+lT
+lT
+lT
+lT
+lT
+pr
+VU
+VU
+ly
+VU
+hR
+hy
+hy
+hy
+hy
+"}
+(55,1,1) = {"
+gW
+gW
+gW
+gW
+RJ
+RJ
+VU
+VU
+cL
+VU
+VU
+Ak
+VU
+VU
+VU
+lT
+lT
+lT
+HT
+Ak
+gW
+gW
+gW
+Ak
+Od
+Od
+HK
+Fp
+fi
+Yi
+Yi
+Yi
+qE
+Od
+Od
+HK
+Ak
+VU
+VU
+Ft
+kT
+VU
+VU
+hR
+lT
+lT
+lT
+RJ
+XM
+Ak
+Jv
+VU
+VU
+VU
+VU
+hy
+hy
+hy
+hy
+"}
+(56,1,1) = {"
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+VU
+VU
+VU
+VU
+Ak
+VU
+VU
+VU
+lT
+lT
+VU
+hR
+Ak
+gW
+gW
+gW
+Ak
+Ak
+Od
+Od
+Od
+HK
+iX
+Yi
+Yi
+Yi
+Ox
+Od
+Od
+Ak
+VU
+NI
+VU
+ML
+UG
+VU
+VU
+lT
+lT
+lT
+RJ
+VU
+Ak
+kP
+ja
+VU
+xi
+ML
+hy
+hy
+hy
+hy
+"}
+(57,1,1) = {"
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+VU
+VU
+hR
+HT
+Ak
+VU
+VU
+YO
+lT
+lT
+VU
+VU
+Ak
+gW
+gW
+gW
+RJ
+Ak
+Ak
+Ak
+Ak
+Ak
+qE
+kn
+Yi
+Yi
+Yi
+Ox
+kn
+Ak
+VU
+VU
+VU
+VU
+fJ
+HT
+kP
+lT
+lT
+lT
+RJ
+VU
+Ak
+Oc
+rh
+hR
+VU
+HT
+hy
+hy
+hy
+hy
+"}
+(58,1,1) = {"
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+Tc
+VU
+VU
+VU
+Ak
+VU
+VU
+Dm
+lT
+lT
+VU
+YO
+Ak
+gW
+gW
+gW
+RJ
+hR
+NI
+VU
+hR
+Ak
+Ak
+Od
+Yi
+Yi
+Yi
+Od
+TK
+Ak
+VU
+YO
+UG
+VU
+VU
+VU
+NI
+lT
+lT
+lT
+RJ
+HT
+Ak
+Ak
+HT
+Oc
+VU
+xi
+hy
+hy
+hy
+hy
+"}
+(59,1,1) = {"
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+VU
+cL
+Ak
+Ak
+VU
+HT
+lT
+lT
+ML
+VU
+Ak
+gW
+gW
+gW
+RJ
+VU
+VU
+ly
+VU
+ML
+Ak
+CE
+Yi
+Yi
+Yi
+Fp
+Od
+Ak
+VU
+VU
+VU
+VU
+VU
+ly
+Pc
+lT
+lT
+lT
+RJ
+VU
+hR
+vf
+Gf
+Oc
+VU
+VU
+hy
+hy
+hy
+hy
+"}
+(60,1,1) = {"
+VU
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+VU
+HT
+Ak
+VU
+Pk
+lT
+lT
+lT
+lT
+Ak
+gW
+gW
+gW
+RJ
+bP
+VU
+kP
+VU
+hR
+Ak
+kn
+Yi
+Yi
+Yi
+Yi
+kn
+Ak
+VU
+VU
+fJ
+NI
+VU
+VU
+ly
+lT
+lT
+lT
+RJ
+VU
+Nu
+Ym
+Sx
+VU
+xi
+VU
+hy
+hy
+hy
+hy
+"}
+(61,1,1) = {"
+YO
+Zt
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+Zt
+VU
+Ak
+Ak
+VU
+lT
+AC
+AC
+AC
+Ak
+gW
+gW
+gW
+gW
+RJ
+Ft
+cL
+Hd
+VU
+Ak
+Fp
+Yi
+Yi
+Yi
+Yi
+dk
+Ak
+Ak
+Vv
+VU
+VU
+VU
+VU
+lT
+lT
+lT
+lT
+RJ
+mf
+VU
+vf
+PB
+VU
+VU
+ly
+hy
+hy
+hy
+hy
+"}
+(62,1,1) = {"
+VU
+VU
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+VU
+Jv
+Ak
+Ak
+Ak
+Jm
+tW
+qq
+Ak
+gW
+gW
+gW
+gW
+RJ
+HT
+VU
+rh
+Vv
+Ak
+Od
+Yi
+Yi
+Yi
+Yi
+Yi
+Ug
+Ak
+Ak
+VU
+VU
+mf
+Nu
+lT
+lT
+lT
+RJ
+RJ
+VU
+hR
+vf
+Oc
+Oc
+VU
+hR
+hy
+hy
+hy
+hy
+"}
+(63,1,1) = {"
+VU
+VU
+YO
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+zd
+cL
+VU
+VU
+hR
+lT
+lT
+lT
+RJ
+gW
+gW
+gW
+gW
+RJ
+cL
+VU
+YO
+rh
+Ak
+qE
+Yi
+Yi
+Yi
+Yi
+Ug
+oc
+Yi
+Ak
+Ak
+VU
+VU
+NI
+lT
+lT
+lT
+RJ
+Vv
+Hd
+VU
+Ak
+lT
+VU
+YO
+HT
+hy
+hy
+hy
+hy
+"}
+(64,1,1) = {"
+VU
+VU
+VU
+VU
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+VU
+VU
+VU
+lT
+lT
+lT
+RJ
+gW
+gW
+gW
+gW
+RJ
+bP
+RJ
+VU
+cL
+Ak
+Ak
+Ak
+Ak
+Yi
+Ug
+oc
+Yi
+Yi
+Yi
+Ak
+Ak
+Vv
+VU
+lT
+lT
+lT
+RJ
+VU
+ly
+Nu
+hR
+vf
+Gf
+xy
+Nu
+hy
+hy
+hy
+hy
+"}
+(65,1,1) = {"
+VU
+YO
+VU
+VU
+YO
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+Zt
+Dm
+lT
+lT
+lT
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+YO
+VU
+jL
+kT
+Ak
+Ak
+Yi
+Yi
+Yi
+Yi
+Yi
+ep
+bt
+lT
+lT
+lT
+lT
+lT
+RJ
+pA
+VU
+VU
+VU
+vf
+Ix
+ML
+Dm
+hy
+hy
+hy
+hy
+"}
+(66,1,1) = {"
+VU
+VU
+VU
+VU
+VU
+VU
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+cL
+lT
+lT
+lT
+lT
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+aV
+RJ
+VU
+VU
+ML
+cL
+Ak
+Yi
+Yi
+Yi
+Yi
+Yi
+ep
+lq
+lT
+lT
+lT
+lT
+lT
+RJ
+YO
+hR
+VU
+YO
+Ak
+lT
+Oc
+VU
+hy
+hy
+hy
+hy
+"}
+(67,1,1) = {"
+VU
+VU
+VU
+VU
+VU
+YO
+RJ
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+rh
+lT
+lT
+lT
+lT
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+mf
+rh
+cL
+Ak
+Ak
+Yi
+Yi
+Yi
+Yi
+ep
+yi
+lT
+lT
+lT
+lT
+lT
+RJ
+VU
+VU
+VU
+hR
+Jv
+vf
+VU
+VU
+Jv
+hy
+hy
+hy
+"}
+(68,1,1) = {"
+VU
+VU
+YO
+VU
+VU
+VU
+VU
+Ft
+RJ
+RJ
+gW
+gW
+gW
+gW
+RJ
+lT
+lT
+lT
+lT
+lT
+lT
+RJ
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+Ft
+Dm
+cL
+Ak
+Ak
+Ak
+Ak
+Ak
+Ak
+Ak
+Ow
+ML
+lT
+lT
+lT
+RJ
+VU
+YO
+VU
+VU
+KT
+Ak
+lT
+Oc
+VU
+hy
+hy
+hy
+"}
+(69,1,1) = {"
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+YO
+RJ
+RJ
+gW
+gW
+gW
+RJ
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+VU
+YO
+ML
+Ez
+VU
+VU
+mf
+rh
+Vv
+VU
+ly
+lT
+lT
+lT
+RJ
+HT
+VU
+hR
+VU
+ly
+HT
+vf
+Oc
+VU
+hR
+Jv
+hy
+"}
+(70,1,1) = {"
+VU
+YO
+VU
+VU
+xi
+VU
+lT
+lT
+lT
+lT
+lT
+oz
+oz
+oz
+lT
+lT
+lT
+tJ
+rh
+Dm
+lT
+lT
+lT
+lT
+RJ
+RJ
+gW
+gW
+gW
+gW
+gW
+RJ
+RJ
+RJ
+RJ
+RJ
+aV
+RJ
+RJ
+RJ
+RJ
+RJ
+RJ
+lT
+lT
+lT
+RJ
+VU
+tJ
+VU
+VU
+VU
+hR
+Ak
+Ak
+VU
+VU
+VU
+lK
+"}
+(71,1,1) = {"
+VU
+VU
+VU
+VU
+VU
+lT
+lT
+lT
+lT
+lT
+lT
+oz
+oz
+oz
+Eb
+Eb
+pc
+Nj
+Jn
+yJ
+lw
+Eb
+Eb
+Eb
+Eb
+mC
+mC
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+lT
+lT
+lT
+RJ
+RJ
+RJ
+VU
+mf
+VU
+VU
+Ft
+Ak
+Ak
+VU
+VU
+VU
+"}
+(72,1,1) = {"
+VU
+VU
+YO
+VU
+GP
+lT
+lT
+lT
+GP
+VU
+RJ
+gW
+cF
+cF
+mC
+mC
+aT
+Jn
+aT
+AF
+qH
+aT
+Eb
+Eb
+Eb
+Eb
+mC
+mC
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+QN
+QN
+QN
+cF
+cF
+RJ
+RJ
+RJ
+GP
+VU
+VU
+hR
+Ak
+Ak
+Ak
+VU
+"}
+(73,1,1) = {"
+VU
+VU
+VU
+YO
+lT
+lT
+lT
+VU
+VU
+Jv
+RJ
+RJ
+cF
+cF
+cF
+mC
+dZ
+aT
+ul
+aT
+Jn
+aT
+lw
+Eb
+Eb
+Eb
+Eb
+dR
+mC
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+QN
+QN
+QN
+cF
+cF
+cF
+cF
+RJ
+RJ
+mf
+VU
+Hd
+Ft
+KT
+Ak
+Ak
+"}
+(74,1,1) = {"
+VU
+VU
+VU
+Nu
+lT
+lT
+lT
+VU
+VU
+VU
+VU
+RJ
+cF
+cF
+cF
+RJ
+RJ
+VU
+fJ
+cL
+Vv
+UG
+VU
+VU
+lT
+lT
+lT
+lT
+RJ
+RJ
+RJ
+RJ
+RJ
+RJ
+RJ
+RJ
+RJ
+RJ
+RJ
+RJ
+RJ
+RJ
+cF
+QN
+QN
+QN
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+RJ
+Vv
+VU
+VU
+fJ
+Jv
+"}
+(75,1,1) = {"
+VU
+YO
+VU
+VU
+lT
+lT
+lT
+VU
+VU
+VU
+fJ
+RJ
+RJ
+cF
+cF
+cF
+RJ
+VU
+VU
+VU
+VU
+GP
+DR
+YO
+VU
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+RJ
+RJ
+lT
+lT
+lT
+RJ
+cF
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+RJ
+VU
+hR
+mf
+"}
+(76,1,1) = {"
+VU
+VU
+VU
+xi
+lT
+lT
+VU
+fJ
+VU
+VU
+VU
+VU
+RJ
+cF
+cF
+cF
+RJ
+RJ
+VU
+iu
+VU
+VU
+VU
+Vv
+Pk
+YO
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+RJ
+RJ
+RJ
+cF
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+VU
+Vv
+"}
+(77,1,1) = {"
+VU
+VU
+VU
+VU
+lT
+lT
+VU
+VU
+GP
+VU
+VU
+VU
+RJ
+RJ
+cF
+cF
+cF
+RJ
+xi
+VU
+VU
+fJ
+VU
+cL
+VU
+DR
+VU
+kT
+DR
+Pk
+su
+lT
+lT
+lT
+py
+DR
+Jv
+VU
+iu
+lT
+lT
+lT
+lT
+lT
+lT
+iu
+VU
+iu
+RJ
+RJ
+cF
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+fJ
+"}
+(78,1,1) = {"
+VU
+YO
+VU
+VU
+lT
+lT
+GP
+Jv
+fP
+fP
+fP
+fP
+fP
+RJ
+RJ
+cF
+cF
+RJ
+RJ
+Zt
+VU
+VU
+cL
+VU
+VU
+VU
+VU
+YO
+ts
+Jv
+HT
+lT
+lT
+lT
+VU
+VU
+VU
+fJ
+VU
+VU
+fJ
+VU
+iu
+VU
+VU
+cL
+DR
+VU
+ly
+RJ
+RJ
+RJ
+cF
+cF
+cF
+cF
+cF
+RJ
+RJ
+"}
+(79,1,1) = {"
+VU
+VU
+VU
+YO
+lT
+lT
+lT
+fP
+fP
+Zs
+Zs
+Zs
+fP
+fP
+RJ
+cF
+cF
+cF
+RJ
+xi
+cL
+VU
+YO
+VU
+VU
+fJ
+HT
+VU
+VU
+VU
+md
+lT
+lT
+lT
+VU
+YO
+VU
+HT
+DR
+Vv
+su
+HT
+fJ
+ML
+VU
+ly
+ML
+VU
+pA
+ML
+rh
+RJ
+cF
+cF
+cF
+cF
+cF
+cF
+cF
+"}
+(80,1,1) = {"
+VU
+VU
+VU
+VU
+lT
+lT
+lT
+fP
+pT
+pT
+pT
+pT
+hC
+fP
+RJ
+cF
+cF
+cF
+RJ
+VU
+Vv
+VU
+iu
+VU
+VU
+VU
+cL
+VU
+VU
+fJ
+kT
+lT
+lT
+lT
+pA
+DR
+VU
+VU
+VU
+VU
+Vv
+VU
+VU
+cL
+ML
+iu
+VU
+fJ
+vI
+VU
+tJ
+RJ
+RJ
+RJ
+cF
+cF
+cF
+cF
+cF
+"}
+(81,1,1) = {"
+VU
+VU
+YO
+ML
+VU
+lT
+lT
+vO
+pT
+pT
+pT
+pT
+BH
+fP
+RJ
+cF
+cF
+cF
+RJ
+VU
+fJ
+VU
+VU
+Vv
+fJ
+VU
+Vv
+Sq
+HT
+Pk
+Sq
+lT
+lT
+lT
+VU
+HT
+cL
+VU
+YO
+cL
+VU
+VU
+VU
+YO
+rh
+oU
+VU
+VU
+ML
+VU
+VU
+ML
+VU
+RJ
+cF
+cF
+cF
+cF
+cF
+"}
+(82,1,1) = {"
+Vv
+VU
+VU
+VU
+VU
+YO
+lT
+fP
+pT
+pT
+pT
+pT
+bK
+fP
+RJ
+cF
+cF
+cF
+RJ
+VU
+VU
+VU
+fJ
+cL
+VU
+su
+cL
+iu
+VU
+VU
+Vv
+lT
+lT
+lT
+Jv
+fJ
+VU
+VU
+VU
+HT
+VU
+ML
+VU
+VU
+VU
+mf
+rh
+VU
+fJ
+ML
+VU
+mf
+pA
+RJ
+RJ
+cF
+cF
+cF
+cF
+"}
+(83,1,1) = {"
+VU
+Vv
+VU
+VU
+VU
+VU
+VU
+fP
+fP
+Zs
+Zs
+Zs
+fP
+fP
+RJ
+cF
+cF
+cF
+RJ
+tJ
+VU
+VU
+VU
+fJ
+VU
+VU
+fJ
+HT
+VU
+VU
+YO
+lT
+lT
+lT
+VU
+md
+Vv
+iu
+VU
+VU
+fJ
+VU
+VU
+YO
+rh
+VU
+VU
+cL
+oU
+VU
+VU
+cL
+kA
+cL
+RJ
+RJ
+cF
+cF
+cF
+"}
+(84,1,1) = {"
+VU
+VU
+VU
+VU
+fJ
+Nu
+VU
+GP
+fP
+fP
+fP
+fP
+fP
+VU
+RJ
+cF
+cF
+cF
+RJ
+VU
+cL
+VU
+VU
+nd
+nd
+nd
+nd
+nd
+nd
+nd
+nd
+lT
+lT
+lT
+nd
+nd
+nd
+Fj
+nd
+nd
+nd
+nd
+su
+ML
+cL
+VU
+mf
+ML
+VU
+fJ
+VU
+rh
+VU
+VU
+kA
+RJ
+cF
+cF
+cF
+"}
+(85,1,1) = {"
+VU
+mf
+cL
+VU
+VU
+ML
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+RJ
+cF
+cF
+cF
+RJ
+VU
+xi
+VU
+dU
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+lT
+lT
+lT
+lT
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+Se
+VU
+VU
+ML
+VU
+rh
+VU
+VU
+oU
+VU
+tJ
+VU
+VU
+RJ
+RJ
+RJ
+cF
+"}
+(86,1,1) = {"
+VU
+VU
+VU
+VU
+VU
+iu
+VU
+VU
+fJ
+VU
+Vv
+VU
+VU
+VU
+RJ
+cF
+cF
+cF
+RJ
+VU
+VU
+dU
+VU
+VU
+VU
+VU
+VU
+Ft
+VU
+Zw
+lT
+lT
+lT
+lT
+VU
+VU
+YO
+VU
+VU
+Ft
+VU
+Jv
+VU
+Se
+VU
+VU
+VU
+mf
+VU
+VU
+rh
+VU
+VU
+VU
+mf
+VU
+VU
+RJ
+RJ
+"}
+(87,1,1) = {"
+VU
+VU
+VU
+VU
+VU
+YO
+VU
+VU
+VU
+ML
+VU
+VU
+fJ
+VU
+RJ
+cF
+cF
+cF
+RJ
+VU
+dU
+VU
+VU
+VU
+fJ
+VU
+VU
+VU
+HT
+Cw
+lT
+lT
+lT
+lT
+lT
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+Se
+VU
+VU
+VU
+VU
+VU
+tJ
+VU
+VU
+cL
+VU
+oU
+VU
+ly
+VU
+"}
+(88,1,1) = {"
+VU
+VU
+YO
+VU
+VU
+VU
+VU
+VU
+YO
+VU
+VU
+VU
+VU
+ly
+RJ
+cF
+cF
+cF
+RJ
+xi
+pQ
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+Jv
+VU
+VU
+fJ
+VU
+VU
+YO
+VU
+VU
+TV
+VU
+mf
+VU
+dT
+VU
+VU
+VU
+mf
+VU
+VU
+mf
+VU
+VU
+Vv
+"}
+(89,1,1) = {"
+VU
+VU
+VU
+HT
+VU
+VU
+VU
+VU
+VU
+Vv
+VU
+VU
+VU
+VU
+RJ
+cF
+cF
+cF
+RJ
+cL
+pQ
+VU
+VU
+YO
+VU
+HT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+TV
+VU
+VU
+KT
+VU
+oU
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+mf
+zj
+"}
+(90,1,1) = {"
+VU
+VU
+VU
+YO
+VU
+VU
+YO
+VU
+iu
+VU
+VU
+YO
+cL
+VU
+RJ
+cF
+cF
+cF
+RJ
+VU
+pQ
+VU
+VU
+VU
+VU
+lT
+lT
+kj
+lT
+lT
+lT
+Qx
+lT
+Qx
+lT
+lT
+lT
+lT
+lT
+VU
+VU
+VU
+VU
+fJ
+TV
+VU
+VU
+mf
+Pc
+VU
+mf
+Pc
+VU
+VU
+ly
+VU
+VU
+VU
+NI
+"}
+(91,1,1) = {"
+VU
+VU
+VU
+VU
+Vv
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+mf
+RJ
+cF
+cF
+cF
+RJ
+VU
+pQ
+VU
+VU
+VU
+lT
+lT
+lT
+lT
+lT
+Ht
+lT
+Qx
+lT
+Qx
+lT
+Ht
+lT
+od
+lT
+lT
+lT
+lT
+VU
+VU
+TV
+NI
+VU
+VU
+cL
+VU
+Vv
+pA
+VU
+VU
+VU
+DR
+VU
+cL
+VU
+"}
+(92,1,1) = {"
+iu
+VU
+VU
+YO
+VU
+VU
+VU
+VU
+YO
+VU
+VU
+VU
+VU
+VU
+RJ
+cF
+cF
+cF
+RJ
+Ft
+pQ
+VU
+HT
+lT
+lT
+lT
+lT
+od
+lT
+lT
+lT
+Qx
+lT
+Qx
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+VU
+TV
+VU
+VU
+Ft
+VU
+DR
+VU
+VU
+VU
+ly
+KT
+kP
+VU
+VU
+ly
+"}
+(93,1,1) = {"
+VU
+VU
+VU
+VU
+VU
+ly
+iu
+VU
+VU
+VU
+VU
+YO
+VU
+rh
+RJ
+cF
+cF
+cF
+RJ
+VU
+pQ
+VU
+lT
+lT
+lT
+qS
+CX
+CX
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+gO
+gO
+gO
+gO
+Ue
+lT
+VU
+TV
+VU
+VU
+VU
+VU
+VU
+ly
+VU
+oU
+VU
+VU
+tJ
+VU
+VU
+VU
+"}
+(94,1,1) = {"
+VU
+VU
+ly
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+ML
+VU
+RJ
+RJ
+cF
+cF
+cF
+RJ
+VU
+pQ
+lT
+lT
+fP
+fP
+fP
+fP
+fP
+wn
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+kb
+fP
+fP
+fP
+fP
+fP
+lT
+lT
+TV
+VU
+VU
+kA
+VU
+VU
+VU
+VU
+VU
+GP
+VU
+NI
+VU
+Ft
+VU
+"}
+(95,1,1) = {"
+VU
+VU
+VU
+VU
+VU
+cL
+VU
+VU
+VU
+mf
+VU
+VU
+VU
+RJ
+cF
+cF
+cF
+cF
+RJ
+YO
+pQ
+lT
+fP
+fP
+Zs
+Zs
+Zs
+fP
+fP
+lT
+od
+lT
+lT
+lT
+Nf
+lT
+fP
+fP
+uB
+BH
+rf
+fP
+fP
+lT
+TV
+VU
+Ft
+VU
+DR
+VU
+cL
+VU
+tJ
+VU
+VU
+VU
+VU
+VU
+Ft
+"}
+(96,1,1) = {"
+VU
+VU
+Nu
+VU
+YO
+VU
+VU
+YO
+VU
+VU
+VU
+HT
+RJ
+RJ
+cF
+cF
+cF
+cF
+RJ
+VU
+pQ
+lT
+fP
+CJ
+YJ
+zN
+YJ
+pT
+fP
+lT
+lT
+lT
+sA
+lT
+lT
+lT
+fP
+pT
+pT
+pT
+pT
+pT
+fP
+lT
+TV
+VU
+VU
+VU
+fJ
+NI
+VU
+VU
+VU
+Vv
+VU
+Ft
+VU
+VU
+VU
+"}
+(97,1,1) = {"
+VU
+YO
+VU
+VU
+VU
+VU
+Vv
+VU
+VU
+VU
+YO
+VU
+RJ
+cF
+cF
+cF
+cF
+RJ
+RJ
+mf
+pQ
+lT
+fP
+BH
+pT
+Af
+pT
+pT
+vO
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+uC
+pT
+qK
+Np
+LS
+pT
+gM
+lT
+TV
+VU
+VU
+VU
+VU
+VU
+Ft
+VU
+KT
+VU
+Pc
+VU
+VU
+ly
+Pc
+"}
+(98,1,1) = {"
+VU
+VU
+VU
+VU
+VU
+mf
+rh
+VU
+VU
+VU
+VU
+RJ
+RJ
+cF
+cF
+cF
+cF
+RJ
+VU
+VU
+pQ
+lT
+fP
+Co
+YJ
+YJ
+YJ
+pT
+fP
+lT
+lT
+lT
+Ht
+lT
+lT
+lT
+fP
+pT
+bB
+bB
+bB
+pT
+fP
+lT
+TV
+cL
+VU
+VU
+fJ
+VU
+VU
+VU
+VU
+Ft
+VU
+VU
+VU
+VU
+VU
+"}
+(99,1,1) = {"
+VU
+VU
+VU
+YO
+VU
+VU
+VU
+VU
+VU
+mf
+Zt
+RJ
+cF
+cF
+cF
+cF
+RJ
+RJ
+YO
+cL
+pQ
+lT
+fP
+fP
+Zs
+Zs
+Zs
+fP
+fP
+lT
+qS
+Nf
+lT
+lT
+lT
+lT
+fP
+fP
+uT
+uT
+uT
+fP
+fP
+lT
+TV
+VU
+VU
+VU
+VU
+VU
+VU
+fJ
+VU
+VU
+VU
+ly
+VU
+VU
+Ft
+"}
+(100,1,1) = {"
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+YO
+VU
+VU
+RJ
+RJ
+cF
+cF
+cF
+RJ
+RJ
+VU
+VU
+VU
+pQ
+lT
+lT
+fP
+fP
+fP
+fP
+fP
+vQ
+lT
+lT
+lT
+lT
+lT
+lT
+qS
+Hk
+fP
+fP
+fP
+fP
+fP
+lT
+lT
+TV
+VU
+ly
+oU
+NI
+cL
+VU
+VU
+VU
+ly
+VU
+VU
+Ft
+cL
+VU
+"}
+(101,1,1) = {"
+VU
+VU
+rh
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+RJ
+cF
+cF
+cF
+RJ
+RJ
+YO
+VU
+VU
+YO
+pQ
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+lT
+VU
+TV
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+VU
+NI
+VU
+VU
+GP
+VU
+VU
 "}

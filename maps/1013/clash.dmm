@@ -16,12 +16,6 @@
 "an" = (
 /turf/floor/winter/grass,
 /area/caribbean/no_mans_land/invisible_wall)
-"au" = (
-/obj/roof/thatch,
-/obj/item/flashlight/torch/on/unlimited,
-/obj/covers/clay_wall/redearth,
-/turf/wall/wood/straw,
-/area/caribbean/houses)
 "aN" = (
 /obj/structure/bookcase,
 /obj/item/weapon/book,
@@ -113,21 +107,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/floor/wood,
 /area/caribbean/houses)
-"bU" = (
-/obj/structure/table/wood,
-/obj/roof/wood,
-/obj/item/weapon/clay/mold/clayjug/fired,
-/turf/floor/winter,
-/area/caribbean/houses)
 "cj" = (
 /obj/structure/religious/impaledskull,
 /turf/floor/plating/stone_old,
 /area/caribbean/void/caves)
-"cp" = (
-/obj/covers/wood_wall/nordic,
-/obj/item/flashlight/torch/on/unlimited,
-/turf/wall/wood,
-/area/caribbean/houses)
 "cq" = (
 /obj/roof/thatch,
 /obj/covers/clay_wall/redearth,
@@ -301,13 +284,6 @@
 /obj/structure/reagent_dispensers/largebarrel/water,
 /turf/floor/plating/cobblestone/vertical/dark,
 /area/caribbean/houses)
-"fy" = (
-/obj/structure/roof_support/nordic,
-/obj/roof/wood,
-/obj/item/flashlight/torch/on/unlimited,
-/obj/covers/roads/dirt,
-/turf/floor/winter,
-/area/caribbean/no_mans_land/taiga)
 "fA" = (
 /obj/structure/table/wood,
 /obj/item/weapon/reagent_containers/food/snacks/flatbread,
@@ -532,7 +508,6 @@
 /area/caribbean/houses)
 "lc" = (
 /obj/structure/roof_support/nordic,
-/obj/item/flashlight/torch/on/unlimited,
 /turf/floor/wood,
 /area/caribbean/houses)
 "lx" = (
@@ -609,7 +584,6 @@
 /area/caribbean/houses)
 "mu" = (
 /obj/structure/roof_support/nordic,
-/obj/item/flashlight/torch/on/unlimited,
 /turf/floor/wood/fancywood,
 /area/caribbean/greek{
 	location = 0;
@@ -688,7 +662,6 @@
 /area/caribbean/no_mans_land/taiga)
 "og" = (
 /obj/structure/roof_support/nordic,
-/obj/item/flashlight/torch/on/unlimited,
 /obj/effect/decal/cleanable/cobweb2{
 	dir = 1
 	},
@@ -738,7 +711,6 @@
 /obj/structure/roof_support/nordic,
 /obj/roof/wood,
 /obj/covers/roads/dirt,
-/obj/item/flashlight/torch/on/unlimited,
 /turf/floor/winter,
 /area/caribbean/no_mans_land/taiga)
 "pd" = (
@@ -829,10 +801,6 @@
 /obj/structure/wild/tree/live_tree/pine/snow,
 /turf/floor/winter/grass,
 /area/caribbean/no_mans_land/taiga)
-"sN" = (
-/obj/item/flashlight/torch/on/unlimited,
-/turf/wall/rockwall,
-/area/caribbean/void/caves)
 "sY" = (
 /turf/floor/plating/cobblestone/vertical/dark,
 /area/caribbean/houses)
@@ -1305,7 +1273,6 @@
 /turf/floor/winter,
 /area/caribbean/no_mans_land/taiga)
 "DY" = (
-/obj/structure/furnace/kiln/stone,
 /obj/roof/wood,
 /turf/floor/winter,
 /area/caribbean/houses)
@@ -1565,12 +1532,6 @@
 /obj/covers/wood/stairs,
 /turf/floor/winter,
 /area/caribbean/no_mans_land/taiga)
-"IK" = (
-/obj/covers/wood_wall/nordic,
-/obj/roof/wood,
-/obj/item/flashlight/torch/on/unlimited,
-/turf/wall/wood,
-/area/caribbean/no_mans_land/taiga)
 "Jd" = (
 /obj/structure/closet/crate/empty,
 /obj/item/weapon/material/sword/claymore/iron,
@@ -1580,7 +1541,6 @@
 "Jh" = (
 /obj/roof/wood,
 /obj/structure/roof_support/nordic,
-/obj/item/flashlight/torch/on/unlimited,
 /obj/covers/roads/dirt,
 /turf/floor/winter,
 /area/caribbean/no_mans_land/taiga)
@@ -1746,13 +1706,6 @@
 /obj/effect/floor_decal/spline/fancy,
 /turf/floor/plating/cobblestone/vertical/dark,
 /area/caribbean/houses)
-"Ny" = (
-/obj/structure/table/wood,
-/obj/structure/roof_support/nordic,
-/obj/roof/wood,
-/obj/item/flashlight/torch/on/unlimited,
-/turf/floor/winter,
-/area/caribbean/houses)
 "NP" = (
 /obj/structure/closet/crate/empty,
 /obj/item/weapon/reagent_containers/food/snacks/flatbread,
@@ -1891,15 +1844,9 @@
 /obj/structure/branch/cleared,
 /turf/floor/dirt/winter,
 /area/caribbean/no_mans_land/taiga)
-"Ri" = (
-/obj/item/flashlight/torch/on/unlimited,
-/obj/covers/stone_wall/brick,
-/turf/wall/stone/stonebrick,
-/area/caribbean/houses)
 "Ru" = (
 /obj/structure/table/wood,
 /obj/roof/wood,
-/obj/item/weapon/clay/mold/fired,
 /obj/item/weapon/material/spear,
 /turf/floor/winter,
 /area/caribbean/houses)
@@ -3482,7 +3429,7 @@ cS
 cS
 cS
 cS
-Ri
+gK
 sY
 sY
 sY
@@ -3497,7 +3444,7 @@ sY
 TI
 TI
 sY
-Ri
+gK
 cS
 cS
 cS
@@ -3758,7 +3705,7 @@ cS
 cS
 cS
 cS
-Ri
+gK
 sY
 sY
 sY
@@ -3773,7 +3720,7 @@ sY
 sY
 sY
 sY
-Ri
+gK
 cS
 cS
 cS
@@ -6873,7 +6820,7 @@ cS
 cS
 cS
 Ta
-sN
+cS
 Cz
 GJ
 cS
@@ -7616,7 +7563,7 @@ PJ
 Xf
 Xf
 hO
-sN
+cS
 Xf
 Xf
 PJ
@@ -7894,7 +7841,7 @@ Xf
 Xf
 Xf
 Xf
-sN
+cS
 Xf
 Xf
 Xf
@@ -11395,7 +11342,7 @@ eZ
 Ry
 eZ
 eZ
-cp
+mP
 qm
 qm
 qm
@@ -11410,7 +11357,7 @@ qm
 qm
 qm
 qm
-cp
+mP
 eZ
 yD
 Ry
@@ -12039,7 +11986,7 @@ eZ
 Ry
 eZ
 eZ
-cp
+mP
 qm
 qm
 qm
@@ -12054,7 +12001,7 @@ qm
 qm
 qm
 qm
-cp
+mP
 eZ
 Ry
 Ry
@@ -12138,7 +12085,7 @@ mP
 mP
 bg
 bg
-cp
+mP
 bg
 bg
 mP
@@ -12154,10 +12101,10 @@ eZ
 "}
 (18,1,2) = {"
 eZ
-au
 cq
 cq
-au
+cq
+cq
 eZ
 eZ
 eZ
@@ -12430,10 +12377,10 @@ eZ
 "}
 (21,1,2) = {"
 eZ
-au
 cq
 cq
-au
+cq
+cq
 eZ
 eZ
 eZ
@@ -13875,9 +13822,9 @@ nW
 lB
 jT
 eZ
-fy
+oU
 nm
-fy
+oU
 Ry
 Ry
 eZ
@@ -15458,10 +15405,10 @@ eZ
 eZ
 Ry
 PV
-Ny
+bJ
 DY
 DJ
-Ny
+bJ
 eZ
 "}
 (54,1,2) = {"
@@ -15645,7 +15592,7 @@ Ry
 ms
 lx
 DJ
-bU
+la
 eZ
 "}
 (56,1,2) = {"
@@ -15826,10 +15773,10 @@ Ry
 Ry
 eZ
 Ry
-Ny
+bJ
 la
 JE
-Ny
+bJ
 eZ
 "}
 (58,1,2) = {"
@@ -16841,7 +16788,7 @@ eZ
 jk
 FU
 FU
-IK
+EE
 eZ
 "}
 (69,1,2) = {"
