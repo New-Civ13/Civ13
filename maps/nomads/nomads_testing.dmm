@@ -738,7 +738,6 @@
 /turf/floor/beach,
 /area/caribbean/void/caves)
 "Tu" = (
-/obj/map_metadata/nomads_testing,
 /turf/wall/indestructable/black{
 	layer = 6
 	},
