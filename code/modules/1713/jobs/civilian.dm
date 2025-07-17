@@ -636,8 +636,7 @@
 	H.equip_to_slot_or_del(new /obj/item/clothing/head/powdered_wig(H), slot_head)
 	H.equip_to_slot_or_del(new /obj/item/weapon/storage/firstaid/surgery(H), slot_l_hand)
 	H.equip_to_slot_or_del(new /obj/item/weapon/doctor_handbook(H), slot_l_store)
-	H.equip_to_slot_or_del(new/obj/item/stack/money/european/britpound(H), slot_r_store)
-	H.equip_to_slot_or_del(new /obj/item/weapon/key/medic(H), slot_l_store)
+	H.equip_to_slot_or_del(new /obj/item/weapon/key/medic(H), slot_r_store)
 
 	H.add_note("Role", "You are a <b>[title]</b>, in charge of keeping the newly founded colony healthy.")
 	H.add_note("The Healer", "Your main job is to keep the colonists from dying and healing them. His Majesty's Colonial Administration has generously provided funds for a clinic, a basic chemistr setup, a room for you, and a surgical bag. The rest is up to you.")
