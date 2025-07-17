@@ -1648,13 +1648,16 @@ var/global/redirect_all_players = null
 			var/extra_span = "<b>"
 			var/end_extra_span = "</b>"
 			if (job.is_officer && !job.is_commander)
-				extra_span = "<b><font size=2>"
-				end_extra_span = "</font></b><br>"
-			else if (job.is_commander)
 				extra_span = "<b><font size=3>"
 				end_extra_span = "</font></b><br>"
+			else if (job.is_commander)
+				extra_span = "<b><font size=4>"
+				end_extra_span = "</font></b><br>"
 			else if (job.is_squad_leader)
-				extra_span = "<br><b><font size=2>"
+				extra_span = "<br><b><font size=3>"
+				end_extra_span = "</font></b><br>"
+			else
+				extra_span= "<br><b><font size=2>"
 				end_extra_span = "</font></b><br>"
 
 			if (!job.en_meaning)

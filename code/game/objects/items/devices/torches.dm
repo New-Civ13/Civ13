@@ -136,7 +136,9 @@
 
 /obj/item/torch/lantern/on/New()
 	..()
+	fuel = 99999999999 // Infinite fuel for lanterns that are always on
 	setActive(TRUE)
+	
 
 /obj/item/torch/lantern/copper
 	name = "copper lamp"

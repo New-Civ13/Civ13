@@ -96,6 +96,72 @@
 	icon_opened = "wood_mailbox_open"
 	density = TRUE
 
+/obj/structure/closet/crate/wall_mailbox/colony_mailbox_1
+	name = "Colonial Administration mailbox"
+	desc = "A mailbox that sends its papers away immediately via carrier pigeon. This one supposedly goes to the Colonial Administration. Authorised use only!"
+	icon = 'icons/obj/mail.dmi'
+	icon_state = "wall_mailbox_closed"
+	density = FALSE
+	anchored = TRUE
+	store_mobs = FALSE
+	storagecap = 5
+	layer = 3.01
+
+/obj/structure/closet/crate/wall_mailbox/colony_mailbox_1/attackby(var/obj/item/W as obj, mob/user as mob)
+	if (!istype(W, /obj/item/weapon/paper))
+		user << "<span class='notice'>You can only put papers in this mailbox; envelopes are not accepted.</span>"
+		return TRUE
+
+	var/obj/structure/closet/crate/wall_mailbox/colony_mailbox_2/target_mailbox = locate(/obj/structure/closet/crate/wall_mailbox/colony_mailbox_2) in world
+	if (!target_mailbox)
+		user << "<span class='warning'>Error: Receiving mailbox not found. Contact an administrator or developer.</span>"
+		return TRUE
+
+	var/obj/item/new_copy = new W.type(target_mailbox)
+	var/obj/item/weapon/paper/old_paper = W
+	var/obj/item/weapon/paper/new_paper = new_copy
+	new_paper.info = old_paper.info
+	new_paper.name = old_paper.name
+
+	qdel(W)
+
+	user << "<span class='notice'>You put the [new_copy.name] in the mailbox. The carrier pigeon leaves with it!</span>"
+	admin_notice("<span class='warning'><font size=5> Someone has sent a paper to the Colonial Administration via the mailbox!</font></span>", R_ADMIN)
+	return TRUE
+
+
+/obj/structure/closet/crate/wall_mailbox/colony_mailbox_2
+	name = "Colonial Administration mailbox"
+	desc = "A mailbox that sends its papers away immediately via carrier pigeon. This one supposedly goes back to the Colony. Authorised use only!"
+	icon = 'icons/obj/mail.dmi'
+	icon_state = "wall_mailbox_closed"
+	density = FALSE
+	anchored = TRUE
+	store_mobs = FALSE
+	storagecap = 5
+	layer = 3.01
+
+/obj/structure/closet/crate/wall_mailbox/colony_mailbox_2/attackby(var/obj/item/W as obj, mob/user as mob)
+	if (!istype(W, /obj/item/weapon/paper))
+		user << "<span class='notice'>You can only put papers in this mailbox; envelopes are not accepted.</span>"
+		return TRUE
+
+	var/obj/structure/closet/crate/wall_mailbox/colony_mailbox_1/target_mailbox = locate(/obj/structure/closet/crate/wall_mailbox/colony_mailbox_1) in world
+	if (!target_mailbox)
+		user << "<span class='warning'>Error: Receiving mailbox not found. Contact an administrator or developer.</span>"
+		return TRUE
+
+	var/obj/item/new_copy = new W.type(target_mailbox)
+	var/obj/item/weapon/paper/old_paper = W
+	var/obj/item/weapon/paper/new_paper = new_copy
+	new_paper.info = old_paper.info
+	new_paper.name = old_paper.name
+
+	qdel(W)
+
+	user << "<span class='notice'>You put the [new_copy.name] in the mailbox. The carrier pigeon leaves with it!</span>"
+	return TRUE
+
 /////ENVELOPE/////
 /obj/item/weapon/storage/envelope
 	name = "envelope"

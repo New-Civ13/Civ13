@@ -3,7 +3,7 @@
 	ID = MAP_JUNGLE_COLONY
 	title = "Jungle Colony"
 	no_winner ="The round is proceeding normally."
-	lobby_icon = 'icons/lobby/imperial.png'
+	lobby_icon = 'icons/lobby/jungle_colony.png'
 	caribbean_blocking_area_types = list(/area/caribbean/no_mans_land/invisible_wall/)
 	respawn_delay = 7200 // 12 minutes!
 	has_hunger = TRUE
@@ -31,7 +31,7 @@
 	grace_wall_timer = 15000
 	is_RP = TRUE
 	songs = list(
-		"Nassau Shores:1" = 'sound/music/nassau_shores.ogg',)
+		"Nassau Shores:1" = 'sound/music/rule_britannia.ogg',)
 	gamemode = "Colony Building RP"
 obj/map_metadata/jungle_colony/job_enabled_specialcheck(var/datum/job/J)
 	..()

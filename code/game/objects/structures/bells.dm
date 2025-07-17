@@ -1,4 +1,4 @@
-obj/structure/bell_stand
+/obj/structure/bell_stand
 	name = "bell stand"
 	desc = "Fire! Fire!"
 	icon = 'icons/obj/structures.dmi'
@@ -22,9 +22,10 @@ obj/structure/bell_stand
 		to_chat(H, "You have to wait at least 10 seconds.")
 	return
 
-/obj/structure/bell_stand
+/obj/structure/bell_stand/church
 	name = "church bell"
-	desc = "A church bell. It looks like it could be <b>extremely</b> loud."
+	desc = "A church bell. It looks like it could be <b>very</b> loud."
+
 
 /obj/structure/bell_stand/church/attack_hand(var/mob/living/human/H)
 	if (cooldown_bell_stand == FALSE)
@@ -39,6 +40,26 @@ obj/structure/bell_stand
 			cooldown_bell_stand = FALSE
 	else
 		to_chat(H, "You have to wait at least 16 seconds.")
+	return
+
+/obj/structure/bell_stand/church/colony
+	name = "church bell"
+	desc = "An old church bell, probably shipped here. Its stand seems worn our, a bit cracked, like it's a few hundred years old. It's amazing that it can still hold stuch a heavy bell. Only a priest can ring it."
+	icon_state = "church_bell_stand"
+
+/obj/structure/bell_stand/church/colony/attack_hand(var/mob/living/human/H)
+	if (cooldown_bell_stand == FALSE && H.original_job_title == "Priest")
+		cooldown_bell_stand = TRUE
+		world << sound('sound/effects/church_bells.ogg', repeat = TRUE, wait = TRUE, channel = 777)
+		visible_message("<span class='warning'>[H] rings the church bell!</span>")
+		to_chat(world, "<font size = 5>\icon[src] <span class='warning'>The Priest has rung the Church Bell!</span></font>")
+		spawn(60 SECONDS)
+			world << sound(null, channel = 777)
+			icon_state = "church_bell_stand"
+		spawn(300 SECONDS)
+			cooldown_bell_stand = FALSE
+	else
+		to_chat(H, "The church bell can only be rung by a priest! If you are a priest, you have to wait for the cooldown.")
 	return
 
 /obj/structure/bell_stand/attackby(var/obj/item/I, var/mob/living/human/H)

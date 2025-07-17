@@ -763,10 +763,22 @@
 	item_state = "tricorne_british2"
 
 /obj/item/clothing/head/bicorne_british_soldier
-	name = "black bicorne"
-	desc = "A black bicorne, commonly used by the armed forces."
+	name = "British soldier's tricorne"
+	desc = "A black bicorne, commonly used by british infantrymen"
 	icon_state = "tricorne_british_soldier"
 	item_state = "tricorne_british_soldier"
+
+/obj/item/clothing/head/bicorne_british_officer
+	name = "British officer's tricorne"
+	desc = "A black bicorne lined with a bright white colour, commonly worn among british officers."
+	icon_state = "tricorne_british_officer"
+	item_state = "tricorne_british_officer"
+
+/obj/item/clothing/head/bicorne_british_commander
+	name = "British commanding officer's tricorne"
+	desc = "A black bicorne, lined with an elegant gold, commonly worn among british commanding officers."
+	icon_state = "tricorne_british_commander"
+	item_state = "tricorne_british_commander"
 
 /obj/item/clothing/accessory/armband/british_scarf
 	name = "blue scarf"
@@ -789,11 +801,32 @@
 	worn_state = "british_officer"
 
 /obj/item/clothing/suit/storage/jacket/british_soldier
-	name = "british red jacket"
-	desc = "The british redcoat, used by the british army and marines."
-	icon_state = "british_soldier_jacket"
-	item_state = "british_soldier_jacket"
-	worn_state = "british_soldier_jacket"
+	name = "British Infantryman Redcoat"
+	desc = "One of a series of British Redcoats, this one worn among standard infantryman, with crossing sashes."
+	icon_state = "redcoat_private"
+	item_state = "redcoat_private"
+	worn_state = "redcoat_private"
+
+/obj/item/clothing/suit/storage/jacket/redcoat_officerjunior
+	name = "British Junior Officer Redcoat"
+	desc = "One of a series of British Redcoats, this one worn among lower ranking officers such as Ensigns, Lieutenants, Captains and Adjutants, with only one sash and one golden epaulette."
+	icon_state = "redcoat_officerjunior"
+	item_state = "redcoat_officerjunior"
+	worn_state = "redcoat_officerjunior"
+
+/obj/item/clothing/suit/storage/jacket/redcoat_officersenior
+	name = "British Senior Officer Redcoat"
+	desc = "One of a series of British Redcoats, this one worn among lower ranking officers, namely Ensigns, Lieutenants, Captains and Adjutants, with only one sash and one golden epaulette."
+	icon_state = "redcoat_officersenior"
+	item_state = "redcoat_officersenior"
+	worn_state = "redcoat_officersenior"
+
+/obj/item/clothing/suit/storage/jacket/redcoat_commander
+	name = "British Commanding Officer Redcoat"
+	desc = "One of a series of British Redcoats, this one worn among commanding officers, namely Colonels and Generals, with no sash, two golden epaulettes, and golden buttons."
+	icon_state = "redcoat_commander"
+	item_state = "redcoat_commander"
+	worn_state = "redcoat_commander"
 
 /obj/item/clothing/head/chasseur_british
 	name = "british feathered hat"

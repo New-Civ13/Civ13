@@ -72,6 +72,184 @@
 	src.export_tax_rate = global.global_export_tax
 	return ..()
 
+/obj/structure/exportbook_colony
+	name = "exporting book"
+	desc = "Use this to export colony products and exchange money. Only merchants and governors have access to it."
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "supplybook2"
+	var/money = 0
+	var/marketval = 0
+	density = TRUE
+	anchored = TRUE
+	var/export_tax_rate = 0
+	var/faction = "civilian"
+	var/faction_treasury = "TreasuryRN"
+	var/done = FALSE
+	not_movable = TRUE
+	not_disassemblable = TRUE
+
+
+/obj/structure/exportbook_colony/attackby(var/obj/item/W as obj, var/mob/living/human/H as mob)
+	if (H.original_job_title != "British Merchant"  && H.original_job_title != "Merchant" && H.original_job_title != "Trader" && H.original_job_title != "Mercador" && H.original_job_title != "Comerciante" && H.original_job_title != "Marchand" && H.original_job_title != "Kaufmann")
+		if (H.original_job_title != "Gobernador" && H.original_job_title != "Governador" && H.original_job_title != "Governeur" && H.original_job_title != "Governor" && H.original_job_title != "British Governor" && H.original_job_title != "British Merchant"  && H.original_job_title != "Merchant" && H.original_job_title != "Trader" && H.original_job_title != "Mercador" && H.original_job_title != "Comerciante" && H.original_job_title != "Marchand" && H.original_job_title != "Mayor" && H.original_job_title != "Kaufmann" && H.original_job_title != "Freiherr" && H.original_job_title != "Pirate Quartermaster")
+			H << "Only the merchants have access to the international shipping companies. Negotiate with one."
+			return
+
+	var/cash = W.value * W.amount
+	if (istype(W, /obj/item/stack/money))
+		return
+	while (cash > 0)
+		if (cash >= 50)
+			new/obj/item/stack/money/european/britpound50(loc, 1)
+			cash -= 50
+		else if (cash >= 20)
+			new/obj/item/stack/money/european/britpound20(loc, 1)
+			cash -= 20
+		else if (cash >= 10)
+			new/obj/item/stack/money/european/britpound10(loc, 1)
+			cash -= 10
+		else if (cash >= 5)
+			new/obj/item/stack/money/european/britpound5(loc, 1)
+			cash -= 5
+		else
+			new/obj/item/stack/money/european/britpound(loc, 1)
+			cash -= 1
+
+	qdel(W)
+
+/obj/structure/supplybook_colony
+	name = "supply orders book"
+	desc = "Use this to request supplies to be delivered to the colony. Only merchants have access to it and only the governor can order ammunition."
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "supplybook"
+	var/money = 0
+	var/marketval = 0
+	density = TRUE
+	anchored = TRUE
+	var/factionarea = "SupplyRN"
+	var/import_tax_rate = 0
+	var/faction = "civilian"
+	var/faction_treasury = "TreasuryRN"
+	not_movable = TRUE
+	not_disassemblable = TRUE
+	var/list/items_for_sale = list( //type (governor/merchant/all), name, path, price
+		list("merchant","wood crate", /obj/structure/closet/crate/wood,120),
+		list("merchant","iron crate", /obj/structure/closet/crate/iron,330),
+		list("merchant","glass crate", /obj/structure/closet/crate/glass,330),
+		list("merchant","stone crate", /obj/structure/closet/crate/stone,130),
+		list("merchant","vegetables crate", /obj/structure/closet/crate/rations/vegetables,60),
+		list("merchant","fruits crate", /obj/structure/closet/crate/rations/fruits,66),
+		list("merchant","biscuits crate", /obj/structure/closet/crate/rations/biscuits,50),
+		list("merchant","beer crate", /obj/structure/closet/crate/rations/beer,60),
+		list("merchant","ale crate", /obj/structure/closet/crate/rations/ale,70),
+
+		list("merchant","cow", /mob/living/simple_animal/cattle/cow,160),
+		list("merchant","bull", /mob/living/simple_animal/cattle/bull,150),
+		list("merchant","sheep ram", /mob/living/simple_animal/sheep,80),
+		list("merchant","sheep ewe", /mob/living/simple_animal/sheep/female,90),
+		list("merchant","pig boar", /mob/living/simple_animal/pig_boar,100),
+		list("merchant","pig gilt", /mob/living/simple_animal/pig_gilt,110),
+		list("merchant","hen", /mob/living/simple_animal/chicken,50),
+		list("merchant","rooster", /mob/living/simple_animal/rooster,40),
+		list("merchant","horse", /mob/living/simple_animal/horse,200),
+		list("merchant","brick crate", /obj/structure/closet/crate/brick,140),
+		list("merchant","medical supplies", /obj/item/weapon/storage/firstaid/adv,150),
+
+		list("governor","gunpowder barrel", /obj/item/weapon/reagent_containers/glass/barrel/gunpowder,230),
+		list("governor","musket ammo crate (25)", /obj/structure/closet/crate/musketball,100),
+		list("governor","pistol ammo crate (25)", /obj/structure/closet/crate/musketball_pistol,60),
+		list("governor","blunderbuss ammo crate (15)", /obj/structure/closet/crate/blunderbuss_ammo,60),
+		list("governor","grenade crate (10)", /obj/structure/closet/crate/grenades,110),
+		list("governor","cannonball crate (10)", /obj/structure/closet/crate/cannonball,175),
+		list("governor","pistol crate (5)", /obj/structure/closet/crate/pistols,385),
+		list("governor","musket crate (5)", /obj/structure/closet/crate/muskets,550),
+		list("governor","musketoon crate (5)", /obj/structure/closet/crate/musketoons,440),
+		list("governor","blunderbuss crate (5)", /obj/structure/closet/crate/blunderbusses,495),
+	)
+
+
+
+/obj/structure/supplybook_colony/attack_hand(var/mob/living/human/user as mob)
+	if (user.original_job_title != "Gobernador" && user.original_job_title != "Governador" && user.original_job_title != "Governeur" && user.original_job_title != "Governor" && user.original_job_title != "British Governor" && user.original_job_title != "British Merchant"  && user.original_job_title != "Merchant" && user.original_job_title != "Trader" && user.original_job_title != "Mercador" && user.original_job_title != "Comerciante" && user.original_job_title != "Marchand" && user.original_job_title != "Mayor" && user.original_job_title != "Kaufmann" && user.original_job_title != "Freiherr" && user.original_job_title != "Pirate Quartermaster")
+		user << "Only the merchants have access to the international shipping companies. Negotiate with one."
+		return
+	var/list/display = list ()
+	for (var/list/i in items_for_sale)
+		display += "[i[2]] - [i[4]] pounds"
+		display += "Cancel"
+		display += "Withdraw Funds"
+	var/choice = WWinput(user, "Order a crate: (Current Money: [money] pounds", "Imports", "Cancel", display)
+
+	if (choice == "Cancel")
+		return
+	if (choice == "Withdraw Funds")
+		var/amount = input(user, "Enter the amount you want to withdraw:", "Withdraw Funds") as num
+		if (amount <= 0)
+			user << "You must enter a positive amount."
+			return
+		if (amount > money)
+			user << "The supply book does not have enough funds. The current balance is [money] pounds."
+			return
+
+		var/cash = amount
+
+		while (cash > 0)
+			if (cash >= 50)
+				new/obj/item/stack/money/european/britpound50(loc, 1)
+				cash -= 50
+			else if (cash >= 20)
+				new/obj/item/stack/money/european/britpound20(loc, 1)
+				cash -= 20
+			else if (cash >= 10)
+				new/obj/item/stack/money/european/britpound10(loc, 1)
+				cash -= 10
+			else if (cash >= 5)
+				new/obj/item/stack/money/european/britpound5(loc, 1)
+				cash -= 5
+			else
+				new/obj/item/stack/money/european/britpound(loc, 1)
+				cash -= 1
+
+		money -= amount
+
+		user << "You have successfully withdrawn [amount] pounds. The remaining balance is [money] pounds."
+		return
+
+	var/item_selected = null
+	var/selected_price = 0
+	var/item_path = null
+	var/choice_name = copytext(choice, 1, findtext(choice, " -"))
+
+	for (var/list/i in items_for_sale)
+		if (i[2] == choice_name)
+			item_selected = i[2]
+			selected_price = i[4]
+			item_path = i[3]
+			break
+
+
+	if (selected_price > money)
+		user << "There isn't enough pounds in the supply book!. It requires [selected_price] pounds deposited, but merely has [money] pounds."
+		return
+
+	if (!item_path)
+		user << "An error has occurred and the item could not be bought! No money was subtracted. Please contact an admin. (EXCEPTION: File path is null)"
+		return
+	
+	money -= selected_price
+	user << "You have purchased [item_selected] for [selected_price] pounds. The remaining balance is [money] pounds."
+
+	new item_path(loc)
+
+/obj/structure/supplybook_colony/attackby(var/obj/item/stack/W as obj, var/mob/living/human/H as mob)
+	if (W.amount && istype(W, /obj/item/stack/money/european))
+		money += W.value*W.amount
+		qdel(W)
+		return
+	else
+		H << "Only British Pounds are accepted!"
+		return
+
 /obj/structure/supplybook/craftable
 	faction_treasury = "craftable"
 	factionarea = "craftable"
@@ -79,6 +257,7 @@
 	icon_state = "supplybook"
 	not_movable = FALSE
 	not_disassemblable = TRUE
+
 /obj/structure/supplybook/attack_hand(var/mob/living/human/user as mob)
 	if (user.original_job_title != "Gobernador" && user.original_job_title != "Governador" && user.original_job_title != "Governeur" && user.original_job_title != "Governor" && user.original_job_title != "British Governor" && user.original_job_title != "British Merchant"  && user.original_job_title != "Merchant" && user.original_job_title != "Trader" && user.original_job_title != "Mercador" && user.original_job_title != "Comerciante" && user.original_job_title != "Marchand" && user.original_job_title != "Mayor" && user.original_job_title != "Kaufmann" && user.original_job_title != "Freiherr" && user.original_job_title != "Pirate Quartermaster")
 		user << "Only the merchants have access to the international shipping companies. Negotiate with one."
