@@ -63,3 +63,7 @@
 	..()
 	if(temperature > 100)
 		to_chat(user, "<span class='warning'>Looks hot!</span>")
+	if(temperature > 460)
+		to_chat(user, "<span class='warning'>Looks red hot!</span>")
+	if(temperature > 1300)
+		to_chat(user, "<span class='warning'>Looks white hot!</span>")
