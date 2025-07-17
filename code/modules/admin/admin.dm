@@ -261,34 +261,64 @@ proc/admin_notice(var/message, var/rights)
 	usr << browse(dat, "window=adminplayerinfo;size=480x480")
 
 /datum/admins/proc/game_panel()
-	if (!check_rights(R_ADMIN))	return
+	if (!check_rights(R_ADMIN)) return
 
 	var/dat = {"
-		[common_browser_style]
-		<br>
-		<center><b><big>Game Panel</big></b></center><hr>\n
-		"}
-		//		<A href='?src=\ref[src];c_mode=1'>Change Game Mode</A><br>
-/*	if (master_mode == "secret")
-		dat += "<A href='?src=\ref[src];f_secret=1'>(Force Secret Mode)</A><br>"*/
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset='utf-8'>
+		<style>
+			body {
+				background-color: #271a0c;
+				color: #ffffff;
+				font-family: Verdana, sans-serif;
+				font-size: 16px;
+				line-height: 170%;
+				padding: 16px;
+			}
+			a {
+				color: #ffffff;
+				background: #404040;
+				border: 1px solid #3d3d29;
+				padding: 2px 6px;
+				text-decoration: none;
+				margin-right: 5px;
+			}
+			a:hover {
+				color: #ebebe0;
+				background: #7a7a52;
+			}
+			h1 {
+				color: #98B0C3;
+				font-size: 24px;
+				margin-bottom: 12px;
+			}
+			hr {
+				border: none;
+				height: 1px;
+				background: #3d3d29;
+				margin: 12px 0;
+			}
+		</style>
+	</head>
+	<body>
+		<center><h1>Game Panel</h1></center>
+		<hr>
+		<a href='?src=\ref[src];create_object=1'>Create Object</a>
+		(<a href='?src=\ref[src];quick_create_object=1'>Quick</a>)<br><br>
+		<a href='?src=\ref[src];create_turf=1'>Create Turf</a><br><br>
+		<a href='?src=\ref[src];create_mob=1'>Create Mob</a><br><br>
+		<a href='?src=\ref[src];debug_global=1'>View/Debug a Global Variable, List, or Object</a><br><br>
+		<a href='?src=\ref[src];modify_global=1'>Modify a Global Variable (may not be an object or list)</a><br><br>
+		<a href='?src=\ref[src];modify_world_var=1'>Modify a World Variable (may not be an object or list)</a><br><br>
+	</body>
+	</html>
+	"}
 
-	dat += {"
-		<br>
-		<A href='?src=\ref[src];create_object=1'>Create Object</A> (<A href='?src=\ref[src];quick_create_object=1'>Quick</A>)<br><br>
-		<A href='?src=\ref[src];create_turf=1'>Create Turf</A><br><br>
-		<A href='?src=\ref[src];create_mob=1'>Create Mob</A><br><br>
-		<br><br>
-		<A href='?src=\ref[src];debug_global=1'>View/Debug a Global Variable, List, or Object</A><br><br>
-		<br><br>
-		<A href='?src=\ref[src];modify_global=1'>Modify a Global Variable (may not be an object or list)</A><br><br>
-		<br><br>
-		<A href='?src=\ref[src];modify_world_var=1'>Modify a World Variable (may not be an object or list)</A><br><br>
-		"}
-
-	dat = "<center><big>[dat]</big></center>"
-
-	usr << browse(dat, "window=admin2;size=400x500")
+	usr << browse(dat, "window=admin2;size=600x600")
 	return
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////admins2.dm merge
 //i.e. buttons/verbs

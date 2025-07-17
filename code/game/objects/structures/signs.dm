@@ -123,6 +123,41 @@
 	desc = "A sign for the local bank."
 	icon_state = "bank"
 
+/obj/structure/sign/colony_bank
+	name = "Bank of England"
+	desc = "A sign for the local colonial branch for the Bank of England, securing your colonial funds. Designates the building attached as an official branch of the Treasury. 'Fides et Pecunia'"
+	icon_state = "colony_bank"
+
+/obj/structure/sign/colony_trade
+	name = "Colonial Trade Office"
+	desc = "A sign for the colonial trade office, facilitating commerce and the exchange of goods. Designates the building as a hub for mercantile activities."
+	icon_state = "colony_trade"
+
+/obj/structure/sign/colony_gov
+	name = "Colonial Government Office"
+	desc = "A sign for the colonial government office, the seat of administrative authority in the colony. Designates the building as the local center of governance."
+	icon_state = "colony_gov"
+
+/obj/structure/sign/colony_storage
+	name = "Colonial Storage Depot"
+	desc = "A sign for the colonial storage depot, safeguarding vital supplies and resources for the colony. Designates the building as an official storage site."
+	icon_state = "colony_storage"
+
+/obj/structure/sign/colony_military
+	name = "Colonial Military Barracks"
+	desc = "A sign for the colonial military barracks, housing the local garrison for the colony's defense. Designates the building as an official military installation under His Majesty's crown."
+	icon_state = "colony_military"
+
+/obj/structure/sign/colony_justice
+	name = "Colonial Justice Hall"
+	desc = "A sign for the colonial court, where His Majesty's law is obeyed and order maintained. Designates the building as the judicial center of the colony."
+	icon_state = "colony_justice"
+
+/obj/structure/sign/colony_inn
+	name = "Colonial Inn"
+	desc = "A sign for the colonial inn, providing lodging and respite for colonists alike. Designates the building as an official establishment for accommodation and hospitality."
+	icon_state = "colony_inn"
+
 /obj/structure/sign/bar
 	name = "BAR"
 	desc = "A sign that says bar on it."

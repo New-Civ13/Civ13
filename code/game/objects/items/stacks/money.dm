@@ -39,6 +39,9 @@
 	real_value = 1
 	var/novariants = TRUE
 
+/obj/item/stack/money/european
+	max_amount = 50
+
 /obj/item/stack/money/cents
 	name = "Dollar Cents"
 	desc = "Small coins that represent fractions of a dollar"
@@ -314,15 +317,15 @@
 /obj/item/stack/money/european/update_icon()
 	var/icon_suffix = ""
 	switch(amount)
-		if (1 to 49)
+		if (1 to 9)
 			icon_suffix = ""
-		if (50 to 99)
+		if (10 to 19)
 			icon_suffix = "_2"
-		if (100 to 299)
+		if (20 to 29)
 			icon_suffix = "_3"
-		if (300 to 499)
+		if (30 to 39)
 			icon_suffix = "_4"
-		if (500 to INFINITY)
+		if (40 to INFINITY)
 			icon_suffix = "_5"
 	icon_state = "[initial(icon_state)][icon_suffix]"
 

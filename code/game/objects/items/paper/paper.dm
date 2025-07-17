@@ -50,6 +50,15 @@
 	var/color1 = "#000000"
 	var/color2 = "#FFFFFF"
 
+/obj/item/weapon/paper/official/colonial_admin
+	base_icon = "official"
+	name = "Official Colonial Administration Letter"
+	desc = "An official comminique from the Colonial Administration, stamped with their seal."
+	icon_state = "colonial_admin_paper"
+	faction = ""
+	color1 = "#1b1b1b"
+	color2 = "#96763b"
+
 /obj/item/weapon/paper/official/fna
 	base_icon = "official"
 	name = "official fna document"
