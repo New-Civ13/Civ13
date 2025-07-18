@@ -749,7 +749,19 @@
 	desc = "A ribbon given to law enforcement officers that distinguished themselves during their service."
 
 
+// Other Medals -------------------------------------------------
 
+/obj/item/clothing/accessory/medal/victoria_cross
+	icon_state = "victoria_cross"
+	worn_state = "victoria_cross_on_body"
+	name = "Victoria Cross"
+	desc = "A medal awarded for valour in the face of the enemy, the highest award for gallantry in the British and Commonwealth armed forces."
+
+/obj/item/clothing/accessory/medal/conspicuous_gallantry
+	icon_state = "conspicuous_gallantry_medal"
+	worn_state = "conspic_gallantry_on_body"
+	name = "Conspicuous Gallantry medal"
+	desc = "A medal awarded for acts of gallantry in the face of the enemy."
 
 
 
