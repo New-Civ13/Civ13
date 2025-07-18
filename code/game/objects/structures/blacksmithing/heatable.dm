@@ -61,5 +61,11 @@
 
 /obj/item/heatable/examine(mob/user)
 	..()
-	if(temperature > 100)
-		to_chat(user, "<span class='warning'>Looks hot!</span>")
+	switch(temperature)
+	
+		if(101 to 460)
+			to_chat(user, "<span class='warning'>Looks hot!</span>")
+		if(461 to 1300)
+			to_chat(user, "<span class='warning'>Looks red hot!</span>")
+		if(1301 to 999999)
+			to_chat(user, "<span class='warning'>Looks white hot!</span>")
