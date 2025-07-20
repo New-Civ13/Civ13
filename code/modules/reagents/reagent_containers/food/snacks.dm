@@ -1905,6 +1905,59 @@ var/const/debug_snacks = FALSE //if you want to see new food creating logs set i
 	satisfaction = 3
 	decay = 25*600
 
+/obj/item/weapon/reagent_containers/food/snacks/wrapped
+	var/stored_food = "" // The name of the food item that is stored inside this container.
+
+/obj/item/weapon/reagent_containers/food/snacks/wrapped/burger
+	name = "wrapped burger"
+	desc = "A burger wrapped in a paper wrapper."
+	icon_state = "burger_wrapped"
+	stored_food = "burger" // Defaults to a normal beef burger to avoid null paths.
+	center_of_mass = list("x"=16, "y"=17)
+	decay = 17*600
+	nutriment_desc = list("bun" = 4)
+	New()
+		..()
+		reagents.add_reagent("protein", 6)
+
+/obj/item/weapon/reagent_containers/food/snacks/wrapped/burger/attack_self(mob/user as mob)
+	if(!stored_food)
+		to_chat(user, "This container seems to be empty inside.")
+		return
+
+	var/food_path = text2path("/obj/item/weapon/reagent_containers/food/snacks/[stored_food]")
+
+	if(!food_path)
+		to_chat(user, "You can't figure out how to open this.")
+		return
+
+
+	if (do_after(user, 30, src))
+		var/obj/item/weapon/reagent_containers/food/snacks/unwrapped_food = new food_path(get_turf(src))
+	
+		if(unwrapped_food)
+			to_chat(user, "You open the container.")
+			qdel(src)
+
+/obj/item/weapon/reagent_containers/food/snacks/wrapped/attack(mob/user as mob)
+	if(!stored_food)
+		to_chat(user, "This container seems to be empty inside.")
+		return
+
+	var/food_path = text2path("/obj/item/weapon/reagent_containers/food/snacks/[stored_food]")
+
+	if(!food_path)
+		to_chat(user, "You can't figure out how to open this.")
+		return
+
+
+	if (do_after(user, 30, src))
+		var/obj/item/weapon/reagent_containers/food/snacks/unwrapped_food = new food_path(get_turf(src))
+	
+		if(unwrapped_food)
+			to_chat(user, "You open the container.")
+			qdel(src)
+
 /obj/item/weapon/reagent_containers/food/snacks/burger
 	name = "burger"
 	desc = "Does not contain ham, probably."
@@ -1929,7 +1982,7 @@ var/const/debug_snacks = FALSE //if you want to see new food creating logs set i
 		..()
 		reagents.add_reagent("protein", 8)
 		if (prob(33))
-			icon_state = "cheeseburgeralt"
+			icon_state = "cheeseburger"
 
 /obj/item/weapon/reagent_containers/food/snacks/bun/attackby(obj/item/weapon/W as obj, mob/user as mob)
 	// Bun + meatpatty = burger
