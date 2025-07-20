@@ -36,11 +36,8 @@ GLOBAL_LIST_INIT(forged_recipes,\
 					"Semi Oval Templar Shield" = list("type" = /obj/item/weapon/shield/iron/nomads/semioval/templar, "icon" = 'icons/obj/weapons.dmi', "icon_state" = "semioval_shield_templar", "cost" = 2, "count" = 1, "first_age" = 2, "final_age" = 2),\
 					"Iron Shield"			= list("type" = /obj/item/weapon/shield/iron, "icon" = 'icons/obj/weapons.dmi', "icon_state" = "iron_shield", "cost" = 2, "count" = 1, "first_age" = 1, "final_age" = 2),\
 
-					"Crude Musket"			= list("type" = /obj/item/weapon/gun/projectile/flintlock/crude, "icon" = 'icons/obj/guns/ancient.dmi', "icon_state" = "musketoon", "cost" = 2, "count" = 1, "first_age" = 3, "final_age" = 4),\
-					"Flintlock Musket"		= list("type" = /obj/item/weapon/gun/projectile/flintlock/musket, "icon" = 'icons/obj/guns/ancient.dmi', "icon_state" = "musket", "cost" = 4, "count" = 1, "first_age" = 3, "final_age" = 4),\
-					"Flintlock Musketoon"	= list("type" = /obj/item/weapon/gun/projectile/flintlock/musketoon, "icon" = 'icons/obj/guns/ancient.dmi', "icon_state" = "compactmusket", "cost" = 4, "count" = 1, "first_age" = 3, "final_age" = 4),\
-					"Flintlock Blunderbuss"	= list("type" = /obj/item/weapon/gun/projectile/flintlock/blunderbuss, "icon" = 'icons/obj/guns/ancient.dmi', "icon_state" = "blunderbuss", "cost" = 4, "count" = 1, "first_age" = 3, "final_age" = 4),\
-					"Flintlock Pistol"		= list("type" = /obj/item/weapon/gun/projectile/flintlock/pistol, "icon" = 'icons/obj/guns/ancient.dmi', "icon_state" = "flintpistol", "cost" = 3, "count" = 1, "first_age" = 3, "final_age" = 4),\
+					"Pistol Barrel"			= list("type" = /obj/item/assembly/blackpowder_weapon/barrel/pistol, "icon" = 'icons/obj/guns/flintlocks.dmi', "icon_state" = "pistol_barrel", "cost" = 2, "count" = 1, "first_age" = 3, "final_age" = 4),\
+					"Rifle Barrel"			= list("type" = /obj/item/assembly/blackpowder_weapon/barrel/rifle, "icon" = 'icons/obj/guns/flintlocks.dmi', "icon_state" = "rifle_barrel", "cost" = 4, "count" = 1, "first_age" = 3, "final_age" = 4),\
 
 					"Derringer M95"			= list("type" = /obj/item/weapon/gun/projectile/revolver/derringer, "icon" = 'icons/obj/guns/pistols.dmi', "icon_state" = "derringer", "cost" = 2, "count" = 1, "first_age" = 4, "final_age" = 5),\
 					"Colt Peacemaker"		= list("type" = /obj/item/weapon/gun/projectile/revolver/peacemaker, "icon" = 'icons/obj/guns/pistols.dmi', "icon_state" = "coltsaa", "cost" = 2, "count" = 1, "first_age" = 4, "final_age" = 5),\
@@ -175,6 +172,8 @@ GLOBAL_LIST_INIT(forged_recipes,\
 					"Battle axe"			= list("type" = /obj/item/heatable/forged/weapon/battle_axe, "icon" = 'icons/obj/blacksmithing.dmi', "icon_state" = "steel-battle_axe-handled", "cost" = 3, "count" = 1, "first_age" = 2, "final_age" = 2),\
 
 					"Steel Shield"			= list("type" = /obj/item/weapon/shield/steel, "icon" = 'icons/obj/weapons.dmi', "icon_state" = "steel_shield", "cost" = 2, "count" = 1, "first_age" = 2, "final_age" = 2),\
+				
+					"Flintlock Mechanism"	= list("type" = /obj/item/assembly/blackpowder_weapon/flintlock_mechanism, "icon" = 'icons/obj/guns/flintlocks.dmi', "icon_state" = "flintlock_mechanism", "cost" = 2, "count" = 1, "first_age" = 3, "final_age" = 4),\
 				),\
 
 				"Armor" = list("icon" = 'icons/obj/clothing/suits.dmi', "icon_state" = "samurai_warrior3",\

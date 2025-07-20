@@ -24,14 +24,23 @@
 
 /obj/structure/wild/rock/attack_hand(var/mob/living/human/H)
 	if (H.a_intent == I_GRAB)
-		H << "You start looking for a rock you can use..."
+		H << "You start looking for a rock..."
 		if (do_after(H, 50, H.loc) && rock_amount > 0)
 			H << "You find a rock!"
 			rock_amount--
 			var/obj/item/weapon/material/rock/newrock = new/obj/item/weapon/material/rock(src.loc)
 			H.put_in_hands(newrock)
 			rock_regen()
-		return
+			return
+	if (H.a_intent == I_HARM)
+		H << "You start looking for some flint..."
+		if (do_after(H, 50, H.loc) && rock_amount > 0)
+			H << "You find flint!"
+			flint_amount--
+			var/obj/item/weapon/flint/newflint = new/obj/item/weapon/flint(src.loc)
+			H.put_in_hands(newflint)
+			rock_regen()
+			return
 	else
 		..()
 
